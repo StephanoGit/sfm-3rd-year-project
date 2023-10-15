@@ -19,6 +19,11 @@ enum featureDetection {
     ORB
 };
 
+enum featureMatching {
+    BF,
+    FLANN
+};
+
 struct Image {
     std::string name;
     cv::Mat image;
@@ -52,7 +57,7 @@ std::vector<Image> getImages(std::string directory, std::vector<Image> images){
 }
 
 
-void getKeyPoints(std::vector<Image>& images, featureDetection type){
+void computeKeyPointsDescriptors(std::vector<Image>& images, featureDetection type){
     switch(type){
         case SIFT:
         {
@@ -69,7 +74,7 @@ void getKeyPoints(std::vector<Image>& images, featureDetection type){
         {
             std::cout << "Applying SURF ..." << std::endl;
 
-            cv::Ptr<cv::xfeatures2d::SURF> detector = cv::xfeatures2d::SURF::create();
+            cv::Ptr<cv::xfeatures2d::SurfFeatureDetector> detector = cv::xfeatures2d::SurfFeatureDetector::create();
             for(int i = 0; i < images.size(); i++){
                 images[i].featureDetection = type;
                 detector->detect(images[i].image, images[i].keypoints);
@@ -100,14 +105,32 @@ void getKeyPoints(std::vector<Image>& images, featureDetection type){
             break;
         }
         default:
+            std::cout << "Please provide a valid feature detector (SIFT, SURF, FAST or ORB) ..." << std::endl;
             break;
     }
+}
+
+
+std::vector<cv::DMatch> matchDescriptors(cv::Mat des1, cv::Mat des2, cv::DescriptorMatcher::MatcherType type){
+    cv::Ptr<cv::DescriptorMatcher> matcher = cv::DescriptorMatcher::create(type);
+    std::vector<std::vector<cv::DMatch>> knn_matches;
+    matcher->knnMatch(des1, des2, knn_matches, 2);
+
+    const float ratio_th = 0.7f;
+    std::vector<cv::DMatch> good_matches;
+    for (size_t i = 0; i < knn_matches.size(); i++){
+        if (knn_matches[i][0].distance < ratio_th * knn_matches[i][1].distance){
+             good_matches.push_back(knn_matches[i][0]);
+        }
+    }
+    return good_matches;
 }
 
 
 
 int main(int argc, char **argv){
     std::vector <Image> imagesRaw;
+    std::vector <cv::DMatch> matches;
 
     imagesRaw = getImages(IMG_DIR, imagesRaw);
 
@@ -115,10 +138,13 @@ int main(int argc, char **argv){
         std::cout << imagesRaw[i].name << "\n";
     }
 
-    getKeyPoints(imagesRaw, ORB);
+    computeKeyPointsDescriptors(imagesRaw, SURF);
+    matches = matchDescriptors(imagesRaw[0].descriptors, imagesRaw[1].descriptors, cv::DescriptorMatcher::FLANNBASED);
 
-    cv::Mat img_kp;
-    cv::drawKeypoints(imagesRaw[0].image, imagesRaw[0].keypoints, img_kp);
-    cv::imwrite("../images/sift_detector2.jpg", img_kp);
-    std::cout << "Hello" << "\n";
+    cv::Mat img_matches;
+    cv::drawMatches(imagesRaw[0].image, imagesRaw[0].keypoints, imagesRaw[1].image, imagesRaw[1].keypoints, matches, img_matches, cv::Scalar::all(-1), cv::Scalar::all(-1), std::vector<char>(), cv::DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
+
+    cv::imshow("Good matches", img_matches);
+    cv::waitKey();
+    return 0;
 }
