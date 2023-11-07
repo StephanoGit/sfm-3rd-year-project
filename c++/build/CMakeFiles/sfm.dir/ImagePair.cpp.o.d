@@ -1,5 +1,6 @@
-CMakeFiles/sfm.dir/main.cpp.o: \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/main.cpp \
+CMakeFiles/sfm.dir/ImagePair.cpp.o: \
+  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImagePair.cpp \
+  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImagePair.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config_site \
@@ -931,6 +932,4 @@ CMakeFiles/sfm.dir/main.cpp.o: \
   /usr/local/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/video.hpp \
   /usr/local/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/xfeatures2d/nonfree.hpp \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImageView.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImagePair.h
+  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImageView.h

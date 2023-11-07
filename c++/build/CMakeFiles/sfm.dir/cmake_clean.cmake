@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sfm.dir/ImagePair.cpp.o"
+  "CMakeFiles/sfm.dir/ImagePair.cpp.o.d"
+  "CMakeFiles/sfm.dir/ImageView.cpp.o"
+  "CMakeFiles/sfm.dir/ImageView.cpp.o.d"
   "CMakeFiles/sfm.dir/main.cpp.o"
   "CMakeFiles/sfm.dir/main.cpp.o.d"
   "sfm"
