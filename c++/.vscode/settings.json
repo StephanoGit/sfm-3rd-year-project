@@ -76,6 +76,15 @@
         "type_traits": "cpp",
         "utility": "cpp",
         "stop_token": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "filesystem": "cpp",
+        "charconv": "cpp",
+        "deque": "cpp",
+        "numbers": "cpp",
+        "source_location": "cpp",
+        "span": "cpp",
+        "typeindex": "cpp",
+        "hash_map": "cpp",
+        "format": "cpp"
     }
 }

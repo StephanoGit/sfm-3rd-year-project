@@ -1,5 +1,15 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.27)
 project(sfm)
 find_package(OpenCV REQUIRED)
-add_executable(sfm main.cpp)
-target_link_libraries(sfm ${OpenCV_LIBS})
+
+
+find_library(UNISTRING_LIB NAMES unistring HINTS /usr/local/opt/libunistring/lib/libunistring.5.dylib)
+find_library(MBEDCRYPTO_LIB NAMES mbedcrypto HINTS /usr/local/opt/mbedtls/lib/libmbedcrypto.15.dylib)
+
+if (UNISTRING_LIB AND MBEDCRYPTO_LIB)
+    message("Libraries found")
+    add_executable(sfm main.cpp ImageView.cpp ImagePair.cpp)
+    target_link_libraries(sfm ${UNISTRING_LIB} ${MBEDCRYPTO_LIB} ${OpenCV_LIBS})
+else()
+    message("Did not find libraries")
+endif()
