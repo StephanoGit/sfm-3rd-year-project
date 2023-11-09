@@ -24,6 +24,8 @@ void ImagePair::match_descriptors(FeatureMatchingType type){
                 for (int i = 0; i < knn_matches.size(); i++) {
                     if (knn_matches[i][0].distance < 0.75 * knn_matches[i][1].distance) {
                         this->good_matches.push_back(knn_matches[i][0]);
+                        this->img1_good_matches.push_back(this->img1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
+                        this->img2_good_matches.push_back(this->img2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
                     }
                 }
             // For binary string based like ORB, BRISK and BRIEF, use NORM_HAMMING
@@ -34,6 +36,8 @@ void ImagePair::match_descriptors(FeatureMatchingType type){
                 for (int i = 0; i < knn_matches.size(); i++) {
                     if (knn_matches[i][0].distance < 0.75 * knn_matches[i][1].distance) {
                         this->good_matches.push_back(knn_matches[i][0]);
+                        this->img1_good_matches.push_back(this->img1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
+                        this->img2_good_matches.push_back(this->img2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
                     }
                 }
             }
@@ -42,7 +46,7 @@ void ImagePair::match_descriptors(FeatureMatchingType type){
         case FLANN:
         {
             std::cout << "Matching images using FLANN..." << std::endl;
-            // SIFT, FAST, SURF
+            // ORB
             if (this->img1.get_type() == ORB){
                 cv::FlannBasedMatcher flann(new cv::flann::LshIndexParams(6,12,1));
                 std::vector<std::vector<cv::DMatch>> knn_matches;
@@ -51,17 +55,21 @@ void ImagePair::match_descriptors(FeatureMatchingType type){
                 for (size_t i = 0; i < knn_matches.size(); i++) {
                     if (knn_matches[i][0].distance < 0.7 * knn_matches[i][1].distance) {
                         this->good_matches.push_back(knn_matches[i][0]);
+                        this->img1_good_matches.push_back(this->img1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
+                        this->img2_good_matches.push_back(this->img2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
                     }
                 }
-            // ORB
+            // SIFT, FAST, SURF
             } else {
-                cv::FlannBasedMatcher flann;
+                cv::FlannBasedMatcher flann(new cv::flann::KDTreeIndexParams(5));
                 std::vector<std::vector<cv::DMatch>> knn_matches;
 
                 flann.knnMatch(this->img1.get_descriptors(), this->img2.get_descriptors(), knn_matches, 2);
                 for (size_t i = 0; i < knn_matches.size(); i++) {
                     if (knn_matches[i][0].distance < 0.7 * knn_matches[i][1].distance) {
                         this->good_matches.push_back(knn_matches[i][0]);
+                        this->img1_good_matches.push_back(this->img1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
+                        this->img2_good_matches.push_back(this->img2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
                     }
                 }
             }
@@ -112,6 +120,13 @@ ImageView ImagePair::get_image2(){
 //     return this->matches;
 // }
 
+std::vector<cv::Point2f> ImagePair::get_img1_good_matches(){
+    return this->img1_good_matches;
+}
+std::vector<cv::Point2f> ImagePair::get_img2_good_matches(){
+    return this->img2_good_matches;
+}
+
 void ImagePair::set_good_matches(std::vector<cv::DMatch> good_matches){
     this->good_matches = good_matches;
 }
@@ -127,3 +142,4 @@ void ImagePair::set_matching_type(FeatureMatchingType type){
 FeatureMatchingType ImagePair::get_matching_type(){
     return this->type;
 }
+

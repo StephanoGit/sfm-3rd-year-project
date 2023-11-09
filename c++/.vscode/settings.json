@@ -85,6 +85,7 @@
         "span": "cpp",
         "typeindex": "cpp",
         "hash_map": "cpp",
-        "format": "cpp"
+        "format": "cpp",
+        "codecvt": "cpp"
     }
 }

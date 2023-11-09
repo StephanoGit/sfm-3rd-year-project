@@ -32,6 +32,10 @@ class ImagePair {
         // std::vector<cv::DMatch> matches;
         std::vector<cv::DMatch> good_matches;
 
+        std::vector<cv::Point2f> img1_good_matches;
+        std::vector<cv::Point2f> img2_good_matches;
+
+
     public:
         ImagePair();
         ImagePair(ImageView img1, ImageView img2);
@@ -60,6 +64,10 @@ class ImagePair {
 
         void set_matching_type(FeatureMatchingType type);
         FeatureMatchingType get_matching_type();
+
+        std::vector<cv::Point2f> get_img1_good_matches();
+        std::vector<cv::Point2f> get_img2_good_matches();
+
 };
 
 #endif

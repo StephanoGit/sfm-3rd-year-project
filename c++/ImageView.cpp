@@ -1,5 +1,6 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/features2d.hpp>
+#include <opencv2/xfeatures2d.hpp>
 
 #include "ImageView.h"
 
@@ -17,22 +18,22 @@ void ImageView::compute_kps_des(FeatureDetectionType type){
             detector->detectAndCompute(this->image, cv::noArray(), this->keypoints, this->descriptors);
             break;
         }
-        // case SURF:
-        // {
-        //     std::cout << "Applying SURF ..." << std::endl;
-        //     cv::Ptr<cv::xfeatures2d::SurfFeatureDetector> detector = cv::xfeatures2d::SurfFeatureDetector::create();
-        //     this->type = type;
-        //     detector->detectAndCompute(this->image, cv::noArray(), this->keypoints, this->descriptors);
-        //     break;
-        // }
-        case FAST:
+        case SURF:
         {
-            std::cout << "Applying FAST ..." << std::endl;
-            cv::Ptr<cv::FastFeatureDetector> detector = cv::FastFeatureDetector::create();
+            std::cout << "Applying SURF ..." << std::endl;
+            cv::Ptr<cv::xfeatures2d::SurfFeatureDetector> detector = cv::xfeatures2d::SurfFeatureDetector::create();
             this->type = type;
             detector->detectAndCompute(this->image, cv::noArray(), this->keypoints, this->descriptors);
             break;
         }
+        // case FAST:
+        // {
+        //     std::cout << "Applying FAST ..." << std::endl;
+        //     cv::Ptr<cv::FastFeatureDetector> detector = cv::FastFeatureDetector::create();
+        //     this->type = type;
+        //     detector->detectAndCompute(this->image, cv::noArray(), this->keypoints, this->descriptors);
+        //     break;
+        // }
         case ORB:
         {
             std::cout << "Applying ORB ..." << std::endl;
@@ -51,7 +52,8 @@ void ImageView::set_image(cv::Mat image){
     this->image = image;
 }
 
-cv::Mat ImageView::get_image(){
+cv::Mat ImageView::get_image()
+{
     return this->image;
 }
 

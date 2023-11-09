@@ -8,7 +8,7 @@ find_library(MBEDCRYPTO_LIB NAMES mbedcrypto HINTS /usr/local/opt/mbedtls/lib/li
 
 if (UNISTRING_LIB AND MBEDCRYPTO_LIB)
     message("Libraries found")
-    add_executable(sfm main.cpp ImageView.cpp ImagePair.cpp)
+    add_executable(sfm main.cpp ImageView.cpp ImagePair.cpp util.cpp)
     target_link_libraries(sfm ${UNISTRING_LIB} ${MBEDCRYPTO_LIB} ${OpenCV_LIBS})
 else()
     message("Did not find libraries")

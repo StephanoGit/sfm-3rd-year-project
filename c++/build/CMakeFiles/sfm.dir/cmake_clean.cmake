@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfm.dir/ImageView.cpp.o.d"
   "CMakeFiles/sfm.dir/main.cpp.o"
   "CMakeFiles/sfm.dir/main.cpp.o.d"
+  "CMakeFiles/sfm.dir/util.cpp.o"
+  "CMakeFiles/sfm.dir/util.cpp.o.d"
   "sfm"
   "sfm.pdb"
 )
