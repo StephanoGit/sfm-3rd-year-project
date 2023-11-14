@@ -177,6 +177,54 @@ ImageView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/ImageView.cpp.s
 .PHONY : ImageView.cpp.s
 
+SfmReconstruction.o: SfmReconstruction.cpp.o
+.PHONY : SfmReconstruction.o
+
+# target to build an object file
+SfmReconstruction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/SfmReconstruction.cpp.o
+.PHONY : SfmReconstruction.cpp.o
+
+SfmReconstruction.i: SfmReconstruction.cpp.i
+.PHONY : SfmReconstruction.i
+
+# target to preprocess a source file
+SfmReconstruction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/SfmReconstruction.cpp.i
+.PHONY : SfmReconstruction.cpp.i
+
+SfmReconstruction.s: SfmReconstruction.cpp.s
+.PHONY : SfmReconstruction.s
+
+# target to generate assembly for a file
+SfmReconstruction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/SfmReconstruction.cpp.s
+.PHONY : SfmReconstruction.cpp.s
+
+drawUtil.o: drawUtil.cpp.o
+.PHONY : drawUtil.o
+
+# target to build an object file
+drawUtil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/drawUtil.cpp.o
+.PHONY : drawUtil.cpp.o
+
+drawUtil.i: drawUtil.cpp.i
+.PHONY : drawUtil.i
+
+# target to preprocess a source file
+drawUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/drawUtil.cpp.i
+.PHONY : drawUtil.cpp.i
+
+drawUtil.s: drawUtil.cpp.s
+.PHONY : drawUtil.s
+
+# target to generate assembly for a file
+drawUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/drawUtil.cpp.s
+.PHONY : drawUtil.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -240,6 +288,12 @@ help:
 	@echo "... ImageView.o"
 	@echo "... ImageView.i"
 	@echo "... ImageView.s"
+	@echo "... SfmReconstruction.o"
+	@echo "... SfmReconstruction.i"
+	@echo "... SfmReconstruction.s"
+	@echo "... drawUtil.o"
+	@echo "... drawUtil.i"
+	@echo "... drawUtil.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
