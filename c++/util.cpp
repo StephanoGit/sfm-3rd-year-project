@@ -12,40 +12,6 @@
 #define NEW_WIDTH 640
 #define NEW_HEIGHT 480
 
-cv::Mat compute_E(cv::Mat K, cv::Mat F, ImagePair &pair)
-{
-  // cv::Mat E = K.t() * F * K;
-
-  cv::Mat mask_E;
-  cv::Mat E = cv::findEssentialMat(pair.get_image1_good_matches(), pair.get_image2_good_matches(), K, cv::RANSAC, 0.999, 1.0, mask_E);
-
-  // std::cout << "Matches before E mask: " << pair.get_image1_good_matches().size() << std::endl;
-
-  // std::vector<cv::Point2f> refined_p1, refined_p2;
-  // std::vector<cv::DMatch> refined_matches;
-  // std::vector<cv::KeyPoint> refined_kp1, refined_kp2;
-  // for (size_t i = 0; i < mask_E.rows; ++i)
-  // {
-  //   if (mask_E.at<int>(i) != 0)
-  //   {
-  //     refined_matches.push_back(pair.get_good_matches()[i]);
-  //     refined_p1.push_back(pair.get_image1_good_matches()[i]);
-  //     refined_p2.push_back(pair.get_image2_good_matches()[i]);
-  //     refined_kp1.push_back(pair.get_image1().get_keypoints()[i]);
-  //     refined_kp2.push_back(pair.get_image2().get_keypoints()[i]);
-  //   }
-  // }
-  // pair.set_image1_good_matches(refined_p1);
-  // pair.set_image2_good_matches(refined_p2);
-  // pair.set_image1_good_kps(refined_kp1);
-  // pair.set_image2_good_kps(refined_kp2);
-  // pair.set_good_matches(refined_matches);
-
-  // std::cout << "Matches after E mask: " << pair.get_image1_good_matches().size() << std::endl;
-
-  return E;
-}
-
 bool sortByName(const std::__fs::filesystem::directory_entry &entry1, const std::__fs::filesystem::directory_entry &entry2)
 {
   return entry1.path().filename() < entry2.path().filename();
@@ -83,10 +49,10 @@ std::vector<ImageView> load_images(std::string directory)
     }
 
     // resize
-    cv::Mat original_image = current_image.get_image();
-    cv::Mat resized_image;
-    cv::resize(original_image, resized_image, cv::Size(NEW_WIDTH, NEW_HEIGHT));
-    current_image.set_image(resized_image);
+    // cv::Mat original_image = current_image.get_image();
+    // cv::Mat resized_image;
+    // cv::resize(original_image, resized_image, cv::Size(NEW_WIDTH, NEW_HEIGHT));
+    // current_image.set_image(resized_image);
 
     // add image to vector
     images.push_back(current_image);
@@ -216,70 +182,3 @@ void export_3d_points_to_txt(std::string file_name, cv::Mat points)
   fs << "points_3d" << points;
   fs.release();
 }
-
-void perform_triangulation(ImagePair pair, cv::Mat K, cv::Mat R1, cv::Mat t1, cv::Mat R2, cv::Mat t2, int index)
-{
-  cv::Mat P1(3, 4, CV_64F);
-  cv::hconcat(R1, t1, P1);
-  P1 = K * P1;
-
-  cv::Mat P2(3, 4, CV_64F);
-  cv::hconcat(R2, t2, P2);
-  P2 = K * P2;
-
-  // cv::Mat norm1, norm2;
-  // std::vector<double> d = {0.0, 0.0, 0.0, 0.0, 0.0};
-  // cv::undistortPoints(pair.get_image1_good_matches(), norm1, K, d);
-  // cv::undistortPoints(pair.get_image2_good_matches(), norm2, K, d);
-
-  cv::Mat points_4d;
-  cv::triangulatePoints(P1, P2, pair.get_image1_good_matches(), pair.get_image2_good_matches(), points_4d);
-  // cv::triangulatePoints(P1, P2, norm1, norm2, points_4d);
-
-  cv::Mat points_3d;
-  cv::convertPointsFromHomogeneous(points_4d.t(), points_3d);
-
-  std::string file_name = std::to_string(index) + "-" + std::to_string(index + 1) + ".json";
-  export_3d_points_to_txt("../points-3d/" + file_name, points_3d);
-}
-
-// void sfm_between_images(ImageView image1, ImageView image2, cv::Mat K)
-// {
-//   ImagePair pair(image1, image2);
-//   // match images
-//   pair.match_descriptors(FeatureMatchingType::FLANN);
-
-//   // compute F and mask
-//   cv::Mat F = compute_F_and_refine_matches(pair);
-
-//   // compute E and mask
-//   cv::Mat E = compute_E(K, F, pair);
-
-//   // extract R and t
-//   cv::Mat curr_R, curr_t;
-//   cv::recoverPose(E, pair.get_image1_good_matches(), pair.get_image2_good_matches(), K, curr_R, curr_t);
-
-//   // drawEpipolarLines("epilines", F, pair.get_image1().get_image(),
-//   //                   pair.get_image2().get_image(),
-//   //                   pair.get_image1_good_matches(),
-//   //                   pair.get_image2_good_matches(), -1);
-
-//   cv::Mat prev_R = cv::Mat::eye(3, 3, CV_64F);
-//   cv::Mat prev_t = cv::Mat::zeros(3, 1, CV_64F);
-
-//   // triangulate
-//   std::cout << pair.get_image1_good_matches().size() << std::endl;
-
-//   perform_triangulation(pair, K, prev_R, prev_t, curr_R, curr_t, 99);
-//   std::cout << pair.get_image1_good_matches().size() << std::endl;
-
-//   std::cout << "3D Points generated for: "
-//             << pair.get_image1().get_name()
-//             << " and " << pair.get_image2().get_name()
-//             << std::endl
-//             << std::endl;
-
-//   // pair.draw_matches();
-//   // cv::imshow("Good matches", pair.get_matches_image());
-//   // cv::waitKey(0);
-// }

@@ -15,7 +15,9 @@ class SfmReconstruction
 {
 private:
     cv::Mat K;
+    std::vector<double> distortion;
     cv::Mat R0, t0;
+
     std::vector<ImagePair> frames;
 
     // future pointcloud variable
@@ -25,6 +27,8 @@ public:
     ~SfmReconstruction();
 
     cv::Mat get_K();
+    std::vector<double> get_distortion();
+    void triangulation();
 };
 
 #endif

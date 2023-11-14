@@ -13,7 +13,7 @@
 
 std::vector<ImageView> load_images(std::string directory);
 
-cv::Mat compute_E(cv::Mat K, cv::Mat F, ImagePair &pair);
+// cv::Mat compute_E(cv::Mat K, cv::Mat F, ImagePair &pair);
 void drawEpipolarLines(const std::string &title, const cv::Mat F,
                        const cv::Mat &img1, const cv::Mat &img2,
                        const std::vector<cv::Point2f> points1,

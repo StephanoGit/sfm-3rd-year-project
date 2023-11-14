@@ -1,4 +1,5 @@
 #include "ImagePair.h"
+#include "util.h"
 
 ImagePair::ImagePair(ImageView image1, ImageView image2)
 {
@@ -93,7 +94,7 @@ void ImagePair::match_descriptors(FeatureMatchingType type)
 
 void ImagePair::compute_F()
 {
-    if (this->image1_good_matches.size() == 0)
+    if (this->image1_good_matches.size() == 0 || this->image1_good_matches.size() == 0)
     {
         std::cout << "Error: Please compute matches between images" << std::endl;
         return;
@@ -116,7 +117,7 @@ void ImagePair::compute_F()
         {
             inliers.push_back(this->good_matches[i]);
             inliers1.push_back(this->image1_good_matches[i]);
-            inliers1.push_back(this->image1_good_matches[i]);
+            inliers2.push_back(this->image2_good_matches[i]);
         }
     }
 
@@ -127,6 +128,65 @@ void ImagePair::compute_F()
     this->good_matches = inliers;
     this->image1_good_matches = inliers1;
     this->image2_good_matches = inliers2;
+}
+
+void ImagePair::compute_E(cv::Mat K)
+{
+    if (this->image1_good_matches.size() == 0 || this->image1_good_matches.size() == 0)
+    {
+        std::cout << "Error: Please compute matches between images" << std::endl;
+        return;
+    }
+
+    cv::Mat mask;
+    this->E = cv::findEssentialMat(this->image1_good_matches, this->image2_good_matches, K, cv::RANSAC, 0.999, 1.0, mask);
+
+    std::vector<cv::DMatch> inliers;
+    std::vector<cv::Point2f> inliers1, inliers2;
+    for (size_t i = 0; i < mask.rows; i++)
+    {
+        if (mask.at<uchar>(i) != 0)
+        {
+            inliers.push_back(this->good_matches[i]);
+            inliers1.push_back(this->image1_good_matches[i]);
+            inliers2.push_back(this->image2_good_matches[i]);
+        }
+    }
+
+    std::cout << "No. Matches: " << this->good_matches.size() << std::endl
+              << "No. Inliers: " << inliers.size() << std::endl
+              << std::endl;
+
+    this->good_matches = inliers;
+    this->image1_good_matches = inliers1;
+    this->image2_good_matches = inliers2;
+}
+
+void ImagePair::compute_Rt(cv::Mat K)
+{
+    cv::recoverPose(this->E, this->image1_good_matches, this->image2_good_matches, K, this->R, this->t, cv::noArray());
+}
+
+void ImagePair::triangulate(cv::Mat K, int index)
+{
+    cv::Mat R0 = cv::Mat::eye(3, 3, CV_64F);
+    cv::Mat t0 = cv::Mat::zeros(3, 1, CV_64F);
+
+    cv::Mat P1(3, 4, CV_64F);
+    cv::hconcat(R0, t0, P1);
+    P1 = K * P1;
+
+    cv::Mat P2(3, 4, CV_64F);
+    cv::hconcat(this->R, this->t, P2);
+    P2 = K * P2;
+
+    cv::Mat points_4d;
+    cv::triangulatePoints(P1, P2, this->image1_good_matches, this->image2_good_matches, points_4d);
+
+    cv::convertPointsFromHomogeneous(points_4d.t(), this->points_3d);
+
+    std::string file_name = std::to_string(index) + "-" + std::to_string(index + 1) + ".json";
+    export_3d_points_to_txt("../points-3d_pairs/" + file_name, points_3d);
 }
 
 void ImagePair::set_image1(ImageView image1)
@@ -207,6 +267,26 @@ std::vector<cv::KeyPoint> ImagePair::get_image2_good_kps()
 void ImagePair::set_image2_good_kps(std::vector<cv::KeyPoint> image2_good_kps)
 {
     this->image2_good_kps = image2_good_kps;
+}
+
+void ImagePair::set_F(cv::Mat F)
+{
+    this->F = F;
+}
+
+cv::Mat ImagePair::get_F()
+{
+    return this->F;
+}
+
+void ImagePair::set_E(cv::Mat E)
+{
+    this->E = E;
+}
+
+cv::Mat ImagePair::get_E()
+{
+    return this->E;
 }
 
 void ImagePair::set_R(cv::Mat R)

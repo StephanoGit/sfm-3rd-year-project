@@ -63,7 +63,7 @@ int main(int argc, char **argv)
     // compute descriptors and keypoints for each image
     for (int i = 0; i < images.size(); i++)
     {
-        images[i].compute_kps_des(FeatureDetectionType::SURF);
+        images[i].compute_kps_des(FeatureDetectionType::SIFT);
         std::cout << "Feature detection done for: " << images[i].get_name() << std::endl;
     }
 
@@ -75,18 +75,30 @@ int main(int argc, char **argv)
     }
 
     SfmReconstruction reconstruction(pairs);
-    std::cout << reconstruction.get_K() << std::endl;
+    // reconstruction.triangulation();
+
+    cv::Mat K = reconstruction.get_K();
+    std::vector<double> d = reconstruction.get_distortion();
+    std::cout << K << std::endl;
 
     for (int i = 0; i < pairs.size(); i++)
     {
         pairs[i].match_descriptors(FeatureMatchingType::FLANN);
-        cv::Mat matches_image = draw_matches(pairs[i]);
-        cv::imshow("Matches", matches_image);
+        // cv::Mat matches_image = draw_matches(pairs[i]);
+        // cv::imshow("Matches", matches_image);
 
         pairs[i].compute_F();
-        cv::Mat matches_image2 = draw_matches(pairs[i]);
-        cv::imshow("Matches2", matches_image2);
-        cv::waitKey(0);
+        // cv::Mat matches_image2 = draw_matches(pairs[i]);
+        // cv::imshow("Matches2", matches_image2);
+
+        pairs[i].compute_E(K);
+        // cv::Mat matches_image3 = draw_matches(pairs[i]);
+        // cv::imshow("Matches3", matches_image3);
+
+        pairs[i].compute_Rt(K);
+        pairs[i].triangulate(K, i);
+
+        // cv::waitKey(0);
     }
 
     return 0;

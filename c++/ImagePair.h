@@ -45,9 +45,9 @@ public:
 
     void match_descriptors(FeatureMatchingType type);
     void compute_F();
-    void compute_E();
-    void compute_Rt();
-    void triangulate();
+    void compute_E(cv::Mat K);
+    void compute_Rt(cv::Mat K);
+    void triangulate(cv::Mat K, int index);
 
     void set_good_matches(std::vector<cv::DMatch> good_matches);
     std::vector<cv::DMatch> get_good_matches();
