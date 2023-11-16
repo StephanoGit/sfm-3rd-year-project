@@ -7,15 +7,15 @@
 #define NEW_WIDTH 640
 #define NEW_HEIGHT 480
 
-// double new_fx = (2759.48 * NEW_WIDTH) / WIDTH;
-// double new_fy = (2764.16 * NEW_HEIGHT) / HEIGHT;
-// double new_cx = (1520.69 * NEW_WIDTH) / WIDTH;
-// double new_cy = (1006.81 * NEW_HEIGHT) / HEIGHT;
+double new_fx = (2759.48 * NEW_WIDTH) / WIDTH;
+double new_fy = (2764.16 * NEW_HEIGHT) / HEIGHT;
+double new_cx = (1520.69 * NEW_WIDTH) / WIDTH;
+double new_cy = (1006.81 * NEW_HEIGHT) / HEIGHT;
 
-double new_fx = 2759.48;
-double new_fy = 2764.16;
-double new_cx = 1520.69;
-double new_cy = 1006.81;
+// double new_fx = 2759.48;
+// double new_fy = 2764.16;
+// double new_cx = 1520.69;
+// double new_cy = 1006.81;
 
 double data[9] = {new_fx, 0, new_cx,
                   0, new_fy, new_cy,

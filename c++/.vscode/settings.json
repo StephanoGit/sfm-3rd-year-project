@@ -86,6 +86,8 @@
         "typeindex": "cpp",
         "hash_map": "cpp",
         "format": "cpp",
-        "codecvt": "cpp"
+        "codecvt": "cpp",
+        "stack": "cpp",
+        "unordered_set": "cpp"
     }
 }
