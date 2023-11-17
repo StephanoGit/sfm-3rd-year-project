@@ -7,6 +7,11 @@
 
 #include <opencv2/opencv.hpp>
 
+#define IPHONE_PHOTO_WIDTH 3024
+#define IPHONE_PHOTO_HEIGHT 4032
+#define IPHONE_NEW_PHOTO_WIDTH 756
+#define IPHONE_NEW_PHOTO_HEIGHT 1008
+
 #define PHOTO_WIDTH 3072
 #define PHOTO_HEIGHT 2048
 #define NEW_PHOTO_WIDTH 640
@@ -86,7 +91,7 @@ bool sortByName(const std::__fs::filesystem::directory_entry &entry1, const std:
     return entry1.path().filename() < entry2.path().filename();
 }
 
-std::vector<ImageView> load_images(std::string directory)
+std::vector<ImageView> load_images_as_object(std::string directory)
 {
     std::string current_file = "";
     std::vector<ImageView> images;
@@ -119,6 +124,44 @@ std::vector<ImageView> load_images(std::string directory)
 
         // resize
         current_image.set_image(down_size_image(current_image.get_image(), NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT));
+
+        // add image to vector
+        images.push_back(current_image);
+    }
+
+    return images;
+}
+
+std::vector<cv::Mat> load_images(std::string directory)
+{
+    std::string current_file = "";
+    std::vector<cv::Mat> images;
+    cv::Mat current_image;
+
+    std::vector<std::__fs::filesystem::directory_entry> entries;
+    for (const auto &entry : std::__fs::filesystem::directory_iterator(directory))
+    {
+        entries.push_back(entry);
+    }
+
+    // Sort entries by name
+    std::sort(entries.begin(), entries.end(), sortByName);
+
+    // get all images within the directory
+    for (const auto &entry : entries)
+    {
+        current_file = entry.path();
+        current_image = cv::imread(current_file, cv::IMREAD_UNCHANGED);
+
+        // check image for corrent format or existence
+        if (current_image.data == NULL)
+        {
+            printf("Image not found or incorrect file type!\n");
+            continue;
+        }
+
+        // resize
+        current_image = down_size_image(current_image, IPHONE_NEW_PHOTO_WIDTH, IPHONE_NEW_PHOTO_HEIGHT);
 
         // add image to vector
         images.push_back(current_image);

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfm.dir/ImageView.cpp.o.d"
   "CMakeFiles/sfm.dir/SfmReconstruction.cpp.o"
   "CMakeFiles/sfm.dir/SfmReconstruction.cpp.o.d"
+  "CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o"
+  "CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o.d"
   "CMakeFiles/sfm.dir/drawUtil.cpp.o"
   "CMakeFiles/sfm.dir/drawUtil.cpp.o.d"
   "CMakeFiles/sfm.dir/main.cpp.o"

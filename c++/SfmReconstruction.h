@@ -19,6 +19,7 @@ private:
     cv::Mat R0, t0;
 
     std::vector<ImagePair> frames;
+    std::vector<cv::Mat> P_mats;
 
     // future pointcloud variable
 
@@ -29,6 +30,10 @@ public:
     cv::Mat get_K();
     std::vector<double> get_distortion();
     void triangulation();
+
+    void set_P_mats(std::vector<cv::Mat> P_mats);
+    void append_P_mat(cv::Mat P);
+    std::vector<cv::Mat> get_P_mats();
 };
 
 #endif

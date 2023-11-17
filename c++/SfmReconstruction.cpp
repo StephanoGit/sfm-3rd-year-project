@@ -2,15 +2,25 @@
 #include "util.h"
 #include "ImagePair.h"
 
-#define WIDTH 3072
-#define HEIGHT 2048
-#define NEW_WIDTH 640
-#define NEW_HEIGHT 480
+#define PHOTO_WIDTH 3072
+#define PHOTO_HEIGHT 2048
+#define NEW_PHOTO_WIDTH 640
+#define NEW_PHOTO_HEIGHT 480
 
-double new_fx = (2759.48 * NEW_WIDTH) / WIDTH;
-double new_fy = (2764.16 * NEW_HEIGHT) / HEIGHT;
-double new_cx = (1520.69 * NEW_WIDTH) / WIDTH;
-double new_cy = (1006.81 * NEW_HEIGHT) / HEIGHT;
+#define VIDEO_WIDTH 3840
+#define VIDEO_HEIGHT 2160
+#define NEW_VIDEO_WIDTH 1280
+#define NEW_VIDEO_HEIGHT 720
+
+// double new_fx = (2759.48 * NEW_PHOTO_WIDTH) / PHOTO_WIDTH;
+// double new_fy = (2764.16 * NEW_PHOTO_HEIGHT) / PHOTO_HEIGHT;
+// double new_cx = (1520.69 * NEW_PHOTO_WIDTH) / PHOTO_WIDTH;
+// double new_cy = (1006.81 * NEW_PHOTO_HEIGHT) / PHOTO_HEIGHT;
+
+double new_fx = (3278.68 * NEW_VIDEO_WIDTH) / VIDEO_WIDTH;
+double new_fy = (3278.68 * NEW_VIDEO_HEIGHT) / VIDEO_HEIGHT;
+double new_cx = ((VIDEO_WIDTH / 2) * NEW_VIDEO_WIDTH) / VIDEO_WIDTH;
+double new_cy = ((VIDEO_HEIGHT / 2) * NEW_VIDEO_HEIGHT) / VIDEO_HEIGHT;
 
 // double new_fx = 2759.48;
 // double new_fy = 2764.16;
@@ -52,6 +62,7 @@ void SfmReconstruction::triangulation()
     cv::Mat P1(3, 4, CV_64F);
     cv::hconcat(R1, t1, P1);
     P1 = this->K * P1;
+    append_P_mat(P1);
 
     for (size_t i = 0; i < this->frames.size(); i++)
     {
@@ -90,6 +101,7 @@ void SfmReconstruction::triangulation()
         cv::Mat P2(3, 4, CV_64F);
         cv::hconcat(R2, t2, P2);
         P2 = this->K * P2;
+        append_P_mat(P2);
 
         cv::Mat points_4d;
         cv::triangulatePoints(P1, P2, frames[i].get_image1_good_matches(), frames[i].get_image2_good_matches(), points_4d);
@@ -100,6 +112,21 @@ void SfmReconstruction::triangulation()
         t1 = t2.clone();
         P1 = P2.clone();
     }
+}
+
+void SfmReconstruction::set_P_mats(std::vector<cv::Mat> P_mats)
+{
+    this->P_mats = P_mats;
+}
+
+void SfmReconstruction::append_P_mat(cv::Mat P)
+{
+    this->P_mats.push_back(P);
+}
+
+std::vector<cv::Mat> SfmReconstruction::get_P_mats()
+{
+    return this->P_mats;
 }
 
 SfmReconstruction::~SfmReconstruction(){};

@@ -201,6 +201,30 @@ SfmReconstruction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/SfmReconstruction.cpp.s
 .PHONY : SfmReconstruction.cpp.s
 
+camera_calibration/CameraCalibration.o: camera_calibration/CameraCalibration.cpp.o
+.PHONY : camera_calibration/CameraCalibration.o
+
+# target to build an object file
+camera_calibration/CameraCalibration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o
+.PHONY : camera_calibration/CameraCalibration.cpp.o
+
+camera_calibration/CameraCalibration.i: camera_calibration/CameraCalibration.cpp.i
+.PHONY : camera_calibration/CameraCalibration.i
+
+# target to preprocess a source file
+camera_calibration/CameraCalibration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.i
+.PHONY : camera_calibration/CameraCalibration.cpp.i
+
+camera_calibration/CameraCalibration.s: camera_calibration/CameraCalibration.cpp.s
+.PHONY : camera_calibration/CameraCalibration.s
+
+# target to generate assembly for a file
+camera_calibration/CameraCalibration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.s
+.PHONY : camera_calibration/CameraCalibration.cpp.s
+
 drawUtil.o: drawUtil.cpp.o
 .PHONY : drawUtil.o
 
@@ -291,6 +315,9 @@ help:
 	@echo "... SfmReconstruction.o"
 	@echo "... SfmReconstruction.i"
 	@echo "... SfmReconstruction.s"
+	@echo "... camera_calibration/CameraCalibration.o"
+	@echo "... camera_calibration/CameraCalibration.i"
+	@echo "... camera_calibration/CameraCalibration.s"
 	@echo "... drawUtil.o"
 	@echo "... drawUtil.i"
 	@echo "... drawUtil.s"
