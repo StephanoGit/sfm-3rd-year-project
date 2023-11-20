@@ -29,6 +29,10 @@ private:
 
 public:
     ImageView();
+    ImageView(cv::Mat image, std::string name,
+              FeatureDetectionType type,
+              std::vector<cv::KeyPoint> keypoints,
+              cv::Mat descriptors);
     ~ImageView();
 
     void compute_kps_des(FeatureDetectionType type);

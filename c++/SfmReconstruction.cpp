@@ -1,6 +1,10 @@
 #include "SfmReconstruction.h"
 #include "util.h"
+#include "drawUtil.h"
+#include <typeinfo>
+
 #include "ImagePair.h"
+#include "ImageView.h"
 
 #define PHOTO_WIDTH 3072
 #define PHOTO_HEIGHT 2048
@@ -12,15 +16,15 @@
 #define NEW_VIDEO_WIDTH 1280
 #define NEW_VIDEO_HEIGHT 720
 
-// double new_fx = (2759.48 * NEW_PHOTO_WIDTH) / PHOTO_WIDTH;
-// double new_fy = (2764.16 * NEW_PHOTO_HEIGHT) / PHOTO_HEIGHT;
-// double new_cx = (1520.69 * NEW_PHOTO_WIDTH) / PHOTO_WIDTH;
-// double new_cy = (1006.81 * NEW_PHOTO_HEIGHT) / PHOTO_HEIGHT;
+double new_fx = (2759.48 * NEW_PHOTO_WIDTH) / PHOTO_WIDTH;
+double new_fy = (2764.16 * NEW_PHOTO_HEIGHT) / PHOTO_HEIGHT;
+double new_cx = (1520.69 * NEW_PHOTO_WIDTH) / PHOTO_WIDTH;
+double new_cy = (1006.81 * NEW_PHOTO_HEIGHT) / PHOTO_HEIGHT;
 
-double new_fx = (3278.68 * NEW_VIDEO_WIDTH) / VIDEO_WIDTH;
-double new_fy = (3278.68 * NEW_VIDEO_HEIGHT) / VIDEO_HEIGHT;
-double new_cx = ((VIDEO_WIDTH / 2) * NEW_VIDEO_WIDTH) / VIDEO_WIDTH;
-double new_cy = ((VIDEO_HEIGHT / 2) * NEW_VIDEO_HEIGHT) / VIDEO_HEIGHT;
+// double new_fx = (3278.68 * NEW_VIDEO_WIDTH) / VIDEO_WIDTH;
+// double new_fy = (3278.68 * NEW_VIDEO_HEIGHT) / VIDEO_HEIGHT;
+// double new_cx = ((VIDEO_WIDTH / 2) * NEW_VIDEO_WIDTH) / VIDEO_WIDTH;
+// double new_cy = ((VIDEO_HEIGHT / 2) * NEW_VIDEO_HEIGHT) / VIDEO_HEIGHT;
 
 // double new_fx = 2759.48;
 // double new_fy = 2764.16;
@@ -31,17 +35,75 @@ double data[9] = {new_fx, 0, new_cx,
                   0, new_fy, new_cy,
                   0, 0, 1};
 
-SfmReconstruction::SfmReconstruction(std::vector<ImagePair> frames)
+SfmReconstruction::SfmReconstruction(std::vector<ImageView> views,
+                                     FeatureDetectionType detection_type,
+                                     FeatureMatchingType matching_type)
 {
+    if (views.size() < 2)
+    {
+        std::cout << "Please provide at least two images..." << std::endl;
+        return;
+    }
+
     this->K = cv::Mat(3, 3, CV_64F, data);
     this->distortion = {0.0,
                         0.0,
                         0.0,
                         0.0,
                         0.0};
-    this->R0 = cv::Mat::eye(3, 3, CV_64F);
-    this->t0 = cv::Mat::zeros(3, 1, CV_64F);
-    this->frames = frames;
+    this->views = views;
+    this->detection_type = detection_type;
+    this->matching_type = matching_type;
+
+    // extract kp and desc of each image
+    for (int i = 0; i < views.size(); i++)
+    {
+        views[i].compute_kps_des(detection_type);
+    }
+
+    // create the initial pair (the first two views)
+    ImagePair init_pair(views[0], views[1]);
+
+    // start the initial reconstruction and return the point cloud
+    this->point_cloud = init_pair.init_reconstruction(detection_type, matching_type, this->K);
+
+    // get info about the last view
+    this->last_image = init_pair.get_image2();
+    this->last_image_kps = init_pair.get_image2_good_kps();
+    this->last_image_desc = init_pair.get_image2_good_desc();
+
+    // add the next views (this will be a loop in the future)
+    // for now we are testing with a third view
+    this->add_new_view(views[2], init_pair.get_image1());
+}
+
+void SfmReconstruction::add_new_view(ImageView new_image, ImageView last_image_raw)
+{
+    // create a new ImageView object representing the last image
+    // it should have the filtered descriptors and kps present in the current point cloud
+    ImageView last_image(last_image_raw.get_image(), last_image_raw.get_name(),
+                         this->detection_type,
+                         this->last_image_kps, this->last_image_desc);
+
+    // create a pair between the last image and the new image and match them
+    ImagePair pair(last_image, new_image);
+    pair.match_descriptors(this->matching_type);
+
+    // filter the outliers
+    pair.compute_F();
+    pair.compute_E(this->K);
+
+    // find a way to keep only the 3d points represnted by the good_matches between the two
+}
+
+std::vector<cv::Point3f> SfmReconstruction::get_point_cloud()
+{
+    return this->point_cloud;
+}
+
+void SfmReconstruction::set_point_cloud(std::vector<cv::Point3f> point_cloud)
+{
+    this->point_cloud = point_cloud;
 }
 
 cv::Mat SfmReconstruction::get_K()
@@ -52,81 +114,6 @@ cv::Mat SfmReconstruction::get_K()
 std::vector<double> SfmReconstruction::get_distortion()
 {
     return this->distortion;
-}
-
-void SfmReconstruction::triangulation()
-{
-    cv::Mat R1 = cv::Mat::eye(3, 3, CV_64F);
-    cv::Mat t1 = cv::Mat::zeros(3, 1, CV_64F);
-
-    cv::Mat P1(3, 4, CV_64F);
-    cv::hconcat(R1, t1, P1);
-    P1 = this->K * P1;
-    append_P_mat(P1);
-
-    for (size_t i = 0; i < this->frames.size(); i++)
-    {
-        cv::Mat points_3d;
-
-        std::cout << "====== Matching descriptors ======" << std::endl;
-        frames[i].match_descriptors(FeatureMatchingType::FLANN);
-        std::cout << "==================================" << std::endl
-                  << std::endl;
-
-        std::cout << "========= Computing F Mat ========" << std::endl;
-        frames[i].compute_F();
-        // std::cout << frames[i].get_F() << std::endl;
-        std::cout << "==================================" << std::endl
-                  << std::endl;
-
-        std::cout << "========= Computing E Mat ========" << std::endl;
-        frames[i].compute_E(this->K);
-        // std::cout << frames[i].get_E() << std::endl;
-        std::cout << "==================================" << std::endl
-                  << std::endl;
-
-        std::cout << "======= Computing R and t ========" << std::endl;
-        frames[i].compute_Rt(this->K);
-        cv::Mat R2 = frames[i].get_R();
-        cv::Mat t2 = frames[i].get_t();
-        // std::cout << R2 << std::endl;
-        // std::cout << t2 << std::endl;
-        std::cout << "==================================" << std::endl
-                  << std::endl;
-
-        // cv::Mat P1(3, 4, CV_64F);
-        // cv::hconcat(R1, t1, P1);
-        // P1 = this->K * P1;
-
-        cv::Mat P2(3, 4, CV_64F);
-        cv::hconcat(R2, t2, P2);
-        P2 = this->K * P2;
-        append_P_mat(P2);
-
-        cv::Mat points_4d;
-        cv::triangulatePoints(P1, P2, frames[i].get_image1_good_matches(), frames[i].get_image2_good_matches(), points_4d);
-        cv::convertPointsFromHomogeneous(points_4d.t(), points_3d);
-        export_3d_points_to_txt("../points-3d/" + std::to_string(i) + ".json", points_3d);
-
-        R1 = R2.clone();
-        t1 = t2.clone();
-        P1 = P2.clone();
-    }
-}
-
-void SfmReconstruction::set_P_mats(std::vector<cv::Mat> P_mats)
-{
-    this->P_mats = P_mats;
-}
-
-void SfmReconstruction::append_P_mat(cv::Mat P)
-{
-    this->P_mats.push_back(P);
-}
-
-std::vector<cv::Mat> SfmReconstruction::get_P_mats()
-{
-    return this->P_mats;
 }
 
 SfmReconstruction::~SfmReconstruction(){};

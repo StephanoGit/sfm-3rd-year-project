@@ -34,9 +34,12 @@ private:
     std::vector<cv::KeyPoint> image1_good_kps;
     std::vector<cv::KeyPoint> image2_good_kps;
 
+    cv::Mat image1_good_desc;
+    cv::Mat image2_good_desc;
+
     cv::Mat F, E;
     cv::Mat R, t;
-    cv::Mat points_3d;
+    std::vector<cv::Point3f> points_3d;
 
 public:
     ImagePair();
@@ -47,10 +50,19 @@ public:
     void compute_F();
     void compute_E(cv::Mat K);
     void compute_Rt(cv::Mat K);
-    void triangulate(cv::Mat K, int index);
+    std::vector<cv::Point3f> triangulate(cv::Mat K);
+
+    std::vector<cv::Point3f> init_reconstruction(FeatureDetectionType detection_type,
+                                                 FeatureMatchingType matching_type, cv::Mat K);
+
+    void apply_lowes_ratio(std::vector<std::vector<cv::DMatch>> knn_matches);
+    void remove_outliers(cv::Mat mask);
 
     void set_good_matches(std::vector<cv::DMatch> good_matches);
     std::vector<cv::DMatch> get_good_matches();
+
+    void extract_kps_from_matches();
+    void extract_desc_from_matches();
 
     void set_image1(ImageView image1);
     ImageView get_image1();
@@ -73,6 +85,12 @@ public:
     std::vector<cv::KeyPoint> get_image2_good_kps();
     void set_image2_good_kps(std::vector<cv::KeyPoint> image2_good_kps);
 
+    cv::Mat get_image1_good_desc();
+    void set_image1_good_desc(cv::Mat image1_good_desc);
+
+    cv::Mat get_image2_good_desc();
+    void set_image2_good_desc(cv::Mat image2_good_desc);
+
     void set_E(cv::Mat E);
     cv::Mat get_E();
 
@@ -85,8 +103,7 @@ public:
     void set_t(cv::Mat t);
     cv::Mat get_t();
 
-    void set_points_3d(cv::Mat points_3d);
-    cv::Mat get_points_3d();
+    void set_points_3d(std::vector<cv::Point3f> points_3d);
+    std::vector<cv::Point3f> get_points_3d();
 };
-
 #endif

@@ -1,5 +1,7 @@
 #include "ImagePair.h"
+#include "ImageView.h"
 #include "util.h"
+#include "drawUtil.h"
 
 ImagePair::ImagePair(ImageView image1, ImageView image2)
 {
@@ -9,6 +11,19 @@ ImagePair::ImagePair(ImageView image1, ImageView image2)
 
 ImagePair::ImagePair(){};
 ImagePair::~ImagePair(){};
+
+void ImagePair::apply_lowes_ratio(std::vector<std::vector<cv::DMatch>> knn_matches)
+{
+    for (int i = 0; i < knn_matches.size(); i++)
+    {
+        if (knn_matches[i][0].distance < 0.75 * knn_matches[i][1].distance)
+        {
+            this->good_matches.push_back(knn_matches[i][0]);
+            this->image1_good_matches.push_back(this->image1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
+            this->image2_good_matches.push_back(this->image2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
+        }
+    }
+}
 
 void ImagePair::match_descriptors(FeatureMatchingType type)
 {
@@ -22,31 +37,13 @@ void ImagePair::match_descriptors(FeatureMatchingType type)
         {
             cv::BFMatcher bf(cv::NORM_HAMMING);
             bf.knnMatch(this->image1.get_descriptors(), this->image2.get_descriptors(), knn_matches, 2);
-
-            for (int i = 0; i < knn_matches.size(); i++)
-            {
-                if (knn_matches[i][0].distance < 0.75 * knn_matches[i][1].distance)
-                {
-                    this->good_matches.push_back(knn_matches[i][0]);
-                    this->image1_good_matches.push_back(this->image1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
-                    this->image2_good_matches.push_back(this->image2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
-                }
-            }
+            apply_lowes_ratio(knn_matches);
         }
         else
         {
             cv::BFMatcher bf(cv::NORM_L1);
             bf.knnMatch(this->image1.get_descriptors(), this->image2.get_descriptors(), knn_matches, 2);
-
-            for (int i = 0; i < knn_matches.size(); i++)
-            {
-                if (knn_matches[i][0].distance < 0.75 * knn_matches[i][1].distance)
-                {
-                    this->good_matches.push_back(knn_matches[i][0]);
-                    this->image1_good_matches.push_back(this->image1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
-                    this->image2_good_matches.push_back(this->image2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
-                }
-            }
+            apply_lowes_ratio(knn_matches);
         }
         break;
     }
@@ -58,29 +55,13 @@ void ImagePair::match_descriptors(FeatureMatchingType type)
         {
             cv::FlannBasedMatcher flann(new cv::flann::LshIndexParams(6, 12, 1));
             flann.knnMatch(this->image1.get_descriptors(), this->image2.get_descriptors(), knn_matches, 2);
-            for (size_t i = 0; i < knn_matches.size(); i++)
-            {
-                if (knn_matches[i][0].distance < 0.7 * knn_matches[i][1].distance)
-                {
-                    this->good_matches.push_back(knn_matches[i][0]);
-                    this->image1_good_matches.push_back(this->image1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
-                    this->image2_good_matches.push_back(this->image2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
-                }
-            }
+            apply_lowes_ratio(knn_matches);
         }
         else
         {
             cv::FlannBasedMatcher flann(new cv::flann::KDTreeIndexParams(5));
             flann.knnMatch(this->image1.get_descriptors(), this->image2.get_descriptors(), knn_matches, 2);
-            for (size_t i = 0; i < knn_matches.size(); i++)
-            {
-                if (knn_matches[i][0].distance < 0.7 * knn_matches[i][1].distance)
-                {
-                    this->good_matches.push_back(knn_matches[i][0]);
-                    this->image1_good_matches.push_back(this->image1.get_keypoints()[knn_matches[i][0].queryIdx].pt);
-                    this->image2_good_matches.push_back(this->image2.get_keypoints()[knn_matches[i][0].trainIdx].pt);
-                }
-            }
+            apply_lowes_ratio(knn_matches);
         }
         break;
     }
@@ -90,6 +71,29 @@ void ImagePair::match_descriptors(FeatureMatchingType type)
         break;
     }
     }
+}
+
+void ImagePair::remove_outliers(cv::Mat mask)
+{
+    std::vector<cv::DMatch> inliers;
+    std::vector<cv::Point2f> inliers1, inliers2;
+    for (size_t i = 0; i < mask.rows; i++)
+    {
+        if (mask.at<uchar>(i) != 0)
+        {
+            inliers.push_back(this->good_matches[i]);
+            inliers1.push_back(this->image1_good_matches[i]);
+            inliers2.push_back(this->image2_good_matches[i]);
+        }
+    }
+
+    std::cout << "No. Matches: " << this->good_matches.size() << std::endl
+              << "No. Inliers: " << inliers.size() << std::endl
+              << std::endl;
+
+    this->good_matches = inliers;
+    this->image1_good_matches = inliers1;
+    this->image2_good_matches = inliers2;
 }
 
 void ImagePair::compute_F()
@@ -103,31 +107,7 @@ void ImagePair::compute_F()
     cv::Mat mask(this->image1_good_matches.size(), 1, CV_8U);
     this->F = cv::findFundamentalMat(this->image1_good_matches, this->image2_good_matches,
                                      cv::FM_RANSAC, 1.0, 0.999, mask);
-
-    std::cout << "vvv F vvv\n"
-              << this->F << std::endl
-              << this->image1.get_name() + " and " + this->image2.get_name() << std::endl
-              << std::endl;
-
-    std::vector<cv::DMatch> inliers;
-    std::vector<cv::Point2f> inliers1, inliers2;
-    for (size_t i = 0; i < mask.rows; i++)
-    {
-        if (mask.at<uchar>(i) != 0)
-        {
-            inliers.push_back(this->good_matches[i]);
-            inliers1.push_back(this->image1_good_matches[i]);
-            inliers2.push_back(this->image2_good_matches[i]);
-        }
-    }
-
-    std::cout << "No. Matches: " << this->good_matches.size() << std::endl
-              << "No. Inliers: " << inliers.size() << std::endl
-              << std::endl;
-
-    this->good_matches = inliers;
-    this->image1_good_matches = inliers1;
-    this->image2_good_matches = inliers2;
+    remove_outliers(mask);
 }
 
 void ImagePair::compute_E(cv::Mat K)
@@ -139,27 +119,9 @@ void ImagePair::compute_E(cv::Mat K)
     }
 
     cv::Mat mask;
-    this->E = cv::findEssentialMat(this->image1_good_matches, this->image2_good_matches, K, cv::RANSAC, 0.999, 1.0, mask);
-
-    std::vector<cv::DMatch> inliers;
-    std::vector<cv::Point2f> inliers1, inliers2;
-    for (size_t i = 0; i < mask.rows; i++)
-    {
-        if (mask.at<uchar>(i) != 0)
-        {
-            inliers.push_back(this->good_matches[i]);
-            inliers1.push_back(this->image1_good_matches[i]);
-            inliers2.push_back(this->image2_good_matches[i]);
-        }
-    }
-
-    std::cout << "No. Matches: " << this->good_matches.size() << std::endl
-              << "No. Inliers: " << inliers.size() << std::endl
-              << std::endl;
-
-    this->good_matches = inliers;
-    this->image1_good_matches = inliers1;
-    this->image2_good_matches = inliers2;
+    this->E = cv::findEssentialMat(this->image1_good_matches, this->image2_good_matches,
+                                   K, cv::RANSAC, 0.999, 1.0, mask);
+    remove_outliers(mask);
 }
 
 void ImagePair::compute_Rt(cv::Mat K)
@@ -167,7 +129,7 @@ void ImagePair::compute_Rt(cv::Mat K)
     cv::recoverPose(this->E, this->image1_good_matches, this->image2_good_matches, K, this->R, this->t, cv::noArray());
 }
 
-void ImagePair::triangulate(cv::Mat K, int index)
+std::vector<cv::Point3f> ImagePair::triangulate(cv::Mat K)
 {
     cv::Mat R0 = cv::Mat::eye(3, 3, CV_64F);
     cv::Mat t0 = cv::Mat::zeros(3, 1, CV_64F);
@@ -185,8 +147,50 @@ void ImagePair::triangulate(cv::Mat K, int index)
 
     cv::convertPointsFromHomogeneous(points_4d.t(), this->points_3d);
 
-    std::string file_name = std::to_string(index) + "-" + std::to_string(index + 1) + ".json";
-    export_3d_points_to_txt("../points-3d_pairs/" + file_name, points_3d);
+    // extract kps and desc used in the reconstruction
+    this->extract_kps_from_matches();
+    this->extract_desc_from_matches();
+
+    return this->points_3d;
+}
+
+void ImagePair::extract_desc_from_matches()
+{
+    cv::Mat desc1, desc2;
+    for (const auto &match : this->good_matches)
+    {
+        desc1.push_back(this->image1.get_descriptors().row(match.queryIdx));
+        desc2.push_back(this->image2.get_descriptors().row(match.trainIdx));
+    }
+    this->image1_good_desc = desc1;
+    this->image2_good_desc = desc2;
+}
+
+void ImagePair::extract_kps_from_matches()
+{
+    std::vector<cv::KeyPoint> kp1, kp2;
+    for (auto &match : this->good_matches)
+    {
+        kp1.push_back(this->image1.get_keypoints()[match.queryIdx]);
+        kp2.push_back(this->image2.get_keypoints()[match.trainIdx]);
+    }
+    this->image1_good_kps = kp1;
+    this->image2_good_kps = kp2;
+}
+
+std::vector<cv::Point3f> ImagePair::init_reconstruction(FeatureDetectionType detection_type,
+                                                        FeatureMatchingType matching_type, cv::Mat K)
+{
+    // this->image1.compute_kps_des(detection_type);
+    // this->image2.compute_kps_des(detection_type);
+
+    this->match_descriptors(matching_type);
+    this->compute_F();
+    this->compute_E(K);
+    this->compute_Rt(K);
+    this->extract_kps_from_matches();
+
+    return this->triangulate(K);
 }
 
 void ImagePair::set_image1(ImageView image1)
@@ -309,12 +313,31 @@ cv::Mat ImagePair::get_t()
     return this->t;
 }
 
-void ImagePair::set_points_3d(cv::Mat points_3d)
+void ImagePair::set_points_3d(std::vector<cv::Point3f> points_3d)
 {
     this->points_3d = points_3d;
 }
 
-cv::Mat ImagePair::get_points_3d()
+std::vector<cv::Point3f> ImagePair::get_points_3d()
 {
     return this->points_3d;
+}
+
+cv::Mat ImagePair::get_image1_good_desc()
+{
+    return this->image1_good_desc;
+}
+void ImagePair::set_image1_good_desc(cv::Mat image1_good_desc)
+{
+    this->image1_good_desc = image1_good_desc;
+}
+
+cv::Mat ImagePair::get_image2_good_desc()
+{
+    return this->image2_good_desc;
+}
+
+void ImagePair::set_image2_good_desc(cv::Mat image2_good_desc)
+{
+    this->image2_good_desc = image2_good_desc;
 }

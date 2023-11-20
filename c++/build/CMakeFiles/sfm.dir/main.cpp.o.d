@@ -1,5 +1,5 @@
 CMakeFiles/sfm.dir/main.cpp.o: \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/main.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/c++/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config_site \
@@ -934,10 +934,10 @@ CMakeFiles/sfm.dir/main.cpp.o: \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/xfeatures2d/nonfree.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/sfm/triangulation.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/imgproc/imgproc.hpp \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImageView.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImagePair.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/util.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/ImageView.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/ImagePair.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/util.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/drawUtil.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/SfmReconstruction.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/./camera_calibration/CameraCalibration.h
+  /Users/stephano./github/sfm-3rd-year-project/c++/drawUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/SfmReconstruction.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/./camera_calibration/CameraCalibration.h

@@ -1,5 +1,5 @@
 CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o: \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/camera_calibration/CameraCalibration.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/c++/camera_calibration/CameraCalibration.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config_site \
@@ -916,8 +916,8 @@ CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o: \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/video/background_segm.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/highgui/highgui.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/imgproc/imgproc.hpp \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/camera_calibration/CameraCalibration.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/camera_calibration/../util.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/camera_calibration/CameraCalibration.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/camera_calibration/../util.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -936,5 +936,5 @@ CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/camera_calibration/../ImageView.h \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/camera_calibration/../ImagePair.h
+  /Users/stephano./github/sfm-3rd-year-project/c++/camera_calibration/../ImageView.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/camera_calibration/../ImagePair.h

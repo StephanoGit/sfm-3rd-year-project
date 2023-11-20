@@ -1,5 +1,5 @@
 CMakeFiles/sfm.dir/ImageView.cpp.o: \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImageView.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/c++/ImageView.cpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/opencv.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/core.hpp \
@@ -916,4 +916,4 @@ CMakeFiles/sfm.dir/ImageView.cpp.o: \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/video/background_segm.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/xfeatures2d.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/xfeatures2d/nonfree.hpp \
-  /Users/stephano./GitRepos/sfm-3rd-year-project/c++/ImageView.h
+  /Users/stephano./github/sfm-3rd-year-project/c++/ImageView.h

@@ -170,7 +170,7 @@ std::vector<cv::Mat> load_images(std::string directory)
     return images;
 }
 
-void export_3d_points_to_txt(std::string file_name, cv::Mat points)
+void export_3d_points_to_txt(std::string file_name, std::vector<cv::Point3f> points)
 {
     cv::FileStorage fs(file_name, cv::FileStorage::WRITE);
     fs << "points_3d" << points;
