@@ -129,173 +129,173 @@ sfm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/build
 .PHONY : sfm/fast
 
-ImagePair.o: ImagePair.cpp.o
-.PHONY : ImagePair.o
+calibration/CameraCalibration.o: calibration/CameraCalibration.cpp.o
+.PHONY : calibration/CameraCalibration.o
 
 # target to build an object file
-ImagePair.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/ImagePair.cpp.o
-.PHONY : ImagePair.cpp.o
+calibration/CameraCalibration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o
+.PHONY : calibration/CameraCalibration.cpp.o
 
-ImagePair.i: ImagePair.cpp.i
-.PHONY : ImagePair.i
+calibration/CameraCalibration.i: calibration/CameraCalibration.cpp.i
+.PHONY : calibration/CameraCalibration.i
 
 # target to preprocess a source file
-ImagePair.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/ImagePair.cpp.i
-.PHONY : ImagePair.cpp.i
+calibration/CameraCalibration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i
+.PHONY : calibration/CameraCalibration.cpp.i
 
-ImagePair.s: ImagePair.cpp.s
-.PHONY : ImagePair.s
+calibration/CameraCalibration.s: calibration/CameraCalibration.cpp.s
+.PHONY : calibration/CameraCalibration.s
 
 # target to generate assembly for a file
-ImagePair.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/ImagePair.cpp.s
-.PHONY : ImagePair.cpp.s
+calibration/CameraCalibration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s
+.PHONY : calibration/CameraCalibration.cpp.s
 
-ImageView.o: ImageView.cpp.o
-.PHONY : ImageView.o
+src/ImagePair.o: src/ImagePair.cpp.o
+.PHONY : src/ImagePair.o
 
 # target to build an object file
-ImageView.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/ImageView.cpp.o
-.PHONY : ImageView.cpp.o
+src/ImagePair.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/ImagePair.cpp.o
+.PHONY : src/ImagePair.cpp.o
 
-ImageView.i: ImageView.cpp.i
-.PHONY : ImageView.i
+src/ImagePair.i: src/ImagePair.cpp.i
+.PHONY : src/ImagePair.i
 
 # target to preprocess a source file
-ImageView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/ImageView.cpp.i
-.PHONY : ImageView.cpp.i
+src/ImagePair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/ImagePair.cpp.i
+.PHONY : src/ImagePair.cpp.i
 
-ImageView.s: ImageView.cpp.s
-.PHONY : ImageView.s
+src/ImagePair.s: src/ImagePair.cpp.s
+.PHONY : src/ImagePair.s
 
 # target to generate assembly for a file
-ImageView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/ImageView.cpp.s
-.PHONY : ImageView.cpp.s
+src/ImagePair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/ImagePair.cpp.s
+.PHONY : src/ImagePair.cpp.s
 
-SfmReconstruction.o: SfmReconstruction.cpp.o
-.PHONY : SfmReconstruction.o
+src/ImageView.o: src/ImageView.cpp.o
+.PHONY : src/ImageView.o
 
 # target to build an object file
-SfmReconstruction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/SfmReconstruction.cpp.o
-.PHONY : SfmReconstruction.cpp.o
+src/ImageView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/ImageView.cpp.o
+.PHONY : src/ImageView.cpp.o
 
-SfmReconstruction.i: SfmReconstruction.cpp.i
-.PHONY : SfmReconstruction.i
+src/ImageView.i: src/ImageView.cpp.i
+.PHONY : src/ImageView.i
 
 # target to preprocess a source file
-SfmReconstruction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/SfmReconstruction.cpp.i
-.PHONY : SfmReconstruction.cpp.i
+src/ImageView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/ImageView.cpp.i
+.PHONY : src/ImageView.cpp.i
 
-SfmReconstruction.s: SfmReconstruction.cpp.s
-.PHONY : SfmReconstruction.s
+src/ImageView.s: src/ImageView.cpp.s
+.PHONY : src/ImageView.s
 
 # target to generate assembly for a file
-SfmReconstruction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/SfmReconstruction.cpp.s
-.PHONY : SfmReconstruction.cpp.s
+src/ImageView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/ImageView.cpp.s
+.PHONY : src/ImageView.cpp.s
 
-camera_calibration/CameraCalibration.o: camera_calibration/CameraCalibration.cpp.o
-.PHONY : camera_calibration/CameraCalibration.o
+src/SfmReconstruction.o: src/SfmReconstruction.cpp.o
+.PHONY : src/SfmReconstruction.o
 
 # target to build an object file
-camera_calibration/CameraCalibration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o
-.PHONY : camera_calibration/CameraCalibration.cpp.o
+src/SfmReconstruction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o
+.PHONY : src/SfmReconstruction.cpp.o
 
-camera_calibration/CameraCalibration.i: camera_calibration/CameraCalibration.cpp.i
-.PHONY : camera_calibration/CameraCalibration.i
+src/SfmReconstruction.i: src/SfmReconstruction.cpp.i
+.PHONY : src/SfmReconstruction.i
 
 # target to preprocess a source file
-camera_calibration/CameraCalibration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.i
-.PHONY : camera_calibration/CameraCalibration.cpp.i
+src/SfmReconstruction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.i
+.PHONY : src/SfmReconstruction.cpp.i
 
-camera_calibration/CameraCalibration.s: camera_calibration/CameraCalibration.cpp.s
-.PHONY : camera_calibration/CameraCalibration.s
+src/SfmReconstruction.s: src/SfmReconstruction.cpp.s
+.PHONY : src/SfmReconstruction.s
 
 # target to generate assembly for a file
-camera_calibration/CameraCalibration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.s
-.PHONY : camera_calibration/CameraCalibration.cpp.s
+src/SfmReconstruction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.s
+.PHONY : src/SfmReconstruction.cpp.s
 
-drawUtil.o: drawUtil.cpp.o
-.PHONY : drawUtil.o
+src/drawUtil.o: src/drawUtil.cpp.o
+.PHONY : src/drawUtil.o
 
 # target to build an object file
-drawUtil.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/drawUtil.cpp.o
-.PHONY : drawUtil.cpp.o
+src/drawUtil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.o
+.PHONY : src/drawUtil.cpp.o
 
-drawUtil.i: drawUtil.cpp.i
-.PHONY : drawUtil.i
+src/drawUtil.i: src/drawUtil.cpp.i
+.PHONY : src/drawUtil.i
 
 # target to preprocess a source file
-drawUtil.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/drawUtil.cpp.i
-.PHONY : drawUtil.cpp.i
+src/drawUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.i
+.PHONY : src/drawUtil.cpp.i
 
-drawUtil.s: drawUtil.cpp.s
-.PHONY : drawUtil.s
+src/drawUtil.s: src/drawUtil.cpp.s
+.PHONY : src/drawUtil.s
 
 # target to generate assembly for a file
-drawUtil.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/drawUtil.cpp.s
-.PHONY : drawUtil.cpp.s
+src/drawUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.s
+.PHONY : src/drawUtil.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-util.o: util.cpp.o
-.PHONY : util.o
+src/util.o: src/util.cpp.o
+.PHONY : src/util.o
 
 # target to build an object file
-util.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/util.cpp.o
-.PHONY : util.cpp.o
+src/util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/util.cpp.o
+.PHONY : src/util.cpp.o
 
-util.i: util.cpp.i
-.PHONY : util.i
+src/util.i: src/util.cpp.i
+.PHONY : src/util.i
 
 # target to preprocess a source file
-util.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/util.cpp.i
-.PHONY : util.cpp.i
+src/util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/util.cpp.i
+.PHONY : src/util.cpp.i
 
-util.s: util.cpp.s
-.PHONY : util.s
+src/util.s: src/util.cpp.s
+.PHONY : src/util.s
 
 # target to generate assembly for a file
-util.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/util.cpp.s
-.PHONY : util.cpp.s
+src/util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/util.cpp.s
+.PHONY : src/util.cpp.s
 
 # Help Target
 help:
@@ -306,27 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sfm"
-	@echo "... ImagePair.o"
-	@echo "... ImagePair.i"
-	@echo "... ImagePair.s"
-	@echo "... ImageView.o"
-	@echo "... ImageView.i"
-	@echo "... ImageView.s"
-	@echo "... SfmReconstruction.o"
-	@echo "... SfmReconstruction.i"
-	@echo "... SfmReconstruction.s"
-	@echo "... camera_calibration/CameraCalibration.o"
-	@echo "... camera_calibration/CameraCalibration.i"
-	@echo "... camera_calibration/CameraCalibration.s"
-	@echo "... drawUtil.o"
-	@echo "... drawUtil.i"
-	@echo "... drawUtil.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... util.o"
-	@echo "... util.i"
-	@echo "... util.s"
+	@echo "... calibration/CameraCalibration.o"
+	@echo "... calibration/CameraCalibration.i"
+	@echo "... calibration/CameraCalibration.s"
+	@echo "... src/ImagePair.o"
+	@echo "... src/ImagePair.i"
+	@echo "... src/ImagePair.s"
+	@echo "... src/ImageView.o"
+	@echo "... src/ImageView.i"
+	@echo "... src/ImageView.s"
+	@echo "... src/SfmReconstruction.o"
+	@echo "... src/SfmReconstruction.i"
+	@echo "... src/SfmReconstruction.s"
+	@echo "... src/drawUtil.o"
+	@echo "... src/drawUtil.i"
+	@echo "... src/drawUtil.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/util.o"
+	@echo "... src/util.i"
+	@echo "... src/util.s"
 .PHONY : help
 
 

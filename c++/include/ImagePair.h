@@ -2,15 +2,10 @@
 #define __IMAGE_PAIR
 
 #include <stdio.h>
-#include <string>
-#include <iostream>
-#include <filesystem>
-#include <vector>
 
 #include <opencv2/opencv.hpp>
-#include <opencv2/features2d.hpp>
 
-#include "ImageView.h"
+#include "../include/ImageView.h"
 
 enum FeatureMatchingType
 {
@@ -50,10 +45,11 @@ public:
     void compute_F();
     void compute_E(cv::Mat K);
     void compute_Rt(cv::Mat K);
-    std::vector<cv::Point3f> triangulate(cv::Mat K);
+    std::vector<cv::Point3f> triangulate(cv::Mat K, std::vector<double> d);
 
     std::vector<cv::Point3f> init_reconstruction(FeatureDetectionType detection_type,
-                                                 FeatureMatchingType matching_type, cv::Mat K);
+                                                 FeatureMatchingType matching_type,
+                                                 cv::Mat K, std::vector<double> d);
 
     void apply_lowes_ratio(std::vector<std::vector<cv::DMatch>> knn_matches);
     void remove_outliers(cv::Mat mask);

@@ -2,11 +2,7 @@
 #define __IMAGE_VIEW
 
 #include <stdio.h>
-#include <string>
-#include <vector>
-
 #include <opencv2/opencv.hpp>
-#include <opencv2/features2d.hpp>
 
 enum FeatureDetectionType
 {
@@ -19,7 +15,6 @@ enum FeatureDetectionType
 class ImageView
 {
 private:
-    /* data */
     cv::Mat image;
     std::string name;
     FeatureDetectionType type;

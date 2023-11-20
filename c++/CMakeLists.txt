@@ -8,13 +8,14 @@ find_library(MBEDCRYPTO_LIB NAMES mbedcrypto HINTS /usr/local/opt/mbedtls/lib/li
 
 if (UNISTRING_LIB AND MBEDCRYPTO_LIB)
     message("Libraries found")
-    add_executable(sfm main.cpp
-                   ImageView.cpp
-                   ImagePair.cpp
-                   util.cpp
-                   drawUtil.cpp
-                   SfmReconstruction.cpp
-                   ./camera_calibration/CameraCalibration.cpp)
+    add_executable(sfm 
+                   ./src/main.cpp
+                   ./src/ImageView.cpp
+                   ./src/ImagePair.cpp
+                   ./src/util.cpp
+                   ./src/drawUtil.cpp
+                   ./src/SfmReconstruction.cpp
+                   ./calibration/CameraCalibration.cpp)
     target_link_libraries(sfm ${UNISTRING_LIB} ${MBEDCRYPTO_LIB} ${OpenCV_LIBS})
 else()
     message("Did not find libraries")

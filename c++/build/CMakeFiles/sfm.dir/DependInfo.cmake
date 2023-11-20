@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/stephano./github/sfm-3rd-year-project/c++/ImagePair.cpp" "CMakeFiles/sfm.dir/ImagePair.cpp.o" "gcc" "CMakeFiles/sfm.dir/ImagePair.cpp.o.d"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/ImageView.cpp" "CMakeFiles/sfm.dir/ImageView.cpp.o" "gcc" "CMakeFiles/sfm.dir/ImageView.cpp.o.d"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/SfmReconstruction.cpp" "CMakeFiles/sfm.dir/SfmReconstruction.cpp.o" "gcc" "CMakeFiles/sfm.dir/SfmReconstruction.cpp.o.d"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/camera_calibration/CameraCalibration.cpp" "CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o" "gcc" "CMakeFiles/sfm.dir/camera_calibration/CameraCalibration.cpp.o.d"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/drawUtil.cpp" "CMakeFiles/sfm.dir/drawUtil.cpp.o" "gcc" "CMakeFiles/sfm.dir/drawUtil.cpp.o.d"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/main.cpp" "CMakeFiles/sfm.dir/main.cpp.o" "gcc" "CMakeFiles/sfm.dir/main.cpp.o.d"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/util.cpp" "CMakeFiles/sfm.dir/util.cpp.o" "gcc" "CMakeFiles/sfm.dir/util.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp" "CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o" "gcc" "CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/c++/src/ImagePair.cpp" "CMakeFiles/sfm.dir/src/ImagePair.cpp.o" "gcc" "CMakeFiles/sfm.dir/src/ImagePair.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/c++/src/ImageView.cpp" "CMakeFiles/sfm.dir/src/ImageView.cpp.o" "gcc" "CMakeFiles/sfm.dir/src/ImageView.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp" "CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o" "gcc" "CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp" "CMakeFiles/sfm.dir/src/drawUtil.cpp.o" "gcc" "CMakeFiles/sfm.dir/src/drawUtil.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp" "CMakeFiles/sfm.dir/src/main.cpp.o" "gcc" "CMakeFiles/sfm.dir/src/main.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/c++/src/util.cpp" "CMakeFiles/sfm.dir/src/util.cpp.o" "gcc" "CMakeFiles/sfm.dir/src/util.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

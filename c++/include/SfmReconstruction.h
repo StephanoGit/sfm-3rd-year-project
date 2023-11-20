@@ -2,18 +2,14 @@
 #define __SFM_RECONSTRUCTION
 
 #include <stdio.h>
-#include <string>
-#include <vector>
-#include <fstream>
 
 #include <opencv2/opencv.hpp>
 
-#include "ImageView.h"
-#include "ImagePair.h"
+#include "../include/ImagePair.h"
+#include "../include/ImageView.h"
 
-class SfmReconstruction
-{
-private:
+class SfmReconstruction {
+   private:
     cv::Mat K;
     std::vector<double> distortion;
 
@@ -29,7 +25,7 @@ private:
 
     // future pointcloud variable
 
-public:
+   public:
     SfmReconstruction(std::vector<ImageView> views,
                       FeatureDetectionType detection_type,
                       FeatureMatchingType matching_type);

@@ -2,14 +2,11 @@
 #define __CAMERA_CALIBRATION
 
 #include <stdio.h>
-#include <string>
-#include <iostream>
 
 #include <opencv2/opencv.hpp>
 
-class CameraCalibration
-{
-private:
+class CameraCalibration {
+   private:
     cv::Mat K;
     cv::Vec<float, 5> d;
     float error;
@@ -17,7 +14,7 @@ private:
     std::vector<int> checkerboard_size;
     int square_size;
 
-public:
+   public:
     CameraCalibration(std::string directory, bool show_images);
     ~CameraCalibration();
 
