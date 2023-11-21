@@ -7,6 +7,7 @@
 
 #include "../include/ImagePair.h"
 #include "../include/ImageView.h"
+#include "../include/util.h"
 
 class SfmReconstruction {
    private:
@@ -15,6 +16,7 @@ class SfmReconstruction {
 
     std::vector<ImageView> views;
     std::vector<cv::Point3f> point_cloud;
+    // std::vector<Point_3D> point_cloud;
 
     FeatureDetectionType detection_type;
     FeatureMatchingType matching_type;
