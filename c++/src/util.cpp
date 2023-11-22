@@ -159,6 +159,12 @@ void export_3d_points_to_txt(std::string file_name, std::vector<cv::Point3f> poi
     fs.release();
 }
 
+void export_3d_points_to_txt(std::string file_name, cv::Mat points) {
+    cv::FileStorage fs(file_name, cv::FileStorage::WRITE);
+    fs << "points_3d" << points;
+    fs.release();
+}
+
 void export_K_to_json(std::string file_name, cv::Mat K) {
     cv::FileStorage fs("../calibration/" + file_name + ".json", cv::FileStorage::WRITE);
     fs << "K" << K;

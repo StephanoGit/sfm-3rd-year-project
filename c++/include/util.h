@@ -13,6 +13,7 @@ std::vector<ImageView> load_images_as_object(std::string directory, bool down_si
 std::vector<ImageView> extract_frames_from_video(std::string directory, int step);
 
 void export_3d_points_to_txt(std::string file_name, std::vector<cv::Point3f> points);
+void export_3d_points_to_txt(std::string file_name, cv::Mat points);
 void export_K_to_json(std::string file_name, cv::Mat K);
 void export_K_to_xml(std::string file_name, cv::Mat K);
 

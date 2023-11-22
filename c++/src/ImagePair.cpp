@@ -120,16 +120,10 @@ std::vector<cv::Point3f> ImagePair::triangulate(cv::Mat K, std::vector<double> d
     cv::hconcat(this->R, this->t, P2);
     P2 = K * P2;
 
-    // NORMALIZE IMAGE COORDINATE TO CAMERA COORDINATE (pixels --> metric)
-    // std::cout << "Normalizing points..." << std::endl;
-    // std::vector<cv::Point2f> norm_points_image1, norm_points_image2;
-    // cv::undistortPoints(this->image1_good_matches, norm_points_image1, K, d);
-    // cv::undistortPoints(this->image2_good_matches, norm_points_image2, K, d);
-
     cv::Mat points_4d;
     cv::triangulatePoints(P1, P2, this->image1_good_matches, this->image2_good_matches, points_4d);
-    // cv::triangulatePoints(P1, P2, norm_points_image1, norm_points_image2, points_4d);
 
+    cv::convertPointsFromHomogeneous(points_4d.t(), this->points_3d);
     cv::convertPointsFromHomogeneous(points_4d.t(), this->points_3d);
 
     // extract kps and desc used in the reconstruction

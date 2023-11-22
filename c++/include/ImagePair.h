@@ -7,15 +7,13 @@
 
 #include "../include/ImageView.h"
 
-enum FeatureMatchingType
-{
+enum FeatureMatchingType {
     BF,
     FLANN
 };
 
-class ImagePair
-{
-private:
+class ImagePair {
+   private:
     ImageView image1;
     ImageView image2;
 
@@ -36,7 +34,7 @@ private:
     cv::Mat R, t;
     std::vector<cv::Point3f> points_3d;
 
-public:
+   public:
     ImagePair();
     ImagePair(ImageView image1, ImageView image2);
     ~ImagePair();
