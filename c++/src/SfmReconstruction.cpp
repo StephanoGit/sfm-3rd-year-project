@@ -2,6 +2,8 @@
 
 #include <stdio.h>
 
+#include <unordered_set>
+
 #include "../include/ImagePair.h"
 #include "../include/ImageView.h"
 #include "../include/drawUtil.h"
@@ -60,16 +62,17 @@ SfmReconstruction::SfmReconstruction(std::vector<ImageView> views,
     this->point_cloud = init_pair.init_reconstruction(
         detection_type, matching_type, this->K, this->distortion);
 
-    export_3d_points_to_txt("../points-3d/norm.json", this->point_cloud);
+    // export_3d_points_to_txt("../points-3d/norm.json", this->point_cloud.);
 
     // get info about the last view
     this->last_image = init_pair.get_image2();
     this->last_image_kps = init_pair.get_image2_good_kps();
     this->last_image_desc = init_pair.get_image2_good_desc();
+    this->last_P = init_pair.get_P();
 
     // add the next views (this will be a loop in the future)
     // for now we are testing with a third view
-    // this->add_new_view(views[2], init_pair.get_image1());
+    this->add_new_view(views[6], init_pair.get_image2());
 }
 
 void SfmReconstruction::add_new_view(ImageView new_image,
@@ -84,20 +87,61 @@ void SfmReconstruction::add_new_view(ImageView new_image,
     // create a pair between the last image and the new image and match them
     ImagePair pair(last_image, new_image);
     pair.match_descriptors(this->matching_type);
-
     // filter the outliers
     pair.compute_F();
     pair.compute_E(this->K);
+    pair.extract_desc_from_matches();
 
     // find a way to keep only the 3d points represnted by the good_matches
     // between the two
+    std::vector<Point_3D> common_points_3d;
+    std::vector<cv::Point3d> object_points;
+    std::vector<cv::Point2f> common_points_2d;
+    std::set<std::pair<float, float>> test;
+
+    for (size_t i = 0; i < pair.get_image1_good_matches().size(); i++) {
+        for (size_t j = 0; j < this->point_cloud.size(); j++) {
+            if (pair.get_image1_good_matches()[i] == this->point_cloud[j].point_2D.second) {
+                if (test.count(std::pair<float, float>(this->point_cloud[j].point_2D.second.x, this->point_cloud[j].point_2D.second.y)) == 0) {
+                    test.insert({this->point_cloud[j].point_2D.second.x, this->point_cloud[j].point_2D.second.y});
+                    common_points_3d.push_back(this->point_cloud[j]);
+                    common_points_2d.push_back(pair.get_image2_good_matches()[i]);
+                    object_points.push_back(this->point_cloud[j].point);
+                }
+            }
+        }
+    }
+
+    std::cout << "3d_points from cloud: " << common_points_3d.size() << std::endl;
+    std::cout << "2d_points from img2: " << common_points_2d.size() << std::endl;
+    std::cout << "2d_points in img2: " << pair.get_image1_good_matches().size() << std::endl;
+
+    cv::Mat rvec, tvec, R_new;
+    cv::solvePnPRansac(object_points, common_points_2d, this->K, this->distortion, rvec, tvec);
+    cv::Rodrigues(rvec, R_new);
+
+    cv::Mat P_new(3, 4, CV_64F);
+    cv::hconcat(R_new, tvec, P_new);
+    P_new = this->K * P_new;
+
+    cv::Mat points_4d;
+    cv::triangulatePoints(this->last_P, P_new, pair.get_image1_good_matches(), pair.get_image2_good_matches(), points_4d);
+
+    std::vector<cv::Point3f> points_3d;
+    cv::convertPointsFromHomogeneous(points_4d.t(), points_3d);
+
+    export_3d_points_to_txt("../points-3d/norm2.json", points_3d);
+
+    std::cout << rvec << std::endl;
+    std::cout << tvec << std::endl;
+    std::cout << R_new << std::endl;
 }
 
-std::vector<cv::Point3f> SfmReconstruction::get_point_cloud() {
+std::vector<Point_3D> SfmReconstruction::get_point_cloud() {
     return this->point_cloud;
 }
 
-void SfmReconstruction::set_point_cloud(std::vector<cv::Point3f> point_cloud) {
+void SfmReconstruction::set_point_cloud(std::vector<Point_3D> point_cloud) {
     this->point_cloud = point_cloud;
 }
 

@@ -5,7 +5,8 @@
 
 #include <opencv2/opencv.hpp>
 
-#include "../include/ImageView.h"
+#include "ImageView.h"
+#include "util.h"
 
 enum FeatureMatchingType {
     BF,
@@ -32,7 +33,8 @@ class ImagePair {
 
     cv::Mat F, E;
     cv::Mat R, t;
-    std::vector<cv::Point3f> points_3d;
+    cv::Mat P;
+    std::vector<Point_3D> points_3d;
 
    public:
     ImagePair();
@@ -43,11 +45,11 @@ class ImagePair {
     void compute_F();
     void compute_E(cv::Mat K);
     void compute_Rt(cv::Mat K);
-    std::vector<cv::Point3f> triangulate(cv::Mat K, std::vector<double> d);
+    std::vector<Point_3D> triangulate(cv::Mat K, std::vector<double> d);
 
-    std::vector<cv::Point3f> init_reconstruction(FeatureDetectionType detection_type,
-                                                 FeatureMatchingType matching_type,
-                                                 cv::Mat K, std::vector<double> d);
+    std::vector<Point_3D> init_reconstruction(FeatureDetectionType detection_type,
+                                              FeatureMatchingType matching_type,
+                                              cv::Mat K, std::vector<double> d);
 
     void apply_lowes_ratio(std::vector<std::vector<cv::DMatch>> knn_matches);
     void remove_outliers(cv::Mat mask);
@@ -88,6 +90,9 @@ class ImagePair {
     void set_E(cv::Mat E);
     cv::Mat get_E();
 
+    void set_P(cv::Mat P);
+    cv::Mat get_P();
+
     void set_F(cv::Mat F);
     cv::Mat get_F();
 
@@ -97,7 +102,7 @@ class ImagePair {
     void set_t(cv::Mat t);
     cv::Mat get_t();
 
-    void set_points_3d(std::vector<cv::Point3f> points_3d);
-    std::vector<cv::Point3f> get_points_3d();
+    void set_points_3d(std::vector<Point_3D> points_3d);
+    std::vector<Point_3D> get_points_3d();
 };
 #endif

@@ -20,9 +20,6 @@ void ImageView::compute_kps_des(FeatureDetectionType type) {
             cv::Ptr<cv::SIFT> detector = cv::SIFT::create();
             this->type = type;
             detector->detectAndCompute(this->image, cv::noArray(), this->keypoints, this->descriptors);
-            std::cout << this->keypoints.size() << std::endl;
-            std::cout << this->descriptors.size() << std::endl;
-
             break;
         }
         case SURF: {

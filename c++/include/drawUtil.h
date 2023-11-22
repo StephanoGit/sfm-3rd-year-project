@@ -5,8 +5,8 @@
 
 #include <opencv2/opencv.hpp>
 
-#include "../include/ImagePair.h"
-#include "../include/ImageView.h"
+#include "ImagePair.h"
+#include "ImageView.h"
 
 cv::Mat draw_features(ImageView image);
 cv::Mat draw_matches(ImagePair pair);

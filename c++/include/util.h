@@ -5,8 +5,7 @@
 
 #include <opencv2/opencv.hpp>
 
-#include "../include/ImagePair.h"
-#include "../include/ImageView.h"
+#include "ImageView.h"
 
 std::vector<cv::Mat> load_images(std::string directory);
 std::vector<ImageView> load_images_as_object(std::string directory, bool down_size);
@@ -23,10 +22,10 @@ struct Point_3D {
     cv::Point3d point;
 
     // plotted through who
-    std::map<const int, int> idxImage;
+    std::pair<int, int> idxImage;
 
     // 2D correspondence
-    std::map<const int, cv::Point2d> point_2D;
+    std::pair<cv::Point2f, cv::Point2f> point_2D;
 };
 
 #endif

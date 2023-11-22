@@ -55,6 +55,6 @@ int main(int argc, char **argv) {
     }
 
     SfmReconstruction reconstruction(images, FeatureDetectionType::SIFT,
-                                     FeatureMatchingType::FLANN);
+                                     FeatureMatchingType::BF);
     return 0;
 }
