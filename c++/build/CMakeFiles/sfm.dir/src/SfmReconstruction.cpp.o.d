@@ -918,5 +918,4 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/ImagePair.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/ImageView.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/util.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/drawUtil.h

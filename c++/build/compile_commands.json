@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/main.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp",
+  "output": "CMakeFiles/sfm.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/ImageView.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/ImageView.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/ImageView.cpp",
+  "output": "CMakeFiles/sfm.dir/src/ImageView.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/ImagePair.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/ImagePair.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/ImagePair.cpp",
+  "output": "CMakeFiles/sfm.dir/src/ImagePair.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/util.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/util.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/util.cpp",
+  "output": "CMakeFiles/sfm.dir/src/util.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/drawUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp",
+  "output": "CMakeFiles/sfm.dir/src/drawUtil.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp",
+  "output": "CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp",
+  "output": "CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
+}
+]
