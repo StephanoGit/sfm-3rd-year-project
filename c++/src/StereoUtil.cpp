@@ -1,5 +1,4 @@
 #include "../include/StereoUtil.h"
-#include "../include/util.h"
 #include <opencv2/calib3d.hpp>
 #include <opencv2/core.hpp>
 #include <opencv2/core/types.hpp>
@@ -162,7 +161,7 @@ bool StereoUtil::compute_Rt(Features &left, Features &right,
   return true;
 }
 
-bool compute_P(cv::Mat &P_left, cv::Mat &P_right, cv::Mat &R, cv::Mat &t) {
+void compute_P(cv::Mat &P_left, cv::Mat &P_right, cv::Mat &R, cv::Mat &t) {
   P_left = cv::Mat::eye(3, 4, CV_32F);
   cv::hconcat(R, t, P_right);
 }

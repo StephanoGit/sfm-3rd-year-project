@@ -15,7 +15,7 @@ public:
   bool compute_Rt(Features &left, Features &right,
                   std::vector<cv::DMatch> &matches, cv::Mat &E, cv::Mat &R,
                   cv::Mat &t);
-  bool compute_P(cv::Mat &P_left, cv::Mat &P_right);
+  void compute_P(cv::Mat &P_left, cv::Mat &P_right);
   bool triangulate_views(ImagePair &image_pair,
                          std::vector<cv::DMatch> &matches, Features &left,
                          Features &right, cv::Mat &P_left, cv::Mat &P_right,

@@ -1,5 +1,4 @@
 #include "../include/FeatureUtil.h"
-#include "../include/util.h"
 #include <opencv2/core/types.hpp>
 #include <opencv2/features2d.hpp>
 #include <opencv2/opencv.hpp>
@@ -65,6 +64,7 @@ apply_lowes_ratio(std::vector<std::vector<cv::DMatch>> knn_matches) {
       good_matches.push_back(knn_matches[i][0]);
     }
   }
+  return good_matches;
 }
 
 std::vector<cv::DMatch> FeatureUtil::match_features(Features &left,
