@@ -13,7 +13,7 @@ FeatureUtil::FeatureUtil(FeatureExtractionType extract_type,
 
 FeatureUtil::~FeatureUtil() {}
 
-Features FeatureUtil::extract_features(cv::Mat image) {
+Features FeatureUtil::extract_features(cv::Mat &image) {
   Features features;
   switch (this->extract_type) {
   case SIFT: {
@@ -67,8 +67,8 @@ apply_lowes_ratio(std::vector<std::vector<cv::DMatch>> knn_matches) {
   }
 }
 
-std::vector<cv::DMatch> FeatureUtil::match_features(Features left,
-                                                    Features right) {
+std::vector<cv::DMatch> FeatureUtil::match_features(Features &left,
+                                                    Features &right) {
   std::vector<std::vector<cv::DMatch>> knn_matches;
   switch (this->match_type) {
   case BF: {

@@ -918,8 +918,9 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/sfm/triangulation.hpp \
   /usr/local/Cellar/opencv/4.8.1_2/include/opencv4/opencv2/xfeatures2d/nonfree.hpp \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../calibration/CameraCalibration.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/ImagePair.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/ImageView.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/util.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmReconstruction.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/drawUtil.h
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/StereoUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/drawUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/util.h

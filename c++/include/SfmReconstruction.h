@@ -1,46 +1,37 @@
 #ifndef __SFM_RECONSTRUCTION
 #define __SFM_RECONSTRUCTION
 
-#include <stdio.h>
-
+#include <opencv2/core/types.hpp>
 #include <opencv2/opencv.hpp>
 
-#include "ImagePair.h"
-#include "ImageView.h"
-#include "util.h"
+#include "FeatureUtil.h"
+#include "SfmStructures.h"
+#include "StereoUtil.h"
 
 class SfmReconstruction {
-   private:
-    cv::Mat K;
-    cv::Mat last_P;
+  // matrix of macthes from image i to image j
+  typedef std::vector<std::vector<std::vector<cv::DMatch>>> match_matrix;
+  typedef std::map<int, Image2D3DPair> Image2D3DMatches;
 
-    std::vector<double> distortion;
+private:
+  std::string directory;
+  FeatureExtractionType extract_type;
+  FeatureMatchingType match_type;
 
-    std::vector<ImageView> views;
-    // std::vector<cv::Point3f> point_cloud;
-    std::vector<Point_3D> point_cloud;
+public:
+  SfmReconstruction(std::string directory, FeatureExtractionType extract_type,
+                    FeatureMatchingType match_type);
+  virtual ~SfmReconstruction();
 
-    FeatureDetectionType detection_type;
-    FeatureMatchingType matching_type;
+  bool run_sfm_reconstruction();
 
-    ImageView last_image;
-    std::vector<cv::KeyPoint> last_image_kps;
-    cv::Mat last_image_desc;
+  void extract_features();
+  void create_match_matrix();
+  void add_view_to_reconstruction();
 
-   public:
-    SfmReconstruction(std::vector<ImageView> views,
-                      FeatureDetectionType detection_type,
-                      FeatureMatchingType matching_type);
+  Image2D3DMatches find_2D3D_matches();
 
-    void add_new_view(ImageView new_image, ImageView last_image);
-
-    std::vector<Point_3D> get_point_cloud();
-    void set_point_cloud(std::vector<Point_3D> point_cloud);
-
-    cv::Mat get_K();
-    std::vector<double> get_distortion();
-
-    ~SfmReconstruction();
+  void merge_point_cloud(std::vector<PointCloudPoint> point_cloud);
 };
 
 #endif

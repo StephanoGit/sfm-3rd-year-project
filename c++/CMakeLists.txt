@@ -17,14 +17,10 @@ find_library(
 if(UNISTRING_LIB AND MBEDCRYPTO_LIB)
   message("Libraries found")
   add_executable(
-    sfm
-    ./src/main.cpp
-    ./src/ImageView.cpp
-    ./src/ImagePair.cpp
-    ./src/util.cpp
-    ./src/drawUtil.cpp
-    ./src/SfmReconstruction.cpp
-    ./calibration/CameraCalibration.cpp)
+    sfm ./src/SfmReconstruction.cpp ./src/FeatureUtil.cpp ./src/StereoUtil.cpp
+        ./src/main.cpp ./src/util.cpp # ./src/drawUtil.cpp
+    # ./calibration/CameraCalibration.cpp
+  )
   target_link_libraries(sfm ${UNISTRING_LIB} ${MBEDCRYPTO_LIB} ${OpenCV_LIBS})
 else()
   message("Did not find libraries")

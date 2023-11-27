@@ -1,5 +1,5 @@
 
-#include "util.h"
+#include "SfmStructures.h"
 #include <opencv2/core/types.hpp>
 
 enum FeatureExtractionType {
@@ -20,8 +20,8 @@ public:
               FeatureMatchingType match_type);
   virtual ~FeatureUtil();
 
-  Features extract_features(cv::Mat image);
-  std::vector<cv::DMatch> match_features(Features left, Features right);
+  Features extract_features(cv::Mat &image);
+  std::vector<cv::DMatch> match_features(Features &left, Features &right);
 
 private:
   FeatureExtractionType extract_type;

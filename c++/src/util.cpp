@@ -20,7 +20,7 @@
 #define NEW_VIDEO_WIDTH 1280
 #define NEW_VIDEO_HEIGHT 720
 
-cv::Mat down_size_image(cv::Mat image, int width, int height) {
+cv::Mat downscale_image(cv::Mat image, int width, int height) {
   cv::Mat resized_image;
   cv::resize(image, resized_image, cv::Size(width, height));
   return resized_image;
@@ -44,9 +44,8 @@ bool is_image_blurred(cv::Mat image, double threshold) {
   return false;
 }
 
-std::vector<ImageView> extract_frames_from_video(std::string directory,
-                                                 int step) {
-  std::vector<ImageView> images;
+std::vector<cv::Mat> video_to_images(std::string directory, int step) {
+  std::vector<cv::Mat> images;
   cv::VideoCapture video(directory);
 
   if (!video.isOpened()) {
@@ -64,12 +63,8 @@ std::vector<ImageView> extract_frames_from_video(std::string directory,
     }
 
     if (frameNumber % step == 0 && !is_image_blurred(frame, 10.0)) {
-      ImageView image;
-      image.set_name("frame_" + std::to_string(frameNumber) + ".jpg");
-      image.set_image(
-          down_size_image(frame, NEW_VIDEO_WIDTH, NEW_VIDEO_HEIGHT));
-      std::cout << "Frame " << frameNumber << " saved..." << std::endl;
-      images.push_back(image);
+      images.push_back(
+          downscale_image(frame, NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT));
     }
     frameNumber++;
   }
@@ -81,48 +76,6 @@ std::vector<ImageView> extract_frames_from_video(std::string directory,
 bool sortByName(const std::__fs::filesystem::directory_entry &entry1,
                 const std::__fs::filesystem::directory_entry &entry2) {
   return entry1.path().filename() < entry2.path().filename();
-}
-
-std::vector<ImageView> load_images_as_object(std::string directory,
-                                             bool down_size) {
-  std::string current_file = "";
-  std::vector<ImageView> images;
-  ImageView current_image;
-
-  std::vector<std::__fs::filesystem::directory_entry> entries;
-  for (const auto &entry :
-       std::__fs::filesystem::directory_iterator(directory)) {
-    entries.push_back(entry);
-  }
-
-  // Sort entries by name
-  std::sort(entries.begin(), entries.end(), sortByName);
-
-  // get all images within the directory
-  for (const auto &entry : entries) {
-    current_file = entry.path();
-    current_image.set_name(current_file.substr(10));
-
-    // might have to change the image colour channels
-    current_image.set_image(cv::imread(current_file, cv::IMREAD_UNCHANGED));
-
-    // check image for corrent format or existence
-    if (current_image.get_image().data == NULL) {
-      printf("Image not found or incorrect file type!\n");
-      continue;
-    }
-
-    // resize
-    if (down_size) {
-      current_image.set_image(down_size_image(
-          current_image.get_image(), NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT));
-    }
-
-    // add image to vector
-    images.push_back(current_image);
-  }
-
-  return images;
 }
 
 std::vector<cv::Mat> load_images(std::string directory) {
@@ -151,39 +104,12 @@ std::vector<cv::Mat> load_images(std::string directory) {
     }
 
     // resize
-    current_image = down_size_image(current_image, IPHONE_NEW_PHOTO_WIDTH,
-                                    IPHONE_NEW_PHOTO_HEIGHT);
+    current_image =
+        downscale_image(current_image, NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT);
 
     // add image to vector
     images.push_back(current_image);
   }
 
   return images;
-}
-
-void export_3d_points_to_txt(std::string file_name,
-                             std::vector<cv::Point3f> points) {
-  cv::FileStorage fs(file_name, cv::FileStorage::WRITE);
-  fs << "points_3d" << points;
-  fs.release();
-}
-
-void export_3d_points_to_txt(std::string file_name, cv::Mat points) {
-  cv::FileStorage fs(file_name, cv::FileStorage::WRITE);
-  fs << "points_3d" << points;
-  fs.release();
-}
-
-void export_K_to_json(std::string file_name, cv::Mat K) {
-  cv::FileStorage fs("../calibration/" + file_name + ".json",
-                     cv::FileStorage::WRITE);
-  fs << "K" << K;
-  fs.release();
-}
-
-void export_K_to_xml(std::string file_name, cv::Mat K) {
-  cv::FileStorage fs("../calibration/" + file_name + ".xml",
-                     cv::FileStorage::WRITE);
-  fs << "K" << K;
-  fs.release();
 }

@@ -213,7 +213,7 @@ bool StereoUtil::triangulate_views(ImagePair &image_pair,
   cv::projectPoints(points_3D, rvec_right, tvec_right, this->K, this->d,
                     projected_right);
 
-  for (size_t i = 0; i < points_3D.size(); i++) {
+  for (size_t i = 0; i < points_3D.rows; i++) {
     // should check for reprojection Error
 
     PointCloudPoint pt;

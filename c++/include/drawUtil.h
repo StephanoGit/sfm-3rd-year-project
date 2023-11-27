@@ -1,15 +1,10 @@
 #ifndef __DRAW_UTIL_FUNCTIONS
 #define __DRAW_UTIL_FUNCTIONS
 
-#include <stdio.h>
-
 #include <opencv2/opencv.hpp>
 
-#include "ImagePair.h"
-#include "ImageView.h"
-
-cv::Mat draw_features(ImageView image);
-cv::Mat draw_matches(ImagePair pair);
-cv::Mat draw_epipolar_lines(ImagePair pair);
+cv::Mat draw_features(cv::Mat image);
+cv::Mat draw_matches(cv::Mat left, cv::Mat right);
+cv::Mat draw_epipolar_lines(cv::Mat left, cv::Mat right);
 
 #endif
