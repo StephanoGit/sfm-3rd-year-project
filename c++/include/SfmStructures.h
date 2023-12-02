@@ -4,6 +4,12 @@
 #include <opencv2/opencv.hpp>
 #include <stdio.h>
 
+struct Intrinsics {
+  cv::Mat K;
+  cv::Mat K_inv;
+  cv::Mat d;
+};
+
 struct ImagePair {
   size_t left, right;
 };

@@ -2,6 +2,8 @@
 
 #include <fstream>
 #include <opencv2/core.hpp>
+#include <opencv2/core/persistence.hpp>
+#include <opencv2/core/types.hpp>
 #include <opencv2/opencv.hpp>
 #include <stdio.h>
 
@@ -78,7 +80,7 @@ bool sortByName(const std::__fs::filesystem::directory_entry &entry1,
   return entry1.path().filename() < entry2.path().filename();
 }
 
-std::vector<cv::Mat> load_images(std::string directory) {
+std::vector<cv::Mat> load_images(std::string directory, bool downscale) {
   std::string current_file = "";
   std::vector<cv::Mat> images;
   cv::Mat current_image;
@@ -104,12 +106,37 @@ std::vector<cv::Mat> load_images(std::string directory) {
     }
 
     // resize
-    current_image =
-        downscale_image(current_image, NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT);
+    if (downscale) {
+      current_image =
+          downscale_image(current_image, NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT);
+    }
 
     // add image to vector
     images.push_back(current_image);
   }
 
   return images;
+}
+
+void export_point_cloud(std::vector<PointCloudPoint> point_cloud,
+                        std::string file_name) {
+
+  std::vector<cv::Point3f> points;
+  for (size_t i = 0; i < point_cloud.size(); i++) {
+    points.push_back(point_cloud[i].point);
+  }
+
+  cv::FileStorage fs("../points-3d/" + file_name, cv::FileStorage::WRITE);
+  fs << "points" << points;
+  fs.release();
+}
+
+void export_intrinsics(cv::Mat K, cv::Mat d) {
+  cv::FileStorage fs_K("../calibration/K.xml", cv::FileStorage::WRITE);
+  fs_K << "K" << K;
+  fs_K.release();
+
+  cv::FileStorage fs_d("../calibration/d.xml", cv::FileStorage::WRITE);
+  fs_d << "d" << d;
+  fs_d.release();
 }

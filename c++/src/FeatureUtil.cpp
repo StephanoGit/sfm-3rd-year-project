@@ -12,6 +12,14 @@ FeatureUtil::FeatureUtil(FeatureExtractionType extract_type,
 
 FeatureUtil::~FeatureUtil() {}
 
+void FeatureUtil::keypoints_to_points(std::vector<cv::KeyPoint> &kps,
+                                      std::vector<cv::Point2f> &pts) {
+  pts.clear();
+  for (const auto &kp : kps) {
+    pts.push_back(kp.pt);
+  }
+}
+
 Features FeatureUtil::extract_features(cv::Mat &image) {
   Features features;
   switch (this->extract_type) {
@@ -53,6 +61,7 @@ Features FeatureUtil::extract_features(cv::Mat &image) {
     break;
   }
   }
+  keypoints_to_points(features.key_points, features.points);
   return features;
 }
 

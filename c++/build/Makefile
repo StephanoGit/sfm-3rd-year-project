@@ -129,6 +129,30 @@ sfm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/build
 .PHONY : sfm/fast
 
+calibration/CameraCalibration.o: calibration/CameraCalibration.cpp.o
+.PHONY : calibration/CameraCalibration.o
+
+# target to build an object file
+calibration/CameraCalibration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o
+.PHONY : calibration/CameraCalibration.cpp.o
+
+calibration/CameraCalibration.i: calibration/CameraCalibration.cpp.i
+.PHONY : calibration/CameraCalibration.i
+
+# target to preprocess a source file
+calibration/CameraCalibration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i
+.PHONY : calibration/CameraCalibration.cpp.i
+
+calibration/CameraCalibration.s: calibration/CameraCalibration.cpp.s
+.PHONY : calibration/CameraCalibration.s
+
+# target to generate assembly for a file
+calibration/CameraCalibration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s
+.PHONY : calibration/CameraCalibration.cpp.s
+
 src/FeatureUtil.o: src/FeatureUtil.cpp.o
 .PHONY : src/FeatureUtil.o
 
@@ -152,6 +176,30 @@ src/FeatureUtil.s: src/FeatureUtil.cpp.s
 src/FeatureUtil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/FeatureUtil.cpp.s
 .PHONY : src/FeatureUtil.cpp.s
+
+src/SfmBundleAdjustment.o: src/SfmBundleAdjustment.cpp.o
+.PHONY : src/SfmBundleAdjustment.o
+
+# target to build an object file
+src/SfmBundleAdjustment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o
+.PHONY : src/SfmBundleAdjustment.cpp.o
+
+src/SfmBundleAdjustment.i: src/SfmBundleAdjustment.cpp.i
+.PHONY : src/SfmBundleAdjustment.i
+
+# target to preprocess a source file
+src/SfmBundleAdjustment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i
+.PHONY : src/SfmBundleAdjustment.cpp.i
+
+src/SfmBundleAdjustment.s: src/SfmBundleAdjustment.cpp.s
+.PHONY : src/SfmBundleAdjustment.s
+
+# target to generate assembly for a file
+src/SfmBundleAdjustment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s
+.PHONY : src/SfmBundleAdjustment.cpp.s
 
 src/SfmReconstruction.o: src/SfmReconstruction.cpp.o
 .PHONY : src/SfmReconstruction.o
@@ -200,6 +248,30 @@ src/StereoUtil.s: src/StereoUtil.cpp.s
 src/StereoUtil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/StereoUtil.cpp.s
 .PHONY : src/StereoUtil.cpp.s
+
+src/drawUtil.o: src/drawUtil.cpp.o
+.PHONY : src/drawUtil.o
+
+# target to build an object file
+src/drawUtil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.o
+.PHONY : src/drawUtil.cpp.o
+
+src/drawUtil.i: src/drawUtil.cpp.i
+.PHONY : src/drawUtil.i
+
+# target to preprocess a source file
+src/drawUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.i
+.PHONY : src/drawUtil.cpp.i
+
+src/drawUtil.s: src/drawUtil.cpp.s
+.PHONY : src/drawUtil.s
+
+# target to generate assembly for a file
+src/drawUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.s
+.PHONY : src/drawUtil.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -258,15 +330,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sfm"
+	@echo "... calibration/CameraCalibration.o"
+	@echo "... calibration/CameraCalibration.i"
+	@echo "... calibration/CameraCalibration.s"
 	@echo "... src/FeatureUtil.o"
 	@echo "... src/FeatureUtil.i"
 	@echo "... src/FeatureUtil.s"
+	@echo "... src/SfmBundleAdjustment.o"
+	@echo "... src/SfmBundleAdjustment.i"
+	@echo "... src/SfmBundleAdjustment.s"
 	@echo "... src/SfmReconstruction.o"
 	@echo "... src/SfmReconstruction.i"
 	@echo "... src/SfmReconstruction.s"
 	@echo "... src/StereoUtil.o"
 	@echo "... src/StereoUtil.i"
 	@echo "... src/StereoUtil.s"
+	@echo "... src/drawUtil.o"
+	@echo "... src/drawUtil.i"
+	@echo "... src/drawUtil.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

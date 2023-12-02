@@ -396,3 +396,244 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindBLAS.cmake:416 (check_blas_libraries)"
+      - "/usr/local/lib/cmake/Ceres/FindSuiteSparse.cmake:293 (find_package)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "CMakeLists.txt:6 (find_dependency)"
+    directories:
+      source: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-UOv8Op"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-UOv8Op"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-UOv8Op'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37753/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_37753.dir/build.make CMakeFiles/cmTC_37753.dir/build
+        Building C object CMakeFiles/cmTC_37753.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_37753.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_37753.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_37753.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-UOv8Op/CheckFunctionExists.c
+        Linking C executable cmTC_37753
+        /usr/local/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37753.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37753.dir/CheckFunctionExists.c.o -o cmTC_37753 
+        ld: Undefined symbols:
+          _sgemm_, referenced from:
+              _main in CheckFunctionExists.c.o
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[2]: *** [cmTC_37753] Error 1
+        make[1]: *** [cmTC_37753/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindBLAS.cmake:468 (find_package)"
+      - "/usr/local/lib/cmake/Ceres/FindSuiteSparse.cmake:293 (find_package)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "CMakeLists.txt:6 (find_dependency)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-3kHJdM"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-3kHJdM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-3kHJdM'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_58760/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_58760.dir/build.make CMakeFiles/cmTC_58760.dir/build
+        Building C object CMakeFiles/cmTC_58760.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_58760.dir/src.c.o -MF CMakeFiles/cmTC_58760.dir/src.c.o.d -o CMakeFiles/cmTC_58760.dir/src.c.o -c /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-3kHJdM/src.c
+        Linking C executable cmTC_58760
+        /usr/local/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58760.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_58760.dir/src.c.o -o cmTC_58760 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindBLAS.cmake:1207 (check_blas_libraries)"
+      - "/usr/local/lib/cmake/Ceres/FindSuiteSparse.cmake:293 (find_package)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "CMakeLists.txt:6 (find_dependency)"
+    directories:
+      source: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-FWCcLr"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-FWCcLr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "BLAS_Accelerate_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-FWCcLr'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68700/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_68700.dir/build.make CMakeFiles/cmTC_68700.dir/build
+        Building C object CMakeFiles/cmTC_68700.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_68700.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_68700.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_68700.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-FWCcLr/CheckFunctionExists.c
+        Linking C executable cmTC_68700
+        /usr/local/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68700.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_68700.dir/CheckFunctionExists.c.o -o cmTC_68700  -Xlinker -framework -Xlinker Accelerate 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/FindLAPACK.cmake:397 (check_lapack_libraries)"
+      - "/usr/local/lib/cmake/Ceres/FindSuiteSparse.cmake:300 (find_package)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "CMakeLists.txt:6 (find_dependency)"
+    directories:
+      source: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-vMWqqz"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-vMWqqz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-vMWqqz'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3b03f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3b03f.dir/build.make CMakeFiles/cmTC_3b03f.dir/build
+        Building C object CMakeFiles/cmTC_3b03f.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_3b03f.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3b03f.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3b03f.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-vMWqqz/CheckFunctionExists.c
+        Linking C executable cmTC_3b03f
+        /usr/local/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b03f.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b03f.dir/CheckFunctionExists.c.o -o cmTC_3b03f  -Xlinker -framework -Xlinker Accelerate -lm -ldl 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/local/lib/cmake/Ceres/FindSuiteSparse.cmake:357 (check_library_exists)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "CMakeLists.txt:6 (find_dependency)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-Pb0QKl"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-Pb0QKl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_LIBRT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-Pb0QKl'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6c2e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e6c2e.dir/build.make CMakeFiles/cmTC_e6c2e.dir/build
+        Building C object CMakeFiles/cmTC_e6c2e.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_e6c2e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e6c2e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e6c2e.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-Pb0QKl/CheckFunctionExists.c
+        Linking C executable cmTC_e6c2e
+        /usr/local/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6c2e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e6c2e.dir/CheckFunctionExists.c.o -o cmTC_e6c2e  -lrt 
+        ld: library 'rt' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[2]: *** [cmTC_e6c2e] Error 1
+        make[1]: *** [cmTC_e6c2e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/usr/local/lib/cmake/Ceres/FindSuiteSparse.cmake:489 (check_symbol_exists)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
+      - "/usr/local/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "CMakeLists.txt:6 (find_dependency)"
+    checks:
+      - "Looking for cholmod_metis"
+    directories:
+      source: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-WznTkD"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-WznTkD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "SuiteSparse_CHOLMOD_USES_METIS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-WznTkD'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7baef/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7baef.dir/build.make CMakeFiles/cmTC_7baef.dir/build
+        Building C object CMakeFiles/cmTC_7baef.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isystem /usr/local/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_7baef.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_7baef.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7baef.dir/CheckSymbolExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/CMakeScratch/TryCompile-WznTkD/CheckSymbolExists.c
+        Linking C executable cmTC_7baef
+        /usr/local/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7baef.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7baef.dir/CheckSymbolExists.c.o -o cmTC_7baef  /usr/local/lib/libcholmod.dylib /usr/local/lib/libmetis.dylib /usr/local/lib/libamd.dylib /usr/local/lib/libcamd.dylib /usr/local/lib/libccolamd.dylib /usr/local/lib/libcolamd.dylib /usr/local/lib/libsuitesparseconfig.dylib -Xlinker -framework -Xlinker Accelerate -lm -ldl 
+        
+      exitCode: 0
+...

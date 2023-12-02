@@ -1,32 +1,50 @@
 [
 {
   "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp",
   "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp",
   "output": "CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o"
 },
 {
   "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp",
   "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp",
   "output": "CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o"
 },
 {
   "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/StereoUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/StereoUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp",
   "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp",
   "output": "CMakeFiles/sfm.dir/src/StereoUtil.cpp.o"
 },
 {
   "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/main.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/main.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp",
   "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp",
   "output": "CMakeFiles/sfm.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.8.1_2/include/opencv4 -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/util.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/util.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/util.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/util.cpp",
   "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/util.cpp",
   "output": "CMakeFiles/sfm.dir/src/util.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/drawUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp",
+  "output": "CMakeFiles/sfm.dir/src/drawUtil.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp",
+  "output": "CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/c++/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3 -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp",
+  "output": "CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
 }
 ]

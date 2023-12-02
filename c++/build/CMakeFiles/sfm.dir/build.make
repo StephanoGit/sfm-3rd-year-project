@@ -139,13 +139,58 @@ CMakeFiles/sfm.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/util.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/util.cpp -o CMakeFiles/sfm.dir/src/util.cpp.s
 
+CMakeFiles/sfm.dir/src/drawUtil.cpp.o: CMakeFiles/sfm.dir/flags.make
+CMakeFiles/sfm.dir/src/drawUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp
+CMakeFiles/sfm.dir/src/drawUtil.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sfm.dir/src/drawUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/drawUtil.cpp.o -MF CMakeFiles/sfm.dir/src/drawUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/drawUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp
+
+CMakeFiles/sfm.dir/src/drawUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/drawUtil.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp > CMakeFiles/sfm.dir/src/drawUtil.cpp.i
+
+CMakeFiles/sfm.dir/src/drawUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/drawUtil.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/drawUtil.cpp -o CMakeFiles/sfm.dir/src/drawUtil.cpp.s
+
+CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: CMakeFiles/sfm.dir/flags.make
+CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp
+CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o -MF CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o.d -o CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp
+
+CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp > CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i
+
+CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp -o CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s
+
+CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: CMakeFiles/sfm.dir/flags.make
+CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp
+CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -MF CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o.d -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp
+
+CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp > CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i
+
+CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s
+
 # Object files for target sfm
 sfm_OBJECTS = \
 "CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o" \
 "CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o" \
 "CMakeFiles/sfm.dir/src/StereoUtil.cpp.o" \
 "CMakeFiles/sfm.dir/src/main.cpp.o" \
-"CMakeFiles/sfm.dir/src/util.cpp.o"
+"CMakeFiles/sfm.dir/src/util.cpp.o" \
+"CMakeFiles/sfm.dir/src/drawUtil.cpp.o" \
+"CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o" \
+"CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
 
 # External object files for target sfm
 sfm_EXTERNAL_OBJECTS =
@@ -155,6 +200,9 @@ sfm: CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o
 sfm: CMakeFiles/sfm.dir/src/StereoUtil.cpp.o
 sfm: CMakeFiles/sfm.dir/src/main.cpp.o
 sfm: CMakeFiles/sfm.dir/src/util.cpp.o
+sfm: CMakeFiles/sfm.dir/src/drawUtil.cpp.o
+sfm: CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o
+sfm: CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o
 sfm: CMakeFiles/sfm.dir/build.make
 sfm: /usr/local/lib/libunistring.dylib
 sfm: /usr/local/lib/libmbedcrypto.dylib
@@ -193,6 +241,7 @@ sfm: /usr/local/lib/libopencv_wechat_qrcode.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_xfeatures2d.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_xobjdetect.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_xphoto.4.8.1.dylib
+sfm: /usr/local/lib/libceres.2.2.0.dylib
 sfm: /usr/local/lib/libopencv_shape.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_highgui.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_datasets.4.8.1.dylib
@@ -213,8 +262,10 @@ sfm: /usr/local/lib/libopencv_flann.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_photo.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_imgproc.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_core.4.8.1.dylib
+sfm: /usr/local/lib/libglog.0.6.0.dylib
+sfm: /usr/local/lib/libgflags.2.2.2.dylib
 sfm: CMakeFiles/sfm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sfm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable sfm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
