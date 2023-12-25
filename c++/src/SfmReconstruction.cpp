@@ -1,8 +1,7 @@
 #include "../include/SfmReconstruction.h"
+#include "../include/IOUtil.h"
+#include "../include/PlottingUtil.h"
 #include "../include/SfmBundleAdjustment.h"
-#include "../include/drawUtil.h"
-#include "../include/util.h"
-#include <cstddef>
 #include <iostream>
 #include <opencv2/core/matx.hpp>
 #include <opencv2/core/types.hpp>
@@ -16,6 +15,7 @@ SfmReconstruction::SfmReconstruction(std::string directory,
   this->directory = directory;
   this->extract_type = extract_type;
   this->match_type = match_type;
+
   this->intrinsics = intrinsics;
 };
 SfmReconstruction::~SfmReconstruction(){};
@@ -33,7 +33,7 @@ bool SfmReconstruction::run_sfm_reconstruction(bool downscale) {
   }
 
   // setting up more stuff
-  this->n_P_mats = std::vector<cv::Mat>(this->images.size());
+  this->n_P_mats = std::vector<cv::Matx34f>(this->images.size());
 
   // extract features
   FeatureUtil feature_util(this->extract_type, this->match_type);
@@ -46,12 +46,12 @@ bool SfmReconstruction::run_sfm_reconstruction(bool downscale) {
   create_match_matrix(feature_util, this->images_features);
 
   // initial triangulation
-  ImagePair image_pair{7, 8};
+  ImagePair image_pair{0, 1};
   initial_triangulation(image_pair, this->images_features[image_pair.left],
                         this->images_features[image_pair.right],
                         this->match_matrix[image_pair.left][image_pair.right]);
   // add more views
-  //  add_view_to_reconstruction();
+  add_view_to_reconstruction();
   export_point_cloud(this->n_point_cloud, "final.json");
   return true;
 }
@@ -123,7 +123,7 @@ bool SfmReconstruction::initial_triangulation(ImagePair image_pair,
                          this->intrinsics, E, R, t);
 
   // Compute Projection Matrices
-  cv::Mat P_left, P_right;
+  cv::Matx34f P_left, P_right;
   stereo_util.compute_P(P_left, P_right, R, t);
 
   // Triangulate initial views
@@ -143,8 +143,8 @@ bool SfmReconstruction::initial_triangulation(ImagePair image_pair,
   this->n_good_views.insert(image_pair.left);
   this->n_good_views.insert(image_pair.right);
 
-  // adjust_bundle(this->n_point_cloud, n_P_mats, cv::Mat K, cv::Mat d,
-  //               std::vector<Features> & features);
+  SfmBundleAdjustment::adjust_bundle(this->n_point_cloud, this->n_P_mats,
+                                     this->intrinsics, this->images_features);
 
   return true;
 }
@@ -173,7 +173,7 @@ void SfmReconstruction::add_view_to_reconstruction() {
 
     this->n_done_views.insert(best_view);
 
-    cv::Mat new_P;
+    cv::Matx34f new_P;
     bool success = stereo_util.camera_pose_from_2D3D_matches(
         matches_2D3D[best_view], this->intrinsics, new_P);
 
@@ -231,7 +231,7 @@ void SfmReconstruction::add_view_to_reconstruction() {
                              this->intrinsics, E, R, t);
 
       // Compute Projection Matrices
-      cv::Mat P_left, P_right;
+      cv::Matx34f P_left, P_right;
       stereo_util.compute_P(P_left, P_right, R, t);
 
       // Triangulate initial views
@@ -247,14 +247,13 @@ void SfmReconstruction::add_view_to_reconstruction() {
         merge_point_cloud(point_cloud);
         new_view_success_triangulation = true;
       }
-
-      break;
     }
     if (new_view_success_triangulation) {
-      // bundle adjustment needed
+      SfmBundleAdjustment::adjust_bundle(this->n_point_cloud, this->n_P_mats,
+                                         this->intrinsics,
+                                         this->images_features);
     }
     this->n_good_views.insert(best_view);
-    break;
   }
 }
 

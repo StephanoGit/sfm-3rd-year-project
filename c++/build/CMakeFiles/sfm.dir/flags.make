@@ -6,5 +6,5 @@ CXX_DEFINES = -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT
 
 CXX_INCLUDES = -isystem /usr/local/Cellar/opencv/4.8.1_5/include/opencv4 -isystem /usr/local/include -isystem /usr/local/include/eigen3
 
-CXX_FLAGS = -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+CXX_FLAGS = -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0
 

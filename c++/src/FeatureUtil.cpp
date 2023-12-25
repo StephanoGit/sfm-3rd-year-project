@@ -1,4 +1,6 @@
 #include "../include/FeatureUtil.h"
+#include "../include/CommonUtil.h"
+
 #include <opencv2/core/types.hpp>
 #include <opencv2/features2d.hpp>
 #include <opencv2/opencv.hpp>
@@ -12,15 +14,7 @@ FeatureUtil::FeatureUtil(FeatureExtractionType extract_type,
 
 FeatureUtil::~FeatureUtil() {}
 
-void FeatureUtil::keypoints_to_points(std::vector<cv::KeyPoint> &kps,
-                                      std::vector<cv::Point2f> &pts) {
-  pts.clear();
-  for (const auto &kp : kps) {
-    pts.push_back(kp.pt);
-  }
-}
-
-Features FeatureUtil::extract_features(cv::Mat &image) {
+Features FeatureUtil::extract_features(const cv::Mat &image) {
   Features features;
   switch (this->extract_type) {
   case SIFT: {
@@ -36,7 +30,6 @@ Features FeatureUtil::extract_features(cv::Mat &image) {
         cv::xfeatures2d::SurfFeatureDetector::create();
     detector->detectAndCompute(image, cv::noArray(), features.key_points,
                                features.descriptors);
-
     break;
   }
   case FAST: {
@@ -49,7 +42,7 @@ Features FeatureUtil::extract_features(cv::Mat &image) {
   }
   case ORB: {
     std::cout << "Applying ORB ..." << std::endl;
-    cv::Ptr<cv::ORB> detector = cv::ORB::create();
+    cv::Ptr<cv::ORB> detector = cv::ORB::create(5000);
     detector->detectAndCompute(image, cv::noArray(), features.key_points,
                                features.descriptors);
     break;
@@ -76,8 +69,9 @@ apply_lowes_ratio(std::vector<std::vector<cv::DMatch>> knn_matches) {
   return good_matches;
 }
 
-std::vector<cv::DMatch> FeatureUtil::match_features(Features &left,
-                                                    Features &right) {
+std::vector<cv::DMatch>
+FeatureUtil::match_features(const Features &features_left,
+                            const Features &features_right) {
   std::vector<std::vector<cv::DMatch>> knn_matches;
   switch (this->match_type) {
   case BF: {
@@ -85,11 +79,13 @@ std::vector<cv::DMatch> FeatureUtil::match_features(Features &left,
     if (this->extract_type == ORB) {
       std::cout << "Using Norm Hamming..." << std::endl;
       cv::BFMatcher bf(cv::NORM_HAMMING);
-      bf.knnMatch(left.descriptors, right.descriptors, knn_matches, 2);
+      bf.knnMatch(features_left.descriptors, features_right.descriptors,
+                  knn_matches, 2);
     } else {
       std::cout << "Using Norm L1..." << std::endl;
       cv::BFMatcher bf(cv::NORM_L1);
-      bf.knnMatch(left.descriptors, right.descriptors, knn_matches, 2);
+      bf.knnMatch(features_left.descriptors, features_right.descriptors,
+                  knn_matches, 2);
     }
     break;
   }
@@ -98,10 +94,12 @@ std::vector<cv::DMatch> FeatureUtil::match_features(Features &left,
     std::vector<std::vector<cv::DMatch>> knn_matches;
     if (this->extract_type == ORB) {
       cv::FlannBasedMatcher flann(new cv::flann::LshIndexParams(6, 12, 1));
-      flann.knnMatch(left.descriptors, right.descriptors, knn_matches, 2);
+      flann.knnMatch(features_left.descriptors, features_right.descriptors,
+                     knn_matches, 2);
     } else {
       cv::FlannBasedMatcher flann(new cv::flann::KDTreeIndexParams(5));
-      flann.knnMatch(left.descriptors, right.descriptors, knn_matches, 2);
+      flann.knnMatch(features_left.descriptors, features_right.descriptors,
+                     knn_matches, 2);
     }
     break;
   }

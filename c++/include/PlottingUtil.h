@@ -1,5 +1,5 @@
-#ifndef __DRAW_UTIL_FUNCTIONS
-#define __DRAW_UTIL_FUNCTIONS
+#ifndef __PLOT_UTIL_FUNCTIONS
+#define __PLOT_UTIL_FUNCTIONS
 
 #include <opencv2/core/types.hpp>
 #include <opencv2/opencv.hpp>

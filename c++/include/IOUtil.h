@@ -1,5 +1,5 @@
-#ifndef __UTIL_FUNCTIONS
-#define __UTIL_FUNCTIONS
+#ifndef __IOUTIL_FUNCTIONS
+#define __IOUTIL_FUNCTIONS
 
 #include "SfmStructures.h"
 #include <opencv2/core/types.hpp>

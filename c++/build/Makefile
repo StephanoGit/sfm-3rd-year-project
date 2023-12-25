@@ -153,6 +153,30 @@ calibration/CameraCalibration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s
 .PHONY : calibration/CameraCalibration.cpp.s
 
+src/CommonUtil.o: src/CommonUtil.cpp.o
+.PHONY : src/CommonUtil.o
+
+# target to build an object file
+src/CommonUtil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/CommonUtil.cpp.o
+.PHONY : src/CommonUtil.cpp.o
+
+src/CommonUtil.i: src/CommonUtil.cpp.i
+.PHONY : src/CommonUtil.i
+
+# target to preprocess a source file
+src/CommonUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/CommonUtil.cpp.i
+.PHONY : src/CommonUtil.cpp.i
+
+src/CommonUtil.s: src/CommonUtil.cpp.s
+.PHONY : src/CommonUtil.s
+
+# target to generate assembly for a file
+src/CommonUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/CommonUtil.cpp.s
+.PHONY : src/CommonUtil.cpp.s
+
 src/FeatureUtil.o: src/FeatureUtil.cpp.o
 .PHONY : src/FeatureUtil.o
 
@@ -176,6 +200,54 @@ src/FeatureUtil.s: src/FeatureUtil.cpp.s
 src/FeatureUtil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/FeatureUtil.cpp.s
 .PHONY : src/FeatureUtil.cpp.s
+
+src/IOUtil.o: src/IOUtil.cpp.o
+.PHONY : src/IOUtil.o
+
+# target to build an object file
+src/IOUtil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/IOUtil.cpp.o
+.PHONY : src/IOUtil.cpp.o
+
+src/IOUtil.i: src/IOUtil.cpp.i
+.PHONY : src/IOUtil.i
+
+# target to preprocess a source file
+src/IOUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/IOUtil.cpp.i
+.PHONY : src/IOUtil.cpp.i
+
+src/IOUtil.s: src/IOUtil.cpp.s
+.PHONY : src/IOUtil.s
+
+# target to generate assembly for a file
+src/IOUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/IOUtil.cpp.s
+.PHONY : src/IOUtil.cpp.s
+
+src/PlottingUtil.o: src/PlottingUtil.cpp.o
+.PHONY : src/PlottingUtil.o
+
+# target to build an object file
+src/PlottingUtil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o
+.PHONY : src/PlottingUtil.cpp.o
+
+src/PlottingUtil.i: src/PlottingUtil.cpp.i
+.PHONY : src/PlottingUtil.i
+
+# target to preprocess a source file
+src/PlottingUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PlottingUtil.cpp.i
+.PHONY : src/PlottingUtil.cpp.i
+
+src/PlottingUtil.s: src/PlottingUtil.cpp.s
+.PHONY : src/PlottingUtil.s
+
+# target to generate assembly for a file
+src/PlottingUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PlottingUtil.cpp.s
+.PHONY : src/PlottingUtil.cpp.s
 
 src/SfmBundleAdjustment.o: src/SfmBundleAdjustment.cpp.o
 .PHONY : src/SfmBundleAdjustment.o
@@ -249,30 +321,6 @@ src/StereoUtil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/StereoUtil.cpp.s
 .PHONY : src/StereoUtil.cpp.s
 
-src/drawUtil.o: src/drawUtil.cpp.o
-.PHONY : src/drawUtil.o
-
-# target to build an object file
-src/drawUtil.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.o
-.PHONY : src/drawUtil.cpp.o
-
-src/drawUtil.i: src/drawUtil.cpp.i
-.PHONY : src/drawUtil.i
-
-# target to preprocess a source file
-src/drawUtil.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.i
-.PHONY : src/drawUtil.cpp.i
-
-src/drawUtil.s: src/drawUtil.cpp.s
-.PHONY : src/drawUtil.s
-
-# target to generate assembly for a file
-src/drawUtil.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/drawUtil.cpp.s
-.PHONY : src/drawUtil.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -297,30 +345,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/util.o: src/util.cpp.o
-.PHONY : src/util.o
-
-# target to build an object file
-src/util.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/util.cpp.o
-.PHONY : src/util.cpp.o
-
-src/util.i: src/util.cpp.i
-.PHONY : src/util.i
-
-# target to preprocess a source file
-src/util.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/util.cpp.i
-.PHONY : src/util.cpp.i
-
-src/util.s: src/util.cpp.s
-.PHONY : src/util.s
-
-# target to generate assembly for a file
-src/util.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/util.cpp.s
-.PHONY : src/util.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -333,9 +357,18 @@ help:
 	@echo "... calibration/CameraCalibration.o"
 	@echo "... calibration/CameraCalibration.i"
 	@echo "... calibration/CameraCalibration.s"
+	@echo "... src/CommonUtil.o"
+	@echo "... src/CommonUtil.i"
+	@echo "... src/CommonUtil.s"
 	@echo "... src/FeatureUtil.o"
 	@echo "... src/FeatureUtil.i"
 	@echo "... src/FeatureUtil.s"
+	@echo "... src/IOUtil.o"
+	@echo "... src/IOUtil.i"
+	@echo "... src/IOUtil.s"
+	@echo "... src/PlottingUtil.o"
+	@echo "... src/PlottingUtil.i"
+	@echo "... src/PlottingUtil.s"
 	@echo "... src/SfmBundleAdjustment.o"
 	@echo "... src/SfmBundleAdjustment.i"
 	@echo "... src/SfmBundleAdjustment.s"
@@ -345,15 +378,9 @@ help:
 	@echo "... src/StereoUtil.o"
 	@echo "... src/StereoUtil.i"
 	@echo "... src/StereoUtil.s"
-	@echo "... src/drawUtil.o"
-	@echo "... src/drawUtil.i"
-	@echo "... src/drawUtil.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/util.o"
-	@echo "... src/util.i"
-	@echo "... src/util.s"
 .PHONY : help
 
 

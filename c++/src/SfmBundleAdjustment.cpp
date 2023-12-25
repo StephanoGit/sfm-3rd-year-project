@@ -53,9 +53,9 @@ struct SimpleReprojectionError {
   double observed_y;
 };
 
-void adjust_bundle(std::vector<PointCloudPoint> &pointcloud,
-                   std::vector<cv::Matx34f> &P_mats, cv::Mat K, cv::Mat d,
-                   const std::vector<Features> &features) {
+void SfmBundleAdjustment::adjust_bundle(
+    std::vector<PointCloudPoint> &pointcloud, std::vector<cv::Matx34f> &P_mats,
+    Intrinsics &intrinsics, const std::vector<Features> &features) {
   std::call_once(initLoggingFlag, initLogging);
 
   ceres::Problem problem;
@@ -79,7 +79,7 @@ void adjust_bundle(std::vector<PointCloudPoint> &pointcloud,
     camera_poses_6D.push_back(CameraVector(angle_axis[0], angle_axis[1],
                                            angle_axis[2], t(0), t(1), t(2)));
   }
-  double focal = K.at<float>(0, 0);
+  double focal = intrinsics.K.at<float>(0, 0);
   std::vector<cv::Vec3d> points_3d(pointcloud.size());
 
   for (int i = 0; i < pointcloud.size(); i++) {
@@ -89,8 +89,8 @@ void adjust_bundle(std::vector<PointCloudPoint> &pointcloud,
     for (const auto &view : p.orgin_view) {
       cv::Point2f point_2d = features[view.first].points[view.second];
 
-      point_2d.x -= K.at<float>(0, 2);
-      point_2d.y -= K.at<float>(1, 2);
+      point_2d.x -= intrinsics.K.at<float>(0, 2);
+      point_2d.y -= intrinsics.K.at<float>(1, 2);
 
       ceres::CostFunction *cost_function =
           SimpleReprojectionError::Create(point_2d.x, point_2d.y);
@@ -107,9 +107,9 @@ void adjust_bundle(std::vector<PointCloudPoint> &pointcloud,
   ceres::Solver::Options options;
   options.linear_solver_type = ceres::DENSE_SCHUR;
   options.minimizer_progress_to_stdout = true;
-  options.max_num_iterations = 500;
+  options.max_num_iterations = 800;
   options.eta = 1e-2;
-  options.max_solver_time_in_seconds = 10;
+  options.max_solver_time_in_seconds = 30;
   options.logging_type = ceres::LoggingType::SILENT;
   ceres::Solver::Summary summary;
   ceres::Solve(options, &problem, &summary);
@@ -120,8 +120,8 @@ void adjust_bundle(std::vector<PointCloudPoint> &pointcloud,
     return;
   }
 
-  K.at<float>(0, 0) = focal;
-  K.at<float>(1, 1) = focal;
+  intrinsics.K.at<float>(0, 0) = focal;
+  intrinsics.K.at<float>(1, 1) = focal;
 
   // Implement the optimized camera poses and 3D points back into the
   // reconstruction

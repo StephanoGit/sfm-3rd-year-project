@@ -7,9 +7,9 @@
 #include <opencv2/xfeatures2d/nonfree.hpp>
 
 #include "../calibration/CameraCalibration.h"
+#include "../include/IOUtil.h"
+#include "../include/PlottingUtil.h"
 #include "../include/SfmReconstruction.h"
-#include "../include/drawUtil.h"
-#include "../include/util.h"
 
 #define CHECKERBOARD_DIR "../calibration/images"
 #define IMG_DIR "../images/fountain-P11-rev"

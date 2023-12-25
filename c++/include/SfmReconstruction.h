@@ -24,7 +24,7 @@ private:
   std::vector<cv::Mat> images;
 
   std::vector<PointCloudPoint> n_point_cloud;
-  std::vector<cv::Mat> n_P_mats;
+  std::vector<cv::Matx34f> n_P_mats;
   std::set<int> n_done_views;
   std::set<int> n_good_views;
 

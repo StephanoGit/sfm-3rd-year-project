@@ -22,8 +22,9 @@ if(UNISTRING_LIB AND MBEDCRYPTO_LIB)
     ./src/FeatureUtil.cpp
     ./src/StereoUtil.cpp
     ./src/main.cpp
-    ./src/util.cpp
-    ./src/drawUtil.cpp
+    ./src/IOUtil.cpp
+    ./src/PlottingUtil.cpp
+    ./src/CommonUtil.cpp
     ./src/SfmBundleAdjustment.cpp
     ./calibration/CameraCalibration.cpp)
   target_link_libraries(sfm ${UNISTRING_LIB} ${MBEDCRYPTO_LIB} ${OpenCV_LIBS}

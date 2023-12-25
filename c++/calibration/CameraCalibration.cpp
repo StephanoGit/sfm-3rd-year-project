@@ -8,7 +8,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/opencv.hpp>
 
-#include "../include/util.h"
+#include "../include/IOUtil.h"
 
 CameraCalibration::CameraCalibration(std::string directory, bool show_images,
                                      bool downscale)
