@@ -43,39 +43,41 @@ double new_cy = 1006.81;
 double data[9] = {new_fx, 0, new_cx, 0, new_fy, new_cy, 0, 0, 1};
 
 int main(int argc, char **argv) {
-  // CameraCalibration(CHECKERBOARD_DIR, false);
+    // CameraCalibration(CHECKERBOARD_DIR, false);
 
-  if (argc != 5) {
-    std::cout << "Please specify: " << std::endl;
-    std::cout << "(1) camera:        iphone or dev" << std::endl;
-    std::cout << "(2) input type:    video  or images" << std::endl;
-    std::cout << "(3) resize:        true   or false" << std::endl;
-    std::cout << "(4) directory:     <../file/path>" << std::endl;
+    if (argc != 5) {
+        std::cout << "Please specify: " << std::endl;
+        std::cout << "(1) camera:        iphone or dev" << std::endl;
+        std::cout << "(2) input type:    video  or images" << std::endl;
+        std::cout << "(3) resize:        true   or false" << std::endl;
+        std::cout << "(4) directory:     <../file/path>" << std::endl;
+        return 0;
+    }
+
+    bool downscale;
+    std::string camera(argv[1]);
+    std::string input_type(argv[2]);
+    std::string resize_val(argv[3]);
+    std::string directory(argv[4]);
+
+    if (resize_val == "true") {
+        downscale = true;
+    } else if (resize_val == "false") {
+        downscale = false;
+    } else {
+        std::cout << "Please provide a valid value for resizing..."
+                  << std::endl;
+    }
+
+    Intrinsics intrinsics;
+    intrinsics.K = (cv::Mat_<float>(3, 3) << 2759.48, 0, 1520.69, 0, 2764.16,
+                    1006.81, 0, 0, 1);
+    intrinsics.K_inv = intrinsics.K.inv();
+    intrinsics.d = cv::Mat_<float>::zeros(1, 4);
+
+    SfmReconstruction reconstruction(directory, FeatureExtractionType::SIFT,
+                                     FeatureMatchingType::BF, intrinsics);
+    reconstruction.run_sfm_reconstruction(downscale);
+
     return 0;
-  }
-
-  bool downscale;
-  std::string camera(argv[1]);
-  std::string input_type(argv[2]);
-  std::string resize_val(argv[3]);
-  std::string directory(argv[4]);
-
-  if (resize_val == "true") {
-    downscale = true;
-  } else if (resize_val == "false") {
-    downscale = false;
-  } else {
-    std::cout << "Please provide a valid value for resizing..." << std::endl;
-  }
-
-  Intrinsics intrinsics;
-  intrinsics.K = cv::Mat(3, 3, CV_64F, data);
-  intrinsics.K_inv = intrinsics.K.inv();
-  intrinsics.d = cv::Mat::zeros(1, 5, CV_32F);
-
-  SfmReconstruction reconstruction(directory, FeatureExtractionType::SIFT,
-                                   FeatureMatchingType::BF, intrinsics);
-  reconstruction.run_sfm_reconstruction(downscale);
-
-  return 0;
 }

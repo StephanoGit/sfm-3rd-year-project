@@ -6656,6 +6656,7 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: /Users/stephano./github/sfm-3rd-
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmBundleAdjustment.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmReconstruction.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/include/StereoUtil.h \
   /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
   /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
   /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \

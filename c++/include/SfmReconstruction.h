@@ -45,7 +45,7 @@ class SfmReconstruction {
 
     Image2D3DMatches find_2D3D_matches();
 
-    void merge_point_cloud(std::vector<PointCloudPoint> point_cloud);
+    void merge_point_cloud(const std::vector<PointCloudPoint> point_cloud);
 };
 
 #endif

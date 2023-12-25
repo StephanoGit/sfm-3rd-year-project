@@ -14,7 +14,7 @@ class StereoUtil {
     static bool camera_matrices_from_matches(
         const Intrinsics &intrinsics, const std::vector<cv::DMatch> &matches,
         const Features &features_left, const Features &features_right,
-        std::vector<cv::DMatch> mask_matches, cv::Matx34f &P_left,
+        std::vector<cv::DMatch> &mask_matches, cv::Matx34f &P_left,
         cv::Matx34f &P_right);
 
     static int homography_inliers(const Features &features_left,

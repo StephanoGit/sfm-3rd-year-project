@@ -41,7 +41,7 @@ int StereoUtil::homography_inliers(const Features &features_left,
 bool StereoUtil::camera_matrices_from_matches(
     const Intrinsics &intrinsics, const std::vector<cv::DMatch> &matches,
     const Features &features_left, const Features &features_right,
-    std::vector<cv::DMatch> mask_matches, cv::Matx34f &P_left,
+    std::vector<cv::DMatch> &mask_matches, cv::Matx34f &P_left,
     cv::Matx34f &P_right) {
     if (intrinsics.K.empty()) {
         std::cout << "Intrinsic matrix K is empty..." << std::endl;
@@ -52,8 +52,7 @@ bool StereoUtil::camera_matrices_from_matches(
     cv::Point2d principal_point(intrinsics.K.at<float>(0, 2),
                                 intrinsics.K.at<float>(1, 2));
 
-    Features aligned_left;
-    Features aligned_right;
+    Features aligned_left, aligned_right;
     std::vector<int> left_origin, right_origin;
     align_points_from_matches(features_left, features_right, matches,
                               aligned_left, aligned_right, left_origin,
@@ -120,6 +119,7 @@ bool StereoUtil::triangulate_views_homography(
                       intrinsics.d, projected_right);
 
     float error_left, error_right;
+    std::cout << "Total points: " << points_3D.rows << std::endl;
     for (size_t i = 0; i < points_3D.rows; i++) {
         error_left = cv::norm(projected_left[i] - aligned_left.points[i]);
         error_right = cv::norm(projected_right[i] - aligned_right.points[i]);
