@@ -6,6 +6,8 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/xfeatures2d.hpp>
 
+FeatureUtil::FeatureUtil() {}
+
 FeatureUtil::FeatureUtil(FeatureExtractionType extract_type,
                          FeatureMatchingType match_type) {
     this->extract_type = extract_type;

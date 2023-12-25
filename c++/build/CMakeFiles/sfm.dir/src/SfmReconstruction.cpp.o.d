@@ -917,7 +917,6 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/StereoUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/IOUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PlottingUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmBundleAdjustment.h \
@@ -931,4 +930,5 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/termios.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ttydefaults.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/utmp.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/utmp.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/thread
