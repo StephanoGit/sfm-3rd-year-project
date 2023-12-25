@@ -4,6 +4,9 @@
 #include "SfmStructures.h"
 #include <opencv2/core/types.hpp>
 
+std::vector<cv::DMatch>
+apply_lowes_ratio(const std::vector<std::vector<cv::DMatch>> knn_matches);
+
 void keypoints_to_points(const std::vector<cv::KeyPoint> &kps,
                          std::vector<cv::Point2f> &pts);
 
