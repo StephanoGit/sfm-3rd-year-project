@@ -21,13 +21,13 @@ pcl::visualization::PCLVisualizer::Ptr simpleVis(pcl::PointCloud<pcl::PointXYZ>:
 }
 
 int main(int argc, char **argv) {
-    std::ifstream file("../../points-3d/norm.json");
+    std::ifstream file("../../points-3d/homoo.json");
     nlohmann::json j;
     file >> j;
     file.close();
 
     // Extract points
-    std::vector<float> points_3d = j["points_3d"].get<std::vector<float>>();
+    std::vector<float> points_3d = j["points"].get<std::vector<float>>();
 
     // Create a new point cloud
     pcl::PointCloud<pcl::PointXYZ>::Ptr point_cloud(new pcl::PointCloud<pcl::PointXYZ>);

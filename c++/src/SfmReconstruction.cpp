@@ -3,11 +3,13 @@
 #include "../include/PlottingUtil.h"
 #include "../include/SfmBundleAdjustment.h"
 #include "../include/StereoUtil.h"
+#include <fstream>
 #include <iostream>
 #include <opencv2/core/cvdef.h>
 #include <opencv2/core/matx.hpp>
 #include <opencv2/core/types.hpp>
 #include <opencv2/highgui.hpp>
+#include <opencv2/imgcodecs.hpp>
 #include <opencv2/opencv.hpp>
 #include <ostream>
 #include <thread>
@@ -19,14 +21,14 @@ SfmReconstruction::SfmReconstruction(std::string directory, FeatureExtractionTyp
 };
 SfmReconstruction::~SfmReconstruction(){};
 
-bool SfmReconstruction::run_sfm_reconstruction(bool downscale) {
+bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
 
     std::cout << "=======================================" << std::endl;
     std::cout << "     Starting SfM Reconstruction...    " << std::endl;
     std::cout << "=======================================" << std::endl;
 
     // load images
-    this->images = load_images(directory, downscale);
+    this->images = load_images(directory, resize_val);
     if (this->images.size() < 2) {
         std::cout << "Error: Please provide at least 2 images..." << std::endl;
         return false;
@@ -39,16 +41,28 @@ bool SfmReconstruction::run_sfm_reconstruction(bool downscale) {
     this->images_features = std::vector<Features>(this->images.size());
     for (size_t i = 0; i < this->images.size(); i++) {
         this->images_features[i] = this->feature_util.extract_features(this->images[i]);
+        // cv::Mat fm = draw_features(this->images[i], this->images_features[i]);
+        // cv::imshow("features", fm);
+        // cv::waitKey(0);
     }
 
     // match features
     create_match_matrix();
+
+    // for (size_t i = 0; i < this->images.size(); i++) {
+    //     for (size_t j = i + 1; j < this->images.size(); j++) {
+    //         cv::Mat mm = draw_matches(this->images[i], this->images[j], this->images_features[i], this->images_features[j], this->match_matrix[i][j]);
+    //        cv::imshow("matches", mm);
+    //         cv::waitKey(0);
+    //     }
+    // }
 
     find_baseline_triangulation();
 
     add_views_to_reconstruction();
 
     export_point_cloud(this->n_point_cloud, "homoo.json");
+    export_pointcloud_to_PLY("fountain");
     return true;
 }
 
@@ -89,6 +103,7 @@ void SfmReconstruction::create_match_matrix() {
                 write_mutex.lock();
                 std::cout << "Thread " << thread_id << ": Match (pair " << pair_id << ") " << pair.left << ", " << pair.right << ": " << this->match_matrix[pair.left][pair.right].size()
                           << " matched features" << std::endl;
+
                 write_mutex.unlock();
             }
         }));
@@ -317,7 +332,7 @@ SfmReconstruction::Image2D3DMatches SfmReconstruction::find_2D3D_matches() {
 
 void SfmReconstruction::merge_point_cloud(const std::vector<PointCloudPoint> new_pointcloud) {
     std::cout << "=======================================" << std::endl;
-    std::cout << "        Merging Point Clouds...        " << std::endl;
+    std::cout << "        Merging Point Clouds...   231      " << std::endl;
     std::cout << "=======================================" << std::endl;
 
     std::vector<std::vector<std::vector<cv::DMatch>>> merged_match_matrix;
@@ -375,4 +390,31 @@ void SfmReconstruction::merge_point_cloud(const std::vector<PointCloudPoint> new
             new_points++;
         }
     }
+}
+
+void SfmReconstruction::export_pointcloud_to_PLY(const std::string &file_name) {
+    std::cout << "Saving pointcloud to file: " << file_name << std::endl;
+
+    std::ofstream stream(file_name + "_points.ply");
+    stream << "ply                 " << std::endl
+           << "format ascii 1.0    " << std::endl
+           << "element vertex " << this->n_point_cloud.size() << std::endl
+           << "property float x    " << std::endl
+           << "property float y    " << std::endl
+           << "property float z    " << std::endl
+           << "property uchar red  " << std::endl
+           << "property uchar green" << std::endl
+           << "property uchar blue " << std::endl
+           << "end_header          " << std::endl;
+
+    for (const PointCloudPoint &point : this->n_point_cloud) {
+        auto origin_view = point.orgin_view.begin();
+        const int view_idx = origin_view->first;
+        cv::Point2f point_2D = this->images_features[view_idx].points[origin_view->second];
+        cv::Vec3b colour = this->images[view_idx].at<cv::Vec3b>(point_2D);
+
+        stream << point.point.x << " " << point.point.y << " " << point.point.z << " " << (int)colour(2) << " " << (int)colour(1) << " " << (int)colour(0) << " " << std::endl;
+    }
+
+    stream.close();
 }

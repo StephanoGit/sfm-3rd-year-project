@@ -65,8 +65,7 @@ std::vector<cv::Mat> video_to_images(std::string directory, int step) {
         }
 
         if (frameNumber % step == 0 && !is_image_blurred(frame, 10.0)) {
-            images.push_back(
-                downscale_image(frame, NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT));
+            images.push_back(downscale_image(frame, NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT));
         }
         frameNumber++;
     }
@@ -75,19 +74,15 @@ std::vector<cv::Mat> video_to_images(std::string directory, int step) {
     return images;
 }
 
-bool sortByName(const std::__fs::filesystem::directory_entry &entry1,
-                const std::__fs::filesystem::directory_entry &entry2) {
-    return entry1.path().filename() < entry2.path().filename();
-}
+bool sortByName(const std::__fs::filesystem::directory_entry &entry1, const std::__fs::filesystem::directory_entry &entry2) { return entry1.path().filename() < entry2.path().filename(); }
 
-std::vector<cv::Mat> load_images(std::string directory, bool downscale) {
+std::vector<cv::Mat> load_images(std::string directory, int resize_val) {
     std::string current_file = "";
     std::vector<cv::Mat> images;
     cv::Mat current_image;
 
     std::vector<std::__fs::filesystem::directory_entry> entries;
-    for (const auto &entry :
-         std::__fs::filesystem::directory_iterator(directory)) {
+    for (const auto &entry : std::__fs::filesystem::directory_iterator(directory)) {
         entries.push_back(entry);
     }
 
@@ -106,9 +101,8 @@ std::vector<cv::Mat> load_images(std::string directory, bool downscale) {
         }
 
         // resize
-        if (downscale) {
-            current_image = downscale_image(current_image, NEW_PHOTO_WIDTH,
-                                            NEW_PHOTO_HEIGHT);
+        if (resize_val != 1) {
+            current_image = downscale_image(current_image, current_image.cols / resize_val, current_image.rows / resize_val);
         }
 
         // add image to vector
@@ -118,8 +112,7 @@ std::vector<cv::Mat> load_images(std::string directory, bool downscale) {
     return images;
 }
 
-void export_point_cloud(std::vector<PointCloudPoint> point_cloud,
-                        std::string file_name) {
+void export_point_cloud(std::vector<PointCloudPoint> point_cloud, std::string file_name) {
 
     std::vector<cv::Point3f> points;
     for (size_t i = 0; i < point_cloud.size(); i++) {

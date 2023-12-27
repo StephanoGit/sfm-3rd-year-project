@@ -27,11 +27,10 @@ class SfmReconstruction {
     std::set<int> n_good_views;
 
   public:
-    SfmReconstruction(std::string directory, FeatureExtractionType extract_type,
-                      FeatureMatchingType match_type, Intrinsics intrinsics);
+    SfmReconstruction(std::string directory, FeatureExtractionType extract_type, FeatureMatchingType match_type, Intrinsics intrinsics);
     virtual ~SfmReconstruction();
 
-    bool run_sfm_reconstruction(bool downscale);
+    bool run_sfm_reconstruction(int resize_val);
 
     void create_match_matrix();
 
@@ -46,6 +45,8 @@ class SfmReconstruction {
     Image2D3DMatches find_2D3D_matches();
 
     void merge_point_cloud(const std::vector<PointCloudPoint> point_cloud);
+
+    void export_pointcloud_to_PLY(const std::string &file_name);
 };
 
 #endif

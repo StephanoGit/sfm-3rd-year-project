@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.27.7/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.27.8/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.27.7/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.27.8/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -108,7 +108,7 @@ pcl_visualizer_demo: /usr/local/lib/libpcl_filters.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_sample_consensus.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_visualization.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_io.dylib
-pcl_visualizer_demo: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpcap.tbd
+pcl_visualizer_demo: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libpcap.tbd
 pcl_visualizer_demo: /usr/local/lib/libpng.dylib
 pcl_visualizer_demo: /usr/local/lib/libzlibstatic.a
 pcl_visualizer_demo: /usr/local/lib/libpcl_surface.dylib
