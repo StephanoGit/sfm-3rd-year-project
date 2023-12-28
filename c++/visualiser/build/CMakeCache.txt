@@ -24,6 +24,8 @@ Boost_INCLUDE_DIR:PATH=/usr/local/include
 
 Boost_IOSTREAMS_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_iostreams-mt.dylib
 
+Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_program_options-mt.dylib
+
 Boost_SERIALIZATION_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_serialization-mt.dylib
 
 Boost_SYSTEM_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_system-mt.dylib
@@ -642,6 +644,9 @@ boost_headers_DIR:PATH=/usr/local/lib/cmake/boost_headers-1.83.0
 //The directory containing a CMake configuration file for boost_iostreams.
 boost_iostreams_DIR:PATH=/usr/local/lib/cmake/boost_iostreams-1.83.0
 
+//The directory containing a CMake configuration file for boost_program_options.
+boost_program_options_DIR:PATH=/usr/local/lib/cmake/boost_program_options-1.83.0
+
 //The directory containing a CMake configuration file for boost_serialization.
 boost_serialization_DIR:PATH=/usr/local/lib/cmake/boost_serialization-1.83.0
 
@@ -873,7 +878,7 @@ EXPAT_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Eigen3_INCLUDE_DIR
 Eigen3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.83.0/BoostConfig.cmake][cfound components: system filesystem iostreams serialization ][v1.83.0(1.65.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.83.0/BoostConfig.cmake][cfound components: program_options ][v1.83.0(1.65.0)]
 //Details about finding EXPAT
 FIND_PACKAGE_MESSAGE_DETAILS_EXPAT:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libexpat.tbd][/Library/Frameworks/Mono.framework/Headers][v2.2.5()]
 //Details about finding Eigen
@@ -1993,6 +1998,8 @@ boost_filesystem_DIR-ADVANCED:INTERNAL=1
 boost_headers_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_iostreams_DIR
 boost_iostreams_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_program_options_DIR
+boost_program_options_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_serialization_DIR
 boost_serialization_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_system_DIR

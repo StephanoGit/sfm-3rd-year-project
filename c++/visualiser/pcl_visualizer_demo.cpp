@@ -1,19 +1,22 @@
 #include <pcl/console/parse.h>
 #include <pcl/features/normal_3d.h>
 #include <pcl/io/pcd_io.h>
+#include <pcl/io/ply_io.h> // Include for PLY support
 #include <pcl/visualization/pcl_visualizer.h>
 
+#include <boost/program_options.hpp>
 #include <fstream>
 #include <iostream>
 #include <nlohmann/json.hpp>
 #include <thread>
 
 using namespace std::chrono_literals;
+namespace po = boost::program_options;
 
-pcl::visualization::PCLVisualizer::Ptr simpleVis(pcl::PointCloud<pcl::PointXYZ>::ConstPtr cloud) {
+pcl::visualization::PCLVisualizer::Ptr simpleVis(pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr cloud) {
     pcl::visualization::PCLVisualizer::Ptr viewer(new pcl::visualization::PCLVisualizer("3D Viewer"));
     viewer->setBackgroundColor(0, 0, 0);
-    viewer->addPointCloud<pcl::PointXYZ>(cloud, "sample cloud");
+    viewer->addPointCloud<pcl::PointXYZRGB>(cloud, "sample cloud");
     viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "sample cloud");
     // viewer->addCoordinateSystem(1.0);
     viewer->initCameraParameters();
@@ -21,33 +24,72 @@ pcl::visualization::PCLVisualizer::Ptr simpleVis(pcl::PointCloud<pcl::PointXYZ>:
 }
 
 int main(int argc, char **argv) {
-    std::ifstream file("../../points-3d/homoo.json");
-    nlohmann::json j;
-    file >> j;
-    file.close();
+    std::string input_file;
+    po::options_description desc("Allowed options");
+    desc.add_options()("help,h", "Produce help message")("input-file,f", po::value<std::string>(&input_file)->required(), "Input file path (PLY or JSON)");
 
-    // Extract points
-    std::vector<float> points_3d = j["points"].get<std::vector<float>>();
+    po::variables_map vm;
+    try {
+        po::store(po::parse_command_line(argc, argv, desc), vm);
 
-    // Create a new point cloud
-    pcl::PointCloud<pcl::PointXYZ>::Ptr point_cloud(new pcl::PointCloud<pcl::PointXYZ>);
+        if (vm.count("help")) {
+            std::cout << desc << "\n";
+            return 0;
+        }
 
-    for (size_t i = 0; i < points_3d.size(); i += 3) {
-        pcl::PointXYZ point;
-        point.x = points_3d[i] * 100;
-        point.y = points_3d[i + 1] * 100;
-        point.z = points_3d[i + 2] * 100;
-        point_cloud->push_back(point);
+        po::notify(vm);
+    } catch (po::error &e) {
+        std::cerr << "ERROR: " << e.what() << std::endl << std::endl;
+        std::cerr << desc << std::endl;
+        return 1;
+    }
+
+    pcl::PointCloud<pcl::PointXYZRGB>::Ptr point_cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
+    // Determine file type from extension and read accordingly
+    if (input_file.substr(input_file.find_last_of(".") + 1) == "json") {
+        std::ifstream file(input_file);
+        if (!file.is_open()) {
+            std::cerr << "Failed to open " << input_file << std::endl;
+            return 2;
+        }
+
+        nlohmann::json j;
+        file >> j;
+        file.close();
+
+        // Extract points
+        std::vector<float> points_3d = j["points"].get<std::vector<float>>();
+
+        for (size_t i = 0; i < points_3d.size(); i += 3) {
+            pcl::PointXYZRGB point;
+            point.x = points_3d[i] * 100;
+            point.y = points_3d[i + 1] * 100;
+            point.z = points_3d[i + 2] * 100;
+            // Set color (example: white)
+            point.r = 255;
+            point.g = 255;
+            point.b = 255;
+            point_cloud->push_back(point);
+        }
+    } else if (input_file.substr(input_file.find_last_of(".") + 1) == "ply") {
+        if (pcl::io::loadPLYFile<pcl::PointXYZRGB>(input_file, *point_cloud) == -1) {
+            std::cerr << "Failed to load " << input_file << std::endl;
+            return 2;
+        }
+    } else {
+        std::cerr << "Unsupported file format" << std::endl;
+        return 3;
     }
 
     point_cloud->width = point_cloud->size();
     point_cloud->height = 1;
 
-    pcl::visualization::PCLVisualizer::Ptr viewer;
-    viewer = simpleVis(point_cloud);
+    pcl::visualization::PCLVisualizer::Ptr viewer = simpleVis(point_cloud);
 
     while (!viewer->wasStopped()) {
         viewer->spinOnce(100);
         std::this_thread::sleep_for(100ms);
     }
+
+    return 0;
 }

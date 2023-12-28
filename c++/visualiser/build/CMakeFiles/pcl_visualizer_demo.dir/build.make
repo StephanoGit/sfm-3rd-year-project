@@ -96,6 +96,7 @@ pcl_visualizer_demo: /usr/local/lib/libpcl_apps.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_outofcore.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_people.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_simulation.dylib
+pcl_visualizer_demo: /usr/local/lib/libboost_program_options-mt.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_keypoints.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_tracking.dylib
 pcl_visualizer_demo: /usr/local/lib/libpcl_recognition.dylib
