@@ -257,6 +257,7 @@ sfm: /usr/local/lib/libopencv_wechat_qrcode.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_xfeatures2d.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_xobjdetect.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_xphoto.4.8.1.dylib
+sfm: /usr/local/lib/libboost_program_options-mt.dylib
 sfm: /usr/local/lib/libceres.2.2.0.dylib
 sfm: /usr/local/lib/libopencv_shape.4.8.1.dylib
 sfm: /usr/local/lib/libopencv_highgui.4.8.1.dylib

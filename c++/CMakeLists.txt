@@ -3,6 +3,15 @@ project(sfm)
 find_package(OpenCV REQUIRED)
 find_package(Ceres REQUIRED)
 
+# Find Boost
+find_package(
+  Boost 1.65.0
+  COMPONENTS program_options
+  REQUIRED)
+
+# Include Boost headers
+include_directories(${Boost_INCLUDE_DIRS})
+
 # Generate compile commands for clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 find_library(
@@ -28,7 +37,7 @@ if(UNISTRING_LIB AND MBEDCRYPTO_LIB)
     ./src/SfmBundleAdjustment.cpp
     ./calibration/CameraCalibration.cpp)
   target_link_libraries(sfm ${UNISTRING_LIB} ${MBEDCRYPTO_LIB} ${OpenCV_LIBS}
-                        Ceres::ceres)
+                        ${Boost_LIBRARIES} Ceres::ceres)
 else()
   message("Did not find libraries")
 endif()

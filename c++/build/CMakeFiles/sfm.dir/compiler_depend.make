@@ -813,114 +813,114 @@ CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: /Users/stephano./github/
   /Users/stephano./github/sfm-3rd-year-project/c++/include/IOUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/highgui/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/imgproc/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp
 
 CMakeFiles/sfm.dir/src/CommonUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/CommonUtil.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -1732,112 +1732,112 @@ CMakeFiles/sfm.dir/src/CommonUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-pr
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xmmintrin.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp
 
 CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -2651,114 +2651,114 @@ CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-p
   /Users/stephano./github/sfm-3rd-year-project/c++/include/CommonUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/FeatureUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/xfeatures2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp \
+  /usr/local/include/opencv2/xfeatures2d.hpp \
+  /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
 CMakeFiles/sfm.dir/src/IOUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/IOUtil.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -3589,112 +3589,112 @@ CMakeFiles/sfm.dir/src/IOUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-projec
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xmmintrin.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/IOUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp
 
 CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/PlottingUtil.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -4507,112 +4507,112 @@ CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xmmintrin.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/PlottingUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp
 
 CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/util.h \
@@ -5467,112 +5467,6 @@ CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: /Users/stephano./github/sfm-3r
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xmmintrin.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmBundleAdjustment.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp \
   /usr/local/include/ceres/autodiff_cost_function.h \
   /usr/local/include/ceres/autodiff_first_order_function.h \
   /usr/local/include/ceres/autodiff_manifold.h \
@@ -5827,7 +5721,113 @@ CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: /Users/stephano./github/sfm-3r
   /usr/local/include/glog/log_severity.h \
   /usr/local/include/glog/logging.h \
   /usr/local/include/glog/platform.h \
-  /usr/local/include/glog/vlog_is_on.h
+  /usr/local/include/glog/vlog_is_on.h \
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp
 
 CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -6675,112 +6675,112 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: /Users/stephano./github/sfm-3rd-
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmReconstruction.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/StereoUtil.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp
 
 CMakeFiles/sfm.dir/src/StereoUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -7594,114 +7594,114 @@ CMakeFiles/sfm.dir/src/StereoUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-pr
   /Users/stephano./github/sfm-3rd-year-project/c++/include/CommonUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/StereoUtil.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/xfeatures2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp \
+  /usr/local/include/opencv2/xfeatures2d.hpp \
+  /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
 CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -7993,6 +7993,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/totally_ordered.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__cxxabi_config.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__errc \
@@ -8297,13 +8298,16 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__variant/monostate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__verbose_abort \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/any \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/atomic \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bit \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cerrno \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cfloat \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/charconv \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/climits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cmath \
@@ -8320,9 +8324,12 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cwchar \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cxxabi.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/execution \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/initializer_list \
@@ -8340,6 +8347,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/memory \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/memory_resource \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/new \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/optional \
@@ -8347,6 +8355,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/queue \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/shared_mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdexcept \
@@ -8360,6 +8369,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/system_error \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/tuple \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/typeindex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/utility \
@@ -8371,6 +8381,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/float.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/gethostuuid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_mcontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_types.h \
@@ -8418,6 +8429,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_symbol_aliasing.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_blkcnt_t.h \
@@ -8455,6 +8467,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_null.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_off_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_seek_set.h \
@@ -8477,6 +8490,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wint_t.h \
@@ -8485,12 +8499,15 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/qos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale.h \
@@ -8518,116 +8535,1424 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
   /Users/stephano./github/sfm-3rd-year-project/c++/include/PlottingUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmReconstruction.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/imgproc.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/sfm/triangulation.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp \
-  /usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+  /usr/local/include/boost/any.hpp \
+  /usr/local/include/boost/any/bad_any_cast.hpp \
+  /usr/local/include/boost/any/detail/placeholder.hpp \
+  /usr/local/include/boost/any/fwd.hpp \
+  /usr/local/include/boost/array.hpp \
+  /usr/local/include/boost/assert.hpp \
+  /usr/local/include/boost/assert/source_location.hpp \
+  /usr/local/include/boost/bind/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/bind/mem_fn.hpp \
+  /usr/local/include/boost/bind/mem_fn_cc.hpp \
+  /usr/local/include/boost/bind/mem_fn_template.hpp \
+  /usr/local/include/boost/concept/assert.hpp \
+  /usr/local/include/boost/concept/detail/backward_compatibility.hpp \
+  /usr/local/include/boost/concept/detail/concept_def.hpp \
+  /usr/local/include/boost/concept/detail/concept_undef.hpp \
+  /usr/local/include/boost/concept/detail/general.hpp \
+  /usr/local/include/boost/concept/detail/has_constraints.hpp \
+  /usr/local/include/boost/concept/usage.hpp \
+  /usr/local/include/boost/concept_check.hpp \
+  /usr/local/include/boost/config.hpp \
+  /usr/local/include/boost/config/compiler/clang.hpp \
+  /usr/local/include/boost/config/compiler/clang_version.hpp \
+  /usr/local/include/boost/config/detail/cxx_composite.hpp \
+  /usr/local/include/boost/config/detail/posix_features.hpp \
+  /usr/local/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/local/include/boost/config/detail/select_platform_config.hpp \
+  /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/local/include/boost/config/detail/suffix.hpp \
+  /usr/local/include/boost/config/helper_macros.hpp \
+  /usr/local/include/boost/config/no_tr1/cmath.hpp \
+  /usr/local/include/boost/config/no_tr1/functional.hpp \
+  /usr/local/include/boost/config/no_tr1/memory.hpp \
+  /usr/local/include/boost/config/platform/macos.hpp \
+  /usr/local/include/boost/config/pragma_message.hpp \
+  /usr/local/include/boost/config/stdlib/libcpp.hpp \
+  /usr/local/include/boost/config/user.hpp \
+  /usr/local/include/boost/config/workaround.hpp \
+  /usr/local/include/boost/container/container_fwd.hpp \
+  /usr/local/include/boost/container/detail/std_fwd.hpp \
+  /usr/local/include/boost/container_hash/detail/hash_mix.hpp \
+  /usr/local/include/boost/container_hash/detail/hash_range.hpp \
+  /usr/local/include/boost/container_hash/detail/hash_tuple_like.hpp \
+  /usr/local/include/boost/container_hash/detail/mulx.hpp \
+  /usr/local/include/boost/container_hash/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/container_hash/hash.hpp \
+  /usr/local/include/boost/container_hash/hash_fwd.hpp \
+  /usr/local/include/boost/container_hash/is_contiguous_range.hpp \
+  /usr/local/include/boost/container_hash/is_described_class.hpp \
+  /usr/local/include/boost/container_hash/is_range.hpp \
+  /usr/local/include/boost/container_hash/is_tuple_like.hpp \
+  /usr/local/include/boost/container_hash/is_unordered_range.hpp \
+  /usr/local/include/boost/core/addressof.hpp \
+  /usr/local/include/boost/core/checked_delete.hpp \
+  /usr/local/include/boost/core/cmath.hpp \
+  /usr/local/include/boost/core/demangle.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_pause.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_sleep.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_yield.hpp \
+  /usr/local/include/boost/core/enable_if.hpp \
+  /usr/local/include/boost/core/no_exceptions_support.hpp \
+  /usr/local/include/boost/core/noncopyable.hpp \
+  /usr/local/include/boost/core/ref.hpp \
+  /usr/local/include/boost/core/snprintf.hpp \
+  /usr/local/include/boost/core/swap.hpp \
+  /usr/local/include/boost/core/typeinfo.hpp \
+  /usr/local/include/boost/core/use_default.hpp \
+  /usr/local/include/boost/core/yield_primitives.hpp \
+  /usr/local/include/boost/cstdint.hpp \
+  /usr/local/include/boost/current_function.hpp \
+  /usr/local/include/boost/describe/bases.hpp \
+  /usr/local/include/boost/describe/detail/config.hpp \
+  /usr/local/include/boost/describe/detail/cx_streq.hpp \
+  /usr/local/include/boost/describe/detail/void_t.hpp \
+  /usr/local/include/boost/describe/members.hpp \
+  /usr/local/include/boost/describe/modifiers.hpp \
+  /usr/local/include/boost/detail/basic_pointerbuf.hpp \
+  /usr/local/include/boost/detail/indirect_traits.hpp \
+  /usr/local/include/boost/detail/lcast_precision.hpp \
+  /usr/local/include/boost/detail/select_type.hpp \
+  /usr/local/include/boost/detail/workaround.hpp \
+  /usr/local/include/boost/exception/exception.hpp \
+  /usr/local/include/boost/function.hpp \
+  /usr/local/include/boost/function/detail/epilogue.hpp \
+  /usr/local/include/boost/function/detail/function_iterate.hpp \
+  /usr/local/include/boost/function/detail/maybe_include.hpp \
+  /usr/local/include/boost/function/detail/prologue.hpp \
+  /usr/local/include/boost/function/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/function/function1.hpp \
+  /usr/local/include/boost/function/function_base.hpp \
+  /usr/local/include/boost/function/function_fwd.hpp \
+  /usr/local/include/boost/function/function_template.hpp \
+  /usr/local/include/boost/function_equal.hpp \
+  /usr/local/include/boost/get_pointer.hpp \
+  /usr/local/include/boost/integer.hpp \
+  /usr/local/include/boost/integer_fwd.hpp \
+  /usr/local/include/boost/integer_traits.hpp \
+  /usr/local/include/boost/iterator/advance.hpp \
+  /usr/local/include/boost/iterator/detail/config_def.hpp \
+  /usr/local/include/boost/iterator/detail/config_undef.hpp \
+  /usr/local/include/boost/iterator/detail/enable_if.hpp \
+  /usr/local/include/boost/iterator/detail/facade_iterator_category.hpp \
+  /usr/local/include/boost/iterator/distance.hpp \
+  /usr/local/include/boost/iterator/interoperable.hpp \
+  /usr/local/include/boost/iterator/is_iterator.hpp \
+  /usr/local/include/boost/iterator/iterator_adaptor.hpp \
+  /usr/local/include/boost/iterator/iterator_categories.hpp \
+  /usr/local/include/boost/iterator/iterator_concepts.hpp \
+  /usr/local/include/boost/iterator/iterator_facade.hpp \
+  /usr/local/include/boost/iterator/iterator_traits.hpp \
+  /usr/local/include/boost/iterator/reverse_iterator.hpp \
+  /usr/local/include/boost/lexical_cast.hpp \
+  /usr/local/include/boost/lexical_cast/bad_lexical_cast.hpp \
+  /usr/local/include/boost/lexical_cast/detail/converter_lexical.hpp \
+  /usr/local/include/boost/lexical_cast/detail/converter_lexical_streams.hpp \
+  /usr/local/include/boost/lexical_cast/detail/converter_numeric.hpp \
+  /usr/local/include/boost/lexical_cast/detail/inf_nan.hpp \
+  /usr/local/include/boost/lexical_cast/detail/is_character.hpp \
+  /usr/local/include/boost/lexical_cast/detail/lcast_char_constants.hpp \
+  /usr/local/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp \
+  /usr/local/include/boost/lexical_cast/detail/widest_char.hpp \
+  /usr/local/include/boost/lexical_cast/try_lexical_convert.hpp \
+  /usr/local/include/boost/limits.hpp \
+  /usr/local/include/boost/mem_fn.hpp \
+  /usr/local/include/boost/move/detail/std_ns_begin.hpp \
+  /usr/local/include/boost/move/detail/std_ns_end.hpp \
+  /usr/local/include/boost/mp11/algorithm.hpp \
+  /usr/local/include/boost/mp11/bind.hpp \
+  /usr/local/include/boost/mp11/detail/config.hpp \
+  /usr/local/include/boost/mp11/detail/mp_append.hpp \
+  /usr/local/include/boost/mp11/detail/mp_copy_if.hpp \
+  /usr/local/include/boost/mp11/detail/mp_count.hpp \
+  /usr/local/include/boost/mp11/detail/mp_defer.hpp \
+  /usr/local/include/boost/mp11/detail/mp_fold.hpp \
+  /usr/local/include/boost/mp11/detail/mp_front.hpp \
+  /usr/local/include/boost/mp11/detail/mp_is_list.hpp \
+  /usr/local/include/boost/mp11/detail/mp_is_value_list.hpp \
+  /usr/local/include/boost/mp11/detail/mp_list.hpp \
+  /usr/local/include/boost/mp11/detail/mp_list_v.hpp \
+  /usr/local/include/boost/mp11/detail/mp_map_find.hpp \
+  /usr/local/include/boost/mp11/detail/mp_min_element.hpp \
+  /usr/local/include/boost/mp11/detail/mp_plus.hpp \
+  /usr/local/include/boost/mp11/detail/mp_remove_if.hpp \
+  /usr/local/include/boost/mp11/detail/mp_rename.hpp \
+  /usr/local/include/boost/mp11/detail/mp_value.hpp \
+  /usr/local/include/boost/mp11/detail/mp_void.hpp \
+  /usr/local/include/boost/mp11/detail/mp_with_index.hpp \
+  /usr/local/include/boost/mp11/function.hpp \
+  /usr/local/include/boost/mp11/integer_sequence.hpp \
+  /usr/local/include/boost/mp11/integral.hpp \
+  /usr/local/include/boost/mp11/list.hpp \
+  /usr/local/include/boost/mp11/set.hpp \
+  /usr/local/include/boost/mp11/utility.hpp \
+  /usr/local/include/boost/mp11/version.hpp \
+  /usr/local/include/boost/mpl/always.hpp \
+  /usr/local/include/boost/mpl/and.hpp \
+  /usr/local/include/boost/mpl/apply.hpp \
+  /usr/local/include/boost/mpl/apply_fwd.hpp \
+  /usr/local/include/boost/mpl/apply_wrap.hpp \
+  /usr/local/include/boost/mpl/arg.hpp \
+  /usr/local/include/boost/mpl/arg_fwd.hpp \
+  /usr/local/include/boost/mpl/assert.hpp \
+  /usr/local/include/boost/mpl/aux_/adl_barrier.hpp \
+  /usr/local/include/boost/mpl/aux_/arg_typedef.hpp \
+  /usr/local/include/boost/mpl/aux_/arithmetic_op.hpp \
+  /usr/local/include/boost/mpl/aux_/arity.hpp \
+  /usr/local/include/boost/mpl/aux_/arity_spec.hpp \
+  /usr/local/include/boost/mpl/aux_/common_name_wknd.hpp \
+  /usr/local/include/boost/mpl/aux_/comparison_op.hpp \
+  /usr/local/include/boost/mpl/aux_/config/adl.hpp \
+  /usr/local/include/boost/mpl/aux_/config/arrays.hpp \
+  /usr/local/include/boost/mpl/aux_/config/bcc.hpp \
+  /usr/local/include/boost/mpl/aux_/config/bind.hpp \
+  /usr/local/include/boost/mpl/aux_/config/compiler.hpp \
+  /usr/local/include/boost/mpl/aux_/config/ctps.hpp \
+  /usr/local/include/boost/mpl/aux_/config/dtp.hpp \
+  /usr/local/include/boost/mpl/aux_/config/eti.hpp \
+  /usr/local/include/boost/mpl/aux_/config/forwarding.hpp \
+  /usr/local/include/boost/mpl/aux_/config/gcc.hpp \
+  /usr/local/include/boost/mpl/aux_/config/gpu.hpp \
+  /usr/local/include/boost/mpl/aux_/config/has_apply.hpp \
+  /usr/local/include/boost/mpl/aux_/config/has_xxx.hpp \
+  /usr/local/include/boost/mpl/aux_/config/integral.hpp \
+  /usr/local/include/boost/mpl/aux_/config/intel.hpp \
+  /usr/local/include/boost/mpl/aux_/config/lambda.hpp \
+  /usr/local/include/boost/mpl/aux_/config/msvc.hpp \
+  /usr/local/include/boost/mpl/aux_/config/msvc_typename.hpp \
+  /usr/local/include/boost/mpl/aux_/config/nttp.hpp \
+  /usr/local/include/boost/mpl/aux_/config/overload_resolution.hpp \
+  /usr/local/include/boost/mpl/aux_/config/pp_counter.hpp \
+  /usr/local/include/boost/mpl/aux_/config/preprocessor.hpp \
+  /usr/local/include/boost/mpl/aux_/config/static_constant.hpp \
+  /usr/local/include/boost/mpl/aux_/config/ttp.hpp \
+  /usr/local/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /usr/local/include/boost/mpl/aux_/config/workaround.hpp \
+  /usr/local/include/boost/mpl/aux_/full_lambda.hpp \
+  /usr/local/include/boost/mpl/aux_/has_apply.hpp \
+  /usr/local/include/boost/mpl/aux_/has_tag.hpp \
+  /usr/local/include/boost/mpl/aux_/has_type.hpp \
+  /usr/local/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /usr/local/include/boost/mpl/aux_/integral_wrapper.hpp \
+  /usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp \
+  /usr/local/include/boost/mpl/aux_/lambda_arity_param.hpp \
+  /usr/local/include/boost/mpl/aux_/lambda_support.hpp \
+  /usr/local/include/boost/mpl/aux_/largest_int.hpp \
+  /usr/local/include/boost/mpl/aux_/msvc_eti_base.hpp \
+  /usr/local/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /usr/local/include/boost/mpl/aux_/na.hpp \
+  /usr/local/include/boost/mpl/aux_/na_assert.hpp \
+  /usr/local/include/boost/mpl/aux_/na_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/na_spec.hpp \
+  /usr/local/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/local/include/boost/mpl/aux_/nttp_decl.hpp \
+  /usr/local/include/boost/mpl/aux_/numeric_cast_utils.hpp \
+  /usr/local/include/boost/mpl/aux_/numeric_op.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/times.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/enum.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/params.hpp \
+  /usr/local/include/boost/mpl/aux_/static_cast.hpp \
+  /usr/local/include/boost/mpl/aux_/template_arity.hpp \
+  /usr/local/include/boost/mpl/aux_/template_arity_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/type_wrapper.hpp \
+  /usr/local/include/boost/mpl/aux_/value_wknd.hpp \
+  /usr/local/include/boost/mpl/aux_/yes_no.hpp \
+  /usr/local/include/boost/mpl/bind.hpp \
+  /usr/local/include/boost/mpl/bind_fwd.hpp \
+  /usr/local/include/boost/mpl/bool.hpp \
+  /usr/local/include/boost/mpl/bool_fwd.hpp \
+  /usr/local/include/boost/mpl/equal_to.hpp \
+  /usr/local/include/boost/mpl/eval_if.hpp \
+  /usr/local/include/boost/mpl/has_xxx.hpp \
+  /usr/local/include/boost/mpl/identity.hpp \
+  /usr/local/include/boost/mpl/if.hpp \
+  /usr/local/include/boost/mpl/int.hpp \
+  /usr/local/include/boost/mpl/int_fwd.hpp \
+  /usr/local/include/boost/mpl/integral_c.hpp \
+  /usr/local/include/boost/mpl/integral_c_fwd.hpp \
+  /usr/local/include/boost/mpl/integral_c_tag.hpp \
+  /usr/local/include/boost/mpl/lambda.hpp \
+  /usr/local/include/boost/mpl/lambda_fwd.hpp \
+  /usr/local/include/boost/mpl/less.hpp \
+  /usr/local/include/boost/mpl/limits/arity.hpp \
+  /usr/local/include/boost/mpl/multiplies.hpp \
+  /usr/local/include/boost/mpl/next.hpp \
+  /usr/local/include/boost/mpl/next_prior.hpp \
+  /usr/local/include/boost/mpl/not.hpp \
+  /usr/local/include/boost/mpl/numeric_cast.hpp \
+  /usr/local/include/boost/mpl/or.hpp \
+  /usr/local/include/boost/mpl/placeholders.hpp \
+  /usr/local/include/boost/mpl/protect.hpp \
+  /usr/local/include/boost/mpl/quote.hpp \
+  /usr/local/include/boost/mpl/tag.hpp \
+  /usr/local/include/boost/mpl/times.hpp \
+  /usr/local/include/boost/mpl/void.hpp \
+  /usr/local/include/boost/mpl/void_fwd.hpp \
+  /usr/local/include/boost/next_prior.hpp \
+  /usr/local/include/boost/numeric/conversion/bounds.hpp \
+  /usr/local/include/boost/numeric/conversion/cast.hpp \
+  /usr/local/include/boost/numeric/conversion/conversion_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/converter.hpp \
+  /usr/local/include/boost/numeric/conversion/converter_policies.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/bounds.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/converter.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/is_subranged.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/meta.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/sign_mixture.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp \
+  /usr/local/include/boost/numeric/conversion/int_float_mixture_enum.hpp \
+  /usr/local/include/boost/numeric/conversion/numeric_cast_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/sign_mixture_enum.hpp \
+  /usr/local/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/add.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/dec.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/detail/is_1_number.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/inc.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/limits/dec_256.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/limits/inc_256.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/mod.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/sub.hpp \
+  /usr/local/include/boost/preprocessor/array/data.hpp \
+  /usr/local/include/boost/preprocessor/array/elem.hpp \
+  /usr/local/include/boost/preprocessor/array/size.hpp \
+  /usr/local/include/boost/preprocessor/cat.hpp \
+  /usr/local/include/boost/preprocessor/comma_if.hpp \
+  /usr/local/include/boost/preprocessor/comparison/equal.hpp \
+  /usr/local/include/boost/preprocessor/comparison/less_equal.hpp \
+  /usr/local/include/boost/preprocessor/comparison/limits/not_equal_256.hpp \
+  /usr/local/include/boost/preprocessor/comparison/not_equal.hpp \
+  /usr/local/include/boost/preprocessor/config/config.hpp \
+  /usr/local/include/boost/preprocessor/config/limits.hpp \
+  /usr/local/include/boost/preprocessor/control/deduce_d.hpp \
+  /usr/local/include/boost/preprocessor/control/detail/limits/while_256.hpp \
+  /usr/local/include/boost/preprocessor/control/detail/while.hpp \
+  /usr/local/include/boost/preprocessor/control/expr_iif.hpp \
+  /usr/local/include/boost/preprocessor/control/if.hpp \
+  /usr/local/include/boost/preprocessor/control/iif.hpp \
+  /usr/local/include/boost/preprocessor/control/limits/while_256.hpp \
+  /usr/local/include/boost/preprocessor/control/while.hpp \
+  /usr/local/include/boost/preprocessor/debug/error.hpp \
+  /usr/local/include/boost/preprocessor/detail/auto_rec.hpp \
+  /usr/local/include/boost/preprocessor/detail/check.hpp \
+  /usr/local/include/boost/preprocessor/detail/is_binary.hpp \
+  /usr/local/include/boost/preprocessor/detail/limits/auto_rec_256.hpp \
+  /usr/local/include/boost/preprocessor/empty.hpp \
+  /usr/local/include/boost/preprocessor/enum.hpp \
+  /usr/local/include/boost/preprocessor/enum_params.hpp \
+  /usr/local/include/boost/preprocessor/facilities/check_empty.hpp \
+  /usr/local/include/boost/preprocessor/facilities/empty.hpp \
+  /usr/local/include/boost/preprocessor/facilities/expand.hpp \
+  /usr/local/include/boost/preprocessor/facilities/identity.hpp \
+  /usr/local/include/boost/preprocessor/facilities/overload.hpp \
+  /usr/local/include/boost/preprocessor/identity.hpp \
+  /usr/local/include/boost/preprocessor/inc.hpp \
+  /usr/local/include/boost/preprocessor/iterate.hpp \
+  /usr/local/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
+  /usr/local/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp \
+  /usr/local/include/boost/preprocessor/iteration/detail/iter/forward1.hpp \
+  /usr/local/include/boost/preprocessor/iteration/detail/iter/limits/forward1_256.hpp \
+  /usr/local/include/boost/preprocessor/iteration/iterate.hpp \
+  /usr/local/include/boost/preprocessor/list/adt.hpp \
+  /usr/local/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /usr/local/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /usr/local/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp \
+  /usr/local/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp \
+  /usr/local/include/boost/preprocessor/list/fold_left.hpp \
+  /usr/local/include/boost/preprocessor/list/fold_right.hpp \
+  /usr/local/include/boost/preprocessor/list/limits/fold_left_256.hpp \
+  /usr/local/include/boost/preprocessor/list/reverse.hpp \
+  /usr/local/include/boost/preprocessor/logical/and.hpp \
+  /usr/local/include/boost/preprocessor/logical/bitand.hpp \
+  /usr/local/include/boost/preprocessor/logical/bitor.hpp \
+  /usr/local/include/boost/preprocessor/logical/bool.hpp \
+  /usr/local/include/boost/preprocessor/logical/compl.hpp \
+  /usr/local/include/boost/preprocessor/logical/limits/bool_256.hpp \
+  /usr/local/include/boost/preprocessor/logical/not.hpp \
+  /usr/local/include/boost/preprocessor/punctuation/comma.hpp \
+  /usr/local/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /usr/local/include/boost/preprocessor/repeat.hpp \
+  /usr/local/include/boost/preprocessor/repetition/detail/for.hpp \
+  /usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum_params.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /usr/local/include/boost/preprocessor/repetition/for.hpp \
+  /usr/local/include/boost/preprocessor/repetition/limits/for_256.hpp \
+  /usr/local/include/boost/preprocessor/repetition/limits/repeat_256.hpp \
+  /usr/local/include/boost/preprocessor/repetition/repeat.hpp \
+  /usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /usr/local/include/boost/preprocessor/seq/cat.hpp \
+  /usr/local/include/boost/preprocessor/seq/detail/is_empty.hpp \
+  /usr/local/include/boost/preprocessor/seq/elem.hpp \
+  /usr/local/include/boost/preprocessor/seq/enum.hpp \
+  /usr/local/include/boost/preprocessor/seq/fold_left.hpp \
+  /usr/local/include/boost/preprocessor/seq/for_each_i.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/elem_256.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/fold_left_256.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/size_256.hpp \
+  /usr/local/include/boost/preprocessor/seq/seq.hpp \
+  /usr/local/include/boost/preprocessor/seq/size.hpp \
+  /usr/local/include/boost/preprocessor/seq/transform.hpp \
+  /usr/local/include/boost/preprocessor/slot/detail/def.hpp \
+  /usr/local/include/boost/preprocessor/slot/detail/shared.hpp \
+  /usr/local/include/boost/preprocessor/slot/slot.hpp \
+  /usr/local/include/boost/preprocessor/stringize.hpp \
+  /usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /usr/local/include/boost/preprocessor/tuple/eat.hpp \
+  /usr/local/include/boost/preprocessor/tuple/elem.hpp \
+  /usr/local/include/boost/preprocessor/tuple/rem.hpp \
+  /usr/local/include/boost/preprocessor/variadic/elem.hpp \
+  /usr/local/include/boost/preprocessor/variadic/has_opt.hpp \
+  /usr/local/include/boost/preprocessor/variadic/limits/elem_64.hpp \
+  /usr/local/include/boost/preprocessor/variadic/limits/size_64.hpp \
+  /usr/local/include/boost/preprocessor/variadic/size.hpp \
+  /usr/local/include/boost/program_options.hpp \
+  /usr/local/include/boost/program_options/cmdline.hpp \
+  /usr/local/include/boost/program_options/config.hpp \
+  /usr/local/include/boost/program_options/detail/cmdline.hpp \
+  /usr/local/include/boost/program_options/detail/convert.hpp \
+  /usr/local/include/boost/program_options/detail/parsers.hpp \
+  /usr/local/include/boost/program_options/detail/value_semantic.hpp \
+  /usr/local/include/boost/program_options/errors.hpp \
+  /usr/local/include/boost/program_options/option.hpp \
+  /usr/local/include/boost/program_options/options_description.hpp \
+  /usr/local/include/boost/program_options/parsers.hpp \
+  /usr/local/include/boost/program_options/positional_options.hpp \
+  /usr/local/include/boost/program_options/value_semantic.hpp \
+  /usr/local/include/boost/program_options/variables_map.hpp \
+  /usr/local/include/boost/program_options/version.hpp \
+  /usr/local/include/boost/range/algorithm/equal.hpp \
+  /usr/local/include/boost/range/begin.hpp \
+  /usr/local/include/boost/range/concepts.hpp \
+  /usr/local/include/boost/range/config.hpp \
+  /usr/local/include/boost/range/const_iterator.hpp \
+  /usr/local/include/boost/range/detail/common.hpp \
+  /usr/local/include/boost/range/detail/extract_optional_type.hpp \
+  /usr/local/include/boost/range/detail/has_member_size.hpp \
+  /usr/local/include/boost/range/detail/implementation_help.hpp \
+  /usr/local/include/boost/range/detail/misc_concept.hpp \
+  /usr/local/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+  /usr/local/include/boost/range/detail/safe_bool.hpp \
+  /usr/local/include/boost/range/detail/sfinae.hpp \
+  /usr/local/include/boost/range/difference_type.hpp \
+  /usr/local/include/boost/range/distance.hpp \
+  /usr/local/include/boost/range/empty.hpp \
+  /usr/local/include/boost/range/end.hpp \
+  /usr/local/include/boost/range/functions.hpp \
+  /usr/local/include/boost/range/has_range_iterator.hpp \
+  /usr/local/include/boost/range/iterator.hpp \
+  /usr/local/include/boost/range/iterator_range_core.hpp \
+  /usr/local/include/boost/range/mutable_iterator.hpp \
+  /usr/local/include/boost/range/range_fwd.hpp \
+  /usr/local/include/boost/range/rbegin.hpp \
+  /usr/local/include/boost/range/rend.hpp \
+  /usr/local/include/boost/range/reverse_iterator.hpp \
+  /usr/local/include/boost/range/size.hpp \
+  /usr/local/include/boost/range/size_type.hpp \
+  /usr/local/include/boost/range/value_type.hpp \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/detail/local_counted_base.hpp \
+  /usr/local/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
+  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/smart_ptr/detail/shared_count.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+  /usr/local/include/boost/smart_ptr/detail/yield_k.hpp \
+  /usr/local/include/boost/smart_ptr/shared_ptr.hpp \
+  /usr/local/include/boost/static_assert.hpp \
+  /usr/local/include/boost/throw_exception.hpp \
+  /usr/local/include/boost/type.hpp \
+  /usr/local/include/boost/type_index.hpp \
+  /usr/local/include/boost/type_index/stl_type_index.hpp \
+  /usr/local/include/boost/type_index/type_index_facade.hpp \
+  /usr/local/include/boost/type_traits/add_const.hpp \
+  /usr/local/include/boost/type_traits/add_lvalue_reference.hpp \
+  /usr/local/include/boost/type_traits/add_pointer.hpp \
+  /usr/local/include/boost/type_traits/add_reference.hpp \
+  /usr/local/include/boost/type_traits/add_rvalue_reference.hpp \
+  /usr/local/include/boost/type_traits/add_volatile.hpp \
+  /usr/local/include/boost/type_traits/alignment_of.hpp \
+  /usr/local/include/boost/type_traits/composite_traits.hpp \
+  /usr/local/include/boost/type_traits/conditional.hpp \
+  /usr/local/include/boost/type_traits/conjunction.hpp \
+  /usr/local/include/boost/type_traits/conversion_traits.hpp \
+  /usr/local/include/boost/type_traits/decay.hpp \
+  /usr/local/include/boost/type_traits/declval.hpp \
+  /usr/local/include/boost/type_traits/detail/config.hpp \
+  /usr/local/include/boost/type_traits/detail/has_binary_operator.hpp \
+  /usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/local/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /usr/local/include/boost/type_traits/detail/yes_no_type.hpp \
+  /usr/local/include/boost/type_traits/enable_if.hpp \
+  /usr/local/include/boost/type_traits/function_traits.hpp \
+  /usr/local/include/boost/type_traits/has_left_shift.hpp \
+  /usr/local/include/boost/type_traits/has_minus.hpp \
+  /usr/local/include/boost/type_traits/has_minus_assign.hpp \
+  /usr/local/include/boost/type_traits/has_plus.hpp \
+  /usr/local/include/boost/type_traits/has_plus_assign.hpp \
+  /usr/local/include/boost/type_traits/has_right_shift.hpp \
+  /usr/local/include/boost/type_traits/has_trivial_copy.hpp \
+  /usr/local/include/boost/type_traits/has_trivial_destructor.hpp \
+  /usr/local/include/boost/type_traits/integral_constant.hpp \
+  /usr/local/include/boost/type_traits/intrinsics.hpp \
+  /usr/local/include/boost/type_traits/is_abstract.hpp \
+  /usr/local/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/local/include/boost/type_traits/is_array.hpp \
+  /usr/local/include/boost/type_traits/is_base_and_derived.hpp \
+  /usr/local/include/boost/type_traits/is_base_of.hpp \
+  /usr/local/include/boost/type_traits/is_class.hpp \
+  /usr/local/include/boost/type_traits/is_complete.hpp \
+  /usr/local/include/boost/type_traits/is_const.hpp \
+  /usr/local/include/boost/type_traits/is_constructible.hpp \
+  /usr/local/include/boost/type_traits/is_convertible.hpp \
+  /usr/local/include/boost/type_traits/is_copy_constructible.hpp \
+  /usr/local/include/boost/type_traits/is_default_constructible.hpp \
+  /usr/local/include/boost/type_traits/is_destructible.hpp \
+  /usr/local/include/boost/type_traits/is_enum.hpp \
+  /usr/local/include/boost/type_traits/is_float.hpp \
+  /usr/local/include/boost/type_traits/is_floating_point.hpp \
+  /usr/local/include/boost/type_traits/is_function.hpp \
+  /usr/local/include/boost/type_traits/is_integral.hpp \
+  /usr/local/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/local/include/boost/type_traits/is_member_function_pointer.hpp \
+  /usr/local/include/boost/type_traits/is_member_pointer.hpp \
+  /usr/local/include/boost/type_traits/is_pod.hpp \
+  /usr/local/include/boost/type_traits/is_pointer.hpp \
+  /usr/local/include/boost/type_traits/is_reference.hpp \
+  /usr/local/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/local/include/boost/type_traits/is_same.hpp \
+  /usr/local/include/boost/type_traits/is_scalar.hpp \
+  /usr/local/include/boost/type_traits/is_signed.hpp \
+  /usr/local/include/boost/type_traits/is_union.hpp \
+  /usr/local/include/boost/type_traits/is_unsigned.hpp \
+  /usr/local/include/boost/type_traits/is_void.hpp \
+  /usr/local/include/boost/type_traits/is_volatile.hpp \
+  /usr/local/include/boost/type_traits/make_unsigned.hpp \
+  /usr/local/include/boost/type_traits/make_void.hpp \
+  /usr/local/include/boost/type_traits/negation.hpp \
+  /usr/local/include/boost/type_traits/remove_bounds.hpp \
+  /usr/local/include/boost/type_traits/remove_const.hpp \
+  /usr/local/include/boost/type_traits/remove_cv.hpp \
+  /usr/local/include/boost/type_traits/remove_extent.hpp \
+  /usr/local/include/boost/type_traits/remove_pointer.hpp \
+  /usr/local/include/boost/type_traits/remove_reference.hpp \
+  /usr/local/include/boost/type_traits/remove_volatile.hpp \
+  /usr/local/include/boost/type_traits/type_identity.hpp \
+  /usr/local/include/boost/utility.hpp \
+  /usr/local/include/boost/utility/base_from_member.hpp \
+  /usr/local/include/boost/utility/binary.hpp \
+  /usr/local/include/boost/utility/enable_if.hpp \
+  /usr/local/include/boost/utility/identity_type.hpp \
+  /usr/local/include/boost/version.hpp \
+  /usr/local/include/opencv2/imgproc/segmentation.hpp \
+  /usr/local/include/opencv2/calib3d.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/affine.hpp \
+  /usr/local/include/opencv2/core/async.hpp \
+  /usr/local/include/opencv2/core/base.hpp \
+  /usr/local/include/opencv2/core/bufferpool.hpp \
+  /usr/local/include/opencv2/core/check.hpp \
+  /usr/local/include/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/cvstd.hpp \
+  /usr/local/include/opencv2/core/cvstd.inl.hpp \
+  /usr/local/include/opencv2/core/cvstd_wrapper.hpp \
+  /usr/local/include/opencv2/core/fast_math.hpp \
+  /usr/local/include/opencv2/core/hal/interface.h \
+  /usr/local/include/opencv2/core/mat.hpp \
+  /usr/local/include/opencv2/core/mat.inl.hpp \
+  /usr/local/include/opencv2/core/matx.hpp \
+  /usr/local/include/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv2/core/operations.hpp \
+  /usr/local/include/opencv2/core/optim.hpp \
+  /usr/local/include/opencv2/core/ovx.hpp \
+  /usr/local/include/opencv2/core/persistence.hpp \
+  /usr/local/include/opencv2/core/saturate.hpp \
+  /usr/local/include/opencv2/core/traits.hpp \
+  /usr/local/include/opencv2/core/types.hpp \
+  /usr/local/include/opencv2/core/utility.hpp \
+  /usr/local/include/opencv2/core/version.hpp \
+  /usr/local/include/opencv2/core/vsx_utils.hpp \
+  /usr/local/include/opencv2/dnn.hpp \
+  /usr/local/include/opencv2/dnn/version.hpp \
+  /usr/local/include/opencv2/dnn/dict.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/dnn.inl.hpp \
+  /usr/local/include/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv2/dnn/dnn.hpp \
+  /usr/local/include/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/flann.hpp \
+  /usr/local/include/opencv2/flann/all_indices.h \
+  /usr/local/include/opencv2/flann/allocator.h \
+  /usr/local/include/opencv2/flann/any.h \
+  /usr/local/include/opencv2/flann/autotuned_index.h \
+  /usr/local/include/opencv2/flann/composite_index.h \
+  /usr/local/include/opencv2/flann/config.h \
+  /usr/local/include/opencv2/flann/defines.h \
+  /usr/local/include/opencv2/flann/dist.h \
+  /usr/local/include/opencv2/flann/dynamic_bitset.h \
+  /usr/local/include/opencv2/flann/flann_base.hpp \
+  /usr/local/include/opencv2/flann/general.h \
+  /usr/local/include/opencv2/flann/ground_truth.h \
+  /usr/local/include/opencv2/flann/heap.h \
+  /usr/local/include/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/local/include/opencv2/flann/index_testing.h \
+  /usr/local/include/opencv2/flann/kdtree_index.h \
+  /usr/local/include/opencv2/flann/kdtree_single_index.h \
+  /usr/local/include/opencv2/flann/kmeans_index.h \
+  /usr/local/include/opencv2/flann/linear_index.h \
+  /usr/local/include/opencv2/flann/logger.h \
+  /usr/local/include/opencv2/flann/lsh_index.h \
+  /usr/local/include/opencv2/flann/lsh_table.h \
+  /usr/local/include/opencv2/flann/matrix.h \
+  /usr/local/include/opencv2/flann/miniflann.hpp \
+  /usr/local/include/opencv2/flann/nn_index.h \
+  /usr/local/include/opencv2/flann/params.h \
+  /usr/local/include/opencv2/flann/random.h \
+  /usr/local/include/opencv2/flann/result_set.h \
+  /usr/local/include/opencv2/flann/sampling.h \
+  /usr/local/include/opencv2/flann/saving.h \
+  /usr/local/include/opencv2/flann/timer.h \
+  /usr/local/include/opencv2/highgui.hpp \
+  /usr/local/include/opencv2/imgcodecs.hpp \
+  /usr/local/include/opencv2/imgproc.hpp \
+  /usr/local/include/opencv2/imgproc/imgproc.hpp \
+  /usr/local/include/opencv2/ml.hpp \
+  /usr/local/include/opencv2/ml/ml.inl.hpp \
+  /usr/local/include/opencv2/objdetect.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_board.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/aruco_dictionary.hpp \
+  /usr/local/include/opencv2/objdetect/barcode.hpp \
+  /usr/local/include/opencv2/objdetect/charuco_detector.hpp \
+  /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/local/include/opencv2/objdetect/face.hpp \
+  /usr/local/include/opencv2/objdetect/graphical_code_detector.hpp \
+  /usr/local/include/opencv2/opencv.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/photo.hpp \
+  /usr/local/include/opencv2/sfm/triangulation.hpp \
+  /usr/local/include/opencv2/stitching.hpp \
+  /usr/local/include/opencv2/stitching/detail/blenders.hpp \
+  /usr/local/include/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/local/include/opencv2/stitching/detail/util.hpp \
+  /usr/local/include/opencv2/stitching/detail/util_inl.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv2/video.hpp \
+  /usr/local/include/opencv2/video/background_segm.hpp \
+  /usr/local/include/opencv2/video/tracking.hpp \
+  /usr/local/include/opencv2/videoio.hpp \
+  /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
+
+/usr/local/include/opencv2/sfm/triangulation.hpp:
+
+/usr/local/include/boost/version.hpp:
+
+/usr/local/include/boost/utility/identity_type.hpp:
+
+/usr/local/include/boost/utility/binary.hpp:
+
+/usr/local/include/boost/utility.hpp:
+
+/usr/local/include/boost/type_traits/type_identity.hpp:
+
+/usr/local/include/boost/type_traits/remove_volatile.hpp:
+
+/usr/local/include/boost/type_traits/remove_extent.hpp:
+
+/usr/local/include/boost/type_traits/remove_cv.hpp:
+
+/usr/local/include/boost/type_traits/remove_const.hpp:
+
+/usr/local/include/boost/type_traits/make_unsigned.hpp:
+
+/usr/local/include/boost/type_traits/is_void.hpp:
+
+/usr/local/include/boost/type_traits/is_union.hpp:
+
+/usr/local/include/boost/type_traits/is_signed.hpp:
+
+/usr/local/include/boost/type_traits/is_scalar.hpp:
+
+/usr/local/include/boost/type_traits/is_same.hpp:
+
+/usr/local/include/boost/type_traits/is_rvalue_reference.hpp:
+
+/usr/local/include/boost/type_traits/is_reference.hpp:
+
+/usr/local/include/boost/type_traits/is_pointer.hpp:
+
+/usr/local/include/boost/type_traits/is_member_pointer.hpp:
+
+/usr/local/include/boost/type_traits/is_lvalue_reference.hpp:
+
+/usr/local/include/boost/type_traits/is_floating_point.hpp:
+
+/usr/local/include/boost/type_traits/is_float.hpp:
+
+/usr/local/include/boost/type_traits/is_destructible.hpp:
+
+/usr/local/include/boost/type_traits/is_default_constructible.hpp:
+
+/usr/local/include/boost/type_traits/is_constructible.hpp:
+
+/usr/local/include/boost/type_traits/is_const.hpp:
+
+/usr/local/include/boost/type_traits/is_complete.hpp:
+
+/usr/local/include/boost/type_traits/is_arithmetic.hpp:
+
+/usr/local/include/boost/type_traits/intrinsics.hpp:
+
+/usr/local/include/boost/type_traits/has_trivial_destructor.hpp:
+
+/usr/local/include/boost/type_traits/has_right_shift.hpp:
+
+/usr/local/include/boost/type_traits/has_plus_assign.hpp:
+
+/usr/local/include/boost/type_traits/has_plus.hpp:
+
+/usr/local/include/boost/type_traits/negation.hpp:
+
+/usr/local/include/boost/type_traits/has_minus_assign.hpp:
+
+/usr/local/include/boost/type_traits/has_minus.hpp:
+
+/usr/local/include/boost/type_traits/has_left_shift.hpp:
+
+/usr/local/include/boost/type_traits/function_traits.hpp:
+
+/usr/local/include/boost/type_traits/detail/yes_no_type.hpp:
+
+/usr/local/include/boost/type_traits/detail/config.hpp:
+
+/usr/local/include/boost/type_traits/declval.hpp:
+
+/usr/local/include/boost/type_traits/conversion_traits.hpp:
+
+/usr/local/include/boost/type_traits/conjunction.hpp:
+
+/usr/local/include/boost/type_traits/add_volatile.hpp:
+
+/usr/local/include/boost/type_traits/add_rvalue_reference.hpp:
+
+/usr/local/include/boost/type_traits/add_pointer.hpp:
+
+/usr/local/include/boost/type_traits/add_lvalue_reference.hpp:
+
+/usr/local/include/boost/type_traits/add_const.hpp:
+
+/usr/local/include/boost/type_index/type_index_facade.hpp:
+
+/usr/local/include/boost/type_index/stl_type_index.hpp:
+
+/usr/local/include/boost/type_index.hpp:
+
+/usr/local/include/boost/throw_exception.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/yield_k.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/shared_count.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/local_counted_base.hpp:
+
+/usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/usr/local/include/boost/shared_ptr.hpp:
+
+/usr/local/include/boost/range/size.hpp:
+
+/usr/local/include/boost/range/reverse_iterator.hpp:
+
+/usr/local/include/boost/range/rend.hpp:
+
+/usr/local/include/boost/range/rbegin.hpp:
+
+/usr/local/include/boost/range/range_fwd.hpp:
+
+/usr/local/include/boost/range/iterator_range_core.hpp:
+
+/usr/local/include/boost/range/iterator.hpp:
+
+/usr/local/include/boost/range/has_range_iterator.hpp:
+
+/usr/local/include/boost/range/empty.hpp:
+
+/usr/local/include/boost/range/difference_type.hpp:
+
+/usr/local/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+
+/usr/local/include/boost/range/detail/misc_concept.hpp:
+
+/usr/local/include/boost/range/detail/implementation_help.hpp:
+
+/usr/local/include/boost/range/algorithm/equal.hpp:
+
+/usr/local/include/boost/program_options/version.hpp:
+
+/usr/local/include/boost/program_options/variables_map.hpp:
+
+/usr/local/include/boost/program_options/positional_options.hpp:
+
+/usr/local/include/boost/program_options/parsers.hpp:
+
+/usr/local/include/boost/program_options/options_description.hpp:
+
+/usr/local/include/boost/program_options/option.hpp:
+
+/usr/local/include/boost/program_options/detail/parsers.hpp:
+
+/usr/local/include/boost/program_options/detail/convert.hpp:
+
+/usr/local/include/boost/program_options/detail/cmdline.hpp:
+
+/usr/local/include/boost/program_options/cmdline.hpp:
+
+/usr/local/include/boost/preprocessor/variadic/size.hpp:
+
+/usr/local/include/boost/preprocessor/variadic/limits/size_64.hpp:
+
+/usr/local/include/boost/type_traits/is_array.hpp:
+
+/usr/local/include/boost/preprocessor/variadic/limits/elem_64.hpp:
+
+/usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/usr/local/include/boost/preprocessor/stringize.hpp:
+
+/usr/local/include/boost/preprocessor/slot/slot.hpp:
+
+/usr/local/include/boost/preprocessor/slot/detail/def.hpp:
+
+/usr/local/include/boost/preprocessor/seq/transform.hpp:
+
+/usr/local/include/boost/preprocessor/seq/size.hpp:
+
+/usr/local/include/boost/preprocessor/seq/limits/size_256.hpp:
+
+/usr/local/include/boost/preprocessor/seq/limits/fold_left_256.hpp:
+
+/usr/local/include/boost/preprocessor/seq/limits/elem_256.hpp:
+
+/usr/local/include/boost/preprocessor/seq/for_each_i.hpp:
+
+/usr/local/include/boost/preprocessor/seq/elem.hpp:
+
+/usr/local/include/boost/preprocessor/seq/detail/is_empty.hpp:
+
+/usr/local/include/boost/preprocessor/seq/cat.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/detail/for.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/comma_if.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/comma.hpp:
+
+/usr/local/include/boost/preprocessor/logical/not.hpp:
+
+/usr/local/include/boost/preprocessor/logical/limits/bool_256.hpp:
+
+/usr/local/include/boost/preprocessor/logical/compl.hpp:
+
+/usr/local/include/boost/preprocessor/logical/bitor.hpp:
+
+/usr/local/include/boost/preprocessor/logical/bitand.hpp:
+
+/usr/local/include/boost/preprocessor/logical/and.hpp:
+
+/usr/local/include/boost/preprocessor/list/fold_right.hpp:
+
+/usr/local/include/boost/preprocessor/list/fold_left.hpp:
+
+/usr/local/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
+
+/usr/local/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/usr/local/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/usr/local/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
+
+/usr/local/include/boost/preprocessor/iterate.hpp:
+
+/usr/local/include/boost/preprocessor/identity.hpp:
+
+/usr/local/include/ceres/cost_function_to_functor.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/functional:
+
+/usr/local/include/boost/preprocessor/facilities/identity.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/empty.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/check_empty.hpp:
+
+/usr/local/include/boost/preprocessor/detail/is_binary.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
+
+/usr/local/include/boost/preprocessor/detail/auto_rec.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/aligned_union.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_time.h:
+
+/usr/local/include/boost/mpl/aux_/config/forwarding.hpp:
+
+/usr/local/include/boost/preprocessor/debug/error.hpp:
+
+/usr/local/include/boost/type_traits/is_function.hpp:
+
+/usr/local/include/boost/preprocessor/control/expr_iif.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstddef:
+
+/usr/local/include/boost/preprocessor/control/detail/limits/while_256.hpp:
+
+/usr/local/include/boost/preprocessor/comparison/not_equal.hpp:
+
+/usr/local/include/boost/iterator/iterator_facade.hpp:
+
+/usr/local/include/boost/preprocessor/comparison/limits/not_equal_256.hpp:
+
+/usr/local/include/boost/preprocessor/comparison/less_equal.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iterator:
+
+/usr/local/include/boost/preprocessor/comma_if.hpp:
+
+/usr/local/include/boost/preprocessor/array/data.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/type_traits:
+
+/usr/local/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/detail/is_1_number.hpp:
+
+/usr/local/include/boost/numeric/conversion/sign_mixture_enum.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
+
+/usr/local/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/exception:
+
+/usr/local/include/boost/numeric/conversion/detail/is_subranged.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perms.h:
+
+/usr/local/include/ceres/conditioned_cost_function.h:
+
+/usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp:
+
+/usr/local/include/boost/numeric/conversion/converter.hpp:
+
+/usr/local/include/boost/numeric/conversion/conversion_traits.hpp:
+
+/usr/local/include/ceres/internal/jet_traits.h:
+
+/usr/local/include/boost/numeric/conversion/cast.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
+
+/usr/local/include/boost/next_prior.hpp:
+
+/usr/local/include/boost/mpl/quote.hpp:
+
+/usr/local/include/boost/mpl/placeholders.hpp:
+
+/usr/local/include/boost/mpl/or.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/function.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h:
+
+/usr/local/include/boost/mpl/integral_c_tag.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
+
+/usr/local/include/boost/mpl/int_fwd.hpp:
+
+/usr/local/include/boost/mpl/int.hpp:
+
+/usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
+
+/usr/local/include/boost/mpl/identity.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/system_clock.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
+
+/usr/local/include/boost/mpl/eval_if.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_like.h:
+
+/usr/local/include/boost/mpl/equal_to.hpp:
+
+/usr/local/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/locale:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
+
+/usr/local/include/boost/program_options/value_semantic.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/charconv:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/types.h:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/usr/local/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/usr/local/include/opencv2/stitching/detail/util.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/usr/local/include/boost/mpl/aux_/numeric_op.hpp:
+
+/usr/local/include/boost/mpl/aux_/numeric_cast_utils.hpp:
+
+/usr/local/include/boost/mpl/aux_/nttp_decl.hpp:
+
+/usr/local/include/boost/mpl/aux_/na_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/na_assert.hpp:
+
+/usr/local/include/boost/utility/base_from_member.hpp:
+
+/usr/local/include/boost/mpl/aux_/na.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/cmp.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_indices.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
+
+/usr/local/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/local/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+/usr/local/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/usr/local/include/boost/mpl/aux_/has_apply.hpp:
+
+/usr/local/include/boost/mpl/aux_/full_lambda.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
+
+/usr/local/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/usr/local/include/opencv2/core/base.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/pp_counter.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types.h:
+
+/usr/local/include/boost/mpl/aux_/config/lambda.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/intel.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/compiler.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/usr/local/include/boost/type_traits/composite_traits.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
+
+/usr/local/include/boost/mpl/aux_/config/bind.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
+
+/usr/local/include/boost/mpl/aux_/adl_barrier.hpp:
+
+/usr/local/include/boost/mpl/arg_fwd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
+
+/usr/local/include/boost/mpl/always.hpp:
+
+/usr/local/include/boost/mp11/set.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
+
+/usr/local/include/ceres/ordered_groups.h:
+
+/usr/local/include/boost/mp11/integral.hpp:
+
+/usr/local/include/boost/mp11/function.hpp:
+
+/usr/local/include/boost/iterator/interoperable.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_rename.hpp:
+
+/usr/local/include/boost/mpl/apply_wrap.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_min_element.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_map_find.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_list_v.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_list.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_is_list.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/concepts.h:
+
+/usr/local/include/boost/mpl/aux_/preprocessor/params.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_fold.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_copy_if.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/addressof.h:
+
+/usr/local/include/boost/mp11/detail/mp_append.hpp:
+
+/usr/local/include/boost/mp11/detail/config.hpp:
+
+/usr/local/include/boost/type_traits/is_volatile.hpp:
+
+/usr/local/include/boost/function_equal.hpp:
+
+/usr/local/include/boost/limits.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+
+/usr/local/include/boost/lexical_cast/detail/is_character.hpp:
+
+/usr/local/include/boost/lexical_cast/detail/inf_nan.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/year.h:
+
+/usr/local/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h:
+
+/usr/local/include/boost/lexical_cast/detail/converter_lexical.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/data.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ctime:
+
+/usr/local/include/boost/mpl/aux_/arg_typedef.hpp:
+
+/usr/local/include/boost/lexical_cast/bad_lexical_cast.hpp:
+
+/usr/local/include/boost/lexical_cast.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/ordering.h:
+
+/usr/local/include/boost/iterator/iterator_traits.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
+
+/usr/local/include/boost/iterator/iterator_concepts.hpp:
+
+/usr/local/include/boost/mpl/bool.hpp:
+
+/usr/local/include/boost/iterator/iterator_adaptor.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_count.hpp:
+
+/usr/local/include/boost/iterator/detail/facade_iterator_category.hpp:
+
+/usr/local/include/boost/type_traits/is_base_and_derived.hpp:
+
+/usr/local/include/boost/iterator/detail/enable_if.hpp:
+
+/usr/local/include/boost/concept/detail/has_constraints.hpp:
+
+/usr/local/include/boost/iterator/advance.hpp:
+
+/usr/local/include/boost/integer_traits.hpp:
+
+/usr/local/include/boost/integer_fwd.hpp:
+
+/usr/local/include/boost/range/end.hpp:
+
+/usr/local/include/boost/function/function_fwd.hpp:
+
+/usr/local/include/opencv2/core/mat.hpp:
+
+/usr/local/include/boost/function/function1.hpp:
+
+/usr/local/include/boost/function/detail/prologue.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site:
+
+/usr/local/include/boost/function/detail/function_iterate.hpp:
+
+/usr/local/include/boost/range/detail/sfinae.hpp:
+
+/usr/local/include/boost/function/detail/epilogue.hpp:
+
+/usr/local/include/boost/function.hpp:
+
+/usr/local/include/boost/detail/workaround.hpp:
+
+/usr/local/include/opencv2/stitching/detail/camera.hpp:
+
+/usr/local/include/boost/detail/select_type.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rsize_t.h:
+
+/usr/local/include/boost/detail/lcast_precision.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/usr/local/include/opencv2/objdetect/charuco_detector.hpp:
+
+/usr/local/include/boost/detail/indirect_traits.hpp:
+
+/usr/local/include/boost/describe/modifiers.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_va_list.h:
+
+/usr/local/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timeval.h:
+
+/usr/local/include/boost/describe/members.hpp:
+
+/usr/local/include/boost/describe/detail/void_t.hpp:
+
+/usr/local/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_intptr_t.h:
+
+/usr/local/include/boost/cstdint.hpp:
+
+/usr/local/include/boost/core/yield_primitives.hpp:
+
+/usr/local/include/boost/core/use_default.hpp:
+
+/usr/local/include/boost/core/no_exceptions_support.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
+
+/Users/stephano./github/sfm-3rd-year-project/c++/include/IOUtil.h:
+
+/usr/local/include/boost/mpl/integral_c.hpp:
+
+/usr/local/include/boost/core/detail/sp_thread_yield.hpp:
+
+/usr/local/include/boost/program_options/detail/value_semantic.hpp:
+
+/usr/local/include/boost/core/detail/sp_thread_sleep.hpp:
+
+/usr/local/include/boost/type_traits/remove_reference.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
+
+/usr/local/include/boost/core/detail/sp_thread_pause.hpp:
+
+/usr/local/include/boost/core/demangle.hpp:
+
+/usr/local/include/boost/core/cmath.hpp:
+
+/usr/local/include/boost/core/checked_delete.hpp:
+
+/usr/local/include/boost/container_hash/is_unordered_range.hpp:
+
+/usr/local/include/boost/container_hash/is_range.hpp:
+
+/usr/local/include/boost/range/value_type.hpp:
+
+/usr/local/include/boost/container_hash/is_described_class.hpp:
+
+/usr/local/include/boost/container_hash/hash_fwd.hpp:
+
+/usr/local/include/boost/container_hash/hash.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_value.hpp:
+
+/usr/local/include/boost/container_hash/detail/hash_range.hpp:
+
+/usr/local/include/boost/container_hash/detail/hash_mix.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/IndexedView.h:
+
+/usr/local/include/boost/config/workaround.hpp:
+
+/usr/local/include/boost/config/stdlib/libcpp.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/concepts:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/limits.h:
+
+/usr/local/include/boost/config/platform/macos.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/permutable.h:
+
+/usr/local/include/boost/config/no_tr1/functional.hpp:
+
+/usr/local/include/boost/mp11/integer_sequence.hpp:
+
+/usr/local/include/boost/config/no_tr1/cmath.hpp:
+
+/usr/local/include/boost/config/detail/suffix.hpp:
+
+/usr/local/include/boost/config/detail/select_compiler_config.hpp:
+
+/usr/local/include/boost/config/compiler/clang.hpp:
+
+/usr/local/include/boost/iterator/distance.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_seek_set.h:
+
+/usr/local/include/boost/concept/usage.hpp:
+
+/usr/local/include/boost/concept/detail/general.hpp:
+
+/usr/local/include/boost/array.hpp:
+
+/usr/local/include/boost/any/fwd.hpp:
+
+/usr/local/include/boost/any/detail/placeholder.hpp:
+
+/usr/local/include/boost/any/bad_any_cast.hpp:
+
+/usr/local/include/boost/any.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/common_with.h:
+
+/usr/local/include/boost/preprocessor/comparison/equal.hpp:
+
+/usr/local/include/boost/type_traits/is_abstract.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/typeindex:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/shared_mutex:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/memory:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/memory_resource:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/execution:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__cxxabi_config.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/complex:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/include/StereoUtil.h:
 
@@ -8637,35 +9962,49 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/gflags/gflags_gflags.h:
 
+/usr/local/include/boost/mem_fn.hpp:
+
 /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
-
-/usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h:
-
-/usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
 /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h:
 
+/usr/local/include/boost/config/no_tr1/memory.hpp:
+
 /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h:
+
+/usr/local/include/opencv2/flann/config.h:
 
 /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
 
 /usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
-/usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h:
-
 /usr/local/include/eigen3/Eigen/src/Householder/Householder.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_size_t.h:
 
 /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ostream:
+
 /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint8_t.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
 
+/Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Replicate.h:
+
 /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
 
-/usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
 
-/usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+/usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
 
@@ -8673,13 +10012,27 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
-/usr/local/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/strong_order.h:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
 
+/usr/local/include/boost/preprocessor/enum.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
 
+/usr/local/include/opencv2/core/ovx.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h:
+
+/usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/expand.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h:
 
@@ -8695,33 +10048,81 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
 
+/usr/local/include/boost/config/user.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/in_in_out_result.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/max_element.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
+/usr/local/include/boost/preprocessor/list/adt.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_posix_availability.h:
+
+/usr/local/include/boost/mpl/aux_/config/arrays.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
+/usr/local/include/boost/preprocessor/seq/enum.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
+
+/usr/local/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__undef_macros:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
+/usr/local/include/boost/mpl/aux_/nested_type_wknd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
+
+/usr/local/include/boost/move/detail/std_ns_end.hpp:
+
+/usr/local/include/boost/iterator/iterator_categories.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
+
+/usr/local/include/boost/mpl/aux_/config/adl.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/EigenBase.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_wctype.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
+/usr/local/include/opencv2/flann/dist.h:
+
+/Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/local/include/opencv2/flann/kmeans_index.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Transpose.h:
 
@@ -8731,11 +10132,21 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/StlIterators.h:
 
+/usr/local/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/Solve.h:
+
+/usr/local/include/boost/mpl/tag.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Select.h:
+
+/usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
@@ -8745,65 +10156,111 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/Reshaped.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/Replicate.h:
+/usr/local/include/boost/numeric/conversion/detail/meta.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/limits/for_256.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/add.hpp:
+
+/usr/local/include/boost/preprocessor/control/if.hpp:
+
+/usr/local/include/boost/type_traits/make_void.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/Ref.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Redux.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Random.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/NoAlias.h:
 
+/usr/local/include/ceres/internal/array_selector.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h:
+
+/usr/local/include/boost/config/detail/select_platform_config.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/Matrix.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_setsize.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uintmax_t.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/Inverse.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/IndexedView.h:
+/usr/local/include/boost/mpl/aux_/config/nttp.hpp:
+
+/usr/local/include/boost/core/enable_if.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/popcount.h:
+
+/usr/local/include/boost/numeric/conversion/converter_policies.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/Dot.h:
+
+/usr/local/include/boost/preprocessor/list/reverse.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_includes.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
+
+/usr/local/include/boost/mpl/aux_/arithmetic_op.hpp:
+
+/usr/local/include/boost/mpl/aux_/lambda_support.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/DenseBase.h:
+
+/usr/local/include/boost/preprocessor/cat.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
+/usr/local/include/boost/config/detail/cxx_composite.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/usr/local/include/boost/mpl/has_xxx.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/emmintrin.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/Block.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Array.h:
 
@@ -8811,13 +10268,35 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+
+/usr/local/include/opencv2/xfeatures2d.hpp:
+
 /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_stdio.h:
 
 /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
-/usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
+/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
+
+/usr/local/include/boost/preprocessor/variadic/elem.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
+/usr/local/include/boost/type_traits/is_convertible.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int.h:
+
+/usr/local/include/boost/mpl/aux_/config/msvc.hpp:
+
+/usr/local/include/boost/container/detail/std_fwd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/blsr.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
@@ -8825,29 +10304,43 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/StdVector:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
+
+/usr/local/include/boost/preprocessor/config/config.hpp:
+
 /usr/local/include/eigen3/Eigen/QR:
 
 /usr/local/include/eigen3/Eigen/LU:
 
 /usr/local/include/eigen3/Eigen/Jacobi:
 
+/usr/local/include/boost/describe/detail/cx_streq.hpp:
+
 /usr/local/include/eigen3/Eigen/Householder:
+
+/usr/local/include/boost/mpl/multiplies.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
 /usr/local/include/eigen3/Eigen/Eigenvalues:
 
 /usr/local/include/eigen3/Eigen/Dense:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__hash_table:
+
 /usr/local/include/eigen3/Eigen/Core:
+
+/usr/local/include/ceres/types.h:
+
+/usr/local/include/ceres/sized_cost_function.h:
+
+/usr/local/include/boost/lexical_cast/detail/lcast_char_constants.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
 /usr/local/include/ceres/rotation.h:
 
-/usr/local/include/ceres/ordered_groups.h:
-
-/usr/local/include/ceres/numeric_diff_options.h:
-
 /usr/local/include/ceres/numeric_diff_first_order_function.h:
-
-/usr/local/include/ceres/numeric_diff_cost_function.h:
 
 /usr/local/include/ceres/manifold.h:
 
@@ -8855,7 +10348,13 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/ceres/jet_fwd.h:
 
+/usr/local/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/_mcontext.h:
+
 /usr/local/include/ceres/jet.h:
+
+/usr/local/include/boost/type_traits/is_enum.hpp:
 
 /usr/local/include/ceres/iteration_callback.h:
 
@@ -8865,7 +10364,11 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/ceres/internal/memory.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdio.h:
+
 /usr/local/include/ceres/internal/householder_vector.h:
+
+/usr/local/include/boost/type_traits/detail/has_binary_operator.hpp:
 
 /usr/local/include/ceres/internal/euler_angles.h:
 
@@ -8875,9 +10378,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/ceres/internal/config.h:
 
-/usr/local/include/ceres/internal/autodiff.h:
-
-/usr/local/include/ceres/internal/array_selector.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cctype:
 
 /usr/local/include/ceres/gradient_problem_solver.h:
 
@@ -8887,23 +10388,39 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp:
 
+/usr/local/include/boost/numeric/conversion/detail/bounds.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/invoke.h:
+
 /usr/local/include/ceres/gradient_checker.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
 
 /usr/local/include/ceres/dynamic_numeric_diff_cost_function.h:
 
 /usr/local/include/ceres/dynamic_cost_function_to_functor.h:
 
+/usr/local/include/boost/mpl/aux_/static_cast.hpp:
+
+/usr/local/include/boost/range/detail/has_member_size.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdlib.h:
+
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
-/usr/local/include/ceres/crs_matrix.h:
+/usr/local/include/boost/type_traits/is_member_function_pointer.hpp:
 
-/Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/generate.h:
+
+/usr/local/include/ceres/crs_matrix.h:
 
 /usr/local/include/ceres/covariance.h:
 
 /usr/local/include/ceres/autodiff_manifold.h:
 
 /usr/local/include/ceres/internal/variadic_evaluate.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_intmax_t.h:
 
 /usr/local/include/ceres/autodiff_first_order_function.h:
 
@@ -8913,27 +10430,41 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_inttypes.h:
 
+/usr/local/include/opencv2/video.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/unistd.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ttydefaults.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/forward.h:
+
+/usr/local/include/boost/mpl/limits/arity.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ttycom.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/declval.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/termios.h:
+
+/usr/local/include/boost/smart_ptr/detail/spinlock.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ioccom.h:
+
+/usr/local/include/boost/core/addressof.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_select.h:
 
-/usr/local/include/ceres/internal/integer_sequence_algorithm.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/inttypes.h:
+/usr/local/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/iota.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
 
@@ -8941,13 +10472,19 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
+/usr/local/include/boost/program_options/config.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/swappable.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
 
+/usr/local/include/ceres/product_manifold.h:
+
 /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ios/fpos.h:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/include/PlottingUtil.h:
 
@@ -8955,189 +10492,275 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
+/usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/unistd.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perms.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
+/usr/local/include/boost/preprocessor/iteration/iterate.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_type.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
+/usr/local/include/opencv2/stitching.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/src/IOUtil.cpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/find_end.h:
+
 /usr/local/include/ceres/internal/disable_warnings.h:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/include/CommonUtil.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternal.h:
+
 /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/has_single_bit.h:
+
+/usr/local/include/boost/mpl/aux_/comparison_op.hpp:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/src/CommonUtil.cpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp:
+/usr/local/include/opencv2/videoio.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp:
+/usr/local/include/opencv2/flann/any.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp:
+/usr/local/include/boost/iterator/detail/config_def.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp:
+/usr/local/include/boost/concept/detail/concept_def.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
+/usr/local/include/opencv2/video/tracking.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp:
+/usr/local/include/opencv2/stitching/warpers.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
+/usr/local/include/opencv2/stitching/detail/util_inl.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
+/usr/local/include/opencv2/stitching/detail/matchers.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/alloca.h:
 
-/usr/local/include/ceres/conditioned_cost_function.h:
+/usr/local/include/opencv2/opencv.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+
+/usr/local/include/opencv2/objdetect/face.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/relation.h:
+
+/usr/local/include/opencv2/objdetect/detection_based_tracker.hpp:
+
+/usr/local/include/opencv2/objdetect/barcode.hpp:
+
+/usr/local/include/opencv2/objdetect/aruco_dictionary.hpp:
+
+/usr/local/include/opencv2/objdetect.hpp:
+
+/usr/local/include/boost/utility/enable_if.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
+
+/usr/local/include/opencv2/ml.hpp:
+
+/usr/local/include/opencv2/imgcodecs.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/countl.h:
+
+/usr/local/include/opencv2/flann/timer.h:
+
+/usr/local/include/opencv2/flann/saving.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
+
+/usr/local/include/opencv2/photo.hpp:
+
+/usr/local/include/opencv2/flann/sampling.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
+
+/usr/local/include/opencv2/flann/result_set.h:
+
+/usr/local/include/opencv2/flann/params.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
+
+/usr/local/include/opencv2/flann/nn_index.h:
+
+/usr/local/include/boost/static_assert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/inttypes.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp:
+/usr/local/include/opencv2/flann/miniflann.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp:
+/usr/local/include/boost/config/helper_macros.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
+/usr/local/include/opencv2/flann/lsh_index.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/signal.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp:
+/usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/limits.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp:
+/usr/local/include/opencv2/flann/linear_index.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp:
+/usr/local/include/boost/mpl/aux_/config/integral.hpp:
 
-/usr/local/include/ceres/sized_cost_function.h:
+/usr/local/include/opencv2/flann/hierarchical_clustering_index.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp:
+/usr/local/include/ceres/numeric_diff_cost_function.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/imgproc.hpp:
+/usr/local/include/opencv2/flann/general.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp:
+/usr/local/include/boost/numeric/conversion/bounds.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_constructible.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ioccom.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/auto_cast.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_blksize_t.h:
 
-/usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h:
+/usr/local/include/opencv2/flann/dynamic_bitset.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h:
+/usr/local/include/boost/core/typeinfo.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cxxabi.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp:
+/usr/local/include/opencv2/flann/defines.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h:
+/usr/local/include/opencv2/flann/composite_index.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h:
-
-/usr/local/include/ceres/types.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/version.hpp:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp:
+/usr/local/include/opencv2/flann/all_indices.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/select.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp:
+/usr/local/include/opencv2/flann.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp:
+/usr/local/include/opencv2/features2d.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp:
+/usr/local/include/opencv2/dnn/utils/inference_engine.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp:
+/usr/local/include/opencv2/dnn/layer.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp:
+/usr/local/include/opencv2/dnn/dict.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__errc:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
+/usr/local/include/opencv2/dnn/version.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp:
+/usr/local/include/ceres/internal/integer_sequence_algorithm.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/inttypes.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h:
+/usr/local/include/opencv2/dnn.hpp:
 
-/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+/usr/local/include/boost/mp11/algorithm.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp:
+/usr/local/include/opencv2/core/vsx_utils.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp:
+/usr/local/include/opencv2/core/utility.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp:
+/usr/local/include/opencv2/core/traits.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_search_n.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp:
+/usr/local/include/boost/mp11/list.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc/segmentation.hpp:
+/usr/local/include/opencv2/core/persistence.hpp:
+
+/usr/local/include/opencv2/core/matx.hpp:
+
+/usr/local/include/ceres/numeric_diff_options.h:
+
+/usr/local/include/opencv2/core/hal/interface.h:
+
+/usr/local/include/opencv2/core/fast_math.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
+
+/usr/local/include/opencv2/core/cvstd_wrapper.hpp:
+
+/usr/local/include/opencv2/core/cvstd.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/static_constant.hpp:
+
+/usr/local/include/opencv2/core/cvdef.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/initializer_list:
+
+/usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/usr/local/include/opencv2/core/cv_cpu_dispatch.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h:
+
+/usr/local/include/boost/mpl/aux_/config/workaround.hpp:
+
+/usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
+
+/usr/local/include/opencv2/core/cuda_types.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+/usr/local/include/opencv2/core/cuda.inl.hpp:
+
+/usr/local/include/ceres/internal/autodiff.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bitset:
+
+/usr/local/include/opencv2/core/check.hpp:
+
+/usr/local/include/opencv2/stitching/detail/blenders.hpp:
+
+/usr/local/include/opencv2/core/bufferpool.hpp:
+
+/usr/local/include/boost/mpl/protect.hpp:
+
+/usr/local/include/opencv2/core/async.hpp:
+
+/usr/local/include/opencv2/core.hpp:
+
+/usr/local/include/opencv2/calib3d.hpp:
+
+/usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
+
+/usr/local/include/opencv2/imgproc/segmentation.hpp:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmStructures.h:
 
-/Users/stephano./github/sfm-3rd-year-project/c++/include/IOUtil.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/transform.h:
+
+/usr/local/include/boost/lexical_cast/detail/converter_numeric.hpp:
 
 /usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
 
@@ -9147,13 +10770,11 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ucontext.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_stdio.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_stdio.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/locale.h:
 
@@ -9165,7 +10786,11 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/Product.h:
 
+/usr/local/include/boost/range/mutable_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h:
+
+/usr/local/include/boost/mpl/apply_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/qos.h:
 
@@ -9175,51 +10800,71 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/errno.h:
 
+/usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/usr/local/include/boost/iterator/detail/config_undef.hpp:
+
+/usr/local/include/opencv2/flann/ground_truth.h:
+
 /usr/local/include/ceres/internal/parameter_dims.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wchar_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_va_list.h:
+/usr/local/include/opencv2/flann/allocator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uid_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int8_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timespec.h:
+/usr/local/include/opencv2/flann/heap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_size_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timespec.h:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/include/FeatureUtil.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_sigaltstack.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_seek_set.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_suseconds_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/usr/local/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mode_t.h:
 
+/usr/local/include/boost/range/detail/extract_optional_type.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/unique.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mbstate_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit_reference:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mach_port_t.h:
 
 /usr/local/include/ceres/solver.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_intptr_t.h:
+/usr/local/include/boost/container/container_fwd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int16_t.h:
+
+/usr/local/include/boost/mp11/detail/mp_is_value_list.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_wctrans_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_id_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_gid_t.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
@@ -9229,13 +10874,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_errno_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_time.h:
+/usr/local/include/boost/preprocessor/control/while.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/popcntintrin.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_off_t.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Memory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
@@ -9243,17 +10892,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/usr/local/include/boost/mp11/detail/mp_with_index.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
@@ -9263,17 +10912,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_setsize.h:
+/usr/local/include/boost/preprocessor/repeat.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_endian.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/strings.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdlib.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/errno.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/termios.h:
 
@@ -9289,51 +10938,59 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/pthread.h:
 
+/usr/local/include/boost/preprocessor/control/deduce_d.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/math.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__node_handle:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/malloc/_malloc_type.h:
 
-/usr/local/include/ceres/internal/jet_traits.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
+
+/usr/local/include/opencv2/core/version.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/malloc/_malloc.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/min.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/file_clock.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/types.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/min.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/endian.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/_mcontext.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/midpoint.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_null.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
-/usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/limits.h:
+/usr/local/include/opencv2/flann/lsh_table.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/libkern/_OSByteOrder.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/signal.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/IO.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_types.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/void_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_mcontext.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
+
+/usr/local/include/boost/preprocessor/facilities/overload.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/float.h:
 
@@ -9341,9 +10998,15 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/wchar.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/vector:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/utility:
+
+/usr/local/include/boost/mpl/next.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/typeinfo:
 
@@ -9353,15 +11016,23 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string_view:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_unique_copy.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string.h:
 
 /usr/local/include/ceres/ceres.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdlib.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_key_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/pwd.h:
 
@@ -9371,37 +11042,61 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdexcept:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/emmintrin.h:
+/usr/local/include/boost/mpl/aux_/msvc_eti_base.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_blksize_t.h:
+/usr/local/include/boost/preprocessor/control/iif.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/sstream:
 
-/usr/local/include/eigen3/Eigen/src/Core/DenseBase.h:
+/usr/local/include/boost/numeric/conversion/detail/sign_mixture.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
+
+/usr/local/include/boost/function/function_template.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/set:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ratio:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
+/usr/local/include/opencv2/core/cuda.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_void.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/new:
 
+/usr/local/include/opencv2/dnn/dnn.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/streambuf:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/mutex:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/ctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
+/usr/local/include/boost/iterator/reverse_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_ctype.h:
+
+/usr/local/include/boost/mpl/lambda_fwd.hpp:
+
+/usr/local/include/boost/describe/detail/config.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/system_error:
 
 /usr/local/include/ceres/dynamic_cost_function.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/binary_negate.h:
+
+/usr/local/include/boost/container_hash/detail/hash_tuple_like.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/math.h:
 
@@ -9409,21 +11104,27 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/not_fn.h:
 
+/usr/local/include/opencv2/xfeatures2d/nonfree.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/numeric:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/map:
+
+/usr/local/include/boost/concept/assert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/locale.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/locale:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/list:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/limits.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iterator:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/istream:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/weekday.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_member_function_pointer.h:
 
@@ -9431,23 +11132,15 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iomanip:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/initializer_list:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/functional:
-
-/usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/errno.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/deque:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cwctype:
 
+/usr/local/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ctype.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ctime:
+/usr/local/include/opencv2/imgproc.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/thread:
 
@@ -9459,11 +11152,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/concepts:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cerrno:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bitset:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
@@ -9471,11 +11160,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_char.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/array:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_char.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/priority_tag.h:
+
+/usr/local/include/boost/mpl/aux_/na_spec.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/algorithm:
 
@@ -9483,11 +11178,19 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h:
 
+/usr/local/include/boost/preprocessor/repetition/enum.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/unreachable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdio:
 
+/usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
+
+/usr/local/include/boost/preprocessor/repetition/for.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
 
@@ -9499,33 +11202,33 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/queue:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/count_if.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/find.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/void_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/atomic:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/forward_like.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/forward.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/exchange.h:
+
+/usr/local/include/boost/core/swap.hpp:
 
 /usr/local/include/ceres/sphere_manifold.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/exception_guard.h:
 
+/usr/local/include/boost/type_traits/alignment_of.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/declval.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/auto_cast.h:
+/usr/local/include/boost/mpl/aux_/config/ttp.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/limits.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/is_eq.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
@@ -9535,15 +11238,21 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_suseconds_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_reference.h:
+
+/usr/local/include/boost/preprocessor/control/detail/while.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
+
+/usr/local/include/boost/mpl/aux_/template_arity.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_like_ext.h:
 
@@ -9553,45 +11262,71 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
 
+/usr/local/include/boost/range/const_iterator.hpp:
+
+/usr/local/include/boost/config/detail/select_stdlib_config.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/rank.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/signal.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
+/usr/local/include/boost/type_traits/add_reference.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
+/usr/local/include/boost/smart_ptr/shared_ptr.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_string.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_void.h:
+
+/usr/local/include/boost/type_traits/is_pod.hpp:
+
+/usr/local/include/opencv2/core/mat.inl.hpp:
+
+/usr/local/include/opencv2/imgproc/imgproc.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
 
+/usr/local/include/opencv2/highgui.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/__wctype.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h:
+/usr/local/include/boost/type_traits/is_base_of.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/tuple.h:
+
 /usr/local/include/glog/export.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/limits.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_sigset_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_null.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_pid_t.h:
+
+/usr/local/include/boost/preprocessor/arithmetic/dec.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -9603,39 +11338,43 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uuid_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
+/usr/local/include/boost/preprocessor/control/limits/while_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/to_underlying.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_reference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cwchar:
 
+/usr/local/include/boost/type_traits/remove_pointer.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
 /usr/local/include/eigen3/Eigen/src/StlSupport/StdVector.h:
+
+/usr/local/include/boost/mpl/apply.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdint:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/gethostuuid.h:
+
+/usr/local/include/opencv2/stitching/detail/motion_estimators.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_constructible.h:
+/usr/local/include/boost/range/size_type.hpp:
+
+/usr/local/include/boost/bind/mem_fn_cc.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/compare:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/utmp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_assignable.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
 /usr/local/include/ceres/version.h:
 
@@ -9644,6 +11383,8 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h:
+
+/usr/local/include/boost/type_traits/conditional.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_prev_permutation.h:
 
@@ -9659,33 +11400,35 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_zero.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/sample.h:
+/usr/local/include/boost/mpl/times.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
 
+/usr/local/include/boost/detail/basic_pointerbuf.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
 
-/usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h:
+/usr/local/include/opencv2/core/types.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
+/usr/local/include/ceres/evaluation_callback.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/midpoint.h:
+/usr/local/include/opencv2/flann/autotuned_index.h:
+
+/usr/local/include/boost/preprocessor/tuple/eat.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
@@ -9699,33 +11442,39 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cfloat:
 
+/usr/local/include/boost/mpl/void.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/numeric:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/operations.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_array.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+
+/usr/local/include/opencv2/flann/index_testing.h:
+
+/usr/local/include/boost/bind/mem_fn_template.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
+/usr/local/include/boost/config.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityVersions.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/empty.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/pair_like.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp:
+/usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
@@ -9739,29 +11488,23 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstring:
 
-/usr/local/include/eigen3/Eigen/src/StlSupport/details.h:
+/usr/local/include/boost/container_hash/is_contiguous_range.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
+/usr/local/include/eigen3/Eigen/src/StlSupport/details.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/extent.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/blsr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_useconds_t.h:
 
@@ -9769,17 +11512,21 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/limits:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_search_n.h:
+/usr/local/include/boost/preprocessor/array/elem.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int.h:
+/usr/local/include/boost/describe/bases.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
@@ -9795,9 +11542,13 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/identity.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/uuid/uuid.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Translation.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Map.h:
 
@@ -9811,21 +11562,23 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h:
+/usr/local/include/boost/mpl/bind.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h:
+/usr/local/include/opencv2/dnn/dnn.inl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_base_of.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/projected.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_like.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_indices.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
@@ -9835,19 +11588,19 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
 
-/usr/local/include/ceres/cost_function_to_functor.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_wctype.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/apply_cv.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/strong_order.h:
+/usr/local/include/boost/type_traits/integral_constant.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tree:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h:
 
+/Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
+
+/usr/local/include/boost/range/distance.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
@@ -9859,15 +11612,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/smmintrin.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__split_buffer:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/view_interface.h:
+/usr/local/include/opencv2/ml/ml.inl.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/xfeatures2d/nonfree.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_width.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
@@ -9875,25 +11630,31 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/version:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_cast.h:
+
+/usr/local/include/boost/preprocessor/enum_params.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/system_error:
+/usr/local/include/boost/range/begin.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+/usr/local/include/boost/mpl/aux_/config/bcc.hpp:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp:
+/usr/local/include/boost/mpl/bool_fwd.hpp:
+
+/usr/local/include/boost/move/detail/std_ns_begin.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/empty.h:
 
+/usr/local/include/boost/current_function.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/float.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/month.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/data.h:
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/dangling.h:
 
@@ -9905,8 +11666,6 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/access.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
@@ -9915,19 +11674,19 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/climits:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
+/usr/local/include/boost/preprocessor/config/limits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mbstate_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__random/is_valid.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/exception:
+/usr/local/include/opencv2/flann/logger.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_function.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdio.h:
 
@@ -9935,25 +11694,33 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/endian.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ino64_t.h:
+
+/usr/local/include/boost/mpl/aux_/msvc_never_true.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/temp_value.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/function.h:
+/usr/local/include/boost/mp11/detail/mp_plus.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
+/usr/local/include/boost/mpl/bind_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
+/usr/local/include/boost/preprocessor/detail/check.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
+
+/usr/local/include/boost/bind/mem_fn.hpp:
+
+/usr/local/include/boost/mpl/and.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/concepts.h:
 
@@ -9961,13 +11728,11 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/default_searcher.h:
+
+/usr/local/include/opencv2/core/neon_utils.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_count_if.h:
 
@@ -9975,59 +11740,79 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/size.h:
 
+/usr/local/include/boost/concept/detail/backward_compatibility.hpp:
+
+/usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/permutable.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/get.h:
+
+/usr/local/include/boost/mpl/next_prior.hpp:
+
+/usr/local/include/boost/preprocessor/seq/seq.hpp:
+
+/usr/local/include/opencv2/flann/kdtree_single_index.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/__wctype.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_wctrans_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/mergeable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/lazy.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_object.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/iterator.h:
+/usr/local/include/boost/preprocessor/iteration/detail/iter/limits/forward1_256.hpp:
+
+/usr/local/include/boost/assert/source_location.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_in_port_t.h:
 
+/usr/local/include/opencv2/video/background_segm.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/distance.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/regular.h:
+
+/usr/local/include/boost/exception/exception.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_sort_heap.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/advance.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__hash_table:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
+/usr/local/include/boost/assert.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/format_error.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/empty.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/tuple.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/string_view.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/endian.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
+
+/usr/local/include/boost/preprocessor/variadic/has_opt.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/pair.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
+/usr/local/include/boost/range/config.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/data.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_locale.h:
 
@@ -10035,27 +11820,33 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/pair.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/hash.h:
+
+/usr/local/include/opencv2/core/optim.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_symbol_aliasing.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/sfinae_helpers.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/sfinae_helpers.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_function.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/addressof.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/duration.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
+/usr/local/include/boost/lexical_cast/detail/widest_char.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_time_t.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp:
+/usr/local/include/boost/preprocessor/tuple/elem.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
@@ -10069,27 +11860,25 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/runetype.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/reduce.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/nl_types.h:
 
 /usr/local/include/ceres/constants.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h:
+/usr/local/include/boost/preprocessor/list/limits/fold_left_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_const.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint16_t.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h:
+/usr/local/include/opencv2/stitching/detail/exposure_compensate.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_const.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
 
@@ -10097,21 +11886,25 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
+/usr/local/include/boost/preprocessor/arithmetic/mod.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Users/stephano./github/sfm-3rd-year-project/c++/include/SfmBundleAdjustment.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/invoke.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
+
+/usr/local/include/boost/core/snprintf.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/chrono:
+
+/usr/local/include/boost/mpl/if.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
 
@@ -10121,11 +11914,11 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/hash.h:
 
+/usr/local/include/boost/preprocessor/repetition/repeat.hpp:
+
+/usr/local/include/opencv2/core/operations.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_wctype_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdio.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocator.h:
 
@@ -10133,33 +11926,35 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/ceres/internal/port.h:
 
+/usr/local/include/boost/iterator/is_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
 /usr/local/include/eigen3/Eigen/src/misc/Image.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:
 
+/usr/local/include/boost/type_traits/decay.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/assume_aligned.h:
 
 /usr/local/include/ceres/internal/fixed_array.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/calendar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
+
+/usr/local/include/boost/type_traits/is_unsigned.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/compose.h:
 
@@ -10167,11 +11962,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ios/fpos.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_clamp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/bind.h:
 
+/usr/local/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
+
+/usr/local/include/boost/range/concepts.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_short.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
@@ -10181,25 +11982,21 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/format_fwd.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
+/usr/local/include/opencv2/flann/matrix.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_generate.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/enable_insertable.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_clamp.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/rotate.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/limits.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/concepts.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int16_t.h:
 
@@ -10207,43 +12004,39 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/gflags/gflags_declare.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/align.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__errc:
+/usr/local/include/opencv2/objdetect/aruco_board.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+/usr/local/include/boost/mp11/detail/mp_defer.hpp:
+
+/usr/local/include/boost/lexical_cast/try_lexical_convert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_inplace_merge.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/bind_back.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site:
+/usr/local/include/boost/type_traits/remove_bounds.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/compare:
+/usr/local/include/boost/preprocessor/inc.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_size.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/popcntintrin.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/swappable.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/resource.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint8_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/relation.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/wchar.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/bind_back.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
@@ -10251,35 +12044,35 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/derived_from.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
+/usr/local/include/boost/function/detail/requires_cxx11.hpp:
+
+/usr/local/include/boost/integer.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_count.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/priority_tag.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+/usr/local/include/boost/config/detail/posix_features.hpp:
 
 /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/space_info.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h:
+
+/usr/local/include/boost/type_traits/is_copy_constructible.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_shuffle.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/movable.h:
 
-/usr/local/include/ceres/evaluation_callback.h:
+/usr/local/include/boost/config/pragma_message.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/destructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
 
@@ -10291,19 +12084,19 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctermid.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp:
+/usr/local/include/boost/program_options.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timeval.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_posix_availability.h:
+/usr/local/include/boost/mpl/numeric_cast.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
-/usr/local/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp:
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xmmintrin.h:
 
@@ -10315,19 +12108,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/weak_order.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_allocator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/ordering.h:
+/usr/local/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/gcc.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__variant/monostate.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/is_eq.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
@@ -10335,7 +12126,11 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/gflags/gflags.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mutex_base:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_partial_order_fallback.h:
+
+/usr/local/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_limits.h:
 
@@ -10351,11 +12146,9 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/unordered_set:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/signal.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/replace.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/year.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/prev.h:
 
@@ -10367,19 +12160,15 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/Assign.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/assignable.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int32_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/system_clock.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/memory:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/voidify.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/regular.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_reverse_copy.h:
 
@@ -10389,6 +12178,10 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
+
+/usr/local/include/boost/mpl/lambda.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/binary_function.h:
@@ -10397,15 +12190,11 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/file_clock.h:
+/usr/local/include/boost/mpl/less.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/_structs.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/duration.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_posix_vdisable.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/day.h:
 
@@ -10415,27 +12204,25 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/has_single_bit.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/format_parse_context.h:
+
+/usr/local/include/boost/mpl/aux_/arity.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
+/usr/local/include/boost/mpl/aux_/yes_no.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/endian.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/countr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/byteswap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/set_union.h:
+/usr/local/include/boost/function/function_base.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
@@ -10449,29 +12236,33 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
-
 /usr/local/include/ceres/first_order_function.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_log2.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_cast.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_function.h:
+/usr/local/include/boost/mpl/aux_/config/gpu.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/memory_resource.h:
+
+/usr/local/include/boost/mpl/void_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/merge.h:
+
+/usr/local/include/boost/program_options/errors.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__availability:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
+/usr/local/include/opencv2/objdetect/aruco_detector.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
+/usr/local/include/boost/type_traits/is_integral.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
@@ -10483,27 +12274,25 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
+/usr/local/include/boost/get_pointer.hpp:
+
+/usr/local/include/boost/core/ref.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/transform.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unwrap_ref.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/type_traits:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/optional:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/inner_product.h:
+
+/usr/local/include/boost/range/detail/safe_bool.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
@@ -10511,63 +12300,67 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wint_t.h:
 
+/usr/local/include/boost/mp11/utility.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
 /usr/local/include/ceres/autodiff_cost_function.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/pmmintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/nl_types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/reverse.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/appleapiopts.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_sort_heap.h:
+/usr/local/include/boost/mpl/integral_c_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/type_wrapper.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocator_destructor.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__random/log2.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/unique.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp:
+/usr/local/include/boost/mp11/detail/mp_front.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_max_element.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_unique_copy.h:
+/usr/local/include/eigen3/Eigen/src/Core/StableNorm.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
+/usr/local/include/boost/mpl/aux_/largest_int.hpp:
+
+/usr/local/include/boost/mpl/aux_/has_type.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
+/usr/local/include/boost/concept/detail/concept_undef.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+
+/usr/local/include/boost/preprocessor/slot/detail/shared.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem:
+
+/usr/local/include/boost/container_hash/is_tuple_like.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
+/usr/local/include/ceres/cost_function.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/move.h:
+
+/usr/local/include/boost/config/compiler/clang_version.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/month_weekday.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_set_symmetric_difference.h:
 
@@ -10577,9 +12370,9 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/Cholesky:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
+
+/usr/local/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
@@ -10589,49 +12382,45 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/monthday.h:
 
+/usr/local/include/boost/mpl/not.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cctype:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityVersions.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_rotate_copy.h:
 
+/usr/local/include/boost/preprocessor/seq/fold_left.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_pop_heap.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
 
-/usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/MapBase.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/size.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy.h:
+
+/usr/local/include/boost/preprocessor/array/size.hpp:
+
+/usr/local/include/boost/mpl/assert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_xlocale.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/EigenBase.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/get.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/xfeatures2d.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
+
+/usr/local/include/opencv2/flann/flann_base.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uintptr_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
+/usr/local/include/opencv2/highgui/highgui.hpp:
+
+/usr/local/include/boost/mp11/version.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_find.h:
 
@@ -10641,13 +12430,15 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_for_each.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/clamp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
+/usr/local/include/boost/preprocessor/logical/bool.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/invocable.h:
+
+/usr/local/include/opencv2/core/saturate.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/search.h:
 
@@ -10661,31 +12452,15 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/data.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_generate.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
+/usr/local/include/boost/mp11/bind.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/all_of.h:
-
-/Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
 
@@ -10697,25 +12472,13 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/types.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_intmax_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/errno.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uintmax_t.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/sfm/triangulation.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
-/usr/local/include/ceres/cost_function.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
+/usr/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
 
@@ -10725,19 +12488,13 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_floor.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy.h:
+/usr/local/include/boost/core/noncopyable.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap_until.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_pid_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/sortable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ino_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
@@ -10749,33 +12506,35 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui/highgui.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
+/usr/local/include/opencv2/flann/random.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_find_if.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy.h:
+/usr/local/include/boost/mpl/aux_/arity_spec.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_find_first_of.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace_if.h:
+/usr/local/include/boost/mpl/aux_/config/ctps.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_any_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
+/usr/local/include/boost/type.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_fill.h:
+
+/usr/local/include/boost/mpl/aux_/has_tag.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_clock_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
+/usr/local/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/usr/local/include/boost/type_traits/enable_if.hpp:
+
+/usr/local/include/opencv2/stitching/detail/warpers_inl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_equal_range.h:
 
@@ -10785,29 +12544,23 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint32_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int64_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint32_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/util/Memory.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert:
+/usr/local/include/boost/mp11/detail/mp_remove_if.hpp:
+
+/usr/local/include/boost/function/detail/maybe_include.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/aligned_union.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/uuid/uuid.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
+/usr/local/include/boost/preprocessor/detail/limits/auto_rec_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
@@ -10815,9 +12568,9 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/result_of.h:
 
-/usr/local/include/ceres/product_manifold.h:
+/usr/local/include/boost/container_hash/detail/requires_cxx11.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/complex:
+/usr/local/include/boost/type_traits/has_trivial_copy.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
 
@@ -10827,29 +12580,13 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
-/usr/local/include/eigen3/Eigen/src/Geometry/Translation.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit_reference:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/cmp.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/memory_resource.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/gethostuuid.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ostream:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
 
 /usr/local/include/glog/log_severity.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_includes.h:
 
 /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
 
@@ -10859,6 +12596,8 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/different_from.h:
 
+/usr/local/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/move.h:
@@ -10867,21 +12606,19 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/Transpositions.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/any:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int64_t.h:
+/usr/local/include/opencv2/flann/kdtree_index.h:
+
+/usr/local/include/opencv2/core/affine.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
 /usr/local/include/ceres/internal/reenable_warnings.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_any_of.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int32_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_dev_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdint.h:
 
@@ -10889,63 +12626,49 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_short.h:
+/usr/local/include/boost/mpl/aux_/config/has_xxx.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mutex_base:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctype.h:
+/usr/local/include/boost/numeric/conversion/detail/converter.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/weekday.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/construct_at.h:
+
+/usr/local/include/opencv2/opencv_modules.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/nat.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/find_if.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/time_point.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstddef:
+/usr/local/include/boost/range/detail/common.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctermid.h:
+/usr/local/include/opencv2/objdetect/graphical_code_detector.hpp:
+
+/usr/local/include/boost/preprocessor/tuple/rem.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/wctype.h:
 
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem:
+/usr/local/include/boost/bind/detail/requires_cxx11.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
+/usr/local/include/boost/mpl/arg.hpp:
+
 /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/align.h:
 
 /usr/local/include/ceres/internal/export.h:
 
@@ -10953,17 +12676,13 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_stdio.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/signal.h:
+/usr/local/include/boost/container_hash/detail/mulx.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/in_in_out_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
@@ -10973,13 +12692,9 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/countl.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
@@ -10987,17 +12702,17 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /usr/local/include/ceres/problem.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/popcount.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/unordered_map:
 
 /usr/local/include/ceres/line_manifold.h:
 
+/usr/local/include/opencv2/stitching/detail/seam_finders.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_element.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
@@ -11007,14 +12722,6 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternal.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iosfwd:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_make_heap.h:
@@ -11023,29 +12730,29 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
+/usr/local/include/boost/concept_check.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/fstream:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
+/usr/local/include/boost/type_traits/is_class.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__undef_macros:
+/usr/local/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/dtp.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/decay.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/assume_aligned.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_default_constructible.h:
 
 /usr/local/include/eigen3/Eigen/src/LU/Determinant.h:
 
 /usr/local/include/eigen3/Eigen/Geometry:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/month.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/find_end.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
@@ -11053,51 +12760,31 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
-/Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/subrange.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/atomic:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint16_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/alloca.h:
+/usr/local/include/boost/mpl/aux_/config/has_apply.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/StableNorm.h:
+/usr/local/include/boost/mpl/aux_/config/eti.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bit/bit_width.h:
+/usr/local/include/opencv2/stitching/detail/warpers.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_partitioned.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_default_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -11105,18 +12792,14 @@ CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/common_with.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp:
+/usr/local/include/boost/preprocessor/empty.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
-
-/usr/local/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/max.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove.h:
+
+/usr/local/include/boost/range/functions.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
