@@ -191,13 +191,11 @@ void SfmReconstruction::find_baseline_triangulation() {
         size_t j = pair.second.right;
 
         std::vector<cv::DMatch> mask_matches;
-        std::cout << "1" << std::endl;
         bool success = StereoUtil::camera_matrices_from_matches(
             this->intrinsics, this->match_matrix[i][j],
             this->images_features[i], this->images_features[j], mask_matches,
             P_left, P_right);
 
-        std::cout << "2" << std::endl;
         if (!success) {
             std::cout << "Pair (" << pair.second.left << ", "
                       << pair.second.right << ") UNSUCCESSFUL" << std::endl;

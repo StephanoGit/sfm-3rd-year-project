@@ -1,5 +1,5 @@
 CMakeFiles/sfm.dir/src/main.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/C++/src/main.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdexcept \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
@@ -1484,9 +1484,9 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/program_options/detail/convert.hpp \
   /usr/local/include/boost/program_options/variables_map.hpp \
   /usr/local/include/boost/program_options/version.hpp \
-  /Users/stephano./github/sfm-3rd-year-project/C++/src/../calibration/CameraCalibration.h \
-  /Users/stephano./github/sfm-3rd-year-project/C++/src/../include/IOUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/C++/src/../include/SfmStructures.h \
-  /Users/stephano./github/sfm-3rd-year-project/C++/src/../include/PlottingUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/C++/src/../include/SfmReconstruction.h \
-  /Users/stephano./github/sfm-3rd-year-project/C++/src/../include/FeatureUtil.h
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../calibration/CameraCalibration.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/IOUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PlottingUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmReconstruction.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h
