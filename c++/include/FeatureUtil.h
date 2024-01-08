@@ -7,31 +7,32 @@
 #include <opencv2/features2d.hpp>
 
 enum FeatureExtractionType {
-  SIFT,
-  ORB,
-  FAST,
-  SURF,
+    SIFT,
+    ORB,
+    BRISK,
+    KAZE,
+    AKAZE,
+    SURF,
+
 };
 
 enum FeatureMatchingType {
-  BF,
-  FLANN,
+    BF,
+    FLANN,
 };
 
 class FeatureUtil {
-public:
-  FeatureUtil();
-  FeatureUtil(FeatureExtractionType extract_type,
-              FeatureMatchingType match_type);
-  virtual ~FeatureUtil();
+  public:
+    FeatureUtil();
+    FeatureUtil(FeatureExtractionType extract_type, FeatureMatchingType match_type);
+    virtual ~FeatureUtil();
 
-  Features extract_features(const cv::Mat &image);
-  std::vector<cv::DMatch> match_features(const Features &features_left,
-                                         const Features &features_right);
+    Features extract_features(const cv::Mat &image);
+    std::vector<cv::DMatch> match_features(const Features &features_left, const Features &features_right);
 
-private:
-  FeatureExtractionType extract_type;
-  FeatureMatchingType match_type;
+  private:
+    FeatureExtractionType extract_type;
+    FeatureMatchingType match_type;
 };
 
 #endif

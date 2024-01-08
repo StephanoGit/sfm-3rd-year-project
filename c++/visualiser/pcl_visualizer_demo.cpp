@@ -4,6 +4,13 @@
 #include <pcl/io/ply_io.h> // Include for PLY support
 #include <pcl/visualization/pcl_visualizer.h>
 
+#include <pcl/features/normal_3d.h>
+#include <pcl/io/pcd_io.h>
+#include <pcl/io/ply_io.h>
+#include <pcl/kdtree/kdtree_flann.h>
+#include <pcl/point_types.h>
+#include <pcl/surface/poisson.h>
+
 #include <boost/program_options.hpp>
 #include <fstream>
 #include <iostream>
@@ -62,9 +69,9 @@ int main(int argc, char **argv) {
 
         for (size_t i = 0; i < points_3d.size(); i += 3) {
             pcl::PointXYZRGB point;
-            point.x = points_3d[i] * 100;
-            point.y = points_3d[i + 1] * 100;
-            point.z = points_3d[i + 2] * 100;
+            point.x = points_3d[i];
+            point.y = points_3d[i + 1];
+            point.z = points_3d[i + 2];
             // Set color (example: white)
             point.r = 255;
             point.g = 255;
@@ -80,6 +87,28 @@ int main(int argc, char **argv) {
         std::cerr << "Unsupported file format" << std::endl;
         return 3;
     }
+
+    pcl::NormalEstimation<pcl::PointXYZRGB, pcl::Normal> ne;
+    ne.setInputCloud(point_cloud);
+
+    pcl::search::KdTree<pcl::PointXYZRGB>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZRGB>());
+    ne.setSearchMethod(tree);
+
+    pcl::PointCloud<pcl::Normal>::Ptr normals(new pcl::PointCloud<pcl::Normal>);
+    ne.setRadiusSearch(0.03);
+    ne.compute(*normals);
+
+    pcl::PointCloud<pcl::PointXYZRGBNormal>::Ptr cloudWithNormals(new pcl::PointCloud<pcl::PointXYZRGBNormal>);
+    pcl::concatenateFields(*point_cloud, *normals, *cloudWithNormals);
+
+    pcl::Poisson<pcl::PointXYZRGBNormal> poisson;
+    poisson.setDepth(12); // Adjust this as needed
+    poisson.setInputCloud(cloudWithNormals);
+
+    pcl::PolygonMesh mesh;
+    poisson.reconstruct(mesh);
+
+    pcl::io::savePLYFile("mesh.ply", mesh);
 
     point_cloud->width = point_cloud->size();
     point_cloud->height = 1;

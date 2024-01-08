@@ -2352,6 +2352,9 @@ CMakeFiles/pcl_visualizer_demo.dir/pcl_visualizer_demo.cpp.o
  /usr/local/include/pcl-1.13/pcl/search/kdtree.h
  /usr/local/include/pcl-1.13/pcl/search/organized.h
  /usr/local/include/pcl-1.13/pcl/search/search.h
+ /usr/local/include/pcl-1.13/pcl/surface/impl/reconstruction.hpp
+ /usr/local/include/pcl-1.13/pcl/surface/poisson.h
+ /usr/local/include/pcl-1.13/pcl/surface/reconstruction.h
  /usr/local/include/pcl-1.13/pcl/type_traits.h
  /usr/local/include/pcl-1.13/pcl/types.h
  /usr/local/include/pcl-1.13/pcl/visualization/area_picking_event.h

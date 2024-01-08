@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.27.8/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/c++
+CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/c++/build
+CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/C++/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sfm.dir/depend.make
@@ -70,130 +70,130 @@ include CMakeFiles/sfm.dir/progress.make
 include CMakeFiles/sfm.dir/flags.make
 
 CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp
+CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmReconstruction.cpp
 CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o -MF CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o.d -o CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o -MF CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o.d -o CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmReconstruction.cpp
 
 CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp > CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmReconstruction.cpp > CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.i
 
 CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp -o CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmReconstruction.cpp -o CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.s
 
 CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp
+CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/FeatureUtil.cpp
 CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o -MF CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o -MF CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/FeatureUtil.cpp
 
 CMakeFiles/sfm.dir/src/FeatureUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/FeatureUtil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp > CMakeFiles/sfm.dir/src/FeatureUtil.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/FeatureUtil.cpp > CMakeFiles/sfm.dir/src/FeatureUtil.cpp.i
 
 CMakeFiles/sfm.dir/src/FeatureUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/FeatureUtil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp -o CMakeFiles/sfm.dir/src/FeatureUtil.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/FeatureUtil.cpp -o CMakeFiles/sfm.dir/src/FeatureUtil.cpp.s
 
 CMakeFiles/sfm.dir/src/StereoUtil.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/StereoUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp
+CMakeFiles/sfm.dir/src/StereoUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/StereoUtil.cpp
 CMakeFiles/sfm.dir/src/StereoUtil.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sfm.dir/src/StereoUtil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/StereoUtil.cpp.o -MF CMakeFiles/sfm.dir/src/StereoUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/StereoUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sfm.dir/src/StereoUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/StereoUtil.cpp.o -MF CMakeFiles/sfm.dir/src/StereoUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/StereoUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/StereoUtil.cpp
 
 CMakeFiles/sfm.dir/src/StereoUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/StereoUtil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp > CMakeFiles/sfm.dir/src/StereoUtil.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/StereoUtil.cpp > CMakeFiles/sfm.dir/src/StereoUtil.cpp.i
 
 CMakeFiles/sfm.dir/src/StereoUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/StereoUtil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/StereoUtil.cpp -o CMakeFiles/sfm.dir/src/StereoUtil.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/StereoUtil.cpp -o CMakeFiles/sfm.dir/src/StereoUtil.cpp.s
 
 CMakeFiles/sfm.dir/src/main.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp
+CMakeFiles/sfm.dir/src/main.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/main.cpp
 CMakeFiles/sfm.dir/src/main.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfm.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/main.cpp.o -MF CMakeFiles/sfm.dir/src/main.cpp.o.d -o CMakeFiles/sfm.dir/src/main.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfm.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/main.cpp.o -MF CMakeFiles/sfm.dir/src/main.cpp.o.d -o CMakeFiles/sfm.dir/src/main.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/main.cpp
 
 CMakeFiles/sfm.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp > CMakeFiles/sfm.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/main.cpp > CMakeFiles/sfm.dir/src/main.cpp.i
 
 CMakeFiles/sfm.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp -o CMakeFiles/sfm.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/main.cpp -o CMakeFiles/sfm.dir/src/main.cpp.s
 
 CMakeFiles/sfm.dir/src/IOUtil.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/IOUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/IOUtil.cpp
+CMakeFiles/sfm.dir/src/IOUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/IOUtil.cpp
 CMakeFiles/sfm.dir/src/IOUtil.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfm.dir/src/IOUtil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/IOUtil.cpp.o -MF CMakeFiles/sfm.dir/src/IOUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/IOUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/IOUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfm.dir/src/IOUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/IOUtil.cpp.o -MF CMakeFiles/sfm.dir/src/IOUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/IOUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/IOUtil.cpp
 
 CMakeFiles/sfm.dir/src/IOUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/IOUtil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/IOUtil.cpp > CMakeFiles/sfm.dir/src/IOUtil.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/IOUtil.cpp > CMakeFiles/sfm.dir/src/IOUtil.cpp.i
 
 CMakeFiles/sfm.dir/src/IOUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/IOUtil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/IOUtil.cpp -o CMakeFiles/sfm.dir/src/IOUtil.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/IOUtil.cpp -o CMakeFiles/sfm.dir/src/IOUtil.cpp.s
 
 CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/PlottingUtil.cpp
+CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/PlottingUtil.cpp
 CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o -MF CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/PlottingUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o -MF CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/PlottingUtil.cpp
 
 CMakeFiles/sfm.dir/src/PlottingUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/PlottingUtil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/PlottingUtil.cpp > CMakeFiles/sfm.dir/src/PlottingUtil.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/PlottingUtil.cpp > CMakeFiles/sfm.dir/src/PlottingUtil.cpp.i
 
 CMakeFiles/sfm.dir/src/PlottingUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/PlottingUtil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/PlottingUtil.cpp -o CMakeFiles/sfm.dir/src/PlottingUtil.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/PlottingUtil.cpp -o CMakeFiles/sfm.dir/src/PlottingUtil.cpp.s
 
 CMakeFiles/sfm.dir/src/CommonUtil.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/CommonUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/CommonUtil.cpp
+CMakeFiles/sfm.dir/src/CommonUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/CommonUtil.cpp
 CMakeFiles/sfm.dir/src/CommonUtil.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sfm.dir/src/CommonUtil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/CommonUtil.cpp.o -MF CMakeFiles/sfm.dir/src/CommonUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/CommonUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/CommonUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sfm.dir/src/CommonUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/CommonUtil.cpp.o -MF CMakeFiles/sfm.dir/src/CommonUtil.cpp.o.d -o CMakeFiles/sfm.dir/src/CommonUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/CommonUtil.cpp
 
 CMakeFiles/sfm.dir/src/CommonUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/CommonUtil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/CommonUtil.cpp > CMakeFiles/sfm.dir/src/CommonUtil.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/CommonUtil.cpp > CMakeFiles/sfm.dir/src/CommonUtil.cpp.i
 
 CMakeFiles/sfm.dir/src/CommonUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/CommonUtil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/CommonUtil.cpp -o CMakeFiles/sfm.dir/src/CommonUtil.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/CommonUtil.cpp -o CMakeFiles/sfm.dir/src/CommonUtil.cpp.s
 
 CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp
+CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmBundleAdjustment.cpp
 CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o -MF CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o.d -o CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o -MF CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o.d -o CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmBundleAdjustment.cpp
 
 CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp > CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmBundleAdjustment.cpp > CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.i
 
 CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmBundleAdjustment.cpp -o CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/src/SfmBundleAdjustment.cpp -o CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.s
 
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: CMakeFiles/sfm.dir/flags.make
-CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp
+CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: /Users/stephano./github/sfm-3rd-year-project/C++/calibration/CameraCalibration.cpp
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -MF CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o.d -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -MF CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o.d -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/C++/calibration/CameraCalibration.cpp
 
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp > CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/C++/calibration/CameraCalibration.cpp > CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i
 
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/C++/calibration/CameraCalibration.cpp -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.s
 
 # Object files for target sfm
 sfm_OBJECTS = \
@@ -282,7 +282,7 @@ sfm: /usr/local/lib/libopencv_core.4.8.1.dylib
 sfm: /usr/local/lib/libglog.0.6.0.dylib
 sfm: /usr/local/lib/libgflags.2.2.2.dylib
 sfm: CMakeFiles/sfm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable sfm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable sfm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -294,6 +294,6 @@ CMakeFiles/sfm.dir/clean:
 .PHONY : CMakeFiles/sfm.dir/clean
 
 CMakeFiles/sfm.dir/depend:
-	cd /Users/stephano./github/sfm-3rd-year-project/c++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stephano./github/sfm-3rd-year-project/c++ /Users/stephano./github/sfm-3rd-year-project/c++ /Users/stephano./github/sfm-3rd-year-project/c++/build /Users/stephano./github/sfm-3rd-year-project/c++/build /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles/sfm.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/stephano./github/sfm-3rd-year-project/C++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stephano./github/sfm-3rd-year-project/C++ /Users/stephano./github/sfm-3rd-year-project/C++ /Users/stephano./github/sfm-3rd-year-project/C++/build /Users/stephano./github/sfm-3rd-year-project/C++/build /Users/stephano./github/sfm-3rd-year-project/C++/build/CMakeFiles/sfm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sfm.dir/depend
 

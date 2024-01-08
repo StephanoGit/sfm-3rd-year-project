@@ -12,7 +12,7 @@ class SfmReconstruction {
     typedef std::vector<std::vector<std::vector<cv::DMatch>>> MatchMatrix;
     typedef std::map<int, Image2D3DPair> Image2D3DMatches;
 
-  private:
+private:
     std::string directory;
     FeatureUtil feature_util;
 
@@ -26,8 +26,12 @@ class SfmReconstruction {
     std::set<int> n_done_views;
     std::set<int> n_good_views;
 
-  public:
-    SfmReconstruction(std::string directory, FeatureExtractionType extract_type, FeatureMatchingType match_type, Intrinsics intrinsics);
+    bool verbose;
+
+public:
+    SfmReconstruction(std::string directory, FeatureExtractionType extract_type,
+                      FeatureMatchingType match_type, Intrinsics intrinsics,
+                      bool verbose);
     virtual ~SfmReconstruction();
 
     bool run_sfm_reconstruction(int resize_val);

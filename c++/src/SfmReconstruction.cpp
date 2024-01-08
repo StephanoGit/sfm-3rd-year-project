@@ -12,12 +12,17 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/opencv.hpp>
 #include <ostream>
+#include <string>
 #include <thread>
 
-SfmReconstruction::SfmReconstruction(std::string directory, FeatureExtractionType extract_type, FeatureMatchingType match_type, Intrinsics intrinsics) {
+SfmReconstruction::SfmReconstruction(std::string directory,
+                                     FeatureExtractionType extract_type,
+                                     FeatureMatchingType match_type,
+                                     Intrinsics intrinsics, bool verbose) {
     this->directory = directory;
     this->feature_util = FeatureUtil(extract_type, match_type);
     this->intrinsics = intrinsics;
+    this->verbose = verbose;
 };
 SfmReconstruction::~SfmReconstruction(){};
 
@@ -30,45 +35,59 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
     // load images
     this->images = load_images(directory, resize_val);
     if (this->images.size() < 2) {
-        std::cout << "Error: Please provide at least 2 images..." << std::endl;
+        std::cout << "ERROR: Please provide at least 2 images..." << std::endl;
         return false;
     }
 
-    // setting up more stuff
+    // allocating space for camera projection matrices
     this->n_P_mats.resize(this->images.size());
 
     // extract features
     this->images_features = std::vector<Features>(this->images.size());
     for (size_t i = 0; i < this->images.size(); i++) {
-        this->images_features[i] = this->feature_util.extract_features(this->images[i]);
-        // cv::Mat fm = draw_features(this->images[i], this->images_features[i]);
-        // cv::imshow("features", fm);
-        // cv::waitKey(0);
+        this->images_features[i] =
+            this->feature_util.extract_features(this->images[i]);
+
+        if (verbose) {
+            cv::Mat fm =
+                draw_features(this->images[i], this->images_features[i]);
+            cv::imshow(
+                "IMG " + std::to_string(i) + ": " +
+                    std::to_string(this->images_features[i].key_points.size()),
+                fm);
+            cv::waitKey(0);
+            cv::destroyAllWindows();
+        }
     }
 
     // match features
     create_match_matrix();
-
-    // for (size_t i = 0; i < this->images.size(); i++) {
-    //     for (size_t j = i + 1; j < this->images.size(); j++) {
-    //         cv::Mat mm = draw_matches(this->images[i], this->images[j], this->images_features[i], this->images_features[j], this->match_matrix[i][j]);
-    //        cv::imshow("matches", mm);
-    //         cv::waitKey(0);
-    //     }
-    // }
+    if (verbose) {
+        for (size_t i = 0; i < this->images.size(); i++) {
+            for (size_t j = i + 1; j < this->images.size(); j++) {
+                cv::Mat mm = draw_matches(
+                    this->images[i], this->images[j], this->images_features[i],
+                    this->images_features[j], this->match_matrix[i][j]);
+                cv::imshow(std::to_string(i) + "-" + std::to_string(j) +
+                               " matches",
+                           mm);
+                cv::waitKey(0);
+            }
+        }
+    }
 
     find_baseline_triangulation();
 
     add_views_to_reconstruction();
 
-    export_point_cloud(this->n_point_cloud, "homoo.json");
-    export_pointcloud_to_PLY("fountain");
     return true;
 }
 
 void SfmReconstruction::create_match_matrix() {
     const size_t number_of_images = this->images.size();
-    this->match_matrix.resize(number_of_images, std::vector<std::vector<cv::DMatch>>(number_of_images));
+    this->match_matrix.resize(
+        number_of_images,
+        std::vector<std::vector<cv::DMatch>>(number_of_images));
 
     std::vector<ImagePair> pairs;
     for (size_t i = 0; i < number_of_images; i++) {
@@ -80,28 +99,39 @@ void SfmReconstruction::create_match_matrix() {
     std::vector<std::thread> threads;
 
     const int number_of_threads = std::thread::hardware_concurrency() - 1;
-    const int pairs_per_thread = (number_of_threads > pairs.size()) ? 1 : (int)ceilf((float)(pairs.size()) / number_of_threads);
+    const int pairs_per_thread =
+        (number_of_threads > pairs.size())
+            ? 1
+            : (int)ceilf((float)(pairs.size()) / number_of_threads);
 
-    std::cout << "Threads: " << number_of_threads << " Pairs: " << pairs.size() << std::endl;
+    std::cout << "Threads: " << number_of_threads << " Pairs: " << pairs.size()
+              << std::endl;
     std::cout << "Pairs per thread: " << pairs_per_thread << std::endl;
 
     std::mutex write_mutex;
 
-    for (size_t thread_id = 0; thread_id < MIN(number_of_threads, pairs.size()); thread_id++) {
+    for (size_t thread_id = 0; thread_id < MIN(number_of_threads, pairs.size());
+         thread_id++) {
         threads.push_back(std::thread([&, thread_id] {
             const int start_pair = pairs_per_thread * thread_id;
 
             for (int j = 0; j < pairs_per_thread; j++) {
                 const int pair_id = start_pair + j;
                 if (pair_id >= pairs.size()) {
-                    std::cout << "Error: Thread overflow" << std::endl;
+                    std::cout << "WARNING: Thread overflow" << std::endl;
                     break;
                 }
                 const ImagePair &pair = pairs[pair_id];
-                this->match_matrix[pair.left][pair.right] = this->feature_util.match_features(this->images_features[pair.left], this->images_features[pair.right]);
+                this->match_matrix[pair.left][pair.right] =
+                    this->feature_util.match_features(
+                        this->images_features[pair.left],
+                        this->images_features[pair.right]);
 
                 write_mutex.lock();
-                std::cout << "Thread " << thread_id << ": Match (pair " << pair_id << ") " << pair.left << ", " << pair.right << ": " << this->match_matrix[pair.left][pair.right].size()
+                std::cout << "Thread " << thread_id << ": Match (pair "
+                          << pair_id << ") " << pair.left << ", " << pair.right
+                          << ": "
+                          << this->match_matrix[pair.left][pair.right].size()
                           << " matched features" << std::endl;
 
                 write_mutex.unlock();
@@ -125,62 +155,84 @@ std::map<float, ImagePair> SfmReconstruction::sort_views_for_baseline() {
     for (size_t i = 0; i < number_of_images; i++) {
         for (size_t j = i + 1; j < number_of_images; j++) {
             if (this->match_matrix[i][j].size() < 100) {
-                std::cout << "NOT ENOUGH MATCHES Pair (" << i << ", " << j << ")" << std::endl;
+                std::cout << "NOT ENOUGH MATCHES Pair (" << i << ", " << j
+                          << ")" << std::endl;
                 continue;
             }
 
-            const int inliers = StereoUtil::homography_inliers(this->images_features[i], this->images_features[j], this->match_matrix[i][j]);
+            const int inliers = StereoUtil::homography_inliers(
+                this->images_features[i], this->images_features[j],
+                this->match_matrix[i][j]);
 
-            const float inliers_ratio = (float)inliers / (float)(this->match_matrix[i][j].size());
+            const float inliers_ratio =
+                (float)inliers / (float)(this->match_matrix[i][j].size());
             pairs_inliers[inliers_ratio] = {i, j};
 
-            std::cout << "Homography inliers ratio pair(" << i << ", " << j << "): " << inliers_ratio << std::endl;
+            std::cout << "Homography inliers ratio pair(" << i << ", " << j
+                      << "): " << inliers_ratio << std::endl;
         }
     }
     return pairs_inliers;
 }
 
 void SfmReconstruction::find_baseline_triangulation() {
-    std::map<float, ImagePair> pairs_homography_inliers = sort_views_for_baseline();
+    std::map<float, ImagePair> pairs_homography_inliers =
+        sort_views_for_baseline();
 
     cv::Matx34f P_left = cv::Matx34f::eye();
     cv::Matx34f P_right = cv::Matx34f::eye();
     std::vector<PointCloudPoint> pointcloud;
 
     for (auto &pair : pairs_homography_inliers) {
-        std::cout << "Pair (" << pair.second.left << ", " << pair.second.right << ") ratio: " << pair.first << std::endl;
+        std::cout << "Pair (" << pair.second.left << ", " << pair.second.right
+                  << ") ratio: " << pair.first << std::endl;
 
         size_t i = pair.second.left;
         size_t j = pair.second.right;
 
         std::vector<cv::DMatch> mask_matches;
         std::cout << "1" << std::endl;
-        bool success = StereoUtil::camera_matrices_from_matches(this->intrinsics, this->match_matrix[i][j], this->images_features[i], this->images_features[j], mask_matches, P_left, P_right);
+        bool success = StereoUtil::camera_matrices_from_matches(
+            this->intrinsics, this->match_matrix[i][j],
+            this->images_features[i], this->images_features[j], mask_matches,
+            P_left, P_right);
 
         std::cout << "2" << std::endl;
         if (!success) {
-            std::cout << "Pair (" << pair.second.left << ", " << pair.second.right << ") UNSUCCESSFUL" << std::endl;
+            std::cout << "Pair (" << pair.second.left << ", "
+                      << pair.second.right << ") UNSUCCESSFUL" << std::endl;
             continue;
         }
 
-        float match_inlier_ratio = (float)mask_matches.size() / (float)this->match_matrix[i][j].size();
+        float match_inlier_ratio =
+            (float)mask_matches.size() / (float)this->match_matrix[i][j].size();
         std::cout << "Match inlier ratio: " << match_inlier_ratio << std::endl;
 
         if (match_inlier_ratio < 0.5) {
-            std::cout << "Pair (" << pair.second.left << ", " << pair.second.right << ") UNSUCCESSFUL -- insufficient match inliers" << std::endl;
+            std::cout << "Pair (" << pair.second.left << ", "
+                      << pair.second.right
+                      << ") UNSUCCESSFUL -- insufficient match inliers"
+                      << std::endl;
             continue;
         }
 
-        cv::Mat m = draw_matches(this->images[i], this->images[j], this->images_features[i], this->images_features[j], mask_matches);
+        cv::Mat m = draw_matches(this->images[i], this->images[j],
+                                 this->images_features[i],
+                                 this->images_features[j], mask_matches);
         cv::imshow("matches", m);
         cv::waitKey(0);
 
         this->match_matrix[i][j] = mask_matches;
 
-        success = StereoUtil::triangulate_views_homography(this->intrinsics, pair.second, this->match_matrix[i][j], this->images_features[i], this->images_features[j], P_left, P_right, pointcloud);
+        success = StereoUtil::triangulate_views_homography(
+            this->intrinsics, pair.second, this->match_matrix[i][j],
+            this->images_features[i], this->images_features[j], P_left, P_right,
+            pointcloud);
 
         if (!success) {
-            std::cout << "Pair (" << pair.second.left << ", " << pair.second.right << ") UNSUCCESSFUL TRIANGULATION" << std::endl;
+            std::cout << "Pair (" << pair.second.left << ", "
+                      << pair.second.right << ") UNSUCCESSFUL TRIANGULATION"
+                      << std::endl;
             continue;
         }
 
@@ -192,7 +244,9 @@ void SfmReconstruction::find_baseline_triangulation() {
         this->n_good_views.insert(i);
         this->n_good_views.insert(j);
 
-        SfmBundleAdjustment::adjust_bundle(this->n_point_cloud, this->n_P_mats, this->intrinsics, this->images_features);
+        SfmBundleAdjustment::adjust_bundle(this->n_point_cloud, this->n_P_mats,
+                                           this->intrinsics,
+                                           this->images_features);
         break;
     }
 }
@@ -216,15 +270,18 @@ void SfmReconstruction::add_views_to_reconstruction() {
             }
         }
 
-        std::cout << "Best view to add next: " << best_view << " with " << best_number_matches << " matches" << std::endl;
+        std::cout << "Best view to add next: " << best_view << " with "
+                  << best_number_matches << " matches" << std::endl;
 
         this->n_done_views.insert(best_view);
 
         cv::Matx34f P_new;
-        bool success = stereo_util.P_from_2D3D_matches(this->intrinsics, matches_2D3D[best_view], P_new);
+        bool success = stereo_util.P_from_2D3D_matches(
+            this->intrinsics, matches_2D3D[best_view], P_new);
 
         if (!success) {
-            std::cout << "Error: Cannot recover camera pose for view: " << best_view << std::endl;
+            std::cout << "Error: Cannot recover camera pose for view: "
+                      << best_view << std::endl;
             continue;
         }
 
@@ -232,33 +289,50 @@ void SfmReconstruction::add_views_to_reconstruction() {
 
         bool new_view_success_triangulation = false;
         for (const int good_view : n_good_views) {
-            size_t left_view_idx = (good_view < best_view) ? good_view : best_view;
-            size_t right_view_idx = (good_view < best_view) ? best_view : good_view;
+            size_t left_view_idx =
+                (good_view < best_view) ? good_view : best_view;
+            size_t right_view_idx =
+                (good_view < best_view) ? best_view : good_view;
 
             std::vector<cv::DMatch> mask_matches;
             cv::Matx34f P_left = cv::Matx34f::eye();
             cv::Matx34f P_right = cv::Matx34f::eye();
 
-            bool success = StereoUtil::camera_matrices_from_matches(this->intrinsics, this->match_matrix[left_view_idx][right_view_idx], this->images_features[left_view_idx],
-                                                                    this->images_features[right_view_idx], mask_matches, P_left, P_right);
+            bool success = StereoUtil::camera_matrices_from_matches(
+                this->intrinsics,
+                this->match_matrix[left_view_idx][right_view_idx],
+                this->images_features[left_view_idx],
+                this->images_features[right_view_idx], mask_matches, P_left,
+                P_right);
             this->match_matrix[left_view_idx][right_view_idx] = mask_matches;
 
             std::vector<PointCloudPoint> pointcloud;
-            success =
-                StereoUtil::triangulate_views_homography(this->intrinsics, {left_view_idx, right_view_idx}, this->match_matrix[left_view_idx][right_view_idx], this->images_features[left_view_idx],
-                                                         this->images_features[right_view_idx], this->n_P_mats[left_view_idx], this->n_P_mats[right_view_idx], pointcloud);
+            success = StereoUtil::triangulate_views_homography(
+                this->intrinsics, {left_view_idx, right_view_idx},
+                this->match_matrix[left_view_idx][right_view_idx],
+                this->images_features[left_view_idx],
+                this->images_features[right_view_idx],
+                this->n_P_mats[left_view_idx], this->n_P_mats[right_view_idx],
+                pointcloud);
 
             if (success) {
-                std::cout << "Merging Triangulation between " << left_view_idx << " and " << right_view_idx << ", no. matching points = " << this->match_matrix[left_view_idx][right_view_idx].size()
-                          << std::endl;
+                std::cout
+                    << "Merging Triangulation between " << left_view_idx
+                    << " and " << right_view_idx << ", no. matching points = "
+                    << this->match_matrix[left_view_idx][right_view_idx].size()
+                    << std::endl;
                 merge_point_cloud(pointcloud);
                 new_view_success_triangulation = true;
             } else {
-                std::cout << "Triangulation between " << left_view_idx << " and " << right_view_idx << " FAILED" << std::endl;
+                std::cout << "Triangulation between " << left_view_idx
+                          << " and " << right_view_idx << " FAILED"
+                          << std::endl;
             }
         }
         if (new_view_success_triangulation) {
-            SfmBundleAdjustment::adjust_bundle(this->n_point_cloud, this->n_P_mats, this->intrinsics, this->images_features);
+            SfmBundleAdjustment::adjust_bundle(this->n_point_cloud,
+                                               this->n_P_mats, this->intrinsics,
+                                               this->images_features);
         }
         this->n_good_views.insert(best_view);
     }
@@ -290,12 +364,15 @@ SfmReconstruction::Image2D3DMatches SfmReconstruction::find_2D3D_matches() {
                 //   |  0  a11 a12 a13|
                 //   |  0   0  a22 a23|
                 //   |  0   0   0  a33|
-                int left_view_idx = (origin_view_idx < view_idx) ? origin_view_idx : view_idx;
-                int right_view_idx = (origin_view_idx < view_idx) ? view_idx : origin_view_idx;
+                int left_view_idx =
+                    (origin_view_idx < view_idx) ? origin_view_idx : view_idx;
+                int right_view_idx =
+                    (origin_view_idx < view_idx) ? view_idx : origin_view_idx;
 
                 // scan all 2D - 2D matches between the new view and
                 // the origin view
-                for (const cv::DMatch &m : this->match_matrix[left_view_idx][right_view_idx]) {
+                for (const cv::DMatch &m :
+                     this->match_matrix[left_view_idx][right_view_idx]) {
 
                     int matched_2D_point_in_new_view = -1;
 
@@ -313,8 +390,11 @@ SfmReconstruction::Image2D3DMatches SfmReconstruction::find_2D3D_matches() {
 
                     if (matched_2D_point_in_new_view >= 0) {
                         // point found
-                        Features &new_view_features = this->images_features[view_idx];
-                        pair_2D3D.points_2D.push_back(new_view_features.points[matched_2D_point_in_new_view]);
+                        Features &new_view_features =
+                            this->images_features[view_idx];
+                        pair_2D3D.points_2D.push_back(
+                            new_view_features
+                                .points[matched_2D_point_in_new_view]);
                         pair_2D3D.points_3D.push_back(cloud_point.point);
                         found_2D_point = true;
                         break;
@@ -330,13 +410,16 @@ SfmReconstruction::Image2D3DMatches SfmReconstruction::find_2D3D_matches() {
     return matches;
 }
 
-void SfmReconstruction::merge_point_cloud(const std::vector<PointCloudPoint> new_pointcloud) {
+void SfmReconstruction::merge_point_cloud(
+    const std::vector<PointCloudPoint> new_pointcloud) {
     std::cout << "=======================================" << std::endl;
-    std::cout << "        Merging Point Clouds...   231      " << std::endl;
+    std::cout << "        Merging Point Clouds...        " << std::endl;
     std::cout << "=======================================" << std::endl;
 
     std::vector<std::vector<std::vector<cv::DMatch>>> merged_match_matrix;
-    merged_match_matrix.resize(this->images.size(), std::vector<std::vector<cv::DMatch>>(this->images.size()));
+    merged_match_matrix.resize(
+        this->images.size(),
+        std::vector<std::vector<cv::DMatch>>(this->images.size()));
 
     size_t new_points = 0;
     size_t merged_points = 0;
@@ -352,20 +435,35 @@ void SfmReconstruction::merge_point_cloud(const std::vector<PointCloudPoint> new
                 found_3D_point_match = true;
 
                 for (const auto &new_view : pt.orgin_view) {
-                    for (const auto &existing_view : existing_point.orgin_view) {
+                    for (const auto &existing_view :
+                         existing_point.orgin_view) {
                         bool found_matching_feature = false;
-                        const bool new_is_left = new_view.first < existing_view.first;
+                        const bool new_is_left =
+                            new_view.first < existing_view.first;
 
-                        const int left_view_idx = (new_is_left) ? new_view.first : existing_view.first;
-                        const int left_view_feature_idx = (new_is_left) ? new_view.second : existing_view.second;
-                        const int right_view_idx = (new_is_left) ? existing_view.first : new_view.first;
-                        const int right_view_feature_idx = (new_is_left) ? existing_view.second : new_view.second;
+                        const int left_view_idx = (new_is_left)
+                                                      ? new_view.first
+                                                      : existing_view.first;
+                        const int left_view_feature_idx =
+                            (new_is_left) ? new_view.second
+                                          : existing_view.second;
+                        const int right_view_idx = (new_is_left)
+                                                       ? existing_view.first
+                                                       : new_view.first;
+                        const int right_view_feature_idx =
+                            (new_is_left) ? existing_view.second
+                                          : new_view.second;
 
-                        const std::vector<cv::DMatch> &matching = this->match_matrix[left_view_idx][right_view_idx];
+                        const std::vector<cv::DMatch> &matching =
+                            this->match_matrix[left_view_idx][right_view_idx];
 
                         for (const cv::DMatch &match : matching) {
-                            if (match.queryIdx == left_view_feature_idx && match.trainIdx == right_view_feature_idx && match.distance < 20.0) {
-                                merged_match_matrix[left_view_idx][right_view_idx].push_back(match);
+                            if (match.queryIdx == left_view_feature_idx &&
+                                match.trainIdx == right_view_feature_idx &&
+                                match.distance < 20.0) {
+                                merged_match_matrix[left_view_idx]
+                                                   [right_view_idx]
+                                                       .push_back(match);
 
                                 found_matching_feature = true;
                                 break;
@@ -373,7 +471,8 @@ void SfmReconstruction::merge_point_cloud(const std::vector<PointCloudPoint> new
                         }
 
                         if (found_matching_feature) {
-                            existing_point.orgin_view[new_view.first] = new_view.second;
+                            existing_point.orgin_view[new_view.first] =
+                                new_view.second;
                             found_matching_existing_views = true;
                         }
                     }
@@ -395,7 +494,7 @@ void SfmReconstruction::merge_point_cloud(const std::vector<PointCloudPoint> new
 void SfmReconstruction::export_pointcloud_to_PLY(const std::string &file_name) {
     std::cout << "Saving pointcloud to file: " << file_name << std::endl;
 
-    std::ofstream stream(file_name + "_points.ply");
+    std::ofstream stream(file_name + ".ply");
     stream << "ply                 " << std::endl
            << "format ascii 1.0    " << std::endl
            << "element vertex " << this->n_point_cloud.size() << std::endl
@@ -410,10 +509,13 @@ void SfmReconstruction::export_pointcloud_to_PLY(const std::string &file_name) {
     for (const PointCloudPoint &point : this->n_point_cloud) {
         auto origin_view = point.orgin_view.begin();
         const int view_idx = origin_view->first;
-        cv::Point2f point_2D = this->images_features[view_idx].points[origin_view->second];
+        cv::Point2f point_2D =
+            this->images_features[view_idx].points[origin_view->second];
         cv::Vec3b colour = this->images[view_idx].at<cv::Vec3b>(point_2D);
 
-        stream << point.point.x << " " << point.point.y << " " << point.point.z << " " << (int)colour(2) << " " << (int)colour(1) << " " << (int)colour(0) << " " << std::endl;
+        stream << point.point.x << " " << point.point.y << " " << point.point.z
+               << " " << (int)colour(2) << " " << (int)colour(1) << " "
+               << (int)colour(0) << " " << std::endl;
     }
 
     stream.close();

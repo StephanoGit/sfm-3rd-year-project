@@ -1,19 +1,21 @@
 cmake_minimum_required(VERSION 3.27)
 project(sfm)
+
+# Find required packages
 find_package(OpenCV REQUIRED)
 find_package(Ceres REQUIRED)
-
-# Find Boost
 find_package(
   Boost 1.65.0
   COMPONENTS program_options
   REQUIRED)
 
-# Include Boost headers
+# Include directories
 include_directories(${Boost_INCLUDE_DIRS})
 
 # Generate compile commands for clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# Find necessary libraries
 find_library(
   UNISTRING_LIB
   NAMES unistring

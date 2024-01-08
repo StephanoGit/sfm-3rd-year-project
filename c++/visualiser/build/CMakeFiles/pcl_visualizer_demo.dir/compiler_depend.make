@@ -2351,6 +2351,9 @@ CMakeFiles/pcl_visualizer_demo.dir/pcl_visualizer_demo.cpp.o: /Users/stephano./g
   /usr/local/include/pcl-1.13/pcl/search/kdtree.h \
   /usr/local/include/pcl-1.13/pcl/search/organized.h \
   /usr/local/include/pcl-1.13/pcl/search/search.h \
+  /usr/local/include/pcl-1.13/pcl/surface/impl/reconstruction.hpp \
+  /usr/local/include/pcl-1.13/pcl/surface/poisson.h \
+  /usr/local/include/pcl-1.13/pcl/surface/reconstruction.h \
   /usr/local/include/pcl-1.13/pcl/type_traits.h \
   /usr/local/include/pcl-1.13/pcl/types.h \
   /usr/local/include/pcl-1.13/pcl/visualization/area_picking_event.h \
@@ -2716,6 +2719,8 @@ CMakeFiles/pcl_visualizer_demo.dir/pcl_visualizer_demo.cpp.o: /Users/stephano./g
 /usr/local/include/vtk-9.2/vtkIdTypeArray.h:
 
 /usr/local/include/pcl-1.13/pcl/type_traits.h:
+
+/usr/local/include/pcl-1.13/pcl/surface/reconstruction.h:
 
 /usr/local/include/pcl-1.13/pcl/search/kdtree.h:
 
@@ -7093,6 +7098,8 @@ CMakeFiles/pcl_visualizer_demo.dir/pcl_visualizer_demo.cpp.o: /Users/stephano./g
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
+/usr/local/include/pcl-1.13/pcl/surface/poisson.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_set_symmetric_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
@@ -7132,6 +7139,8 @@ CMakeFiles/pcl_visualizer_demo.dir/pcl_visualizer_demo.cpp.o: /Users/stephano./g
 /usr/local/include/vtk-9.2/vtkAbstractMapper3D.h:
 
 /usr/local/include/boost/mpl/assert.hpp:
+
+/usr/local/include/pcl-1.13/pcl/surface/impl/reconstruction.hpp:
 
 /usr/local/include/boost/fusion/iterator/detail/advance.hpp:
 
