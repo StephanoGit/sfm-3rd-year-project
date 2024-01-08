@@ -11,7 +11,7 @@ This repository contains the implementation of:
 3. Dense point cloud generation - PMVS2 (to be added)
 4. Visualization - PCL
 
-[![Watch reconstruction]()](https://sketchfab.com/3d-models/fountain-points-surf-6c899e7ce11f4f689d7e3ad6c669d8b0#embed)
+[![Watch reconstruction](fountain-ss.png)](https://sketchfab.com/3d-models/fountain-points-surf-6c899e7ce11f4f689d7e3ad6c669d8b0/embed)
 
 ## References
 
