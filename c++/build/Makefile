@@ -225,6 +225,30 @@ src/IOUtil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/IOUtil.cpp.s
 .PHONY : src/IOUtil.cpp.s
 
+src/PMVS2Reconstruction.o: src/PMVS2Reconstruction.cpp.o
+.PHONY : src/PMVS2Reconstruction.o
+
+# target to build an object file
+src/PMVS2Reconstruction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o
+.PHONY : src/PMVS2Reconstruction.cpp.o
+
+src/PMVS2Reconstruction.i: src/PMVS2Reconstruction.cpp.i
+.PHONY : src/PMVS2Reconstruction.i
+
+# target to preprocess a source file
+src/PMVS2Reconstruction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.i
+.PHONY : src/PMVS2Reconstruction.cpp.i
+
+src/PMVS2Reconstruction.s: src/PMVS2Reconstruction.cpp.s
+.PHONY : src/PMVS2Reconstruction.s
+
+# target to generate assembly for a file
+src/PMVS2Reconstruction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.s
+.PHONY : src/PMVS2Reconstruction.cpp.s
+
 src/PlottingUtil.o: src/PlottingUtil.cpp.o
 .PHONY : src/PlottingUtil.o
 
@@ -366,6 +390,9 @@ help:
 	@echo "... src/IOUtil.o"
 	@echo "... src/IOUtil.i"
 	@echo "... src/IOUtil.s"
+	@echo "... src/PMVS2Reconstruction.o"
+	@echo "... src/PMVS2Reconstruction.i"
+	@echo "... src/PMVS2Reconstruction.s"
 	@echo "... src/PlottingUtil.o"
 	@echo "... src/PlottingUtil.i"
 	@echo "... src/PlottingUtil.s"

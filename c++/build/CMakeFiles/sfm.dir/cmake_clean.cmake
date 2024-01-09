@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o.d"
   "CMakeFiles/sfm.dir/src/IOUtil.cpp.o"
   "CMakeFiles/sfm.dir/src/IOUtil.cpp.o.d"
+  "CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o"
+  "CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o.d"
   "CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o"
   "CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o.d"
   "CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o"
