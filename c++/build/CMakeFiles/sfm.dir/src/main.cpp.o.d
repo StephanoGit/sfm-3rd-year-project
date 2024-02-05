@@ -1,125 +1,58 @@
 CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdexcept \
+  /usr/local/include/opencv2/features2d.hpp \
+  /usr/local/include/opencv2/opencv_modules.hpp \
+  /usr/local/include/opencv2/core.hpp \
+  /usr/local/include/opencv2/core/cvdef.h \
+  /usr/local/include/opencv2/core/version.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__verbose_abort \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__availability \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdlib \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityVersions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/_mcontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_mcontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/libkern/i386/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/alloca.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_null.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/malloc/_malloc.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/malloc/_malloc_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mode_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/exception \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/addressof.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/decay.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_pointer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_same.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_void.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_cv.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_const.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_signed.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__undef_macros \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/version \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/invoke.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_same.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/apply_cv.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_const.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_volatile.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_reference.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/enable_if.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/version \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/conditional.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/decay.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_pointer.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_void.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_array.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_function.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_const.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_reference.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_extent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_base_of.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_class.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_convertible.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/declval.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_const.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_final.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/type_traits \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/invoke.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/apply_cv.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_volatile.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_member_function_pointer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/nat.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/declval.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/forward.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/hash.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_const.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_cv.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/add_volatile.h \
@@ -136,6 +69,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/void_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/copy_cv.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_convertible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/conjunction.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/dependent_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/disjunction.h \
@@ -145,24 +79,25 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_abstract.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_assignable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_callable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivial.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_class.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_compound.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_copy_assignable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_copy_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_default_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_destructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_empty.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_enum.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_final.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h \
@@ -183,9 +118,9 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_object.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_union.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_pod.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/underlying_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_signed.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_specialization.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_swappable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h \
@@ -209,48 +144,80 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/result_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdint \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iosfwd \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/memory_resource.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mbstate_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_seek_set.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctermid.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/time.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_clock_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_time_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timespec.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/__wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wint_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_wctype_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/ctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/runetype.h \
-  /usr/local/include/opencv2/features2d.hpp \
-  /usr/local/include/opencv2/opencv_modules.hpp \
-  /usr/local/include/opencv2/core.hpp \
-  /usr/local/include/opencv2/core/cvdef.h \
-  /usr/local/include/opencv2/core/version.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/limits \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__undef_macros \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_uintmax_t.h \
   /usr/local/include/opencv2/core/hal/interface.h \
   /usr/local/include/opencv2/core/cv_cpu_dispatch.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/emmintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xmmintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mm_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternalLegacy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/alloca.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_null.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/malloc/_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/malloc/_malloc_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mode_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -288,6 +255,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/readable_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/addressof.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/access.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/auto_cast.h \
@@ -307,6 +275,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/advance.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/unreachable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdlib \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/iter_swap.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/next.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/prev.h \
@@ -342,6 +311,37 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/empty.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/pair_like.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_like.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdexcept \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/memory_resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mbstate_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_seek_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctermid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_clock_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_time_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timespec.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/__wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_wctype_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/runetype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/access.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/data.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/empty.h \
@@ -952,134 +952,74 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/any.hpp \
   /usr/local/include/boost/any/bad_any_cast.hpp \
   /usr/local/include/boost/any/fwd.hpp \
-  /usr/local/include/boost/config/pragma_message.hpp \
-  /usr/local/include/boost/type_traits/alignment_of.hpp \
-  /usr/local/include/boost/type_traits/intrinsics.hpp \
-  /usr/local/include/boost/type_traits/detail/config.hpp \
-  /usr/local/include/boost/config/workaround.hpp \
-  /usr/local/include/boost/type_traits/integral_constant.hpp \
-  /usr/local/include/boost/detail/workaround.hpp \
   /usr/local/include/boost/any/detail/placeholder.hpp \
   /usr/local/include/boost/type_index.hpp \
   /usr/local/include/boost/type_index/stl_type_index.hpp \
   /usr/local/include/boost/type_index/type_index_facade.hpp \
   /usr/local/include/boost/container_hash/hash_fwd.hpp \
-  /usr/local/include/boost/static_assert.hpp \
   /usr/local/include/boost/throw_exception.hpp \
   /usr/local/include/boost/exception/exception.hpp \
   /usr/local/include/boost/assert/source_location.hpp \
-  /usr/local/include/boost/current_function.hpp \
   /usr/local/include/boost/cstdint.hpp \
+  /usr/local/include/boost/config/workaround.hpp \
   /usr/local/include/boost/core/demangle.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cxxabi.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__cxxabi_config.h \
-  /usr/local/include/boost/type_traits/conditional.hpp \
-  /usr/local/include/boost/type_traits/is_const.hpp \
-  /usr/local/include/boost/type_traits/is_reference.hpp \
-  /usr/local/include/boost/type_traits/is_lvalue_reference.hpp \
-  /usr/local/include/boost/type_traits/is_rvalue_reference.hpp \
-  /usr/local/include/boost/type_traits/is_volatile.hpp \
-  /usr/local/include/boost/type_traits/remove_cv.hpp \
-  /usr/local/include/boost/type_traits/remove_reference.hpp \
-  /usr/local/include/boost/container_hash/hash.hpp \
-  /usr/local/include/boost/container_hash/detail/requires_cxx11.hpp \
-  /usr/local/include/boost/container_hash/is_range.hpp \
-  /usr/local/include/boost/type_traits/is_integral.hpp \
-  /usr/local/include/boost/type_traits/declval.hpp \
-  /usr/local/include/boost/type_traits/add_rvalue_reference.hpp \
-  /usr/local/include/boost/type_traits/is_void.hpp \
-  /usr/local/include/boost/type_traits/is_same.hpp \
-  /usr/local/include/boost/container_hash/is_contiguous_range.hpp \
-  /usr/local/include/boost/container_hash/is_unordered_range.hpp \
-  /usr/local/include/boost/container_hash/is_described_class.hpp \
-  /usr/local/include/boost/type_traits/is_union.hpp \
-  /usr/local/include/boost/describe/bases.hpp \
-  /usr/local/include/boost/describe/modifiers.hpp \
-  /usr/local/include/boost/describe/detail/config.hpp \
-  /usr/local/include/boost/describe/detail/void_t.hpp \
-  /usr/local/include/boost/mp11/algorithm.hpp \
-  /usr/local/include/boost/mp11/list.hpp \
-  /usr/local/include/boost/mp11/integral.hpp \
-  /usr/local/include/boost/mp11/version.hpp \
-  /usr/local/include/boost/mp11/detail/mp_value.hpp \
-  /usr/local/include/boost/mp11/detail/config.hpp \
-  /usr/local/include/boost/mp11/detail/mp_list.hpp \
-  /usr/local/include/boost/mp11/detail/mp_list_v.hpp \
-  /usr/local/include/boost/mp11/detail/mp_is_list.hpp \
-  /usr/local/include/boost/mp11/detail/mp_is_value_list.hpp \
-  /usr/local/include/boost/mp11/detail/mp_front.hpp \
-  /usr/local/include/boost/mp11/detail/mp_rename.hpp \
-  /usr/local/include/boost/mp11/detail/mp_defer.hpp \
-  /usr/local/include/boost/mp11/detail/mp_append.hpp \
-  /usr/local/include/boost/mp11/detail/mp_count.hpp \
-  /usr/local/include/boost/mp11/detail/mp_plus.hpp \
-  /usr/local/include/boost/mp11/utility.hpp \
-  /usr/local/include/boost/mp11/detail/mp_fold.hpp \
-  /usr/local/include/boost/mp11/set.hpp \
-  /usr/local/include/boost/mp11/function.hpp \
-  /usr/local/include/boost/mp11/detail/mp_min_element.hpp \
-  /usr/local/include/boost/mp11/detail/mp_void.hpp \
-  /usr/local/include/boost/mp11/detail/mp_copy_if.hpp \
-  /usr/local/include/boost/mp11/detail/mp_remove_if.hpp \
-  /usr/local/include/boost/mp11/detail/mp_map_find.hpp \
-  /usr/local/include/boost/mp11/detail/mp_with_index.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
-  /usr/local/include/boost/mp11/integer_sequence.hpp \
-  /usr/local/include/boost/describe/members.hpp \
-  /usr/local/include/boost/describe/detail/cx_streq.hpp \
-  /usr/local/include/boost/mp11/bind.hpp \
-  /usr/local/include/boost/container_hash/detail/hash_tuple_like.hpp \
-  /usr/local/include/boost/container_hash/is_tuple_like.hpp \
-  /usr/local/include/boost/type_traits/enable_if.hpp \
-  /usr/local/include/boost/container_hash/detail/hash_mix.hpp \
-  /usr/local/include/boost/container_hash/detail/hash_range.hpp \
-  /usr/local/include/boost/container_hash/detail/mulx.hpp \
-  /usr/local/include/boost/type_traits/is_enum.hpp \
-  /usr/local/include/boost/type_traits/is_floating_point.hpp \
-  /usr/local/include/boost/type_traits/is_signed.hpp \
-  /usr/local/include/boost/type_traits/is_unsigned.hpp \
-  /usr/local/include/boost/type_traits/make_unsigned.hpp \
-  /usr/local/include/boost/type_traits/add_const.hpp \
-  /usr/local/include/boost/type_traits/add_volatile.hpp \
-  /usr/local/include/boost/type_traits/conjunction.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/typeindex \
-  /usr/local/include/boost/type_traits/decay.hpp \
-  /usr/local/include/boost/type_traits/is_array.hpp \
-  /usr/local/include/boost/type_traits/is_function.hpp \
-  /usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp \
-  /usr/local/include/boost/type_traits/remove_bounds.hpp \
-  /usr/local/include/boost/type_traits/remove_extent.hpp \
-  /usr/local/include/boost/type_traits/add_pointer.hpp \
-  /usr/local/include/boost/type_traits/add_reference.hpp \
-  /usr/local/include/boost/core/enable_if.hpp \
-  /usr/local/include/boost/core/addressof.hpp \
   /usr/local/include/boost/function/function1.hpp \
   /usr/local/include/boost/function/detail/maybe_include.hpp \
   /usr/local/include/boost/function/function_template.hpp \
   /usr/local/include/boost/function/detail/prologue.hpp \
   /usr/local/include/boost/function/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/config/pragma_message.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
   /usr/local/include/boost/config/no_tr1/functional.hpp \
   /usr/local/include/boost/function/function_base.hpp \
   /usr/local/include/boost/function/function_fwd.hpp \
   /usr/local/include/boost/function_equal.hpp \
   /usr/local/include/boost/core/typeinfo.hpp \
   /usr/local/include/boost/core/ref.hpp \
+  /usr/local/include/boost/core/addressof.hpp \
+  /usr/local/include/boost/core/enable_if.hpp \
   /usr/local/include/boost/type_traits/has_trivial_copy.hpp \
+  /usr/local/include/boost/type_traits/intrinsics.hpp \
+  /usr/local/include/boost/type_traits/detail/config.hpp \
   /usr/local/include/boost/type_traits/is_pod.hpp \
+  /usr/local/include/boost/type_traits/is_void.hpp \
+  /usr/local/include/boost/type_traits/integral_constant.hpp \
+  /usr/local/include/boost/detail/workaround.hpp \
   /usr/local/include/boost/type_traits/is_scalar.hpp \
   /usr/local/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/local/include/boost/type_traits/is_integral.hpp \
+  /usr/local/include/boost/type_traits/is_floating_point.hpp \
+  /usr/local/include/boost/type_traits/is_enum.hpp \
   /usr/local/include/boost/type_traits/is_pointer.hpp \
   /usr/local/include/boost/type_traits/is_member_pointer.hpp \
   /usr/local/include/boost/type_traits/is_member_function_pointer.hpp \
   /usr/local/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /usr/local/include/boost/type_traits/is_reference.hpp \
+  /usr/local/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/local/include/boost/type_traits/is_rvalue_reference.hpp \
   /usr/local/include/boost/type_traits/is_copy_constructible.hpp \
   /usr/local/include/boost/type_traits/is_constructible.hpp \
   /usr/local/include/boost/type_traits/is_destructible.hpp \
   /usr/local/include/boost/type_traits/is_complete.hpp \
+  /usr/local/include/boost/type_traits/declval.hpp \
+  /usr/local/include/boost/type_traits/add_rvalue_reference.hpp \
+  /usr/local/include/boost/type_traits/remove_reference.hpp \
+  /usr/local/include/boost/type_traits/is_function.hpp \
+  /usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp \
   /usr/local/include/boost/type_traits/detail/yes_no_type.hpp \
+  /usr/local/include/boost/static_assert.hpp \
   /usr/local/include/boost/type_traits/is_default_constructible.hpp \
   /usr/local/include/boost/type_traits/has_trivial_destructor.hpp \
+  /usr/local/include/boost/type_traits/is_const.hpp \
+  /usr/local/include/boost/type_traits/is_volatile.hpp \
   /usr/local/include/boost/type_traits/composite_traits.hpp \
+  /usr/local/include/boost/type_traits/is_array.hpp \
+  /usr/local/include/boost/type_traits/is_union.hpp \
+  /usr/local/include/boost/type_traits/conditional.hpp \
+  /usr/local/include/boost/type_traits/alignment_of.hpp \
+  /usr/local/include/boost/type_traits/enable_if.hpp \
   /usr/local/include/boost/assert.hpp \
   /usr/local/include/boost/mem_fn.hpp \
   /usr/local/include/boost/bind/mem_fn.hpp \
@@ -1125,27 +1065,50 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/preprocessor/arithmetic/limits/inc_256.hpp \
   /usr/local/include/boost/core/no_exceptions_support.hpp \
   /usr/local/include/boost/lexical_cast.hpp \
-  /usr/local/include/boost/range/iterator_range_core.hpp \
-  /usr/local/include/boost/iterator/iterator_traits.hpp \
-  /usr/local/include/boost/iterator/iterator_facade.hpp \
-  /usr/local/include/boost/iterator/interoperable.hpp \
-  /usr/local/include/boost/mpl/bool.hpp \
-  /usr/local/include/boost/mpl/bool_fwd.hpp \
-  /usr/local/include/boost/mpl/aux_/adl_barrier.hpp \
-  /usr/local/include/boost/mpl/aux_/config/adl.hpp \
-  /usr/local/include/boost/mpl/aux_/config/msvc.hpp \
-  /usr/local/include/boost/mpl/aux_/config/intel.hpp \
-  /usr/local/include/boost/mpl/aux_/config/gcc.hpp \
+  /usr/local/include/boost/lexical_cast/detail/buffer_view.hpp \
+  /usr/local/include/boost/lexical_cast/bad_lexical_cast.hpp \
+  /usr/local/include/boost/lexical_cast/try_lexical_convert.hpp \
+  /usr/local/include/boost/type_traits/type_identity.hpp \
+  /usr/local/include/boost/type_traits/is_same.hpp \
+  /usr/local/include/boost/lexical_cast/detail/is_character.hpp \
+  /usr/local/include/boost/lexical_cast/detail/converter_numeric.hpp \
+  /usr/local/include/boost/limits.hpp \
+  /usr/local/include/boost/type_traits/make_unsigned.hpp \
+  /usr/local/include/boost/type_traits/is_signed.hpp \
+  /usr/local/include/boost/type_traits/remove_cv.hpp \
+  /usr/local/include/boost/type_traits/is_unsigned.hpp \
+  /usr/local/include/boost/type_traits/add_const.hpp \
+  /usr/local/include/boost/type_traits/add_volatile.hpp \
+  /usr/local/include/boost/type_traits/is_base_of.hpp \
+  /usr/local/include/boost/type_traits/is_base_and_derived.hpp \
+  /usr/local/include/boost/type_traits/is_class.hpp \
+  /usr/local/include/boost/type_traits/is_float.hpp \
+  /usr/local/include/boost/type_traits/remove_volatile.hpp \
+  /usr/local/include/boost/numeric/conversion/cast.hpp \
+  /usr/local/include/boost/type.hpp \
+  /usr/local/include/boost/numeric/conversion/converter.hpp \
+  /usr/local/include/boost/numeric/conversion/conversion_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/meta.hpp \
+  /usr/local/include/boost/mpl/if.hpp \
+  /usr/local/include/boost/mpl/aux_/value_wknd.hpp \
+  /usr/local/include/boost/mpl/aux_/static_cast.hpp \
   /usr/local/include/boost/mpl/aux_/config/workaround.hpp \
-  /usr/local/include/boost/mpl/integral_c_tag.hpp \
-  /usr/local/include/boost/mpl/aux_/config/static_constant.hpp \
-  /usr/local/include/boost/mpl/or.hpp \
-  /usr/local/include/boost/mpl/aux_/config/use_preprocessed.hpp \
-  /usr/local/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/local/include/boost/mpl/aux_/config/integral.hpp \
+  /usr/local/include/boost/mpl/aux_/config/msvc.hpp \
+  /usr/local/include/boost/mpl/aux_/config/eti.hpp \
   /usr/local/include/boost/mpl/aux_/na_spec.hpp \
   /usr/local/include/boost/mpl/lambda_fwd.hpp \
   /usr/local/include/boost/mpl/void_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/adl_barrier.hpp \
+  /usr/local/include/boost/mpl/aux_/config/adl.hpp \
+  /usr/local/include/boost/mpl/aux_/config/intel.hpp \
+  /usr/local/include/boost/mpl/aux_/config/gcc.hpp \
   /usr/local/include/boost/mpl/aux_/na.hpp \
+  /usr/local/include/boost/mpl/bool.hpp \
+  /usr/local/include/boost/mpl/bool_fwd.hpp \
+  /usr/local/include/boost/mpl/integral_c_tag.hpp \
+  /usr/local/include/boost/mpl/aux_/config/static_constant.hpp \
   /usr/local/include/boost/mpl/aux_/na_fwd.hpp \
   /usr/local/include/boost/mpl/aux_/config/ctps.hpp \
   /usr/local/include/boost/mpl/aux_/config/lambda.hpp \
@@ -1155,7 +1118,6 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/mpl/aux_/nttp_decl.hpp \
   /usr/local/include/boost/mpl/aux_/config/nttp.hpp \
   /usr/local/include/boost/mpl/aux_/integral_wrapper.hpp \
-  /usr/local/include/boost/mpl/aux_/static_cast.hpp \
   /usr/local/include/boost/mpl/aux_/lambda_arity_param.hpp \
   /usr/local/include/boost/mpl/aux_/template_arity_fwd.hpp \
   /usr/local/include/boost/mpl/aux_/arity.hpp \
@@ -1200,56 +1162,19 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp \
   /usr/local/include/boost/preprocessor/logical/not.hpp \
   /usr/local/include/boost/preprocessor/arithmetic/sub.hpp \
-  /usr/local/include/boost/mpl/aux_/config/eti.hpp \
   /usr/local/include/boost/mpl/aux_/config/overload_resolution.hpp \
   /usr/local/include/boost/mpl/aux_/lambda_support.hpp \
-  /usr/local/include/boost/mpl/aux_/include_preprocessed.hpp \
-  /usr/local/include/boost/mpl/aux_/config/compiler.hpp \
-  /usr/local/include/boost/preprocessor/stringize.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
-  /usr/local/include/boost/type_traits/is_convertible.hpp \
-  /usr/local/include/boost/iterator/detail/config_def.hpp \
-  /usr/local/include/boost/iterator/detail/config_undef.hpp \
-  /usr/local/include/boost/iterator/iterator_categories.hpp \
   /usr/local/include/boost/mpl/eval_if.hpp \
-  /usr/local/include/boost/mpl/if.hpp \
-  /usr/local/include/boost/mpl/aux_/value_wknd.hpp \
-  /usr/local/include/boost/mpl/aux_/config/integral.hpp \
-  /usr/local/include/boost/mpl/identity.hpp \
-  /usr/local/include/boost/mpl/placeholders.hpp \
-  /usr/local/include/boost/mpl/arg.hpp \
-  /usr/local/include/boost/mpl/arg_fwd.hpp \
-  /usr/local/include/boost/mpl/aux_/na_assert.hpp \
-  /usr/local/include/boost/mpl/assert.hpp \
-  /usr/local/include/boost/mpl/not.hpp \
-  /usr/local/include/boost/mpl/aux_/yes_no.hpp \
-  /usr/local/include/boost/mpl/aux_/config/arrays.hpp \
-  /usr/local/include/boost/mpl/aux_/config/gpu.hpp \
-  /usr/local/include/boost/mpl/aux_/config/pp_counter.hpp \
-  /usr/local/include/boost/mpl/aux_/arity_spec.hpp \
-  /usr/local/include/boost/mpl/aux_/arg_typedef.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
-  /usr/local/include/boost/iterator/detail/facade_iterator_category.hpp \
-  /usr/local/include/boost/core/use_default.hpp \
-  /usr/local/include/boost/mpl/and.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
-  /usr/local/include/boost/detail/indirect_traits.hpp \
-  /usr/local/include/boost/type_traits/is_class.hpp \
-  /usr/local/include/boost/type_traits/remove_pointer.hpp \
-  /usr/local/include/boost/detail/select_type.hpp \
-  /usr/local/include/boost/iterator/detail/enable_if.hpp \
-  /usr/local/include/boost/type_traits/add_lvalue_reference.hpp \
-  /usr/local/include/boost/type_traits/remove_const.hpp \
-  /usr/local/include/boost/mpl/always.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessor/default_params.hpp \
-  /usr/local/include/boost/mpl/apply.hpp \
-  /usr/local/include/boost/mpl/apply_fwd.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /usr/local/include/boost/mpl/equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/comparison_op.hpp \
+  /usr/local/include/boost/mpl/aux_/numeric_op.hpp \
+  /usr/local/include/boost/mpl/numeric_cast.hpp \
   /usr/local/include/boost/mpl/apply_wrap.hpp \
   /usr/local/include/boost/mpl/aux_/has_apply.hpp \
   /usr/local/include/boost/mpl/has_xxx.hpp \
   /usr/local/include/boost/mpl/aux_/type_wrapper.hpp \
+  /usr/local/include/boost/mpl/aux_/yes_no.hpp \
+  /usr/local/include/boost/mpl/aux_/config/arrays.hpp \
   /usr/local/include/boost/mpl/aux_/config/has_xxx.hpp \
   /usr/local/include/boost/mpl/aux_/config/msvc_typename.hpp \
   /usr/local/include/boost/preprocessor/array/elem.hpp \
@@ -1258,138 +1183,24 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
   /usr/local/include/boost/mpl/aux_/config/has_apply.hpp \
   /usr/local/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /usr/local/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /usr/local/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /usr/local/include/boost/mpl/aux_/config/compiler.hpp \
+  /usr/local/include/boost/preprocessor/stringize.hpp \
   /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
-  /usr/local/include/boost/mpl/lambda.hpp \
-  /usr/local/include/boost/mpl/bind.hpp \
-  /usr/local/include/boost/mpl/bind_fwd.hpp \
-  /usr/local/include/boost/mpl/aux_/config/bind.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
-  /usr/local/include/boost/mpl/next.hpp \
-  /usr/local/include/boost/mpl/next_prior.hpp \
-  /usr/local/include/boost/mpl/aux_/common_name_wknd.hpp \
-  /usr/local/include/boost/mpl/protect.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
-  /usr/local/include/boost/mpl/aux_/full_lambda.hpp \
-  /usr/local/include/boost/mpl/quote.hpp \
-  /usr/local/include/boost/mpl/void.hpp \
-  /usr/local/include/boost/mpl/aux_/has_type.hpp \
-  /usr/local/include/boost/mpl/aux_/config/bcc.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
-  /usr/local/include/boost/mpl/aux_/template_arity.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
-  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
-  /usr/local/include/boost/type_traits/is_abstract.hpp \
-  /usr/local/include/boost/type_traits/is_base_and_derived.hpp \
-  /usr/local/include/boost/range/functions.hpp \
-  /usr/local/include/boost/range/begin.hpp \
-  /usr/local/include/boost/range/config.hpp \
-  /usr/local/include/boost/range/iterator.hpp \
-  /usr/local/include/boost/range/range_fwd.hpp \
-  /usr/local/include/boost/range/mutable_iterator.hpp \
-  /usr/local/include/boost/range/detail/extract_optional_type.hpp \
-  /usr/local/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
-  /usr/local/include/boost/range/const_iterator.hpp \
-  /usr/local/include/boost/range/end.hpp \
-  /usr/local/include/boost/range/detail/implementation_help.hpp \
-  /usr/local/include/boost/range/detail/common.hpp \
-  /usr/local/include/boost/range/detail/sfinae.hpp \
-  /usr/local/include/boost/range/size.hpp \
-  /usr/local/include/boost/range/size_type.hpp \
-  /usr/local/include/boost/range/difference_type.hpp \
-  /usr/local/include/boost/range/has_range_iterator.hpp \
-  /usr/local/include/boost/utility/enable_if.hpp \
-  /usr/local/include/boost/range/concepts.hpp \
-  /usr/local/include/boost/concept_check.hpp \
-  /usr/local/include/boost/concept/assert.hpp \
-  /usr/local/include/boost/concept/detail/general.hpp \
-  /usr/local/include/boost/concept/detail/backward_compatibility.hpp \
-  /usr/local/include/boost/concept/detail/has_constraints.hpp \
-  /usr/local/include/boost/type_traits/conversion_traits.hpp \
-  /usr/local/include/boost/concept/usage.hpp \
-  /usr/local/include/boost/concept/detail/concept_def.hpp \
-  /usr/local/include/boost/preprocessor/seq/for_each_i.hpp \
-  /usr/local/include/boost/preprocessor/repetition/for.hpp \
-  /usr/local/include/boost/preprocessor/repetition/detail/for.hpp \
-  /usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp \
-  /usr/local/include/boost/preprocessor/repetition/limits/for_256.hpp \
-  /usr/local/include/boost/preprocessor/seq/seq.hpp \
-  /usr/local/include/boost/preprocessor/seq/elem.hpp \
-  /usr/local/include/boost/preprocessor/seq/limits/elem_256.hpp \
-  /usr/local/include/boost/preprocessor/seq/size.hpp \
-  /usr/local/include/boost/preprocessor/seq/limits/size_256.hpp \
-  /usr/local/include/boost/preprocessor/seq/detail/is_empty.hpp \
-  /usr/local/include/boost/preprocessor/seq/enum.hpp \
-  /usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp \
-  /usr/local/include/boost/concept/detail/concept_undef.hpp \
-  /usr/local/include/boost/iterator/iterator_concepts.hpp \
-  /usr/local/include/boost/limits.hpp \
-  /usr/local/include/boost/range/value_type.hpp \
-  /usr/local/include/boost/range/detail/misc_concept.hpp \
-  /usr/local/include/boost/range/detail/has_member_size.hpp \
-  /usr/local/include/boost/utility.hpp \
-  /usr/local/include/boost/utility/base_from_member.hpp \
-  /usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp \
-  /usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp \
-  /usr/local/include/boost/utility/binary.hpp \
-  /usr/local/include/boost/preprocessor/control/deduce_d.hpp \
-  /usr/local/include/boost/preprocessor/seq/cat.hpp \
-  /usr/local/include/boost/preprocessor/seq/fold_left.hpp \
-  /usr/local/include/boost/preprocessor/seq/limits/fold_left_256.hpp \
-  /usr/local/include/boost/preprocessor/seq/transform.hpp \
-  /usr/local/include/boost/preprocessor/arithmetic/mod.hpp \
-  /usr/local/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
-  /usr/local/include/boost/preprocessor/comparison/less_equal.hpp \
-  /usr/local/include/boost/preprocessor/arithmetic/detail/is_1_number.hpp \
-  /usr/local/include/boost/utility/identity_type.hpp \
-  /usr/local/include/boost/type_traits/function_traits.hpp \
-  /usr/local/include/boost/core/checked_delete.hpp \
-  /usr/local/include/boost/core/noncopyable.hpp \
-  /usr/local/include/boost/range/distance.hpp \
-  /usr/local/include/boost/iterator/distance.hpp \
-  /usr/local/include/boost/range/empty.hpp \
-  /usr/local/include/boost/range/rbegin.hpp \
-  /usr/local/include/boost/range/reverse_iterator.hpp \
-  /usr/local/include/boost/iterator/reverse_iterator.hpp \
-  /usr/local/include/boost/iterator/iterator_adaptor.hpp \
-  /usr/local/include/boost/range/rend.hpp \
-  /usr/local/include/boost/range/algorithm/equal.hpp \
-  /usr/local/include/boost/range/detail/safe_bool.hpp \
-  /usr/local/include/boost/next_prior.hpp \
-  /usr/local/include/boost/type_traits/has_plus.hpp \
-  /usr/local/include/boost/type_traits/detail/has_binary_operator.hpp \
-  /usr/local/include/boost/type_traits/make_void.hpp \
-  /usr/local/include/boost/type_traits/has_plus_assign.hpp \
-  /usr/local/include/boost/type_traits/has_minus.hpp \
-  /usr/local/include/boost/type_traits/has_minus_assign.hpp \
-  /usr/local/include/boost/iterator/is_iterator.hpp \
-  /usr/local/include/boost/type_traits/negation.hpp \
-  /usr/local/include/boost/iterator/advance.hpp \
-  /usr/local/include/boost/lexical_cast/bad_lexical_cast.hpp \
-  /usr/local/include/boost/lexical_cast/try_lexical_convert.hpp \
-  /usr/local/include/boost/type_traits/type_identity.hpp \
-  /usr/local/include/boost/lexical_cast/detail/is_character.hpp \
-  /usr/local/include/boost/lexical_cast/detail/converter_numeric.hpp \
-  /usr/local/include/boost/type_traits/is_base_of.hpp \
-  /usr/local/include/boost/type_traits/is_float.hpp \
-  /usr/local/include/boost/type_traits/remove_volatile.hpp \
-  /usr/local/include/boost/numeric/conversion/cast.hpp \
-  /usr/local/include/boost/type.hpp \
-  /usr/local/include/boost/numeric/conversion/converter.hpp \
-  /usr/local/include/boost/numeric/conversion/conversion_traits.hpp \
-  /usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp \
-  /usr/local/include/boost/numeric/conversion/detail/meta.hpp \
-  /usr/local/include/boost/mpl/equal_to.hpp \
-  /usr/local/include/boost/mpl/aux_/comparison_op.hpp \
-  /usr/local/include/boost/mpl/aux_/numeric_op.hpp \
-  /usr/local/include/boost/mpl/numeric_cast.hpp \
   /usr/local/include/boost/mpl/tag.hpp \
+  /usr/local/include/boost/mpl/void.hpp \
   /usr/local/include/boost/mpl/aux_/has_tag.hpp \
   /usr/local/include/boost/mpl/aux_/numeric_cast_utils.hpp \
   /usr/local/include/boost/mpl/aux_/config/forwarding.hpp \
   /usr/local/include/boost/mpl/aux_/msvc_eti_base.hpp \
   /usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp \
   /usr/local/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp \
+  /usr/local/include/boost/mpl/not.hpp \
+  /usr/local/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/local/include/boost/mpl/and.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /usr/local/include/boost/mpl/identity.hpp \
   /usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp \
   /usr/local/include/boost/numeric/conversion/int_float_mixture_enum.hpp \
   /usr/local/include/boost/numeric/conversion/detail/sign_mixture.hpp \
@@ -1404,6 +1215,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/mpl/integral_c_fwd.hpp \
   /usr/local/include/boost/mpl/aux_/largest_int.hpp \
   /usr/local/include/boost/mpl/aux_/preprocessed/gcc/times.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/default_params.hpp \
   /usr/local/include/boost/mpl/less.hpp \
   /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
   /usr/local/include/boost/numeric/conversion/converter_policies.hpp \
@@ -1417,12 +1229,15 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
   /usr/local/include/boost/lexical_cast/detail/converter_lexical.hpp \
   /usr/local/include/boost/type_traits/has_left_shift.hpp \
+  /usr/local/include/boost/type_traits/detail/has_binary_operator.hpp \
+  /usr/local/include/boost/type_traits/make_void.hpp \
+  /usr/local/include/boost/type_traits/is_convertible.hpp \
+  /usr/local/include/boost/type_traits/add_reference.hpp \
   /usr/local/include/boost/type_traits/has_right_shift.hpp \
   /usr/local/include/boost/detail/lcast_precision.hpp \
   /usr/local/include/boost/integer_traits.hpp \
+  /usr/local/include/boost/type_traits/is_abstract.hpp \
   /usr/local/include/boost/lexical_cast/detail/widest_char.hpp \
-  /usr/local/include/boost/array.hpp \
-  /usr/local/include/boost/core/swap.hpp \
   /usr/local/include/boost/container/container_fwd.hpp \
   /usr/local/include/boost/container/detail/std_fwd.hpp \
   /usr/local/include/boost/move/detail/std_ns_begin.hpp \
@@ -1431,6 +1246,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/core/snprintf.hpp \
   /usr/local/include/boost/lexical_cast/detail/lcast_char_constants.hpp \
   /usr/local/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp \
+  /usr/local/include/boost/core/noncopyable.hpp \
   /usr/local/include/boost/lexical_cast/detail/inf_nan.hpp \
   /usr/local/include/boost/core/cmath.hpp \
   /usr/local/include/boost/integer.hpp \
@@ -1461,6 +1277,7 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
   /usr/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
   /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/local/include/boost/core/checked_delete.hpp \
   /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
   /usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp \
   /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
@@ -1485,9 +1302,639 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/program_options/variables_map.hpp \
   /usr/local/include/boost/program_options/version.hpp \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../calibration/CameraCalibration.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/IOUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/CommonUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PMVS2Reconstruction.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PlottingUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/Segmentation.h \
+  /usr/local/include/pcl-1.14/pcl/filters/passthrough.h \
+  /usr/local/include/pcl-1.14/pcl/pcl_macros.h \
+  /usr/local/include/pcl-1.14/pcl/pcl_config.h \
+  /usr/local/include/boost/preprocessor/comparison/less.hpp \
+  /usr/local/include/boost/preprocessor/comparison/less_equal.hpp \
+  /usr/local/include/pcl-1.14/pcl/filters/filter_indices.h \
+  /usr/local/include/pcl-1.14/pcl/filters/filter.h \
+  /usr/local/include/pcl-1.14/pcl/pcl_base.h \
+  /usr/local/include/pcl-1.14/pcl/memory.h \
+  /usr/local/include/pcl-1.14/pcl/type_traits.h \
+  /usr/local/include/pcl-1.14/pcl/point_struct_traits.h \
+  /usr/local/include/boost/mpl/assert.hpp \
+  /usr/local/include/boost/mpl/aux_/config/gpu.hpp \
+  /usr/local/include/boost/mpl/aux_/config/pp_counter.hpp \
+  /usr/local/include/boost/mpl/vector.hpp \
+  /usr/local/include/boost/mpl/limits/vector.hpp \
+  /usr/local/include/boost/mpl/vector/vector20.hpp \
+  /usr/local/include/boost/mpl/vector/vector10.hpp \
+  /usr/local/include/boost/mpl/vector/vector0.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/at.hpp \
+  /usr/local/include/boost/mpl/at_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/tag.hpp \
+  /usr/local/include/boost/mpl/aux_/config/typeof.hpp \
+  /usr/local/include/boost/mpl/long.hpp \
+  /usr/local/include/boost/mpl/long_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/front.hpp \
+  /usr/local/include/boost/mpl/front_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/push_front.hpp \
+  /usr/local/include/boost/mpl/push_front_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/item.hpp \
+  /usr/local/include/boost/mpl/next_prior.hpp \
+  /usr/local/include/boost/mpl/aux_/common_name_wknd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/pop_front.hpp \
+  /usr/local/include/boost/mpl/pop_front_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/push_back.hpp \
+  /usr/local/include/boost/mpl/push_back_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/pop_back.hpp \
+  /usr/local/include/boost/mpl/pop_back_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/back.hpp \
+  /usr/local/include/boost/mpl/back_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/clear.hpp \
+  /usr/local/include/boost/mpl/clear_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/vector0.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/iterator.hpp \
+  /usr/local/include/boost/mpl/iterator_tags.hpp \
+  /usr/local/include/boost/mpl/plus.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp \
+  /usr/local/include/boost/mpl/minus.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp \
+  /usr/local/include/boost/mpl/advance_fwd.hpp \
+  /usr/local/include/boost/mpl/distance_fwd.hpp \
+  /usr/local/include/boost/mpl/next.hpp \
+  /usr/local/include/boost/mpl/prior.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/O1_size.hpp \
+  /usr/local/include/boost/mpl/O1_size_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/size.hpp \
+  /usr/local/include/boost/mpl/size_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/empty.hpp \
+  /usr/local/include/boost/mpl/empty_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/begin_end.hpp \
+  /usr/local/include/boost/mpl/begin_end_fwd.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/include_preprocessed.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp \
+  /usr/local/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp \
+  /usr/local/include/boost/preprocessor/seq/enum.hpp \
+  /usr/local/include/boost/preprocessor/seq/size.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/size_256.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/pmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/tmmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/smmintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/popcntintrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/crc32intrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/nmmintrin.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/local/include/omp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IndexedView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reshaped.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StlIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/pcl-1.14/pcl/point_cloud.h \
+  /usr/local/include/eigen3/Eigen/StdVector \
+  /usr/local/include/eigen3/Eigen/src/StlSupport/StdVector.h \
+  /usr/local/include/eigen3/Eigen/src/StlSupport/details.h \
+  /usr/local/include/eigen3/Eigen/Geometry \
+  /usr/local/include/eigen3/Eigen/SVD /usr/local/include/eigen3/Eigen/QR \
+  /usr/local/include/eigen3/Eigen/Cholesky \
+  /usr/local/include/eigen3/Eigen/Jacobi \
+  /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen3/Eigen/Householder \
+  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen3/Eigen/LU \
+  /usr/local/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/local/include/pcl-1.14/pcl/PCLHeader.h \
+  /usr/local/include/pcl-1.14/pcl/exceptions.h \
+  /usr/local/include/boost/current_function.hpp \
+  /usr/local/include/pcl-1.14/pcl/types.h \
+  /usr/local/include/pcl-1.14/pcl/console/print.h \
+  /usr/local/include/pcl-1.14/pcl/pcl_exports.h \
+  /usr/local/include/pcl-1.14/pcl/PointIndices.h \
+  /usr/local/include/pcl-1.14/pcl/PCLPointCloud2.h \
+  /usr/local/include/boost/predef/other/endian.h \
+  /usr/local/include/boost/predef/version_number.h \
+  /usr/local/include/boost/predef/make.h \
+  /usr/local/include/boost/predef/detail/test.h \
+  /usr/local/include/boost/predef/library/c/gnu.h \
+  /usr/local/include/boost/predef/library/c/_prefix.h \
+  /usr/local/include/boost/predef/detail/_cassert.h \
+  /usr/local/include/boost/predef/os/macos.h \
+  /usr/local/include/boost/predef/os/ios.h \
+  /usr/local/include/boost/predef/detail/os_detected.h \
+  /usr/local/include/boost/predef/os/bsd.h \
+  /usr/local/include/boost/predef/os/bsd/bsdi.h \
+  /usr/local/include/boost/predef/os/bsd/dragonfly.h \
+  /usr/local/include/boost/predef/os/bsd/free.h \
+  /usr/local/include/boost/predef/os/bsd/open.h \
+  /usr/local/include/boost/predef/os/bsd/net.h \
+  /usr/local/include/boost/predef/platform/android.h \
+  /usr/local/include/pcl-1.14/pcl/PCLPointField.h \
+  /usr/local/include/pcl-1.14/pcl/common/io.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /usr/local/include/pcl-1.14/pcl/PolygonMesh.h \
+  /usr/local/include/pcl-1.14/pcl/Vertices.h \
+  /usr/local/include/pcl-1.14/pcl/common/impl/io.hpp \
+  /usr/local/include/pcl-1.14/pcl/conversions.h \
+  /usr/local/include/pcl-1.14/pcl/PCLImage.h \
+  /usr/local/include/pcl-1.14/pcl/for_each_type.h \
+  /usr/local/include/boost/mpl/is_sequence.hpp \
+  /usr/local/include/boost/mpl/begin_end.hpp \
+  /usr/local/include/boost/mpl/aux_/begin_end_impl.hpp \
+  /usr/local/include/boost/mpl/sequence_tag_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/has_begin.hpp \
+  /usr/local/include/boost/mpl/aux_/traits_lambda_spec.hpp \
+  /usr/local/include/boost/mpl/sequence_tag.hpp \
+  /usr/local/include/boost/mpl/deref.hpp \
+  /usr/local/include/boost/mpl/aux_/msvc_type.hpp \
+  /usr/local/include/boost/mpl/remove_if.hpp \
+  /usr/local/include/boost/mpl/fold.hpp \
+  /usr/local/include/boost/mpl/O1_size.hpp \
+  /usr/local/include/boost/mpl/aux_/O1_size_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/has_size.hpp \
+  /usr/local/include/boost/mpl/aux_/fold_impl.hpp \
+  /usr/local/include/boost/mpl/apply.hpp \
+  /usr/local/include/boost/mpl/apply_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /usr/local/include/boost/mpl/placeholders.hpp \
+  /usr/local/include/boost/mpl/arg.hpp \
+  /usr/local/include/boost/mpl/arg_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/na_assert.hpp \
+  /usr/local/include/boost/mpl/aux_/arity_spec.hpp \
+  /usr/local/include/boost/mpl/aux_/arg_typedef.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+  /usr/local/include/boost/mpl/lambda.hpp \
+  /usr/local/include/boost/mpl/bind.hpp \
+  /usr/local/include/boost/mpl/bind_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/config/bind.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+  /usr/local/include/boost/mpl/protect.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+  /usr/local/include/boost/mpl/aux_/full_lambda.hpp \
+  /usr/local/include/boost/mpl/quote.hpp \
+  /usr/local/include/boost/mpl/aux_/has_type.hpp \
+  /usr/local/include/boost/mpl/aux_/config/bcc.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+  /usr/local/include/boost/mpl/aux_/template_arity.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp \
+  /usr/local/include/boost/mpl/reverse_fold.hpp \
+  /usr/local/include/boost/mpl/aux_/reverse_fold_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/inserter_algorithm.hpp \
+  /usr/local/include/boost/mpl/back_inserter.hpp \
+  /usr/local/include/boost/mpl/push_back.hpp \
+  /usr/local/include/boost/mpl/aux_/push_back_impl.hpp \
+  /usr/local/include/boost/mpl/inserter.hpp \
+  /usr/local/include/boost/mpl/front_inserter.hpp \
+  /usr/local/include/boost/mpl/push_front.hpp \
+  /usr/local/include/boost/mpl/aux_/push_front_impl.hpp \
+  /usr/local/include/boost/mpl/clear.hpp \
+  /usr/local/include/boost/mpl/aux_/clear_impl.hpp \
+  /usr/local/include/boost/mpl/contains.hpp \
+  /usr/local/include/boost/mpl/contains_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/contains_impl.hpp \
+  /usr/local/include/boost/mpl/find.hpp \
+  /usr/local/include/boost/mpl/find_if.hpp \
+  /usr/local/include/boost/mpl/aux_/find_if_pred.hpp \
+  /usr/local/include/boost/mpl/aux_/iter_apply.hpp \
+  /usr/local/include/boost/mpl/iter_fold_if.hpp \
+  /usr/local/include/boost/mpl/logical.hpp \
+  /usr/local/include/boost/mpl/or.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /usr/local/include/boost/mpl/always.hpp \
+  /usr/local/include/boost/mpl/pair.hpp \
+  /usr/local/include/boost/mpl/aux_/iter_fold_if_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp \
+  /usr/local/include/boost/mpl/same_as.hpp \
+  /usr/local/include/boost/mpl/aux_/lambda_spec.hpp \
+  /usr/local/include/boost/mpl/aux_/unwrap.hpp \
+  /usr/local/include/boost/ref.hpp \
+  /usr/local/include/pcl-1.14/pcl/common/concatenate.h \
+  /usr/local/include/pcl-1.14/pcl/common/copy_point.h \
+  /usr/local/include/pcl-1.14/pcl/common/impl/copy_point.hpp \
+  /usr/local/include/pcl-1.14/pcl/point_types.h \
+  /usr/local/include/pcl-1.14/pcl/impl/point_types.hpp \
+  /usr/local/include/pcl-1.14/pcl/register_point_struct.h \
+  /usr/local/include/boost/preprocessor/seq/for_each.hpp \
+  /usr/local/include/boost/preprocessor/repetition/for.hpp \
+  /usr/local/include/boost/preprocessor/repetition/detail/for.hpp \
+  /usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp \
+  /usr/local/include/boost/preprocessor/repetition/limits/for_256.hpp \
+  /usr/local/include/boost/preprocessor/seq/seq.hpp \
+  /usr/local/include/boost/preprocessor/seq/elem.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/elem_256.hpp \
+  /usr/local/include/boost/preprocessor/seq/detail/is_empty.hpp \
+  /usr/local/include/boost/preprocessor/seq/transform.hpp \
+  /usr/local/include/boost/preprocessor/seq/fold_left.hpp \
+  /usr/local/include/boost/preprocessor/seq/limits/fold_left_256.hpp \
+  /usr/local/include/pcl-1.14/pcl/io/pcd_io.h \
+  /usr/local/include/pcl-1.14/pcl/io/file_io.h \
+  /usr/local/include/boost/algorithm/string/predicate.hpp \
+  /usr/local/include/boost/algorithm/string/config.hpp \
+  /usr/local/include/boost/range/begin.hpp \
+  /usr/local/include/boost/range/config.hpp \
+  /usr/local/include/boost/range/iterator.hpp \
+  /usr/local/include/boost/range/range_fwd.hpp \
+  /usr/local/include/boost/range/mutable_iterator.hpp \
+  /usr/local/include/boost/range/detail/extract_optional_type.hpp \
+  /usr/local/include/boost/iterator/iterator_traits.hpp \
+  /usr/local/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+  /usr/local/include/boost/range/const_iterator.hpp \
+  /usr/local/include/boost/type_traits/remove_const.hpp \
+  /usr/local/include/boost/range/end.hpp \
+  /usr/local/include/boost/range/detail/implementation_help.hpp \
+  /usr/local/include/boost/range/detail/common.hpp \
+  /usr/local/include/boost/range/detail/sfinae.hpp \
+  /usr/local/include/boost/range/as_literal.hpp \
+  /usr/local/include/boost/range/iterator_range.hpp \
+  /usr/local/include/boost/range/iterator_range_core.hpp \
+  /usr/local/include/boost/iterator/iterator_facade.hpp \
+  /usr/local/include/boost/iterator/interoperable.hpp \
+  /usr/local/include/boost/iterator/detail/config_def.hpp \
+  /usr/local/include/boost/iterator/detail/config_undef.hpp \
+  /usr/local/include/boost/iterator/iterator_categories.hpp \
+  /usr/local/include/boost/iterator/detail/facade_iterator_category.hpp \
+  /usr/local/include/boost/core/use_default.hpp \
+  /usr/local/include/boost/detail/indirect_traits.hpp \
+  /usr/local/include/boost/type_traits/remove_pointer.hpp \
+  /usr/local/include/boost/detail/select_type.hpp \
+  /usr/local/include/boost/iterator/detail/enable_if.hpp \
+  /usr/local/include/boost/type_traits/add_pointer.hpp \
+  /usr/local/include/boost/type_traits/add_lvalue_reference.hpp \
+  /usr/local/include/boost/range/functions.hpp \
+  /usr/local/include/boost/range/size.hpp \
+  /usr/local/include/boost/range/size_type.hpp \
+  /usr/local/include/boost/range/difference_type.hpp \
+  /usr/local/include/boost/range/has_range_iterator.hpp \
+  /usr/local/include/boost/utility/enable_if.hpp \
+  /usr/local/include/boost/range/concepts.hpp \
+  /usr/local/include/boost/concept_check.hpp \
+  /usr/local/include/boost/concept/assert.hpp \
+  /usr/local/include/boost/concept/detail/general.hpp \
+  /usr/local/include/boost/concept/detail/backward_compatibility.hpp \
+  /usr/local/include/boost/concept/detail/has_constraints.hpp \
+  /usr/local/include/boost/type_traits/conversion_traits.hpp \
+  /usr/local/include/boost/concept/usage.hpp \
+  /usr/local/include/boost/concept/detail/concept_def.hpp \
+  /usr/local/include/boost/preprocessor/seq/for_each_i.hpp \
+  /usr/local/include/boost/concept/detail/concept_undef.hpp \
+  /usr/local/include/boost/iterator/iterator_concepts.hpp \
+  /usr/local/include/boost/range/value_type.hpp \
+  /usr/local/include/boost/range/detail/misc_concept.hpp \
+  /usr/local/include/boost/range/detail/has_member_size.hpp \
+  /usr/local/include/boost/utility.hpp \
+  /usr/local/include/boost/utility/base_from_member.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp \
+  /usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /usr/local/include/boost/utility/binary.hpp \
+  /usr/local/include/boost/preprocessor/control/deduce_d.hpp \
+  /usr/local/include/boost/preprocessor/seq/cat.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/mod.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/detail/is_1_number.hpp \
+  /usr/local/include/boost/utility/identity_type.hpp \
+  /usr/local/include/boost/type_traits/function_traits.hpp \
+  /usr/local/include/boost/range/distance.hpp \
+  /usr/local/include/boost/iterator/distance.hpp \
+  /usr/local/include/boost/range/empty.hpp \
+  /usr/local/include/boost/range/rbegin.hpp \
+  /usr/local/include/boost/range/reverse_iterator.hpp \
+  /usr/local/include/boost/iterator/reverse_iterator.hpp \
+  /usr/local/include/boost/iterator/iterator_adaptor.hpp \
+  /usr/local/include/boost/range/rend.hpp \
+  /usr/local/include/boost/range/algorithm/equal.hpp \
+  /usr/local/include/boost/range/detail/safe_bool.hpp \
+  /usr/local/include/boost/next_prior.hpp \
+  /usr/local/include/boost/type_traits/has_plus.hpp \
+  /usr/local/include/boost/type_traits/has_plus_assign.hpp \
+  /usr/local/include/boost/type_traits/has_minus.hpp \
+  /usr/local/include/boost/type_traits/has_minus_assign.hpp \
+  /usr/local/include/boost/iterator/is_iterator.hpp \
+  /usr/local/include/boost/type_traits/negation.hpp \
+  /usr/local/include/boost/type_traits/conjunction.hpp \
+  /usr/local/include/boost/iterator/advance.hpp \
+  /usr/local/include/boost/range/iterator_range_io.hpp \
+  /usr/local/include/boost/range/detail/str_types.hpp \
+  /usr/local/include/boost/algorithm/string/compare.hpp \
+  /usr/local/include/boost/algorithm/string/find.hpp \
+  /usr/local/include/boost/algorithm/string/finder.hpp \
+  /usr/local/include/boost/algorithm/string/constants.hpp \
+  /usr/local/include/boost/algorithm/string/detail/finder.hpp \
+  /usr/local/include/boost/algorithm/string/detail/predicate.hpp \
+  /usr/local/include/boost/interprocess/sync/file_lock.hpp \
+  /usr/local/include/boost/interprocess/detail/config_begin.hpp \
+  /usr/local/include/boost/interprocess/detail/workaround.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/sysctl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timeval64.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ucred.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/bsm/audit.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/port.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/boolean.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/boolean.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/boolean.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/vm_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/vm_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/proc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/queue.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/lock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/event.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/vm.h \
+  /usr/local/include/boost/interprocess/exceptions.hpp \
+  /usr/local/include/boost/interprocess/errors.hpp \
+  /usr/local/include/boost/interprocess/detail/config_end.hpp \
+  /usr/local/include/boost/interprocess/detail/os_file_functions.hpp \
+  /usr/local/include/boost/interprocess/permissions.hpp \
+  /usr/local/include/boost/interprocess/interprocess_fwd.hpp \
+  /usr/local/include/boost/interprocess/detail/std_fwd.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/stat.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_filesec_t.h \
+  /usr/local/include/boost/move/detail/type_traits.hpp \
+  /usr/local/include/boost/move/detail/config_begin.hpp \
+  /usr/local/include/boost/move/detail/workaround.hpp \
+  /usr/local/include/boost/move/detail/meta_utils.hpp \
+  /usr/local/include/boost/move/detail/meta_utils_core.hpp \
+  /usr/local/include/boost/move/detail/addressof.hpp \
+  /usr/local/include/boost/move/detail/config_end.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/fcntl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/fcntl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_o_sync.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_o_dsync.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/dirent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/dirent.h \
+  /usr/local/include/boost/interprocess/detail/os_thread_functions.hpp \
+  /usr/local/include/boost/interprocess/streams/bufferstream.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/mach_time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/mach_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/host_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/message.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/kern_return.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/kern_return.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/kern_return.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_statistics.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/time_value.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/host_notify.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/host_special_ports.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/memory_object_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_prot.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_sync.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/exception_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/exception.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/exception.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/thread_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/thread_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/thread_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/thread_state.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/thread_state.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/fp_reg.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/eflags.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach_debug/ipc_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/mach_voucher_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/std_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/processor_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/processor_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/processor_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/task_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/policy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/task_inspect.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/task_policy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/task_special_ports.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/thread_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/thread_policy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/thread_special_ports.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/clock_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_attributes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_inherit.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_purgable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_behavior.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_region.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/machine/vm_param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/i386/vm_param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/vm_page_size.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/kmod.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/mach/dyld_kernel.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsobj_id_t.h \
+  /usr/local/include/boost/interprocess/sync/detail/common_algorithms.hpp \
+  /usr/local/include/boost/interprocess/sync/spin/wait.hpp \
+  /usr/local/include/boost/interprocess/detail/timed_utils.hpp \
+  /usr/local/include/boost/interprocess/detail/mpl.hpp \
+  /usr/local/include/boost/interprocess/detail/type_traits.hpp \
+  /usr/local/include/boost/intrusive/detail/mpl.hpp \
+  /usr/local/include/boost/intrusive/detail/config_begin.hpp \
+  /usr/local/include/boost/intrusive/detail/config_end.hpp \
+  /usr/local/include/boost/interprocess/sync/detail/locks.hpp \
+  /usr/local/include/boost/move/utility_core.hpp \
+  /usr/local/include/boost/move/core.hpp \
+  /usr/local/include/pcl-1.14/pcl/io/impl/pcd_io.hpp \
+  /usr/local/include/boost/algorithm/string/trim.hpp \
+  /usr/local/include/boost/algorithm/string/detail/trim.hpp \
+  /usr/local/include/boost/algorithm/string/classification.hpp \
+  /usr/local/include/boost/algorithm/string/detail/classification.hpp \
+  /usr/local/include/boost/algorithm/string/predicate_facade.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/fstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /usr/local/include/pcl-1.14/pcl/io/low_level_io.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/mman.h \
+  /usr/local/include/pcl-1.14/pcl/io/lzf.h \
+  /usr/local/include/pcl-1.14/pcl/search/kdtree.h \
+  /usr/local/include/pcl-1.14/pcl/search/search.h \
+  /usr/local/include/pcl-1.14/pcl/kdtree/kdtree_flann.h \
+  /usr/local/include/pcl-1.14/pcl/kdtree/kdtree.h \
+  /usr/local/include/pcl-1.14/pcl/point_representation.h \
+  /usr/local/include/flann/util/params.h \
+  /usr/local/include/flann/util/any.h /usr/local/include/flann/general.h \
+  /usr/local/include/flann/defines.h /usr/local/include/flann/config.h \
+  /usr/local/include/pcl-1.14/pcl/segmentation/region_growing_rgb.h \
+  /usr/local/include/pcl-1.14/pcl/segmentation/region_growing.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmReconstruction.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h

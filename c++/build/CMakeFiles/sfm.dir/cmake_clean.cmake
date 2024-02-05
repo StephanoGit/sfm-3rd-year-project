@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o.d"
   "CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o"
   "CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o.d"
+  "CMakeFiles/sfm.dir/src/Segmentation.cpp.o"
+  "CMakeFiles/sfm.dir/src/Segmentation.cpp.o.d"
   "CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o"
   "CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o.d"
   "CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o"

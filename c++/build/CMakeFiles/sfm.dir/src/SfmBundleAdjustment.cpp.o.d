@@ -942,7 +942,9 @@ CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/smmintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/popcntintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/crc32intrin.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/nmmintrin.h \
   /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/local/include/omp.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
   /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h \
   /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h \

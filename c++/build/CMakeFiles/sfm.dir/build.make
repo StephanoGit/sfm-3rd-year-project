@@ -195,10 +195,24 @@ CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/PMVS2Reconstruction.cpp -o CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.s
 
+CMakeFiles/sfm.dir/src/Segmentation.cpp.o: CMakeFiles/sfm.dir/flags.make
+CMakeFiles/sfm.dir/src/Segmentation.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/src/Segmentation.cpp
+CMakeFiles/sfm.dir/src/Segmentation.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sfm.dir/src/Segmentation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/src/Segmentation.cpp.o -MF CMakeFiles/sfm.dir/src/Segmentation.cpp.o.d -o CMakeFiles/sfm.dir/src/Segmentation.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/src/Segmentation.cpp
+
+CMakeFiles/sfm.dir/src/Segmentation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfm.dir/src/Segmentation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stephano./github/sfm-3rd-year-project/c++/src/Segmentation.cpp > CMakeFiles/sfm.dir/src/Segmentation.cpp.i
+
+CMakeFiles/sfm.dir/src/Segmentation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfm.dir/src/Segmentation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stephano./github/sfm-3rd-year-project/c++/src/Segmentation.cpp -o CMakeFiles/sfm.dir/src/Segmentation.cpp.s
+
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: CMakeFiles/sfm.dir/flags.make
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: CMakeFiles/sfm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -MF CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o.d -o CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp
 
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.i: cmake_force
@@ -220,6 +234,7 @@ sfm_OBJECTS = \
 "CMakeFiles/sfm.dir/src/CommonUtil.cpp.o" \
 "CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o" \
 "CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o" \
+"CMakeFiles/sfm.dir/src/Segmentation.cpp.o" \
 "CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o"
 
 # External object files for target sfm
@@ -234,73 +249,144 @@ sfm: CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o
 sfm: CMakeFiles/sfm.dir/src/CommonUtil.cpp.o
 sfm: CMakeFiles/sfm.dir/src/SfmBundleAdjustment.cpp.o
 sfm: CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o
+sfm: CMakeFiles/sfm.dir/src/Segmentation.cpp.o
 sfm: CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o
 sfm: CMakeFiles/sfm.dir/build.make
-sfm: /usr/local/lib/libunistring.dylib
-sfm: /usr/local/lib/libmbedcrypto.dylib
-sfm: /usr/local/lib/libopencv_gapi.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_stitching.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_alphamat.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_aruco.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_bgsegm.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_bioinspired.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_ccalib.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_dnn_objdetect.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_dnn_superres.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_dpm.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_face.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_freetype.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_fuzzy.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_hfs.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_img_hash.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_intensity_transform.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_line_descriptor.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_mcc.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_quality.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_rapid.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_reg.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_rgbd.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_saliency.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_sfm.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_stereo.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_structured_light.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_superres.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_surface_matching.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_tracking.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_videostab.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_viz.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_wechat_qrcode.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_xfeatures2d.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_xobjdetect.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_xphoto.4.8.1.dylib
+sfm: /usr/local/opt/libunistring/lib/libunistring.dylib
+sfm: /usr/local/opt/mbedtls/lib/libmbedcrypto.dylib
+sfm: /usr/local/lib/libopencv_gapi.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_stitching.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_alphamat.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_aruco.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_bgsegm.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_bioinspired.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_ccalib.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_dnn_objdetect.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_dnn_superres.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_dpm.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_face.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_freetype.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_fuzzy.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_hfs.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_img_hash.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_intensity_transform.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_line_descriptor.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_mcc.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_quality.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_rapid.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_reg.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_rgbd.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_saliency.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_sfm.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_stereo.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_structured_light.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_superres.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_surface_matching.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_tracking.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_videostab.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_viz.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_wechat_qrcode.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_xfeatures2d.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_xobjdetect.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_xphoto.4.9.0.dylib
 sfm: /usr/local/lib/libboost_program_options-mt.dylib
-sfm: /usr/local/lib/libboost_filesystem-mt.dylib
 sfm: /usr/local/lib/libceres.2.2.0.dylib
-sfm: /usr/local/lib/libopencv_shape.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_highgui.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_datasets.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_plot.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_text.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_ml.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_phase_unwrapping.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_optflow.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_ximgproc.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_video.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_videoio.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_imgcodecs.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_objdetect.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_calib3d.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_dnn.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_features2d.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_flann.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_photo.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_imgproc.4.8.1.dylib
-sfm: /usr/local/lib/libopencv_core.4.8.1.dylib
-sfm: /usr/local/lib/libboost_atomic-mt.dylib
+sfm: /usr/local/lib/libpcl_visualization.dylib
+sfm: /usr/local/lib/libpcl_surface.dylib
+sfm: /usr/local/lib/libpcl_segmentation.dylib
+sfm: /usr/local/lib/libflann_cpp.1.9.2.dylib
+sfm: /usr/local/lib/libopencv_shape.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_highgui.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_datasets.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_plot.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_text.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_ml.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_phase_unwrapping.4.9.0.dylib
+sfm: /usr/local/Cellar/jsoncpp/1.9.5/lib/libjsoncpp.dylib
+sfm: /usr/local/lib/libopencv_optflow.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_ximgproc.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_video.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_videoio.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_imgcodecs.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_objdetect.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_calib3d.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_dnn.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_features2d.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_flann.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_photo.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_imgproc.4.9.0.dylib
+sfm: /usr/local/lib/libopencv_core.4.9.0.dylib
 sfm: /usr/local/lib/libglog.0.6.0.dylib
 sfm: /usr/local/lib/libgflags.2.2.2.dylib
+sfm: /usr/local/lib/libpcl_io.dylib
+sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libpcap.tbd
+sfm: /usr/local/lib/libpng.dylib
+sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libz.tbd
+sfm: /usr/local/lib/libpcl_features.dylib
+sfm: /usr/local/lib/libpcl_filters.dylib
+sfm: /usr/local/lib/libpcl_sample_consensus.dylib
+sfm: /usr/local/lib/libpcl_search.dylib
+sfm: /usr/local/lib/libpcl_octree.dylib
+sfm: /usr/local/lib/libpcl_kdtree.dylib
+sfm: /usr/local/lib/libvtkChartsCore-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkInteractionImage-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkIOGeometry-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkIOPLY-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingLOD-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkViewsContext2D-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkViewsCore-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingContextOpenGL2-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkGUISupportQt-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkInteractionWidgets-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkFiltersModeling-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkInteractionStyle-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkFiltersExtraction-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkIOLegacy-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkIOCore-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingAnnotation-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingContext2D-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingFreeType-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkfreetype-9.2.9.2.6.dylib
+sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libz.tbd
+sfm: /usr/local/lib/libvtkIOImage-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingOpenGL2-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingHyperTreeGrid-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkImagingSources-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkImagingCore-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingUI-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkRenderingCore-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkCommonColor-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkFiltersGeometry-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkFiltersSources-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkFiltersGeneral-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkCommonComputationalGeometry-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkFiltersCore-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkCommonExecutionModel-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkCommonDataModel-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkCommonMisc-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkCommonTransforms-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkCommonMath-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtkkissfft-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libGLEW.dylib
+sfm: /usr/local/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
+sfm: /usr/local/lib/QtOpenGL.framework/Versions/A/QtOpenGL
+sfm: /usr/local/lib/QtWidgets.framework/Versions/A/QtWidgets
+sfm: /usr/local/lib/QtGui.framework/Versions/A/QtGui
+sfm: /usr/local/lib/QtCore.framework/Versions/A/QtCore
+sfm: /usr/local/lib/libvtkCommonCore-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libvtksys-9.2.9.2.6.dylib
+sfm: /usr/local/lib/libpcl_ml.dylib
+sfm: /usr/local/lib/libomp.dylib
+sfm: /usr/local/lib/libpcl_common.dylib
+sfm: /usr/local/lib/libboost_filesystem-mt.dylib
+sfm: /usr/local/lib/libboost_atomic-mt.dylib
+sfm: /usr/local/lib/libboost_system-mt.dylib
+sfm: /usr/local/lib/libboost_iostreams-mt.dylib
+sfm: /usr/local/lib/libboost_serialization-mt.dylib
+sfm: /usr/local/Cellar/lz4/1.9.4/lib/liblz4.dylib
+sfm: /usr/local/lib/libqhull_r.8.0.2.dylib
 sfm: CMakeFiles/sfm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable sfm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable sfm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

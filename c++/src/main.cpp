@@ -1,17 +1,16 @@
-#include <stdexcept>
-#include <stdio.h>
-
 #include <opencv2/features2d.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/opencv.hpp>
 #include <opencv2/sfm/triangulation.hpp>
 #include <opencv2/xfeatures2d/nonfree.hpp>
+#include <stdexcept>
+#include <stdio.h>
 
 #include <boost/program_options.hpp>
 
 #include "../calibration/CameraCalibration.h"
-#include "../include/IOUtil.h"
-#include "../include/PlottingUtil.h"
+#include "../include/CommonUtil.h"
+#include "../include/Segmentation.h"
 #include "../include/SfmReconstruction.h"
 
 #define CHECKERBOARD_DIR "../calibration/images/iphone 15 pro"
@@ -95,29 +94,56 @@ int main(int argc, char **argv) {
 
     Intrinsics intrinsics;
     if (camera_type == "default") {
-        intrinsics.K = (cv::Mat_<float>(3, 3) << 2759.48, 0, 1520.69, 0,
-                        2764.16, 1006.81, 0, 0, 1);
+        intrinsics.K =
+            (cv::Mat_<float>(3, 3) << 2759.48 / downscale_factor, 0,
+             1520.69 / downscale_factor, 0, 2764.16 / downscale_factor,
+             1006.81 / downscale_factor, 0, 0, 1);
         intrinsics.d = cv::Mat_<float>::zeros(1, 4);
     } else {
-        intrinsics.K =
-            (cv::Mat_<float>(3, 3) << 4020.5203 / downscale_factor, 0,
-             2141.5 / downscale_factor, 0, 4020.5203 / downscale_factor,
-             2855.5 / downscale_factor, 0, 0, 1);
-        intrinsics.d = (cv::Mat_<float>(1, 4) << 0, 0, 0, 0);
+        /* intrinsics.K = */
+        /*     (cv::Mat_<float>(3, 3) << 3115.29 / downscale_factor, 0, */
+        /*      1611.09 / downscale_factor, 0, 3097.49 / downscale_factor, */
+        /*      1950.15 / downscale_factor, 0, 0, 1); */
+        /* intrinsics.d = */
+        /*     (cv::Mat_<float>(1, 5) << 0.1369, -1.0713, -0.0079,
+         * 0.0179, 2.5665); */
 
-        // if d is 0, i shoudl undistort the images before using them
-    }
+        intrinsics.K =
+            (cv::Mat_<float>(3, 3) << 4032.425 / downscale_factor, 0,
+             2057.0254 / downscale_factor, 0, 4027.7771 / downscale_factor,
+             2831.5269 / downscale_factor, 0, 0, 1);
+        intrinsics.d = (cv::Mat_<float>(1, 5) << 0.166528, -0.346085,
+                        0.00112333, -0.00599689, -0.0378505);
+    } // TODO: add drone camera parameters
 
     intrinsics.K_inv = intrinsics.K.inv();
 
+    std::string reconstruction_name =
+        directory.substr(directory.find_last_of('/') + 1) + "_" +
+        detection_type + "_" + matching_type;
+
+    /* Segmentation sg; */
+    /* sg.run_segmentation(reconstruction_name + "_MAP3D.pcd"); */
+    /* return 0; */
+
+    // start the reconstruction -> generate sparse pointcloud
+    // this also generates the dense pointcloud, should call the dense
+    // reconstr. in main
     SfmReconstruction reconstruction(
         directory, parse_feature_extraction(detection_type),
         parse_feature_matching(matching_type), intrinsics, verbose);
     reconstruction.run_sfm_reconstruction(downscale_factor);
 
-    reconstruction.export_pointcloud_to_PLY(
-        "../pointclouds/" + directory.substr(directory.find_last_of('/') + 1) +
-        "_" + detection_type + "_" + matching_type);
+    // export the sparse pointcloud
+    reconstruction.export_pointcloud_to_PLY("../pointclouds/" +
+                                            reconstruction_name);
+    // ply file to pcd
+    ply_to_pcd("../build/denseCloud/models/options.txt.ply",
+               reconstruction_name);
+
+    // pcd to mesh
+
+    // colour mesh
 
     return 0;
 }

@@ -1,8 +1,10 @@
 #include "../include/SfmReconstruction.h"
+#include "../include/CommonUtil.h"
 #include "../include/IOUtil.h"
 #include "../include/PlottingUtil.h"
 #include "../include/SfmBundleAdjustment.h"
 #include "../include/StereoUtil.h"
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
 #include <opencv2/core/cvdef.h>
@@ -14,7 +16,9 @@
 #include <ostream>
 #include <string>
 #include <thread>
+#include <vector>
 
+#include "../include/PMVS2Reconstruction.h"
 SfmReconstruction::SfmReconstruction(std::string directory,
                                      FeatureExtractionType extract_type,
                                      FeatureMatchingType match_type,
@@ -33,11 +37,28 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
     std::cout << "=======================================" << std::endl;
 
     // load images
-    this->images = load_images(directory, resize_val);
+    this->images = load_images(directory, resize_val, this->images_paths);
     if (this->images.size() < 2) {
         std::cout << "ERROR: Please provide at least 2 images..." << std::endl;
         return false;
     }
+
+    /* cv::Size frame_size(this->images[0].cols, this->images[0].rows); */
+    /* cv::Mat mapX, mapY; */
+    /* cv::initUndistortRectifyMap(this->intrinsics.K, this->intrinsics.d, */
+    /*                             cv::Matx33f::eye(), this->intrinsics.K, */
+    /*                             frame_size, CV_32FC1, mapX, mapY); */
+    /**/
+    /* for (int i = 0; i < this->images.size(); i++) { */
+    /*     cv::Mat image_undistorted; */
+    /*     cv::remap(this->images[i], image_undistorted, mapX, mapY, */
+    /*               cv::INTER_LINEAR); */
+    /*     this->images[i] = image_undistorted; */
+    /*     cv::imshow("Undistorted images", image_undistorted); */
+    /*     cv::waitKey(0); */
+    /* } */
+    /* cv::imshow("Undistorted images", this->images[3]); */
+    /* cv::waitKey(0); */
 
     // allocating space for camera projection matrices
     this->n_P_mats.resize(this->images.size());
@@ -72,6 +93,7 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
                                " matches",
                            mm);
                 cv::waitKey(0);
+                cv::destroyAllWindows();
             }
         }
     }
@@ -79,6 +101,19 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
     find_baseline_triangulation();
 
     add_views_to_reconstruction();
+
+    // sparse -> dense
+    PMVS2Reconstruction pmvs2;
+    pmvs2.dense_reconstruction(this->images, this->images_paths, this->n_P_mats,
+                               this->intrinsics);
+
+    int dont_care = std::system("../libs/pmvs2 denseCloud/ options.txt");
+    if (dont_care > 0) {
+        std::cout << "ERROR: pmvs2 failed" << std::endl;
+    }
+
+    bool success =
+        ply_to_pcd("../build/denseCloud/models/options.txt.ply", "test");
 
     return true;
 }
@@ -157,6 +192,7 @@ std::map<float, ImagePair> SfmReconstruction::sort_views_for_baseline() {
             if (this->match_matrix[i][j].size() < 100) {
                 std::cout << "NOT ENOUGH MATCHES Pair (" << i << ", " << j
                           << ")" << std::endl;
+                pairs_inliers[1.0] = {i, j};
                 continue;
             }
 
@@ -171,6 +207,10 @@ std::map<float, ImagePair> SfmReconstruction::sort_views_for_baseline() {
             std::cout << "Homography inliers ratio pair(" << i << ", " << j
                       << "): " << inliers_ratio << std::endl;
         }
+    }
+    for (auto &p : pairs_inliers) {
+        std::cout << p.first << " : " << p.second.left << " " << p.second.right
+                  << std::endl;
     }
     return pairs_inliers;
 }

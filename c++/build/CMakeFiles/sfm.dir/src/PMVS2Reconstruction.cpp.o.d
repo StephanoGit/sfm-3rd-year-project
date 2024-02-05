@@ -1324,7 +1324,6 @@ CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o: \
   /usr/local/include/boost/throw_exception.hpp \
   /usr/local/include/boost/exception/exception.hpp \
   /usr/local/include/boost/assert/source_location.hpp \
-  /usr/local/include/boost/current_function.hpp \
   /usr/local/include/boost/function/function_base.hpp \
   /usr/local/include/boost/function/function_fwd.hpp \
   /usr/local/include/boost/function_equal.hpp \

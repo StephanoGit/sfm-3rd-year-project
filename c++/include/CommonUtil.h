@@ -19,4 +19,7 @@ void align_points_from_matches(const Features &left, const Features &right,
                                std::vector<int> &left_origin,
                                std::vector<int> &right_origin);
 
+bool ply_to_pcd(const std::string file_path, const std::string file_name);
+
+bool pcd_to_mesh(const std::string file_path);
 #endif

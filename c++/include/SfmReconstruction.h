@@ -20,6 +20,7 @@ private:
     MatchMatrix match_matrix;
     std::vector<Features> images_features;
     std::vector<cv::Mat> images;
+    std::vector<std::string> images_paths;
 
     std::vector<PointCloudPoint> n_point_cloud;
     std::vector<cv::Matx34f> n_P_mats;

@@ -22,15 +22,17 @@ enum FeatureMatchingType {
 };
 
 class FeatureUtil {
-  public:
+public:
     FeatureUtil();
-    FeatureUtil(FeatureExtractionType extract_type, FeatureMatchingType match_type);
+    FeatureUtil(FeatureExtractionType extract_type,
+                FeatureMatchingType match_type);
     virtual ~FeatureUtil();
 
     Features extract_features(const cv::Mat &image);
-    std::vector<cv::DMatch> match_features(const Features &features_left, const Features &features_right);
+    std::vector<cv::DMatch> match_features(const Features &features_left,
+                                           const Features &features_right);
 
-  private:
+private:
     FeatureExtractionType extract_type;
     FeatureMatchingType match_type;
 };

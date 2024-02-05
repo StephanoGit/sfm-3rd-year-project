@@ -917,6 +917,7 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /usr/local/include/opencv2/video/background_segm.hpp \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/CommonUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/IOUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PlottingUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmBundleAdjustment.h \

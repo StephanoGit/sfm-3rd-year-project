@@ -5,6 +5,7 @@
 #include <opencv2/calib3d.hpp>
 #include <opencv2/core.hpp>
 #include <opencv2/core/hal/interface.h>
+#include <opencv2/core/mat.hpp>
 #include <opencv2/core/matx.hpp>
 #include <opencv2/core/types.hpp>
 #include <opencv2/xfeatures2d.hpp>
@@ -91,10 +92,17 @@ bool StereoUtil::triangulate_views_homography(
                               right_origin);
 
     cv::Mat norm_left, norm_right;
+    /* cv::undistortPoints(aligned_left.points, norm_left, intrinsics.K, */
+    /*                     cv::Mat()); */
+    /* cv::undistortPoints(aligned_right.points, norm_right, intrinsics.K, */
+    /*                     cv::Mat()); */
+
     cv::undistortPoints(aligned_left.points, norm_left, intrinsics.K,
-                        cv::Mat());
+                        intrinsics.d);
     cv::undistortPoints(aligned_right.points, norm_right, intrinsics.K,
-                        cv::Mat());
+                        intrinsics.d);
+
+    std::cout << intrinsics.d << std::endl;
 
     cv::Mat points_4D;
     cv::triangulatePoints(P_left, P_right, norm_left, norm_right, points_4D);

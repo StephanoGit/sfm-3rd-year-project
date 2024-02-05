@@ -273,6 +273,30 @@ src/PlottingUtil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PlottingUtil.cpp.s
 .PHONY : src/PlottingUtil.cpp.s
 
+src/Segmentation.o: src/Segmentation.cpp.o
+.PHONY : src/Segmentation.o
+
+# target to build an object file
+src/Segmentation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/Segmentation.cpp.o
+.PHONY : src/Segmentation.cpp.o
+
+src/Segmentation.i: src/Segmentation.cpp.i
+.PHONY : src/Segmentation.i
+
+# target to preprocess a source file
+src/Segmentation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/Segmentation.cpp.i
+.PHONY : src/Segmentation.cpp.i
+
+src/Segmentation.s: src/Segmentation.cpp.s
+.PHONY : src/Segmentation.s
+
+# target to generate assembly for a file
+src/Segmentation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/Segmentation.cpp.s
+.PHONY : src/Segmentation.cpp.s
+
 src/SfmBundleAdjustment.o: src/SfmBundleAdjustment.cpp.o
 .PHONY : src/SfmBundleAdjustment.o
 
@@ -396,6 +420,9 @@ help:
 	@echo "... src/PlottingUtil.o"
 	@echo "... src/PlottingUtil.i"
 	@echo "... src/PlottingUtil.s"
+	@echo "... src/Segmentation.o"
+	@echo "... src/Segmentation.i"
+	@echo "... src/Segmentation.s"
 	@echo "... src/SfmBundleAdjustment.o"
 	@echo "... src/SfmBundleAdjustment.i"
 	@echo "... src/SfmBundleAdjustment.s"
