@@ -1,5 +1,5 @@
-CMakeFiles/pcl_visualizer.dir/pcl_visualizer.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/pcl_visualizer.cpp \
+CMakeFiles/visualizer.dir/visualizer.cpp.o: \
+  /Users/stephano./github/sfm-3rd-year-project/project/visualizer/visualizer.cpp \
   /usr/local/include/pcl-1.14/pcl/console/parse.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy.h \

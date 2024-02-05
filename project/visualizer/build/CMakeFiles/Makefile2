@@ -54,16 +54,16 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/c++/visualiser
+CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/project/visualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build
+CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/project/visualizer/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/pcl_visualizer.dir/all
+all: CMakeFiles/visualizer.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/pcl_visualizer.dir/clean
+clean: CMakeFiles/visualizer.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pcl_visualizer.dir
+# Target rules for target CMakeFiles/visualizer.dir
 
 # All Build rule for target.
-CMakeFiles/pcl_visualizer.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build/CMakeFiles --progress-num=1,2,3 "Built target pcl_visualizer"
-.PHONY : CMakeFiles/pcl_visualizer.dir/all
+CMakeFiles/visualizer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/stephano./github/sfm-3rd-year-project/project/visualizer/build/CMakeFiles --progress-num=1,2 "Built target visualizer"
+.PHONY : CMakeFiles/visualizer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pcl_visualizer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pcl_visualizer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build/CMakeFiles 0
-.PHONY : CMakeFiles/pcl_visualizer.dir/rule
+CMakeFiles/visualizer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/project/visualizer/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/visualizer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/project/visualizer/build/CMakeFiles 0
+.PHONY : CMakeFiles/visualizer.dir/rule
 
 # Convenience name for target.
-pcl_visualizer: CMakeFiles/pcl_visualizer.dir/rule
-.PHONY : pcl_visualizer
+visualizer: CMakeFiles/visualizer.dir/rule
+.PHONY : visualizer
 
 # clean rule for target.
-CMakeFiles/pcl_visualizer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/clean
-.PHONY : CMakeFiles/pcl_visualizer.dir/clean
+CMakeFiles/visualizer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/clean
+.PHONY : CMakeFiles/visualizer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

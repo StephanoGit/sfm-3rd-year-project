@@ -7,13 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/visualiser/CMakeLists.txt"
+  "/Users/stephano./github/sfm-3rd-year-project/project/visualizer/CMakeLists.txt"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
-  "CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
-  "CMakeFiles/FindOpenMP/OpenMPTryFlag.c"
-  "CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp"
   "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -394,5 +391,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/pcl_visualizer.dir/DependInfo.cmake"
+  "CMakeFiles/visualizer.dir/DependInfo.cmake"
   )

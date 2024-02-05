@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/c++/visualiser
+CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/project/visualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build
+CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/project/visualizer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build/CMakeFiles /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/project/visualizer/build/CMakeFiles /Users/stephano./github/sfm-3rd-year-project/project/visualizer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/c++/visualiser/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/project/visualizer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,65 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pcl_visualizer
+# Target rules for targets named visualizer
 
 # Build rule for target.
-pcl_visualizer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pcl_visualizer
-.PHONY : pcl_visualizer
+visualizer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 visualizer
+.PHONY : visualizer
 
 # fast build rule for target.
-pcl_visualizer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/build
-.PHONY : pcl_visualizer/fast
+visualizer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/build
+.PHONY : visualizer/fast
 
-Segmentation.o: Segmentation.cpp.o
-.PHONY : Segmentation.o
-
-# target to build an object file
-Segmentation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/Segmentation.cpp.o
-.PHONY : Segmentation.cpp.o
-
-Segmentation.i: Segmentation.cpp.i
-.PHONY : Segmentation.i
-
-# target to preprocess a source file
-Segmentation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/Segmentation.cpp.i
-.PHONY : Segmentation.cpp.i
-
-Segmentation.s: Segmentation.cpp.s
-.PHONY : Segmentation.s
-
-# target to generate assembly for a file
-Segmentation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/Segmentation.cpp.s
-.PHONY : Segmentation.cpp.s
-
-pcl_visualizer.o: pcl_visualizer.cpp.o
-.PHONY : pcl_visualizer.o
+visualizer.o: visualizer.cpp.o
+.PHONY : visualizer.o
 
 # target to build an object file
-pcl_visualizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/pcl_visualizer.cpp.o
-.PHONY : pcl_visualizer.cpp.o
+visualizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/visualizer.cpp.o
+.PHONY : visualizer.cpp.o
 
-pcl_visualizer.i: pcl_visualizer.cpp.i
-.PHONY : pcl_visualizer.i
+visualizer.i: visualizer.cpp.i
+.PHONY : visualizer.i
 
 # target to preprocess a source file
-pcl_visualizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/pcl_visualizer.cpp.i
-.PHONY : pcl_visualizer.cpp.i
+visualizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/visualizer.cpp.i
+.PHONY : visualizer.cpp.i
 
-pcl_visualizer.s: pcl_visualizer.cpp.s
-.PHONY : pcl_visualizer.s
+visualizer.s: visualizer.cpp.s
+.PHONY : visualizer.s
 
 # target to generate assembly for a file
-pcl_visualizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_visualizer.dir/build.make CMakeFiles/pcl_visualizer.dir/pcl_visualizer.cpp.s
-.PHONY : pcl_visualizer.cpp.s
+visualizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualizer.dir/build.make CMakeFiles/visualizer.dir/visualizer.cpp.s
+.PHONY : visualizer.cpp.s
 
 # Help Target
 help:
@@ -185,13 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... pcl_visualizer"
-	@echo "... Segmentation.o"
-	@echo "... Segmentation.i"
-	@echo "... Segmentation.s"
-	@echo "... pcl_visualizer.o"
-	@echo "... pcl_visualizer.i"
-	@echo "... pcl_visualizer.s"
+	@echo "... visualizer"
+	@echo "... visualizer.o"
+	@echo "... visualizer.i"
+	@echo "... visualizer.s"
 .PHONY : help
 
 

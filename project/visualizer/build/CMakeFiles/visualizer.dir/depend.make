@@ -1,2 +1,2 @@
-# Empty dependencies file for pcl_visualizer.
+# Empty dependencies file for visualizer.
 # This may be replaced when dependencies are built.

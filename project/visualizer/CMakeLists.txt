@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
-project(pcl_visualizer)
+project(visualizer)
 
 find_package(PCL 1.2 REQUIRED)
 # Generate compile commands for clangd
@@ -17,5 +17,5 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable(pcl_visualizer pcl_visualizer.cpp Segmentation.cpp)
-target_link_libraries(pcl_visualizer ${PCL_LIBRARIES} ${Boost_LIBRARIES})
+add_executable(visualizer visualizer.cpp)
+target_link_libraries(visualizer ${PCL_LIBRARIES} ${Boost_LIBRARIES})

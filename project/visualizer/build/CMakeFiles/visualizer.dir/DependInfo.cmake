@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/stephano./github/sfm-3rd-year-project/c++/visualiser/Segmentation.cpp" "CMakeFiles/pcl_visualizer.dir/Segmentation.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/Segmentation.cpp.o.d"
-  "/Users/stephano./github/sfm-3rd-year-project/c++/visualiser/pcl_visualizer.cpp" "CMakeFiles/pcl_visualizer.dir/pcl_visualizer.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/pcl_visualizer.cpp.o.d"
+  "/Users/stephano./github/sfm-3rd-year-project/project/visualizer/visualizer.cpp" "CMakeFiles/visualizer.dir/visualizer.cpp.o" "gcc" "CMakeFiles/visualizer.dir/visualizer.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

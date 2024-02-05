@@ -20,11 +20,40 @@
 using namespace std::chrono_literals;
 namespace po = boost::program_options;
 
-pcl::visualization::PCLVisualizer::Ptr simpleVis(pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr cloud) {
-    pcl::visualization::PCLVisualizer::Ptr viewer(new pcl::visualization::PCLVisualizer("3D Viewer"));
+void pointcloud_to_mesh(pcl::PointCloud<pcl::PointXYZRGB>::Ptr point_cloud) {
+    pcl::NormalEstimation<pcl::PointXYZRGB, pcl::Normal> ne;
+    ne.setInputCloud(point_cloud);
+
+    pcl::search::KdTree<pcl::PointXYZRGB>::Ptr tree(
+        new pcl::search::KdTree<pcl::PointXYZRGB>());
+    ne.setSearchMethod(tree);
+
+    pcl::PointCloud<pcl::Normal>::Ptr normals(new pcl::PointCloud<pcl::Normal>);
+    ne.setRadiusSearch(0.03);
+    ne.compute(*normals);
+
+    pcl::PointCloud<pcl::PointXYZRGBNormal>::Ptr cloudWithNormals(
+        new pcl::PointCloud<pcl::PointXYZRGBNormal>);
+    pcl::concatenateFields(*point_cloud, *normals, *cloudWithNormals);
+
+    pcl::Poisson<pcl::PointXYZRGBNormal> poisson;
+    poisson.setDepth(12); // Adjust this as needed
+    poisson.setInputCloud(cloudWithNormals);
+
+    pcl::PolygonMesh mesh;
+    poisson.reconstruct(mesh);
+
+    pcl::io::savePLYFile("mesh.ply", mesh);
+}
+
+pcl::visualization::PCLVisualizer::Ptr
+simpleVis(pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr cloud) {
+    pcl::visualization::PCLVisualizer::Ptr viewer(
+        new pcl::visualization::PCLVisualizer("3D Viewer"));
     viewer->setBackgroundColor(0, 0, 0);
     viewer->addPointCloud<pcl::PointXYZRGB>(cloud, "sample cloud");
-    viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "sample cloud");
+    viewer->setPointCloudRenderingProperties(
+        pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "sample cloud");
     // viewer->addCoordinateSystem(1.0);
     viewer->initCameraParameters();
     return (viewer);
@@ -33,7 +62,9 @@ pcl::visualization::PCLVisualizer::Ptr simpleVis(pcl::PointCloud<pcl::PointXYZRG
 int main(int argc, char **argv) {
     std::string input_file;
     po::options_description desc("Allowed options");
-    desc.add_options()("help,h", "Produce help message")("input-file,f", po::value<std::string>(&input_file)->required(), "Input file path (PLY or JSON)");
+    desc.add_options()("help,h", "Produce help message")(
+        "input-file,f", po::value<std::string>(&input_file)->required(),
+        "Input file path (PLY or JSON)");
 
     po::variables_map vm;
     try {
@@ -51,7 +82,8 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    pcl::PointCloud<pcl::PointXYZRGB>::Ptr point_cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
+    pcl::PointCloud<pcl::PointXYZRGB>::Ptr point_cloud(
+        new pcl::PointCloud<pcl::PointXYZRGB>);
     // Determine file type from extension and read accordingly
     if (input_file.substr(input_file.find_last_of(".") + 1) == "json") {
         std::ifstream file(input_file);
@@ -79,7 +111,8 @@ int main(int argc, char **argv) {
             point_cloud->push_back(point);
         }
     } else if (input_file.substr(input_file.find_last_of(".") + 1) == "ply") {
-        if (pcl::io::loadPLYFile<pcl::PointXYZRGB>(input_file, *point_cloud) == -1) {
+        if (pcl::io::loadPLYFile<pcl::PointXYZRGB>(input_file, *point_cloud) ==
+            -1) {
             std::cerr << "Failed to load " << input_file << std::endl;
             return 2;
         }
@@ -88,27 +121,7 @@ int main(int argc, char **argv) {
         return 3;
     }
 
-    pcl::NormalEstimation<pcl::PointXYZRGB, pcl::Normal> ne;
-    ne.setInputCloud(point_cloud);
-
-    pcl::search::KdTree<pcl::PointXYZRGB>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZRGB>());
-    ne.setSearchMethod(tree);
-
-    pcl::PointCloud<pcl::Normal>::Ptr normals(new pcl::PointCloud<pcl::Normal>);
-    ne.setRadiusSearch(0.03);
-    ne.compute(*normals);
-
-    pcl::PointCloud<pcl::PointXYZRGBNormal>::Ptr cloudWithNormals(new pcl::PointCloud<pcl::PointXYZRGBNormal>);
-    pcl::concatenateFields(*point_cloud, *normals, *cloudWithNormals);
-
-    pcl::Poisson<pcl::PointXYZRGBNormal> poisson;
-    poisson.setDepth(12); // Adjust this as needed
-    poisson.setInputCloud(cloudWithNormals);
-
-    pcl::PolygonMesh mesh;
-    poisson.reconstruct(mesh);
-
-    pcl::io::savePLYFile("mesh.ply", mesh);
+    pointcloud_to_mesh(point_cloud);
 
     point_cloud->width = point_cloud->size();
     point_cloud->height = 1;
