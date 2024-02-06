@@ -112,9 +112,6 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
         std::cout << "ERROR: pmvs2 failed" << std::endl;
     }
 
-    bool success =
-        ply_to_pcd("../build/denseCloud/models/options.txt.ply", "test");
-
     return true;
 }
 

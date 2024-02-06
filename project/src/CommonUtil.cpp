@@ -70,6 +70,10 @@ void align_points_from_matches(const Features &left, const Features &right,
 }
 
 bool ply_to_pcd(const std::string file_path, const std::string file_name) {
+    std::cout << "===========================================" << std::endl;
+    std::cout << "                PLY to PCD                 " << std::endl;
+    std::cout << "===========================================" << std::endl;
+
     pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_ply(
         new pcl::PointCloud<pcl::PointXYZRGB>);
     pcl::PLYReader ply;
@@ -92,7 +96,11 @@ bool ply_to_pcd(const std::string file_path, const std::string file_name) {
     return true;
 }
 
-bool pcd_to_mesh(const std::string file_path) {
+bool pcd_to_mesh(const std::string file_path, const std::string file_name) {
+    std::cout << "===========================================" << std::endl;
+    std::cout << "               PCD to Mesh                 " << std::endl;
+    std::cout << "===========================================" << std::endl;
+
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(
         new pcl::PointCloud<pcl::PointXYZ>);
     pcl::io::loadPCDFile(file_path, *cloud);
@@ -155,6 +163,44 @@ bool pcd_to_mesh(const std::string file_path) {
     poisson.setOutputPolygons(0);
     poisson.setSolverDivide(8); // 8
     poisson.reconstruct(mesh);
+
+    pcl::io::savePLYFile(file_name + "_MESH.ply", mesh);
+
+    pcl::PointCloud<pcl::PointXYZ>::Ptr mesh_cloud(
+        new pcl::PointCloud<pcl::PointXYZ>());
+    pcl::fromPCLPointCloud2(mesh.cloud, *mesh_cloud);
+
+    // Step 3: Associate colors with mesh vertices using k-d tree
+    pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudRGB(
+        new pcl::PointCloud<pcl::PointXYZRGB>());
+
+    pcl::io::loadPCDFile(file_path, *cloudRGB);
+
+    pcl::KdTreeFLANN<pcl::PointXYZRGB> kdtree;
+    kdtree.setInputCloud(cloudRGB);
+
+    pcl::PointCloud<pcl::PointXYZRGB>::Ptr mesh_cloud_colored(
+        new pcl::PointCloud<pcl::PointXYZRGB>);
+
+    for (size_t i = 0; i < mesh_cloud->points.size(); ++i) {
+        pcl::PointXYZRGB searchPoint;
+        searchPoint.x = mesh_cloud->points[i].x;
+        searchPoint.y = mesh_cloud->points[i].y;
+        searchPoint.z = mesh_cloud->points[i].z;
+
+        std::vector<int> pointIdxNKNSearch(1);
+        std::vector<float> pointNKNSquaredDistance(1);
+
+        if (kdtree.nearestKSearch(searchPoint, 1, pointIdxNKNSearch,
+                                  pointNKNSquaredDistance) > 0) {
+            mesh_cloud_colored->points.push_back(
+                cloudRGB->points[pointIdxNKNSearch[0]]);
+        }
+    }
+
+    // Step 4: Update mesh with colors
+    pcl::toPCLPointCloud2(*mesh_cloud_colored, mesh.cloud);
+    pcl::io::savePLYFile(file_name + "_MESH_RGB.ply", mesh);
 
     // visualize mesh
     pcl::shared_ptr<pcl::visualization::PCLVisualizer> viewer(

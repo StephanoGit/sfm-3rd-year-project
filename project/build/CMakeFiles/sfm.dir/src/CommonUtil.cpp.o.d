@@ -1,6 +1,6 @@
 CMakeFiles/sfm.dir/src/CommonUtil.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/CommonUtil.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/CommonUtil.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmStructures.h \
   /usr/local/include/opencv2/opencv.hpp \
   /usr/local/include/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv2/core.hpp \

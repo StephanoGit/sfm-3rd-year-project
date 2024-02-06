@@ -1,7 +1,7 @@
 CMakeFiles/sfm.dir/src/PMVS2Reconstruction.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/PMVS2Reconstruction.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PMVS2Reconstruction.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/PMVS2Reconstruction.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/PMVS2Reconstruction.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmStructures.h \
   /usr/local/include/opencv2/opencv.hpp \
   /usr/local/include/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv2/core.hpp \

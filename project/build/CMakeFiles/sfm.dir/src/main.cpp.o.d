@@ -1,5 +1,5 @@
 CMakeFiles/sfm.dir/src/main.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/main.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/main.cpp \
   /usr/local/include/opencv2/features2d.hpp \
   /usr/local/include/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv2/core.hpp \
@@ -1301,10 +1301,10 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/boost/program_options/detail/convert.hpp \
   /usr/local/include/boost/program_options/variables_map.hpp \
   /usr/local/include/boost/program_options/version.hpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../calibration/CameraCalibration.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/CommonUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/Segmentation.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../calibration/CameraCalibration.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/CommonUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/Segmentation.h \
   /usr/local/include/pcl-1.14/pcl/filters/passthrough.h \
   /usr/local/include/pcl-1.14/pcl/pcl_macros.h \
   /usr/local/include/pcl-1.14/pcl/pcl_config.h \
@@ -1936,5 +1936,5 @@ CMakeFiles/sfm.dir/src/main.cpp.o: \
   /usr/local/include/flann/defines.h /usr/local/include/flann/config.h \
   /usr/local/include/pcl-1.14/pcl/segmentation/region_growing_rgb.h \
   /usr/local/include/pcl-1.14/pcl/segmentation/region_growing.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmReconstruction.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmReconstruction.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/FeatureUtil.h

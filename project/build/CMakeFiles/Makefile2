@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/c++
+CMAKE_SOURCE_DIR = /Users/stephano./github/sfm-3rd-year-project/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/c++/build
+CMAKE_BINARY_DIR = /Users/stephano./github/sfm-3rd-year-project/project/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/sfm.dir/clean
 CMakeFiles/sfm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target sfm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/stephano./github/sfm-3rd-year-project/project/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target sfm"
 .PHONY : CMakeFiles/sfm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sfm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/project/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sfm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/c++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stephano./github/sfm-3rd-year-project/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/sfm.dir/rule
 
 # Convenience name for target.

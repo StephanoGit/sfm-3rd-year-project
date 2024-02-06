@@ -1,6 +1,6 @@
 CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/calibration/CameraCalibration.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/calibration/CameraCalibration.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/calibration/CameraCalibration.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site \
@@ -917,5 +917,5 @@ CMakeFiles/sfm.dir/calibration/CameraCalibration.cpp.o: \
   /usr/local/include/opencv2/video/background_segm.hpp \
   /usr/local/include/opencv2/highgui/highgui.hpp \
   /usr/local/include/opencv2/imgproc/imgproc.hpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/calibration/../include/IOUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/calibration/../include/SfmStructures.h
+  /Users/stephano./github/sfm-3rd-year-project/project/calibration/../include/IOUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/calibration/../include/SfmStructures.h

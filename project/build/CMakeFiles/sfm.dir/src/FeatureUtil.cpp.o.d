@@ -1,7 +1,7 @@
 CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/FeatureUtil.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/FeatureUtil.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/FeatureUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmStructures.h \
   /usr/local/include/opencv2/opencv.hpp \
   /usr/local/include/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv2/core.hpp \
@@ -916,6 +916,6 @@ CMakeFiles/sfm.dir/src/FeatureUtil.cpp.o: \
   /usr/local/include/opencv2/video.hpp \
   /usr/local/include/opencv2/video/tracking.hpp \
   /usr/local/include/opencv2/video/background_segm.hpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/CommonUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/CommonUtil.h \
   /usr/local/include/opencv2/xfeatures2d.hpp \
   /usr/local/include/opencv2/xfeatures2d/nonfree.hpp

@@ -1,6 +1,6 @@
 CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/SfmReconstruction.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmReconstruction.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/SfmReconstruction.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmReconstruction.h \
   /usr/local/include/opencv2/core/types.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/climits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
@@ -915,12 +915,12 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /usr/local/include/opencv2/video.hpp \
   /usr/local/include/opencv2/video/tracking.hpp \
   /usr/local/include/opencv2/video/background_segm.hpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/FeatureUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/CommonUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/IOUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PlottingUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmBundleAdjustment.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/FeatureUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/CommonUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/IOUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/PlottingUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmBundleAdjustment.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/util.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ttycom.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ioccom.h \
@@ -932,7 +932,7 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ttydefaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/utmp.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/StereoUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/StereoUtil.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -952,4 +952,4 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/thread \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PMVS2Reconstruction.h
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/PMVS2Reconstruction.h

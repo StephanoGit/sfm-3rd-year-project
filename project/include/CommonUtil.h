@@ -21,5 +21,5 @@ void align_points_from_matches(const Features &left, const Features &right,
 
 bool ply_to_pcd(const std::string file_path, const std::string file_name);
 
-bool pcd_to_mesh(const std::string file_path);
+bool pcd_to_mesh(const std::string file_path, const std::string file_name);
 #endif

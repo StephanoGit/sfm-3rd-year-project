@@ -1,6 +1,6 @@
 CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/PlottingUtil.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/PlottingUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/PlottingUtil.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/PlottingUtil.h \
   /usr/local/include/opencv2/core/types.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/climits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
@@ -915,4 +915,4 @@ CMakeFiles/sfm.dir/src/PlottingUtil.cpp.o: \
   /usr/local/include/opencv2/video.hpp \
   /usr/local/include/opencv2/video/tracking.hpp \
   /usr/local/include/opencv2/video/background_segm.hpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmStructures.h

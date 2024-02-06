@@ -1,6 +1,6 @@
 CMakeFiles/sfm.dir/src/Segmentation.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/Segmentation.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/Segmentation.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/Segmentation.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/Segmentation.h \
   /usr/local/include/pcl-1.14/pcl/filters/passthrough.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \

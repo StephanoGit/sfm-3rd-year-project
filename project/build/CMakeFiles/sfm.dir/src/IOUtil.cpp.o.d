@@ -1,7 +1,7 @@
 CMakeFiles/sfm.dir/src/IOUtil.cpp.o: \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/IOUtil.cpp \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/IOUtil.h \
-  /Users/stephano./github/sfm-3rd-year-project/c++/src/../include/SfmStructures.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/IOUtil.cpp \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/IOUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/SfmStructures.h \
   /usr/local/include/opencv2/opencv.hpp \
   /usr/local/include/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv2/core.hpp \
