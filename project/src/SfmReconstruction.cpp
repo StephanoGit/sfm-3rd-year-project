@@ -43,23 +43,6 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
         return false;
     }
 
-    /* cv::Size frame_size(this->images[0].cols, this->images[0].rows); */
-    /* cv::Mat mapX, mapY; */
-    /* cv::initUndistortRectifyMap(this->intrinsics.K, this->intrinsics.d, */
-    /*                             cv::Matx33f::eye(), this->intrinsics.K, */
-    /*                             frame_size, CV_32FC1, mapX, mapY); */
-    /**/
-    /* for (int i = 0; i < this->images.size(); i++) { */
-    /*     cv::Mat image_undistorted; */
-    /*     cv::remap(this->images[i], image_undistorted, mapX, mapY, */
-    /*               cv::INTER_LINEAR); */
-    /*     this->images[i] = image_undistorted; */
-    /*     cv::imshow("Undistorted images", image_undistorted); */
-    /*     cv::waitKey(0); */
-    /* } */
-    /* cv::imshow("Undistorted images", this->images[3]); */
-    /* cv::waitKey(0); */
-
     // allocating space for camera projection matrices
     this->n_P_mats.resize(this->images.size());
 

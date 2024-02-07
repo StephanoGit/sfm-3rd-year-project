@@ -11904,6 +11904,7 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: /Users/stephano./github/sfm-3rd-
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xmmintrin.h \
   /Users/stephano./github/sfm-3rd-year-project/project/include/CommonUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/include/CommonUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/project/include/FeatureUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/project/include/IOUtil.h \
   /Users/stephano./github/sfm-3rd-year-project/project/include/PMVS2Reconstruction.h \
@@ -12017,7 +12018,9 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: /Users/stephano./github/sfm-3rd-
   /usr/local/include/opencv2/video.hpp \
   /usr/local/include/opencv2/video/background_segm.hpp \
   /usr/local/include/opencv2/video/tracking.hpp \
-  /usr/local/include/opencv2/videoio.hpp
+  /usr/local/include/opencv2/videoio.hpp \
+  /usr/local/include/opencv2/xfeatures2d.hpp \
+  /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
 CMakeFiles/sfm.dir/src/StereoUtil.cpp.o: /Users/stephano./github/sfm-3rd-year-project/project/src/StereoUtil.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \

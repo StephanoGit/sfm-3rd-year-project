@@ -1,14 +1,5 @@
 #include "../include/StereoUtil.h"
-#include "../include/CommonUtil.h"
 
-#include <iostream>
-#include <opencv2/calib3d.hpp>
-#include <opencv2/core.hpp>
-#include <opencv2/core/hal/interface.h>
-#include <opencv2/core/mat.hpp>
-#include <opencv2/core/matx.hpp>
-#include <opencv2/core/types.hpp>
-#include <opencv2/xfeatures2d.hpp>
 StereoUtil::StereoUtil() {}
 StereoUtil::~StereoUtil() {}
 

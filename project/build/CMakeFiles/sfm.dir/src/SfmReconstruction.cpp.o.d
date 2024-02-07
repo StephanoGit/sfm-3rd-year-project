@@ -933,6 +933,9 @@ CMakeFiles/sfm.dir/src/SfmReconstruction.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/ttydefaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/utmp.h \
   /Users/stephano./github/sfm-3rd-year-project/project/src/../include/StereoUtil.h \
+  /Users/stephano./github/sfm-3rd-year-project/project/src/../include/../include/CommonUtil.h \
+  /usr/local/include/opencv2/xfeatures2d.hpp \
+  /usr/local/include/opencv2/xfeatures2d/nonfree.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \

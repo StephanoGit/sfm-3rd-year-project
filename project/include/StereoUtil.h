@@ -1,13 +1,19 @@
 #ifndef __STEREO_UTIL
 #define __STEREO_UTIL
 
+#include "../include/CommonUtil.h"
 #include "SfmStructures.h"
 #include <opencv2/core/matx.hpp>
 #include <opencv2/core/types.hpp>
-#include <vector>
 
+#include <iostream>
+#include <opencv2/calib3d.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/core/hal/interface.h>
+#include <opencv2/core/mat.hpp>
+#include <opencv2/xfeatures2d.hpp>
 class StereoUtil {
-  public:
+public:
     StereoUtil();
     virtual ~StereoUtil();
 
