@@ -91,7 +91,8 @@ bool ply_to_pcd(const std::string file_path, const std::string file_name) {
 
     std::cout << "LOG: saving file with prefix -- " << file_name << "_MAP3D.pcd"
               << std::endl;
-    pcl::io::savePCDFile(file_name + "_MAP3D.pcd", *cloud_ply);
+    pcl::io::savePCDFile("../reconstructions/" + file_name + "_MAP3D.pcd",
+                         *cloud_ply);
 
     return true;
 }
@@ -164,7 +165,7 @@ bool pcd_to_mesh(const std::string file_path, const std::string file_name) {
     poisson.setSolverDivide(8); // 8
     poisson.reconstruct(mesh);
 
-    pcl::io::savePLYFile(file_name + "_MESH.ply", mesh);
+    pcl::io::savePLYFile("../reconstructions/" + file_name + "_MESH.ply", mesh);
 
     pcl::PointCloud<pcl::PointXYZ>::Ptr mesh_cloud(
         new pcl::PointCloud<pcl::PointXYZ>());
@@ -200,7 +201,8 @@ bool pcd_to_mesh(const std::string file_path, const std::string file_name) {
 
     // Step 4: Update mesh with colors
     pcl::toPCLPointCloud2(*mesh_cloud_colored, mesh.cloud);
-    pcl::io::savePLYFile(file_name + "_MESH_RGB.ply", mesh);
+    pcl::io::savePLYFile("../reconstructions/" + file_name + "_MESH_RGB.ply",
+                         mesh);
 
     // visualize mesh
     pcl::shared_ptr<pcl::visualization::PCLVisualizer> viewer(

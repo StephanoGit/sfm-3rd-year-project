@@ -64,19 +64,12 @@ bool Segmentation::run_segmentation(std::string file_path) {
     pcl::PointCloud<pcl::PointXYZRGB>::Ptr colored_cloud =
         reg.getColoredCloud();
 
-    std::cout << "************************************************"
-              << std::endl;
-    std::cout << "************************************************"
-              << std::endl;
-
     std::cout << "Showing 3D Mapping segmented..." << std::endl;
 
     pcl::visualization::PCLVisualizer viewer =
         pcl::visualization::PCLVisualizer("MAP3D Segmented", true);
     viewer.addPointCloud(colored_cloud);
-    std::cout << "Press q to finish segmentation proccess and start "
-                 "dendrometry estimation..."
-              << std::endl;
+    std::cout << "Press q to finish segmentation proccess" << std::endl;
     while (!viewer.wasStopped()) {
         viewer.spin();
     }

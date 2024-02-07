@@ -7,21 +7,6 @@
 #include <opencv2/opencv.hpp>
 #include <stdio.h>
 
-#define IPHONE_PHOTO_WIDTH 3024
-#define IPHONE_PHOTO_HEIGHT 4032
-#define IPHONE_NEW_PHOTO_WIDTH 756
-#define IPHONE_NEW_PHOTO_HEIGHT 1008
-
-#define PHOTO_WIDTH 3072
-#define PHOTO_HEIGHT 2048
-#define NEW_PHOTO_WIDTH 640
-#define NEW_PHOTO_HEIGHT 480
-
-#define VIDEO_WIDTH 3840
-#define VIDEO_HEIGHT 2160
-#define NEW_VIDEO_WIDTH 1280
-#define NEW_VIDEO_HEIGHT 720
-
 cv::Mat downscale_image(cv::Mat image, int width, int height) {
     cv::Mat resized_image;
     cv::resize(image, resized_image, cv::Size(width, height));
@@ -39,14 +24,13 @@ bool is_image_blurred(cv::Mat image, double threshold) {
     cv::meanStdDev(laplacianImage, mean, stddev);
 
     if (stddev.val[0] * stddev.val[0] < threshold) {
-        // std::cout << "The image is blurry." << std::endl;
         return true;
     }
-    // std::cout << "The image is sharp." << std::endl;
     return false;
 }
 
-std::vector<cv::Mat> video_to_images(std::string directory, int step) {
+std::vector<cv::Mat> video_to_images(std::string directory, int step,
+                                     int downscale_factor) {
     std::vector<cv::Mat> images;
     cv::VideoCapture video(directory);
 
@@ -65,8 +49,9 @@ std::vector<cv::Mat> video_to_images(std::string directory, int step) {
         }
 
         if (frameNumber % step == 0 && !is_image_blurred(frame, 10.0)) {
-            images.push_back(
-                downscale_image(frame, NEW_PHOTO_WIDTH, NEW_PHOTO_HEIGHT));
+            images.push_back(downscale_image(frame,
+                                             frame.cols / downscale_factor,
+                                             frame.rows / downscale_factor));
         }
         frameNumber++;
     }

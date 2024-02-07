@@ -121,9 +121,7 @@ int main(int argc, char **argv) {
     std::string reconstruction_name =
         directory.substr(directory.find_last_of('/') + 1) + "_" +
         detection_type + "_" + matching_type;
-    pcd_to_mesh("../build/" + reconstruction_name + "_MAP3D.pcd",
-                reconstruction_name);
-    return 0;
+
     // start the reconstruction -> generate sparse pointcloud
     // this also generates the dense pointcloud, should call the dense
     // reconstr. in main
@@ -140,10 +138,8 @@ int main(int argc, char **argv) {
                reconstruction_name);
 
     // pcd to mesh
-    pcd_to_mesh("../build/" + reconstruction_name + "_MAP3D.pcd",
+    pcd_to_mesh("../reconstructions/" + reconstruction_name + "_MAP3D.pcd",
                 reconstruction_name);
-
-    // colour mesh
 
     return 0;
 }

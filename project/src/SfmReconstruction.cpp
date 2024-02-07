@@ -234,11 +234,13 @@ void SfmReconstruction::find_baseline_triangulation() {
             continue;
         }
 
-        cv::Mat m = draw_matches(this->images[i], this->images[j],
-                                 this->images_features[i],
-                                 this->images_features[j], mask_matches);
-        cv::imshow("matches", m);
-        cv::waitKey(0);
+        if (this->verbose) {
+            cv::Mat m = draw_matches(this->images[i], this->images[j],
+                                     this->images_features[i],
+                                     this->images_features[j], mask_matches);
+            cv::imshow("matches", m);
+            cv::waitKey(0);
+        }
 
         this->match_matrix[i][j] = mask_matches;
 
