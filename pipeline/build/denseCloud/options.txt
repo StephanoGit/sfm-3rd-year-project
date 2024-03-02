@@ -1,0 +1,5 @@
+minImageNum 5
+CPU 4
+timages  -1 0 10
+oimages 0
+level 1

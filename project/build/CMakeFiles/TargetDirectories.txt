@@ -1,3 +1,0 @@
-/Users/stephano./github/sfm-3rd-year-project/project/build/CMakeFiles/sfm.dir
-/Users/stephano./github/sfm-3rd-year-project/project/build/CMakeFiles/edit_cache.dir
-/Users/stephano./github/sfm-3rd-year-project/project/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/calibrator/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.9.0_2/include/opencv4 -isystem /usr/local/include -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/calibrate.dir/CameraCalibration.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/calibrator/CameraCalibration.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/calibrator/CameraCalibration.cpp",
+  "output": "CMakeFiles/calibrate.dir/CameraCalibration.cpp.o"
+},
+{
+  "directory": "/Users/stephano./github/sfm-3rd-year-project/calibrator/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /usr/local/Cellar/opencv/4.9.0_2/include/opencv4 -isystem /usr/local/include -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/calibrate.dir/Users/stephano./github/sfm-3rd-year-project/pipeline/src/IOUtil.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/src/IOUtil.cpp",
+  "file": "/Users/stephano./github/sfm-3rd-year-project/pipeline/src/IOUtil.cpp",
+  "output": "CMakeFiles/calibrate.dir/Users/stephano./github/sfm-3rd-year-project/pipeline/src/IOUtil.cpp.o"
+}
+]

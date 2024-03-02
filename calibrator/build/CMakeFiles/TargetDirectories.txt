@@ -1,0 +1,3 @@
+/Users/stephano./github/sfm-3rd-year-project/calibrator/build/CMakeFiles/calibrate.dir
+/Users/stephano./github/sfm-3rd-year-project/calibrator/build/CMakeFiles/edit_cache.dir
+/Users/stephano./github/sfm-3rd-year-project/calibrator/build/CMakeFiles/rebuild_cache.dir
