@@ -78,4 +78,8 @@ To enhance the robustness and versatility of this implementation, the following 
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/royshil/SfM-Toy-Library}}
 }
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> b9ba70e (remove large file such as videos)
