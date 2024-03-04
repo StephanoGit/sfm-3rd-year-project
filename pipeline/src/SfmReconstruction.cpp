@@ -243,7 +243,7 @@ void SfmReconstruction::find_baseline_triangulation() {
         }
         this->match_matrix[i][j] = mask_matches;
 
-        success = StereoUtil::triangulate_views_homography(
+        success = StereoUtil::triangulate_views(
             this->intrinsics, pair.second, this->match_matrix[i][j],
             this->images_features[i], this->images_features[j], P_left, P_right,
             pointcloud);
@@ -330,7 +330,7 @@ void SfmReconstruction::add_views_to_reconstruction() {
             this->match_matrix[left_view_idx][right_view_idx] = mask_matches;
 
             std::vector<PointCloudPoint> pointcloud;
-            success = StereoUtil::triangulate_views_homography(
+            success = StereoUtil::triangulate_views(
                 this->intrinsics, {left_view_idx, right_view_idx},
                 this->match_matrix[left_view_idx][right_view_idx],
                 this->images_features[left_view_idx],

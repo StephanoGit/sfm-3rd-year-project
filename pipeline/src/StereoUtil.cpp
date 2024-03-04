@@ -39,7 +39,7 @@ bool StereoUtil::camera_matrices_from_matches(
     std::vector<cv::DMatch> &mask_matches, cv::Matx34f &P_left,
     cv::Matx34f &P_right) {
     if (intrinsics.K.empty()) {
-        std::cout << "Intrinsic matrix K is empty..." << std::endl;
+        std::cout << "ERROR: Intrinsic matrix K is empty..." << std::endl;
         return false;
     }
 
@@ -73,7 +73,7 @@ bool StereoUtil::camera_matrices_from_matches(
     return true;
 }
 
-bool StereoUtil::triangulate_views_homography(
+bool StereoUtil::triangulate_views(
     const Intrinsics &intrinsics, const ImagePair image_pair,
     const std::vector<cv::DMatch> &matches, const Features &features_left,
     const Features &features_right, const cv::Matx34f &P_left,
@@ -90,8 +90,6 @@ bool StereoUtil::triangulate_views_homography(
                         intrinsics.d);
     cv::undistortPoints(aligned_right.points, norm_right, intrinsics.K,
                         intrinsics.d);
-
-    std::cout << intrinsics.d << std::endl;
 
     cv::Mat points_4D;
     cv::triangulatePoints(P_left, P_right, norm_left, norm_right, points_4D);
@@ -122,8 +120,8 @@ bool StereoUtil::triangulate_views_homography(
         error_right = cv::norm(projected_right[i] - aligned_right.points[i]);
         if (error_left > 5 || error_right > 5) {
             std::cout << "Reprojection error for point: " << i << std::endl;
-            std::cout << "     -> left: " << error_left << std::endl;
-            std::cout << "     -> right: " << error_right << std::endl;
+            std::cout << "  -> left: " << error_left << std::endl;
+            std::cout << "  -> right: " << error_right << std::endl;
             continue;
         }
 
@@ -145,6 +143,11 @@ bool StereoUtil::P_from_2D3D_matches(const Intrinsics &intrinsics,
                                      cv::Matx34f &P) {
     cv::Mat rvec, tvec;
     cv::Mat mask;
+
+    if (match.points_2D.size() < 5 || match.points_3D.size() < 5) {
+        std::cout << "ERROR: Not enough matches for PnPRansac..." << std::endl;
+        return false;
+    }
 
     cv::solvePnPRansac(match.points_3D, match.points_2D, intrinsics.K,
                        intrinsics.d, rvec, tvec, false, 100, 10.0f, 0.99, mask);

@@ -27,7 +27,7 @@ public:
                                   const Features &features_right,
                                   const std::vector<cv::DMatch> &matches);
 
-    static bool triangulate_views_homography(
+    static bool triangulate_views(
         const Intrinsics &intrinsics, const ImagePair image_pair,
         const std::vector<cv::DMatch> &matches, const Features &features_left,
         const Features &features_right, const cv::Matx34f &P_left,

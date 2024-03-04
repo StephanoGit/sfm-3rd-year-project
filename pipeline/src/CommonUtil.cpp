@@ -153,7 +153,7 @@ bool pcd_to_mesh(const std::string file_path, const std::string file_name) {
                            *cloud_smoothed_normals); // x
 
     pcl::Poisson<pcl::PointNormal> poisson;
-    poisson.setDepth(7); // 9
+    poisson.setDepth(9); // 9 // 7
     poisson.setInputCloud(cloud_smoothed_normals);
     poisson.setPointWeight(4);      // 4
     poisson.setSamplesPerNode(1.5); // 1.5

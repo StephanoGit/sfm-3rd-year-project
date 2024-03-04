@@ -1,5 +1,5 @@
 minImageNum 5
 CPU 4
-timages  -1 0 10
+timages  -1 0 23
 oimages 0
 level 1
