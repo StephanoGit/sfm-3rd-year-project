@@ -7,10 +7,10 @@
 
 class SfmBundleAdjustment {
 public:
-  static void adjust_bundle(std::vector<PointCloudPoint> &pointcloud,
-                            std::vector<cv::Matx34f> &P_mats,
-                            Intrinsics &intrinsics,
-                            const std::vector<Features> &features);
+    static bool adjust_bundle(std::vector<PointCloudPoint> &pointcloud,
+                              std::vector<cv::Matx34f> &P_mats,
+                              Intrinsics &intrinsics,
+                              const std::vector<Features> &features);
 };
 
 #endif

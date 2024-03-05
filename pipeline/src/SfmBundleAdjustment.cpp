@@ -14,8 +14,11 @@ void initLogging() { google::InitGoogleLogging("sfm"); }
 std::once_flag initLoggingFlag;
 
 struct SimpleReprojectionError {
-    SimpleReprojectionError(double observed_x, double observed_y) : observed_x(observed_x), observed_y(observed_y) {}
-    template <typename T> bool operator()(const T *const camera, const T *const point, const T *const focal, T *residuals) const {
+    SimpleReprojectionError(double observed_x, double observed_y)
+        : observed_x(observed_x), observed_y(observed_y) {}
+    template <typename T>
+    bool operator()(const T *const camera, const T *const point,
+                    const T *const focal, T *residuals) const {
         T p[3];
         // Rotate: camera[0,1,2] are the angle-axis rotation.
         ceres::AngleAxisRotatePoint(camera, point, p);
@@ -33,21 +36,27 @@ struct SimpleReprojectionError {
         const T predicted_x = *focal * xp;
         const T predicted_y = *focal * yp;
 
-        // The error is the difference between the predicted and observed position.
+        // The error is the difference between the predicted and observed
+        // position.
         residuals[0] = predicted_x - T(observed_x);
         residuals[1] = predicted_y - T(observed_y);
         return true;
     }
     // Factory to hide the construction of the CostFunction object from
     // the client code.
-    static ceres::CostFunction *Create(const double observed_x, const double observed_y) {
-        return (new ceres::AutoDiffCostFunction<SimpleReprojectionError, 2, 6, 3, 1>(new SimpleReprojectionError(observed_x, observed_y)));
+    static ceres::CostFunction *Create(const double observed_x,
+                                       const double observed_y) {
+        return (new ceres::AutoDiffCostFunction<SimpleReprojectionError, 2, 6,
+                                                3, 1>(
+            new SimpleReprojectionError(observed_x, observed_y)));
     }
     double observed_x;
     double observed_y;
 };
 
-void SfmBundleAdjustment::adjust_bundle(std::vector<PointCloudPoint> &pointcloud, std::vector<cv::Matx34f> &P_mats, Intrinsics &intrinsics, const std::vector<Features> &features) {
+bool SfmBundleAdjustment::adjust_bundle(
+    std::vector<PointCloudPoint> &pointcloud, std::vector<cv::Matx34f> &P_mats,
+    Intrinsics &intrinsics, const std::vector<Features> &features) {
     std::call_once(initLoggingFlag, initLogging);
 
     ceres::Problem problem;
@@ -68,7 +77,8 @@ void SfmBundleAdjustment::adjust_bundle(std::vector<PointCloudPoint> &pointcloud
         float angle_axis[3];
         ceres::RotationMatrixToAngleAxis<float>(R.t().val, angle_axis);
 
-        camera_poses_6D.push_back(CameraVector(angle_axis[0], angle_axis[1], angle_axis[2], t(0), t(1), t(2)));
+        camera_poses_6D.push_back(CameraVector(
+            angle_axis[0], angle_axis[1], angle_axis[2], t(0), t(1), t(2)));
     }
     double focal = intrinsics.K.at<float>(0, 0);
     std::vector<cv::Vec3d> points_3d(pointcloud.size());
@@ -83,9 +93,12 @@ void SfmBundleAdjustment::adjust_bundle(std::vector<PointCloudPoint> &pointcloud
             point_2d.x -= intrinsics.K.at<float>(0, 2);
             point_2d.y -= intrinsics.K.at<float>(1, 2);
 
-            ceres::CostFunction *cost_function = SimpleReprojectionError::Create(point_2d.x, point_2d.y);
+            ceres::CostFunction *cost_function =
+                SimpleReprojectionError::Create(point_2d.x, point_2d.y);
 
-            problem.AddResidualBlock(cost_function, NULL, camera_poses_6D[view.first].val, points_3d[i].val, &focal);
+            problem.AddResidualBlock(cost_function, NULL,
+                                     camera_poses_6D[view.first].val,
+                                     points_3d[i].val, &focal);
         }
     }
 
@@ -105,7 +118,7 @@ void SfmBundleAdjustment::adjust_bundle(std::vector<PointCloudPoint> &pointcloud
 
     if (not(summary.termination_type == ceres::CONVERGENCE)) {
         std::cerr << "Bundle adjustment failed." << std::endl;
-        return;
+        return false;
     }
 
     intrinsics.K.at<float>(0, 0) = focal;
@@ -128,7 +141,8 @@ void SfmBundleAdjustment::adjust_bundle(std::vector<PointCloudPoint> &pointcloud
 
         for (int r = 0; r < 3; r++) {
             for (int c = 0; c < 3; c++) {
-                pose(c, r) = rotationMat[r * 3 + c]; //`rotationMat` is col-major...
+                pose(c, r) =
+                    rotationMat[r * 3 + c]; //`rotationMat` is col-major...
             }
         }
 
@@ -143,4 +157,5 @@ void SfmBundleAdjustment::adjust_bundle(std::vector<PointCloudPoint> &pointcloud
         pointcloud[i].point.y = points_3d[i](1);
         pointcloud[i].point.z = points_3d[i](2);
     }
+    return true;
 }

@@ -1,13 +1,13 @@
-ply
-format ascii 1.0
+ply                 
+format ascii 1.0    
 element vertex 660
-property float x
-property float y
-property float z
-property uchar red
+property float x    
+property float y    
+property float z    
+property uchar red  
 property uchar green
-property uchar blue
-end_header
+property uchar blue 
+end_header          
 0.206458 -0.156058 0.962685 68 53 72 
 -0.0454755 -0.038718 1.03462 69 27 37 
 -0.0436492 0.0218692 1.02988 74 22 34 

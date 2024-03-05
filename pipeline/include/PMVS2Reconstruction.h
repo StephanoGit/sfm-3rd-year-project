@@ -7,9 +7,9 @@
 class PMVS2Reconstruction {
 public:
     void dense_reconstruction(std::vector<cv::Mat> &images,
-                              std::vector<std::string> &images_paths,
+                              std::vector<std::string> &image_paths,
                               std::vector<cv::Matx34f> &camera_poses,
-                              Intrinsics &intrinsics);
+                              const Intrinsics &intrinsics);
 };
 
 #endif

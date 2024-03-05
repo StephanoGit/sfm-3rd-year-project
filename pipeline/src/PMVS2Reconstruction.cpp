@@ -8,65 +8,50 @@
 #include <boost/algorithm/string.hpp>
 #include <boost/filesystem.hpp>
 
+namespace fs = std::filesystem;
+
 void PMVS2Reconstruction::dense_reconstruction(
-    std::vector<cv::Mat> &images, std::vector<std::string> &images_paths,
-    std::vector<cv::Matx34f> &camera_poses, Intrinsics &intrinsics) {
-    /*FOLDERS FOR PMVS2*/
-    std::cout << "Creating folders for PMVS2..." << std::endl;
-    int dont_care;
-    dont_care = std::system("mkdir -p denseCloud/visualize");
-    dont_care = std::system("mkdir -p denseCloud/txt");
-    dont_care = std::system("mkdir -p denseCloud/models");
-    std::cout << "Created: \nfolder:visualize"
-              << "\n"
-              << "folder:txt"
-              << "\n"
-              << "folder:models" << std::endl;
+    std::vector<cv::Mat> &images, std::vector<std::string> &image_paths,
+    std::vector<cv::Matx34f> &camera_poses, const Intrinsics &intrinsics) {
 
-    /*OPTIONS CONFIGURATION FILE FOR PMVS2*/
-    std::cout << "Creating options file for PMVS2..." << std::endl;
+    /* Folders for PMVS2 */
+    fs::create_directories("denseCloud/visualize");
+    fs::create_directories("denseCloud/txt");
+    fs::create_directories("denseCloud/models");
+
+    /* Options configuration file for PMVS2 */
     std::ofstream option("denseCloud/options.txt");
-    option << "minImageNum 5" << std::endl;
-    option << "CPU 4" << std::endl;
-    option << "timages  -1 " << 0 << " " << (images.size() - 1) << std::endl;
-    option << "oimages 0" << std::endl;
-    option << "level 1" << std::endl;
+    option << "minImageNum 5" << std::endl
+           << "CPU 4" << std::endl
+           << "timages  -1 " << 0 << " " << (images.size() - 1) << std::endl
+           << "oimages 0" << std::endl
+           << "level 1" << std::endl;
     option.close();
-    std::cout << "Created: options.txt" << std::endl;
 
-    /*CAMERA POSES AND IMAGES INPUT FOR PMVS2*/
-    std::cout << "Saving camera poses for PMVS2..." << std::endl;
-    std::cout << "Saving camera images for PMVS2..." << std::endl;
-    for (int i = 0; i < camera_poses.size(); i++) {
-        char str[256];
-        boost::filesystem::directory_entry x(images_paths[i]);
-        std::string extension = x.path().extension().string();
-        boost::algorithm::to_lower(extension);
+    /* Camera poses and images input for PMVS2 */
+    for (size_t i = 0; i < camera_poses.size(); ++i) {
+        // Saving images with zero-padded numbering
+        std::ostringstream imgStream;
+        imgStream << "denseCloud/visualize/" << std::setw(4)
+                  << std::setfill('0') << i << ".jpg";
+        cv::imwrite(imgStream.str(), images[i]);
 
-        std::sprintf(str, "cp -f %s denseCloud/visualize/%04d.jpg",
-                     images_paths[i].c_str(), (int)i);
-        dont_care = std::system(str);
-        cv::imwrite(str, images[i]);
-
-        std::sprintf(str, "denseCloud/txt/%04d.txt", (int)i);
-        std::ofstream ofs(str);
+        // Saving camera poses with zero-padded numbering
+        std::ostringstream poseStream;
+        poseStream << "denseCloud/txt/" << std::setw(4) << std::setfill('0')
+                   << i << ".txt";
+        std::ofstream ofs(poseStream.str());
         cv::Matx34d pose = camera_poses[i];
-
-        // K*P
-        pose = (cv::Matx33d)intrinsics.K * pose;
+        pose = static_cast<cv::Matx33d>(intrinsics.K) *
+               pose; // Assuming intrinsics.K is cv::Matx33f or cv::Matx33d
 
         ofs << "CONTOUR" << std::endl;
-        ofs << pose(0, 0) << " " << pose(0, 1) << " " << pose(0, 2) << " "
-            << pose(0, 3) << "\n"
-            << pose(1, 0) << " " << pose(1, 1) << " " << pose(1, 2) << " "
-            << pose(1, 3) << "\n"
-            << pose(2, 0) << " " << pose(2, 1) << " " << pose(2, 2) << " "
-            << pose(2, 3) << std::endl;
-
-        ofs << std::endl;
+        for (int row = 0; row < pose.rows; ++row) {
+            for (int col = 0; col < pose.cols; ++col) {
+                ofs << pose(row, col) << " ";
+            }
+            ofs << std::endl;
+        }
         ofs.close();
     }
-    std::cout << "Camera poses saved."
-              << "\n"
-              << "Camera images saved." << std::endl;
 }

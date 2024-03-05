@@ -5,6 +5,7 @@
 #include "../include/SfmBundleAdjustment.h"
 #include "../include/StereoUtil.h"
 #include <cstdlib>
+#include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <opencv2/core/cvdef.h>
@@ -20,10 +21,12 @@
 
 #include "../include/PMVS2Reconstruction.h"
 SfmReconstruction::SfmReconstruction(std::string directory,
+                                     std::string reconstruction_name,
                                      FeatureExtractionType extract_type,
                                      FeatureMatchingType match_type,
                                      Intrinsics intrinsics, bool verbose) {
     this->directory = directory;
+    this->reconstruction_name = reconstruction_name;
     this->feature_util = FeatureUtil(extract_type, match_type);
     this->intrinsics = intrinsics;
     this->verbose = verbose;
@@ -35,6 +38,16 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
     std::cout << "=======================================" << std::endl;
     std::cout << "     Starting SfM Reconstruction...    " << std::endl;
     std::cout << "=======================================" << std::endl;
+
+    // create file paths
+    std::filesystem::create_directories("../reconstructions/" +
+                                        this->reconstruction_name);
+    std::filesystem::create_directories("../reconstructions/" +
+                                        this->reconstruction_name + "/sparse");
+    std::filesystem::create_directories("../reconstructions/" +
+                                        this->reconstruction_name + "/dense");
+    std::filesystem::create_directories("../reconstructions/" +
+                                        this->reconstruction_name + "/mesh");
 
     // load images
     this->images = load_images(directory, resize_val, this->images_paths);
@@ -84,6 +97,9 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
     find_baseline_triangulation();
 
     add_views_to_reconstruction();
+
+    export_pointcloud_to_PLY("../reconstructions/" + this->reconstruction_name +
+                             "/sparse/final");
 
     // sparse -> dense
     PMVS2Reconstruction pmvs2;
@@ -263,12 +279,21 @@ void SfmReconstruction::find_baseline_triangulation() {
         this->n_good_views.insert(i);
         this->n_good_views.insert(j);
 
-        export_pointcloud_to_PLY("../before_ba");
-        SfmBundleAdjustment::adjust_bundle(this->n_point_cloud, this->n_P_mats,
-                                           this->intrinsics,
-                                           this->images_features);
+        bool status = SfmBundleAdjustment::adjust_bundle(
+            this->n_point_cloud, this->n_P_mats, this->intrinsics,
+            this->images_features);
 
-        export_pointcloud_to_PLY("../after_ba");
+        if (status) {
+            export_pointcloud_to_PLY(
+                "../reconstructions/" + this->reconstruction_name +
+                "/sparse/baseline_triangulation_" + std::to_string(i) + "-" +
+                std::to_string(j) + "_ba");
+        } else {
+            export_pointcloud_to_PLY(
+                "../reconstructions/" + this->reconstruction_name +
+                "/sparse/baseline_triangulation_" + std::to_string(i) + "-" +
+                std::to_string(j) + "_no-ba");
+        }
 
         break;
     }
@@ -353,9 +378,20 @@ void SfmReconstruction::add_views_to_reconstruction() {
             }
         }
         if (new_view_success_triangulation) {
-            SfmBundleAdjustment::adjust_bundle(this->n_point_cloud,
-                                               this->n_P_mats, this->intrinsics,
-                                               this->images_features);
+            bool status = SfmBundleAdjustment::adjust_bundle(
+                this->n_point_cloud, this->n_P_mats, this->intrinsics,
+                this->images_features);
+            if (status) {
+                export_pointcloud_to_PLY(
+                    "../reconstructions/" + this->reconstruction_name +
+                    "/sparse/" + std::to_string(this->n_done_views.size()) +
+                    "__" + std::to_string(best_view) + "_ba");
+            } else {
+                export_pointcloud_to_PLY(
+                    "../reconstructions/" + this->reconstruction_name +
+                    "/sparse/" + std::to_string(this->n_done_views.size()) +
+                    "__" + std::to_string(best_view) + "_no-ba");
+            }
         }
         this->n_good_views.insert(best_view);
     }
@@ -542,4 +578,8 @@ void SfmReconstruction::export_pointcloud_to_PLY(const std::string &file_name) {
     }
 
     stream.close();
+}
+
+std::vector<PointCloudPoint> SfmReconstruction::get_point_cloud() {
+    return this->n_point_cloud;
 }

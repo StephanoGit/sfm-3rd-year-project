@@ -97,34 +97,30 @@ int main(int argc, char **argv) {
         return 0;
     }
 
-    std::cout << intrinsics.K << "\n" << intrinsics.d << std::endl;
-
     std::string reconstruction_name =
         directory.substr(directory.find_last_of('/') + 1) + "_" +
         detection_type + "_" + matching_type;
 
-    // pcd to mesh
-    // pcd_to_mesh("../reconstructions/" + reconstruction_name + "_MAP3D.pcd",
-    //            reconstruction_name);
-    // return 0;
-
     // start the reconstruction -> generate sparse pointcloud
     // this also generates the dense pointcloud, should call the dense
     // reconstr. in main
-    SfmReconstruction reconstruction(
-        directory, parse_feature_extraction(detection_type),
-        parse_feature_matching(matching_type), intrinsics, verbose);
+    SfmReconstruction reconstruction(directory, reconstruction_name,
+                                     parse_feature_extraction(detection_type),
+                                     parse_feature_matching(matching_type),
+                                     intrinsics, verbose);
     reconstruction.run_sfm_reconstruction(downscale_factor);
 
     // export the sparse pointcloud
     reconstruction.export_pointcloud_to_PLY("../pointclouds/" +
                                             reconstruction_name);
+
     // ply file to pcd
     ply_to_pcd("../build/denseCloud/models/options.txt.ply",
                reconstruction_name);
 
     // pcd to mesh
-    pcd_to_mesh("../reconstructions/" + reconstruction_name + "_MAP3D.pcd",
+    pcd_to_mesh("../reconstructions/" + reconstruction_name +
+                    "/dense/point_cloud.pcd",
                 reconstruction_name);
 
     return 0;

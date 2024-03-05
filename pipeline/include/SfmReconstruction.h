@@ -14,6 +14,7 @@ class SfmReconstruction {
 
 private:
     std::string directory;
+    std::string reconstruction_name;
     FeatureUtil feature_util;
 
     Intrinsics intrinsics;
@@ -30,7 +31,8 @@ private:
     bool verbose;
 
 public:
-    SfmReconstruction(std::string directory, FeatureExtractionType extract_type,
+    SfmReconstruction(std::string directory, std::string reconstruction_name,
+                      FeatureExtractionType extract_type,
                       FeatureMatchingType match_type, Intrinsics intrinsics,
                       bool verbose);
     virtual ~SfmReconstruction();
@@ -52,6 +54,8 @@ public:
     void merge_point_cloud(const std::vector<PointCloudPoint> point_cloud);
 
     void export_pointcloud_to_PLY(const std::string &file_name);
+
+    std::vector<PointCloudPoint> get_point_cloud();
 };
 
 #endif
