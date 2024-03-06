@@ -15,6 +15,7 @@ class SfmReconstruction {
 private:
     std::string directory;
     std::string reconstruction_name;
+    std::string input_type;
     FeatureUtil feature_util;
 
     Intrinsics intrinsics;
@@ -34,7 +35,7 @@ public:
     SfmReconstruction(std::string directory, std::string reconstruction_name,
                       FeatureExtractionType extract_type,
                       FeatureMatchingType match_type, Intrinsics intrinsics,
-                      bool verbose);
+                      std::string input_type, bool verbose);
     virtual ~SfmReconstruction();
 
     bool run_sfm_reconstruction(int resize_val);

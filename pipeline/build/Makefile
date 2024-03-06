@@ -249,6 +249,30 @@ src/PlottingUtil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PlottingUtil.cpp.s
 .PHONY : src/PlottingUtil.cpp.s
 
+src/PoissonReconstruction.o: src/PoissonReconstruction.cpp.o
+.PHONY : src/PoissonReconstruction.o
+
+# target to build an object file
+src/PoissonReconstruction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PoissonReconstruction.cpp.o
+.PHONY : src/PoissonReconstruction.cpp.o
+
+src/PoissonReconstruction.i: src/PoissonReconstruction.cpp.i
+.PHONY : src/PoissonReconstruction.i
+
+# target to preprocess a source file
+src/PoissonReconstruction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PoissonReconstruction.cpp.i
+.PHONY : src/PoissonReconstruction.cpp.i
+
+src/PoissonReconstruction.s: src/PoissonReconstruction.cpp.s
+.PHONY : src/PoissonReconstruction.s
+
+# target to generate assembly for a file
+src/PoissonReconstruction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfm.dir/build.make CMakeFiles/sfm.dir/src/PoissonReconstruction.cpp.s
+.PHONY : src/PoissonReconstruction.cpp.s
+
 src/Segmentation.o: src/Segmentation.cpp.o
 .PHONY : src/Segmentation.o
 
@@ -393,6 +417,9 @@ help:
 	@echo "... src/PlottingUtil.o"
 	@echo "... src/PlottingUtil.i"
 	@echo "... src/PlottingUtil.s"
+	@echo "... src/PoissonReconstruction.o"
+	@echo "... src/PoissonReconstruction.i"
+	@echo "... src/PoissonReconstruction.s"
 	@echo "... src/Segmentation.o"
 	@echo "... src/Segmentation.i"
 	@echo "... src/Segmentation.s"

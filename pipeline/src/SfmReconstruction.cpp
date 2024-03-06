@@ -24,9 +24,11 @@ SfmReconstruction::SfmReconstruction(std::string directory,
                                      std::string reconstruction_name,
                                      FeatureExtractionType extract_type,
                                      FeatureMatchingType match_type,
-                                     Intrinsics intrinsics, bool verbose) {
+                                     Intrinsics intrinsics,
+                                     std::string input_type, bool verbose) {
     this->directory = directory;
     this->reconstruction_name = reconstruction_name;
+    this->input_type = input_type;
     this->feature_util = FeatureUtil(extract_type, match_type);
     this->intrinsics = intrinsics;
     this->verbose = verbose;
@@ -49,8 +51,13 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
     std::filesystem::create_directories("../reconstructions/" +
                                         this->reconstruction_name + "/mesh");
 
-    // load images
-    this->images = load_images(directory, resize_val, this->images_paths);
+    // load images or video
+    if (this->input_type == "images") {
+        this->images = load_images(directory, resize_val, this->images_paths);
+    } else {
+        this->images =
+            video_to_images(directory, 10, resize_val, this->images_paths);
+    }
     if (this->images.size() < 2) {
         std::cout << "ERROR: Please provide at least 2 images..." << std::endl;
         return false;

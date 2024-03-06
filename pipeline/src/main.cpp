@@ -12,6 +12,7 @@
 
 #include "../include/CommonUtil.h"
 #include "../include/IOUtil.h"
+#include "../include/PoissonReconstruction.h"
 #include "../include/Segmentation.h"
 #include "../include/SfmReconstruction.h"
 
@@ -107,7 +108,7 @@ int main(int argc, char **argv) {
     SfmReconstruction reconstruction(directory, reconstruction_name,
                                      parse_feature_extraction(detection_type),
                                      parse_feature_matching(matching_type),
-                                     intrinsics, verbose);
+                                     intrinsics, input_type, verbose);
     reconstruction.run_sfm_reconstruction(downscale_factor);
 
     // export the sparse pointcloud
@@ -118,10 +119,9 @@ int main(int argc, char **argv) {
     ply_to_pcd("../build/denseCloud/models/options.txt.ply",
                reconstruction_name);
 
-    // pcd to mesh
-    pcd_to_mesh("../reconstructions/" + reconstruction_name +
-                    "/dense/point_cloud.pcd",
-                reconstruction_name);
+    PoissonReconstruction::generate_mesh(
+        "../reconstructions/" + reconstruction_name + "/dense/point_cloud.pcd",
+        reconstruction_name);
 
     return 0;
 }

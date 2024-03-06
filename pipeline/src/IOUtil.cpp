@@ -1,11 +1,14 @@
 #include "../include/IOUtil.h"
+#include <filesystem>
 #include <fstream>
 #include <opencv2/core.hpp>
 #include <opencv2/core/persistence.hpp>
 #include <opencv2/core/types.hpp>
 #include <opencv2/opencv.hpp>
+#include <opencv2/videoio.hpp>
 #include <pugixml.hpp>
 #include <stdio.h>
+#include <string>
 
 cv::Mat downscale_image(cv::Mat image, int width, int height) {
     cv::Mat resized_image;
@@ -14,14 +17,12 @@ cv::Mat downscale_image(cv::Mat image, int width, int height) {
 }
 
 bool is_image_blurred(cv::Mat image, double threshold) {
-    cv::Mat gray;
+    cv::Mat gray, laplacian;
     cv::cvtColor(image, gray, cv::COLOR_BGR2GRAY);
-
-    cv::Mat laplacianImage;
-    cv::Laplacian(gray, laplacianImage, CV_64F);
+    cv::Laplacian(gray, laplacian, CV_64F);
 
     cv::Scalar mean, stddev;
-    cv::meanStdDev(laplacianImage, mean, stddev);
+    cv::meanStdDev(laplacian, mean, stddev);
 
     if (stddev.val[0] * stddev.val[0] < threshold) {
         return true;
@@ -29,31 +30,70 @@ bool is_image_blurred(cv::Mat image, double threshold) {
     return false;
 }
 
-std::vector<cv::Mat> video_to_images(std::string directory, int step,
-                                     int downscale_factor) {
+std::vector<cv::Mat> video_to_images(std::string file_in, int n,
+                                     int downscale_factor,
+                                     std::vector<std::string> &paths) {
+    std::cout << "=======================================" << std::endl;
+    std::cout << "           Video to images...          " << std::endl;
+    std::cout << "=======================================" << std::endl;
     std::vector<cv::Mat> images;
-    cv::VideoCapture video(directory);
+    cv::VideoCapture video(file_in);
 
     if (!video.isOpened()) {
-        std::cout << "Cannot open the video file.." << std::endl;
+        std::cout << "ERROR: Cannot open video file -- [❌]" << std::endl;
         return images;
     }
 
-    int frameNumber = 0;
-    while (video.isOpened()) {
-        cv::Mat frame;
-        bool success = video.read(frame);
-        if (!success) {
-            std::cout << "Video finished" << std::endl;
+    int total_frames = int(video.get(cv::CAP_PROP_FRAME_COUNT));
+    int interval = total_frames / n;
+    int count = 0;
+    int search_range = 10;
+
+    std::filesystem::path file_path(file_in);
+    std::string dir =
+        "../images/" + file_path.stem().string() + "-P" + std::to_string(n);
+    std::filesystem::create_directories(dir);
+
+    for (int i = 0; count < n; i++) {
+        int frame_idx = i * interval;
+
+        if (frame_idx >= total_frames) {
+            std::cout << "LOG: End of video file reached..." << std::endl;
             break;
         }
 
-        if (frameNumber % step == 0 && !is_image_blurred(frame, 10.0)) {
-            images.push_back(downscale_image(frame,
-                                             frame.cols / downscale_factor,
-                                             frame.rows / downscale_factor));
+        cv::Mat frame;
+        for (int j = 0; j <= search_range; ++j) {
+            int try_frame_idx = frame_idx + ((j % 2) ? j : -j);
+
+            if (try_frame_idx < 0 || try_frame_idx >= total_frames)
+                continue;
+
+            video.set(cv::CAP_PROP_POS_FRAMES, try_frame_idx);
+            video >> frame;
+
+            if (frame.empty()) {
+                std::cout << "ERROR: Empty frame " << try_frame_idx
+                          << std::endl;
+                break;
+            }
+
+            if (!is_image_blurred(frame, 150.0)) {
+                frame = downscale_image(frame, frame.cols / downscale_factor,
+                                        frame.rows / downscale_factor);
+                images.push_back(frame);
+
+                std::ostringstream imgStream;
+                imgStream << dir << "/" << std::setw(4) << std::setfill('0')
+                          << count << ".jpg";
+                std::string imgPath = imgStream.str();
+                cv::imwrite(imgPath, frame);
+                paths.push_back(imgPath);
+
+                ++count;
+                break;
+            }
         }
-        frameNumber++;
     }
 
     video.release();
@@ -184,21 +224,5 @@ bool load_camera_intrinsics(std::string path, Intrinsics &intrinsics,
     intrinsics.d = (cv::Mat_<float>(1, 5) << k1, k2, p1, p2, k3);
 
     intrinsics.K_inv = intrinsics.K.inv();
-    std::cout << "K: " << intrinsics.K << std::endl;
-    std::cout << "d: " << intrinsics.d << std::endl;
-
     return true;
-}
-
-void export_point_cloud(std::vector<PointCloudPoint> point_cloud,
-                        std::string file_name) {
-
-    std::vector<cv::Point3f> points;
-    for (size_t i = 0; i < point_cloud.size(); i++) {
-        points.push_back(point_cloud[i].point);
-    }
-
-    cv::FileStorage fs("../" + file_name, cv::FileStorage::WRITE);
-    fs << "points" << points;
-    fs.release();
 }

@@ -9,7 +9,10 @@
 
 std::vector<cv::Mat> load_images(std::string directory, int resize_val,
                                  std::vector<std::string> &images_paths);
-std::vector<cv::Mat> video_to_images(std::string directory, int step);
+std::vector<cv::Mat> video_to_images(std::string directory, int n,
+                                     int downscale_factor,
+                                     std::vector<std::string> &images_paths);
+
 cv::Mat downscale_image(cv::Mat image, int width, int height);
 void export_point_cloud(std::vector<PointCloudPoint> point_cloud,
                         std::string directory);

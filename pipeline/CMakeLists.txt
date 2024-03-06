@@ -52,7 +52,8 @@ if(UNISTRING_LIB AND MBEDCRYPTO_LIB)
     ./src/CommonUtil.cpp
     ./src/SfmBundleAdjustment.cpp
     ./src/PMVS2Reconstruction.cpp
-    ./src/Segmentation.cpp)
+    ./src/Segmentation.cpp
+    ./src/PoissonReconstruction.cpp)
   target_link_libraries(
     sfm
     ${UNISTRING_LIB}
