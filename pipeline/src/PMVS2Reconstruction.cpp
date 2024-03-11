@@ -29,7 +29,7 @@ void PMVS2Reconstruction::dense_reconstruction(
     option.close();
 
     /* Camera poses and images input for PMVS2 */
-    for (size_t i = 0; i < camera_poses.size(); ++i) {
+    for (size_t i = 0; i < camera_poses.size(); i++) {
         // Saving images with zero-padded numbering
         std::ostringstream imgStream;
         imgStream << "denseCloud/visualize/" << std::setw(4)

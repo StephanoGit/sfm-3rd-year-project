@@ -57,7 +57,7 @@ Features FeatureUtil::extract_features(const cv::Mat &image) {
     }
     case ORB: {
         std::cout << "Applying ORB ..." << std::endl;
-        cv::Ptr<cv::ORB> detector = cv::ORB::create(5000);
+        cv::Ptr<cv::ORB> detector = cv::ORB::create(10000);
         detector->detectAndCompute(image, cv::noArray(), features.key_points,
                                    features.descriptors);
         break;

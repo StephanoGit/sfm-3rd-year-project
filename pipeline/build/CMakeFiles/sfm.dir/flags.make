@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_D
 
 CXX_INCLUDES = -isystem /usr/local/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/pcl-1.14 -isystem /Library/Frameworks/Mono.framework/Headers -isystem /usr/local/Cellar/opencv/4.9.0_2/include/opencv4 -isystem /usr/local/include/vtk-9.2 -isystem /usr/local/include/vtk-9.2/vtknlohmannjson/include -isystem /usr/local/include/vtk-9.2/vtkfreetype/include -isystem /usr/local/lib/QtOpenGL.framework/Headers -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/share/qt/mkspecs/macx-clang -isystem /usr/local/lib/QtGui.framework/Headers -isystem /usr/local/lib/QtWidgets.framework/Headers -isystem /usr/local/lib/QtOpenGLWidgets.framework/Headers -isystem /usr/local/Cellar/jsoncpp/1.9.5/include
 
-CXX_FLAGS = -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -msse4.2 -mfpmath=sse -fPIC -Xclang -fopenmp
+CXX_FLAGS = -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -msse4.2 -mfpmath=sse -fPIC -Xclang -fopenmp
 

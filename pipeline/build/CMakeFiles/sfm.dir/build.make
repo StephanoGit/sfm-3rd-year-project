@@ -320,9 +320,9 @@ sfm: /usr/local/lib/libglog.0.6.0.dylib
 sfm: /usr/local/lib/libgflags.2.2.2.dylib
 sfm: /usr/local/lib/libpugixml.1.14.dylib
 sfm: /usr/local/lib/libpcl_io.dylib
-sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libpcap.tbd
+sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libpcap.tbd
 sfm: /usr/local/lib/libpng.dylib
-sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libz.tbd
+sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libz.tbd
 sfm: /usr/local/lib/libpcl_features.dylib
 sfm: /usr/local/lib/libpcl_filters.dylib
 sfm: /usr/local/lib/libpcl_sample_consensus.dylib
@@ -348,7 +348,7 @@ sfm: /usr/local/lib/libvtkRenderingAnnotation-9.2.9.2.6.dylib
 sfm: /usr/local/lib/libvtkRenderingContext2D-9.2.9.2.6.dylib
 sfm: /usr/local/lib/libvtkRenderingFreeType-9.2.9.2.6.dylib
 sfm: /usr/local/lib/libvtkfreetype-9.2.9.2.6.dylib
-sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libz.tbd
+sfm: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libz.tbd
 sfm: /usr/local/lib/libvtkIOImage-9.2.9.2.6.dylib
 sfm: /usr/local/lib/libvtkRenderingOpenGL2-9.2.9.2.6.dylib
 sfm: /usr/local/lib/libvtkRenderingHyperTreeGrid-9.2.9.2.6.dylib

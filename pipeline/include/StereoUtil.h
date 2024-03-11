@@ -26,6 +26,11 @@ public:
     static int homography_inliers(const Features &features_left,
                                   const Features &features_right,
                                   const std::vector<cv::DMatch> &matches);
+    static bool
+    remove_homography_outliers(const Features &features_left,
+                               const Features &features_right,
+                               const std::vector<cv::DMatch> &matches,
+                               std::vector<cv::DMatch> &mask_matches);
 
     static bool triangulate_views(
         const Intrinsics &intrinsics, const ImagePair image_pair,

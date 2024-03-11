@@ -56,7 +56,9 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
         this->images = load_images(directory, resize_val, this->images_paths);
     } else {
         this->images =
-            video_to_images(directory, 10, resize_val, this->images_paths);
+            video_to_images(directory, 36, resize_val, this->images_paths);
+        std::cout << "No. of extracted images: " << this->images.size()
+                  << std::endl;
     }
     if (this->images.size() < 2) {
         std::cout << "ERROR: Please provide at least 2 images..." << std::endl;
@@ -86,20 +88,6 @@ bool SfmReconstruction::run_sfm_reconstruction(int resize_val) {
 
     // match features
     create_match_matrix();
-    if (verbose) {
-        for (size_t i = 0; i < this->images.size(); i++) {
-            for (size_t j = i + 1; j < this->images.size(); j++) {
-                cv::Mat mm = draw_matches(
-                    this->images[i], this->images[j], this->images_features[i],
-                    this->images_features[j], this->match_matrix[i][j]);
-                cv::imshow(std::to_string(i) + "-" + std::to_string(j) +
-                               " matches",
-                           mm);
-                cv::waitKey(0);
-                cv::destroyAllWindows();
-            }
-        }
-    }
 
     find_baseline_triangulation();
 
@@ -190,11 +178,12 @@ std::map<float, ImagePair> SfmReconstruction::sort_views_for_baseline() {
     std::map<float, ImagePair> pairs_inliers;
     const size_t number_of_images = this->images.size();
 
-    for (size_t i = 0; i < number_of_images; i++) {
+    for (size_t i = 0; i < number_of_images - 1; i++) {
         for (size_t j = i + 1; j < number_of_images; j++) {
             if (this->match_matrix[i][j].size() < 100) {
                 std::cout << "NOT ENOUGH MATCHES Pair (" << i << ", " << j
-                          << ")" << std::endl;
+                          << ") -- [❌]" << std::endl
+                          << std::endl;
                 pairs_inliers[1.0] = {i, j};
                 continue;
             }
@@ -208,12 +197,9 @@ std::map<float, ImagePair> SfmReconstruction::sort_views_for_baseline() {
             pairs_inliers[inliers_ratio] = {i, j};
 
             std::cout << "Homography inliers ratio pair(" << i << ", " << j
-                      << "): " << inliers_ratio << std::endl;
+                      << "): " << inliers_ratio << std::endl
+                      << std::endl;
         }
-    }
-    for (auto &p : pairs_inliers) {
-        std::cout << p.first << " : " << p.second.left << " " << p.second.right
-                  << std::endl;
     }
     return pairs_inliers;
 }
@@ -232,13 +218,37 @@ void SfmReconstruction::find_baseline_triangulation() {
 
         size_t i = pair.second.left;
         size_t j = pair.second.right;
-
         std::vector<cv::DMatch> mask_matches;
+
+        // try to remove outliers using homography (might not be good for
+        // objects with different planes)
+        /* bool dont_care = StereoUtil::remove_homography_outliers( */
+        /*     this->images_features[i], this->images_features[j], */
+        /*     this->match_matrix[i][j], mask_matches); */
+        /* if (!dont_care) { */
+        /*     std::cout << "Pair (" << pair.second.left << ", " */
+        /*               << pair.second.right << ") UNSUCCESSFUL - (HOMOGRAPHY)"
+         */
+        /*               << std::endl; */
+        /*     continue; */
+        /* } */
+        /**/
+        /* this->match_matrix[i][j] = mask_matches; */
+        /**/
+        /* cv::Mat image_homo = draw_matches( */
+        /*     this->images[i], this->images[j], this->images_features[i], */
+        /*     this->images_features[j], this->match_matrix[i][j]); */
+        /**/
+        /* cv::imshow("Homography Inliers Matches", image_homo); */
+        /* cv::waitKey(0); */
+        /**/
+        /* mask_matches.clear(); */
+        ////////////////////////////////////////////////////////////////////
+
         bool success = StereoUtil::camera_matrices_from_matches(
             this->intrinsics, this->match_matrix[i][j],
             this->images_features[i], this->images_features[j], mask_matches,
             P_left, P_right);
-
         if (!success) {
             std::cout << "Pair (" << pair.second.left << ", "
                       << pair.second.right << ") UNSUCCESSFUL" << std::endl;
@@ -247,13 +257,12 @@ void SfmReconstruction::find_baseline_triangulation() {
 
         float match_inlier_ratio =
             (float)mask_matches.size() / (float)this->match_matrix[i][j].size();
-        std::cout << "Match inlier ratio: " << match_inlier_ratio << std::endl;
 
         if (match_inlier_ratio < 0.5) {
             std::cout << "Pair (" << pair.second.left << ", "
                       << pair.second.right
-                      << ") UNSUCCESSFUL -- insufficient match inliers"
-                      << std::endl;
+                      << ") UNSUCCESSFUL -- insufficient match inliers -- "
+                      << match_inlier_ratio << std::endl;
             continue;
         }
 
@@ -325,6 +334,15 @@ void SfmReconstruction::add_views_to_reconstruction() {
             }
         }
 
+        /* if (best_number_matches == 0) { */
+        /*     std::cout */
+        /*         << "ERROR: Not enough matches, please try with a different
+         * set " */
+        /*            "of images or another feature extraction method" */
+        /*         << std::endl; */
+        /*     return; */
+        /* } */
+
         std::cout << "Best view to add next: " << best_view << " with "
                   << best_number_matches << " matches" << std::endl;
 
@@ -349,9 +367,26 @@ void SfmReconstruction::add_views_to_reconstruction() {
             size_t right_view_idx =
                 (good_view < best_view) ? best_view : good_view;
 
-            std::vector<cv::DMatch> mask_matches;
             cv::Matx34f P_left = cv::Matx34f::eye();
             cv::Matx34f P_right = cv::Matx34f::eye();
+            std::vector<cv::DMatch> mask_matches;
+            // try to remove outliers using homography (might not be good for
+            // objects with different planes)
+            /* bool dont_care = StereoUtil::remove_homography_outliers( */
+            /*     this->images_features[left_view_idx], */
+            /*     this->images_features[right_view_idx], */
+            /*     this->match_matrix[left_view_idx][right_view_idx], */
+            /*     mask_matches); */
+            /* if (!dont_care) { */
+            /*     std::cout << "Pair (" << left_view_idx << ", " <<
+             * right_view_idx */
+            /*               << ") UNSUCCESSFUL - (HOMOGRAPHY)" << std::endl; */
+            /*     continue; */
+            /* } */
+            /* this->match_matrix[left_view_idx][right_view_idx] = mask_matches;
+             */
+            /**/
+            /* mask_matches.clear(); */
 
             bool success = StereoUtil::camera_matrices_from_matches(
                 this->intrinsics,
@@ -359,8 +394,22 @@ void SfmReconstruction::add_views_to_reconstruction() {
                 this->images_features[left_view_idx],
                 this->images_features[right_view_idx], mask_matches, P_left,
                 P_right);
+            if (!success) {
+                continue;
+            }
             this->match_matrix[left_view_idx][right_view_idx] = mask_matches;
 
+            // show matches now
+            if (this->verbose) {
+                cv::Mat m = draw_matches(
+                    this->images[left_view_idx], this->images[right_view_idx],
+                    this->images_features[left_view_idx],
+                    this->images_features[right_view_idx], mask_matches);
+                cv::imshow("Matches: " + std::to_string(left_view_idx) + " - " +
+                               std::to_string(right_view_idx),
+                           m);
+                cv::waitKey(0);
+            }
             std::vector<PointCloudPoint> pointcloud;
             success = StereoUtil::triangulate_views(
                 this->intrinsics, {left_view_idx, right_view_idx},
@@ -384,6 +433,7 @@ void SfmReconstruction::add_views_to_reconstruction() {
                           << std::endl;
             }
         }
+
         if (new_view_success_triangulation) {
             bool status = SfmBundleAdjustment::adjust_bundle(
                 this->n_point_cloud, this->n_P_mats, this->intrinsics,
@@ -476,6 +526,36 @@ SfmReconstruction::Image2D3DMatches SfmReconstruction::find_2D3D_matches() {
     return matches;
 }
 
+void SfmReconstruction::export_pointcloud_to_PLY(const std::string &file_name) {
+    std::cout << "Saving pointcloud to file: " << file_name << std::endl;
+
+    std::ofstream stream(file_name + ".ply");
+    stream << "ply                 " << std::endl
+           << "format ascii 1.0    " << std::endl
+           << "element vertex " << this->n_point_cloud.size() << std::endl
+           << "property float x    " << std::endl
+           << "property float y    " << std::endl
+           << "property float z    " << std::endl
+           << "property uchar red  " << std::endl
+           << "property uchar green" << std::endl
+           << "property uchar blue " << std::endl
+           << "end_header          " << std::endl;
+
+    for (const PointCloudPoint &point : this->n_point_cloud) {
+        auto origin_view = point.orgin_view.begin();
+        const int view_idx = origin_view->first;
+        cv::Point2f point_2D =
+            this->images_features[view_idx].points[origin_view->second];
+        cv::Vec3b colour = this->images[view_idx].at<cv::Vec3b>(point_2D);
+
+        stream << point.point.x << " " << point.point.y << " " << point.point.z
+               << " " << (int)colour(2) << " " << (int)colour(1) << " "
+               << (int)colour(0) << " " << std::endl;
+    }
+
+    stream.close();
+}
+
 void SfmReconstruction::merge_point_cloud(
     const std::vector<PointCloudPoint> new_pointcloud) {
     std::cout << "=======================================" << std::endl;
@@ -555,36 +635,6 @@ void SfmReconstruction::merge_point_cloud(
             new_points++;
         }
     }
-}
-
-void SfmReconstruction::export_pointcloud_to_PLY(const std::string &file_name) {
-    std::cout << "Saving pointcloud to file: " << file_name << std::endl;
-
-    std::ofstream stream(file_name + ".ply");
-    stream << "ply                 " << std::endl
-           << "format ascii 1.0    " << std::endl
-           << "element vertex " << this->n_point_cloud.size() << std::endl
-           << "property float x    " << std::endl
-           << "property float y    " << std::endl
-           << "property float z    " << std::endl
-           << "property uchar red  " << std::endl
-           << "property uchar green" << std::endl
-           << "property uchar blue " << std::endl
-           << "end_header          " << std::endl;
-
-    for (const PointCloudPoint &point : this->n_point_cloud) {
-        auto origin_view = point.orgin_view.begin();
-        const int view_idx = origin_view->first;
-        cv::Point2f point_2D =
-            this->images_features[view_idx].points[origin_view->second];
-        cv::Vec3b colour = this->images[view_idx].at<cv::Vec3b>(point_2D);
-
-        stream << point.point.x << " " << point.point.y << " " << point.point.z
-               << " " << (int)colour(2) << " " << (int)colour(1) << " "
-               << (int)colour(0) << " " << std::endl;
-    }
-
-    stream.close();
 }
 
 std::vector<PointCloudPoint> SfmReconstruction::get_point_cloud() {

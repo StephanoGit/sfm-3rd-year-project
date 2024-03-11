@@ -23,7 +23,7 @@ bool is_image_blurred(cv::Mat image, double threshold) {
 
     cv::Scalar mean, stddev;
     cv::meanStdDev(laplacian, mean, stddev);
-
+    std::cout << stddev.val[0] * stddev.val[0] << std::endl;
     if (stddev.val[0] * stddev.val[0] < threshold) {
         return true;
     }
@@ -78,7 +78,8 @@ std::vector<cv::Mat> video_to_images(std::string file_in, int n,
                 break;
             }
 
-            if (!is_image_blurred(frame, 150.0)) {
+            if (!is_image_blurred(frame, 100.0)) {
+                std::cout << "LOG: Good image found -- [✅]" << std::endl;
                 frame = downscale_image(frame, frame.cols / downscale_factor,
                                         frame.rows / downscale_factor);
                 images.push_back(frame);
@@ -93,6 +94,7 @@ std::vector<cv::Mat> video_to_images(std::string file_in, int n,
                 ++count;
                 break;
             }
+            std::cout << "LOG: Blurred image -- [❌]" << std::endl;
         }
     }
 

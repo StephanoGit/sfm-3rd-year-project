@@ -99,57 +99,60 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5a8f5/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5a8f5.dir/build.make CMakeFiles/cmTC_5a8f5.dir/build
-        Building C object CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0eca/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c0eca.dir/build.make CMakeFiles/cmTC_c0eca.dir/build
+        Building C object CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_5a8f5
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a8f5.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -o cmTC_5a8f5 
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Linking C executable cmTC_c0eca
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0eca.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -o cmTC_c0eca 
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o cmTC_5a8f5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
-        BUILD 05:26:33 Dec  7 2023
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.3.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o cmTC_c0eca -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:44:24 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
         will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
         LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
-        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
         Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift
         Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
         
       exitCode: 0
   -
@@ -163,13 +166,13 @@ events:
         found start of include info
         found start of implicit include info
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         end of search list found
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
       
       
   -
@@ -181,36 +184,36 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3']
+        ignore line: [Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5a8f5/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5a8f5.dir/build.make CMakeFiles/cmTC_5a8f5.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c]
-        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0eca/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c0eca.dir/build.make CMakeFiles/cmTC_c0eca.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3   -v -Wl -v -MD -MT CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: x86_64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-vtz4N3 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c]
-        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-E4m9IX -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_5a8f5]
-        ignore line: [/usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a8f5.dir/link.txt --verbose=1]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -o cmTC_5a8f5 ]
-        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Linking C executable cmTC_c0eca]
+        ignore line: [/usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0eca.dir/link.txt --verbose=1]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -o cmTC_c0eca ]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: x86_64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o cmTC_5a8f5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.3.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o cmTC_c0eca -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -220,24 +223,29 @@ events:
           arg [x86_64] ==> ignore
           arg [-platform_version] ==> ignore
           arg [macos] ==> ignore
-          arg [14.0.0] ==> ignore
-          arg [14.2] ==> ignore
+          arg [14.3.0] ==> ignore
+          arg [14.4] ==> ignore
           arg [-syslibroot] ==> ignore
-          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5a8f5] ==> ignore
+          arg [cmTC_c0eca] ==> ignore
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5a8f5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_c0eca.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
         remove lib [System]
         remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
         implicit libs: []
         implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
       
       
   -
@@ -249,58 +257,61 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8d09/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f8d09.dir/build.make CMakeFiles/cmTC_f8d09.dir/build
-        Building CXX object CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f21a1/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f21a1.dir/build.make CMakeFiles/cmTC_f21a1.dir/build
+        Building CXX object CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_f8d09
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8d09.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f8d09 
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Linking CXX executable cmTC_f21a1
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f21a1.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f21a1 
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o cmTC_f8d09 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
-        BUILD 05:26:33 Dec  7 2023
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.3.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o cmTC_f21a1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:44:24 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
         will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
         LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
-        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
         Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift
         Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
         
       exitCode: 0
   -
@@ -313,16 +324,16 @@ events:
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         end of search list found
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
       
       
   -
@@ -334,37 +345,37 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh']
+        ignore line: [Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8d09/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f8d09.dir/build.make CMakeFiles/cmTC_f8d09.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f21a1/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f21a1.dir/build.make CMakeFiles/cmTC_f21a1.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3   -v -Wl -v -MD -MT CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: x86_64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TcTMdh -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-MUSeP0 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_f8d09]
-        ignore line: [/usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8d09.dir/link.txt --verbose=1]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f8d09 ]
-        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Linking CXX executable cmTC_f21a1]
+        ignore line: [/usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f21a1.dir/link.txt --verbose=1]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f21a1 ]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: x86_64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o cmTC_f8d09 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.3.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o cmTC_f21a1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -374,25 +385,30 @@ events:
           arg [x86_64] ==> ignore
           arg [-platform_version] ==> ignore
           arg [macos] ==> ignore
-          arg [14.0.0] ==> ignore
-          arg [14.2] ==> ignore
+          arg [14.3.0] ==> ignore
+          arg [14.4] ==> ignore
           arg [-syslibroot] ==> ignore
-          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f8d09] ==> ignore
+          arg [cmTC_f21a1] ==> ignore
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_f8d09.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_f21a1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
         remove lib [System]
         remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
         implicit libs: [c++]
         implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
       
       
   -
@@ -406,35 +422,36 @@ events:
       - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
       - "CMakeLists.txt:6 (find_package)"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CMcyCt"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CMcyCt"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-xCtitH"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-xCtitH"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "BLAS_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CMcyCt'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-xCtitH'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8381/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d8381.dir/build.make CMakeFiles/cmTC_d8381.dir/build
-        Building C object CMakeFiles/cmTC_d8381.dir/CheckFunctionExists.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_d8381.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d8381.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d8381.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CMcyCt/CheckFunctionExists.c
-        Linking C executable cmTC_d8381
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8381.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d8381.dir/CheckFunctionExists.c.o -o cmTC_d8381 
-        ld: Undefined symbols:
-          _sgemm_, referenced from:
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67182/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_67182.dir/build.make CMakeFiles/cmTC_67182.dir/build
+        Building C object CMakeFiles/cmTC_67182.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_67182.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_67182.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_67182.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-xCtitH/CheckFunctionExists.c
+        Linking C executable cmTC_67182
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67182.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_67182.dir/CheckFunctionExists.c.o -o cmTC_67182 
+        Undefined symbols for architecture x86_64:
+          "_sgemm_", referenced from:
               _main in CheckFunctionExists.c.o
+        ld: symbol(s) not found for architecture x86_64
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
-        make[1]: *** [cmTC_d8381] Error 1
-        make: *** [cmTC_d8381/fast] Error 2
+        make[1]: *** [cmTC_67182] Error 1
+        make: *** [cmTC_67182/fast] Error 2
         
       exitCode: 2
   -
@@ -452,29 +469,29 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Aitw1N"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Aitw1N"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-PNMmy1"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-PNMmy1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Aitw1N'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-PNMmy1'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37abd/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_37abd.dir/build.make CMakeFiles/cmTC_37abd.dir/build
-        Building C object CMakeFiles/cmTC_37abd.dir/src.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_37abd.dir/src.c.o -MF CMakeFiles/cmTC_37abd.dir/src.c.o.d -o CMakeFiles/cmTC_37abd.dir/src.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Aitw1N/src.c
-        Linking C executable cmTC_37abd
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37abd.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37abd.dir/src.c.o -o cmTC_37abd 
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63f7e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_63f7e.dir/build.make CMakeFiles/cmTC_63f7e.dir/build
+        Building C object CMakeFiles/cmTC_63f7e.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_63f7e.dir/src.c.o -MF CMakeFiles/cmTC_63f7e.dir/src.c.o.d -o CMakeFiles/cmTC_63f7e.dir/src.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-PNMmy1/src.c
+        Linking C executable cmTC_63f7e
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63f7e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_63f7e.dir/src.c.o -o cmTC_63f7e 
         
       exitCode: 0
   -
@@ -488,29 +505,29 @@ events:
       - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
       - "CMakeLists.txt:6 (find_package)"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-360ZSM"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-360ZSM"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-WWs5Ak"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-WWs5Ak"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "BLAS_Accelerate_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-360ZSM'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-WWs5Ak'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_20704/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_20704.dir/build.make CMakeFiles/cmTC_20704.dir/build
-        Building C object CMakeFiles/cmTC_20704.dir/CheckFunctionExists.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_20704.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_20704.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_20704.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-360ZSM/CheckFunctionExists.c
-        Linking C executable cmTC_20704
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20704.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_20704.dir/CheckFunctionExists.c.o -o cmTC_20704  -framework Accelerate 
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4fbe/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b4fbe.dir/build.make CMakeFiles/cmTC_b4fbe.dir/build
+        Building C object CMakeFiles/cmTC_b4fbe.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_b4fbe.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b4fbe.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b4fbe.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-WWs5Ak/CheckFunctionExists.c
+        Linking C executable cmTC_b4fbe
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4fbe.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b4fbe.dir/CheckFunctionExists.c.o -o cmTC_b4fbe  -framework Accelerate 
         
       exitCode: 0
   -
@@ -524,29 +541,29 @@ events:
       - "/usr/local/lib/cmake/Ceres/CeresConfig.cmake:181 (find_dependency)"
       - "CMakeLists.txt:6 (find_package)"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-fnJoyZ"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-fnJoyZ"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TD3UUe"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TD3UUe"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "LAPACK_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-fnJoyZ'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TD3UUe'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_12fea/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_12fea.dir/build.make CMakeFiles/cmTC_12fea.dir/build
-        Building C object CMakeFiles/cmTC_12fea.dir/CheckFunctionExists.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_12fea.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_12fea.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_12fea.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-fnJoyZ/CheckFunctionExists.c
-        Linking C executable cmTC_12fea
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12fea.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_12fea.dir/CheckFunctionExists.c.o -o cmTC_12fea  -framework Accelerate -lm -ldl 
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_133ca/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_133ca.dir/build.make CMakeFiles/cmTC_133ca.dir/build
+        Building C object CMakeFiles/cmTC_133ca.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_133ca.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_133ca.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_133ca.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-TD3UUe/CheckFunctionExists.c
+        Linking C executable cmTC_133ca
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_133ca.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_133ca.dir/CheckFunctionExists.c.o -o cmTC_133ca  -framework Accelerate -lm -ldl 
         
       exitCode: 0
   -
@@ -560,33 +577,33 @@ events:
     checks:
       - "Looking for shm_open in rt"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-EoFUzW"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-EoFUzW"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CVL2Be"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CVL2Be"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "HAVE_LIBRT"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-EoFUzW'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CVL2Be'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ee07e/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ee07e.dir/build.make CMakeFiles/cmTC_ee07e.dir/build
-        Building C object CMakeFiles/cmTC_ee07e.dir/CheckFunctionExists.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_ee07e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ee07e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ee07e.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-EoFUzW/CheckFunctionExists.c
-        Linking C executable cmTC_ee07e
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee07e.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ee07e.dir/CheckFunctionExists.c.o -o cmTC_ee07e  -lrt 
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_97313/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_97313.dir/build.make CMakeFiles/cmTC_97313.dir/build
+        Building C object CMakeFiles/cmTC_97313.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_97313.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_97313.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_97313.dir/CheckFunctionExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-CVL2Be/CheckFunctionExists.c
+        Linking C executable cmTC_97313
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97313.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_97313.dir/CheckFunctionExists.c.o -o cmTC_97313  -lrt 
         ld: library 'rt' not found
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
-        make[1]: *** [cmTC_ee07e] Error 1
-        make: *** [cmTC_ee07e/fast] Error 2
+        make[1]: *** [cmTC_97313] Error 1
+        make: *** [cmTC_97313/fast] Error 2
         
       exitCode: 2
   -
@@ -601,29 +618,29 @@ events:
     checks:
       - "Looking for cholmod_metis"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-HYmMBw"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-HYmMBw"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-D4Zn1a"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-D4Zn1a"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Ceres"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "SuiteSparse_CHOLMOD_USES_METIS"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-HYmMBw'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-D4Zn1a'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_33244/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_33244.dir/build.make CMakeFiles/cmTC_33244.dir/build
-        Building C object CMakeFiles/cmTC_33244.dir/CheckSymbolExists.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isystem /usr/local/include/suitesparse -isystem /usr/local/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_33244.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_33244.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_33244.dir/CheckSymbolExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-HYmMBw/CheckSymbolExists.c
-        Linking C executable cmTC_33244
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33244.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_33244.dir/CheckSymbolExists.c.o -o cmTC_33244  /usr/local/lib/libcholmod.dylib /usr/local/lib/libmetis.dylib /usr/local/lib/libamd.dylib /usr/local/lib/libcamd.dylib /usr/local/lib/libccolamd.dylib /usr/local/lib/libcolamd.dylib /usr/local/lib/libsuitesparseconfig.dylib -framework Accelerate -lm -ldl 
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53ecc/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_53ecc.dir/build.make CMakeFiles/cmTC_53ecc.dir/build
+        Building C object CMakeFiles/cmTC_53ecc.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isystem /usr/local/include/suitesparse -isystem /usr/local/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_53ecc.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_53ecc.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_53ecc.dir/CheckSymbolExists.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-D4Zn1a/CheckSymbolExists.c
+        Linking C executable cmTC_53ecc
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53ecc.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_53ecc.dir/CheckSymbolExists.c.o -o cmTC_53ecc  /usr/local/lib/libcholmod.dylib /usr/local/lib/libmetis.dylib /usr/local/lib/libamd.dylib /usr/local/lib/libcamd.dylib /usr/local/lib/libccolamd.dylib /usr/local/lib/libcolamd.dylib /usr/local/lib/libsuitesparseconfig.dylib -framework Accelerate -lm -ldl 
         
       exitCode: 0
   -
@@ -650,29 +667,29 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Bhl3HV"
-      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Bhl3HV"
+      source: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-yQeqYG"
+      binary: "/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-yQeqYG"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/lib/cmake/vtk-9.2/patches/99;/usr/local/lib/cmake/vtk-9.2;/usr/local/share/pcl-1.14/Modules;/usr/local/Cellar/qt/6.6.1/lib/cmake/Qt6;/usr/local/Cellar/qt/6.6.1/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/Cellar/qt/6.6.1/lib/cmake/Qt6/3rdparty/kwin"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Bhl3HV'
+        Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-yQeqYG'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_49a4f/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_49a4f.dir/build.make CMakeFiles/cmTC_49a4f.dir/build
-        Building CXX object CMakeFiles/cmTC_49a4f.dir/src.cxx.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_STDATOMIC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_49a4f.dir/src.cxx.o -MF CMakeFiles/cmTC_49a4f.dir/src.cxx.o.d -o CMakeFiles/cmTC_49a4f.dir/src.cxx.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-Bhl3HV/src.cxx
-        Linking CXX executable cmTC_49a4f
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49a4f.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_49a4f.dir/src.cxx.o -o cmTC_49a4f 
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9324a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9324a.dir/build.make CMakeFiles/cmTC_9324a.dir/build
+        Building CXX object CMakeFiles/cmTC_9324a.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_STDATOMIC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_9324a.dir/src.cxx.o -MF CMakeFiles/cmTC_9324a.dir/src.cxx.o.d -o CMakeFiles/cmTC_9324a.dir/src.cxx.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeScratch/TryCompile-yQeqYG/src.cxx
+        Linking CXX executable cmTC_9324a
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9324a.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9324a.dir/src.cxx.o -o cmTC_9324a 
         
       exitCode: 0
   -
@@ -692,39 +709,39 @@ events:
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/share/pcl-1.14/Modules"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
         Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_783fd/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_783fd.dir/build.make CMakeFiles/cmTC_783fd.dir/build
-        Building C object CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d3e5d/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d3e5d.dir/build.make CMakeFiles/cmTC_d3e5d.dir/build
+        Building C object CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o -x c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o -x c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
         /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_783fd.dir/OpenMPTryFlag.c.o] Error 1
-        make: *** [cmTC_783fd/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_d3e5d.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_d3e5d/fast] Error 2
         
       exitCode: 2
   -
@@ -744,39 +761,39 @@ events:
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/share/pcl-1.14/Modules"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
         Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71a16/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_71a16.dir/build.make CMakeFiles/cmTC_71a16.dir/build
-        Building C object CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d9ce2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d9ce2.dir/build.make CMakeFiles/cmTC_d9ce2.dir/build
+        Building C object CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o -x c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o -x c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
         /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_71a16.dir/OpenMPTryFlag.c.o] Error 1
-        make: *** [cmTC_71a16/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_d9ce2.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_d9ce2/fast] Error 2
         
       exitCode: 2
   -
@@ -796,50 +813,53 @@ events:
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/share/pcl-1.14/Modules"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
         Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bd87c/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bd87c.dir/build.make CMakeFiles/cmTC_bd87c.dir/build
-        Building C object CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/include -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67e6a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_67e6a.dir/build.make CMakeFiles/cmTC_67e6a.dir/build
+        Building C object CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/include -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -I /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o -x c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -I /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o -x c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
          /usr/local/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_bd87c
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd87c.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o -o cmTC_bd87c  -v -Wl,-v /usr/local/lib/libomp.dylib 
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Linking C executable cmTC_67e6a
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67e6a.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o -o cmTC_67e6a  -v -Wl,-v /usr/local/lib/libomp.dylib 
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o cmTC_bd87c -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_bd87c.dir/OpenMPTryFlag.c.o -v /usr/local/lib/libomp.dylib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
-        BUILD 05:26:33 Dec  7 2023
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.3.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o cmTC_67e6a -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_67e6a.dir/OpenMPTryFlag.c.o -v /usr/local/lib/libomp.dylib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:44:24 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
         will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
         LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
-        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
         Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift
         Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
         
       exitCode: 0
   -
@@ -859,40 +879,40 @@ events:
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/share/pcl-1.14/Modules"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
         Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24012/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_24012.dir/build.make CMakeFiles/cmTC_24012.dir/build
-        Building CXX object CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_69096/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_69096.dir/build.make CMakeFiles/cmTC_69096.dir/build
+        Building CXX object CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o -x c++ /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o -x c++ /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
         /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_24012.dir/OpenMPTryFlag.cpp.o] Error 1
-        make: *** [cmTC_24012/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_69096.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_69096/fast] Error 2
         
       exitCode: 2
   -
@@ -912,40 +932,40 @@ events:
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/share/pcl-1.14/Modules"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
         Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e7327/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e7327.dir/build.make CMakeFiles/cmTC_e7327.dir/build
-        Building CXX object CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d45e3/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d45e3.dir/build.make CMakeFiles/cmTC_d45e3.dir/build
+        Building CXX object CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o -x c++ /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o -x c++ /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
         /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_e7327.dir/OpenMPTryFlag.cpp.o] Error 1
-        make: *** [cmTC_e7327/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_d45e3.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_d45e3/fast] Error 2
         
       exitCode: 2
   -
@@ -965,51 +985,54 @@ events:
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/share/pcl-1.14/Modules"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
         Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d81a9/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d81a9.dir/build.make CMakeFiles/cmTC_d81a9.dir/build
-        Building CXX object CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/include -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f74f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5f74f.dir/build.make CMakeFiles/cmTC_5f74f.dir/build
+        Building CXX object CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/include -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -I /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o -x c++ /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
-        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.3.0
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
-        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -I /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o -x c++ /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
          /usr/local/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
-         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_d81a9
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d81a9.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o -o cmTC_d81a9  -v -Wl,-v /usr/local/lib/libomp.dylib 
-        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Linking CXX executable cmTC_5f74f
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f74f.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o -o cmTC_5f74f  -v -Wl,-v /usr/local/lib/libomp.dylib 
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: x86_64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o cmTC_d81a9 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_d81a9.dir/OpenMPTryFlag.cpp.o -v /usr/local/lib/libomp.dylib -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
-        BUILD 05:26:33 Dec  7 2023
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.3.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o cmTC_5f74f -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_5f74f.dir/OpenMPTryFlag.cpp.o -v /usr/local/lib/libomp.dylib -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:44:24 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
         will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
         LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
-        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
         Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift
         Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
         
       exitCode: 0
   -
@@ -1029,21 +1052,21 @@ events:
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/local/share/pcl-1.14/Modules"
       CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.3"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
     buildResult:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
         Change Dir: '/Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc117/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cc117.dir/build.make CMakeFiles/cmTC_cc117.dir/build
-        Building CXX object CMakeFiles/cmTC_cc117.dir/OpenMPCheckVersion.cpp.o
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/include -Xclang -fopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_cc117.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_cc117.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_cc117.dir/OpenMPCheckVersion.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_cc117
-        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc117.dir/link.txt --verbose=1
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Xclang -fopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cc117.dir/OpenMPCheckVersion.cpp.o -o cmTC_cc117 
+        Run Build Command(s): /usr/local/Cellar/cmake/3.28.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a1b9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2a1b9.dir/build.make CMakeFiles/cmTC_2a1b9.dir/build
+        Building CXX object CMakeFiles/cmTC_2a1b9.dir/OpenMPCheckVersion.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/include -Xclang -fopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -MD -MT CMakeFiles/cmTC_2a1b9.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_2a1b9.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_2a1b9.dir/OpenMPCheckVersion.cpp.o -c /Users/stephano./github/sfm-3rd-year-project/pipeline/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_2a1b9
+        /usr/local/Cellar/cmake/3.28.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a1b9.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Xclang -fopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2a1b9.dir/OpenMPCheckVersion.cpp.o -o cmTC_2a1b9 
         
       exitCode: 0
 ...

@@ -1,4 +1,6 @@
 #include "../include/StereoUtil.h"
+#include <opencv2/core.hpp>
+#include <opencv2/core/types.hpp>
 
 StereoUtil::StereoUtil() {}
 StereoUtil::~StereoUtil() {}
@@ -13,11 +15,14 @@ int StereoUtil::homography_inliers(const Features &features_left,
                               aligned_left, aligned_right, left_origin,
                               right_origin);
 
+    double min_val, max_val;
+    cv::minMaxIdx(aligned_left.points, &min_val, &max_val);
+
     cv::Mat mask;
     cv::Mat H;
     if (matches.size() >= 4) {
         H = cv::findHomography(aligned_left.points, aligned_right.points,
-                               cv::RANSAC, 10.0, mask);
+                               cv::RANSAC, 0.004 * max_val, mask);
     }
 
     if (matches.size() < 4 || H.empty()) {
@@ -30,7 +35,37 @@ int StereoUtil::homography_inliers(const Features &features_left,
     int inliers = cv::countNonZero(mask);
     std::cout << "LOG: Found " << inliers << " using Homography -- [✅]"
               << std::endl;
+
     return inliers;
+}
+
+bool StereoUtil::remove_homography_outliers(
+    const Features &features_left, const Features &features_right,
+    const std::vector<cv::DMatch> &matches,
+    std::vector<cv::DMatch> &mask_matches) {
+    Features aligned_left;
+    Features aligned_right;
+    std::vector<int> left_origin, right_origin;
+    align_points_from_matches(features_left, features_right, matches,
+                              aligned_left, aligned_right, left_origin,
+                              right_origin);
+
+    cv::Mat mask;
+    cv::Mat H;
+    if (matches.size() >= 4) {
+        H = cv::findHomography(aligned_left.points, aligned_right.points,
+                               cv::RANSAC, 10.0, mask, 2000, 0.95);
+    }
+
+    if (matches.size() < 4 || H.empty()) {
+        std::cout
+            << "LOG: Not enough matches were found using Homography -- [❌]"
+            << std::endl;
+        return false;
+    }
+    mask_matches.clear();
+    remove_outliers(matches, mask, mask_matches);
+    return true;
 }
 
 bool StereoUtil::camera_matrices_from_matches(
@@ -42,7 +77,6 @@ bool StereoUtil::camera_matrices_from_matches(
         std::cout << "ERROR: Intrinsic matrix K is empty..." << std::endl;
         return false;
     }
-
     double focal_length = intrinsics.K.at<float>(0, 0);
     cv::Point2d principal_point(intrinsics.K.at<float>(0, 2),
                                 intrinsics.K.at<float>(1, 2));
@@ -53,11 +87,20 @@ bool StereoUtil::camera_matrices_from_matches(
                               aligned_left, aligned_right, left_origin,
                               right_origin);
 
+    if (aligned_left.points.size() < 8) {
+        return false;
+    }
+
     cv::Mat E, R, t;
     cv::Mat mask;
     E = cv::findEssentialMat(aligned_left.points, aligned_right.points,
                              focal_length, principal_point, cv::RANSAC, 0.999,
                              1.0, mask);
+
+    if (E.empty()) {
+        std::cout << "Not enough matches to recover pose." << std::endl;
+        return false;
+    }
 
     cv::recoverPose(E, aligned_left.points, aligned_right.points, R, t,
                     focal_length, principal_point, mask);
@@ -69,6 +112,7 @@ bool StereoUtil::camera_matrices_from_matches(
                     R.at<double>(1, 2), t.at<double>(1), R.at<double>(2, 0),
                     R.at<double>(2, 1), R.at<double>(2, 2), t.at<double>(2));
 
+    mask_matches.clear();
     remove_outliers(matches, mask, mask_matches);
     return true;
 }
@@ -118,7 +162,7 @@ bool StereoUtil::triangulate_views(
     for (size_t i = 0; i < points_3D.rows; i++) {
         error_left = cv::norm(projected_left[i] - aligned_left.points[i]);
         error_right = cv::norm(projected_right[i] - aligned_right.points[i]);
-        if (error_left > 5 || error_right > 5) {
+        if (error_left > 10 || error_right > 10) {
             std::cout << "Reprojection error for point: " << i << std::endl;
             std::cout << "  -> left: " << error_left << std::endl;
             std::cout << "  -> right: " << error_right << std::endl;

@@ -16,7 +16,7 @@ std::vector<cv::DMatch>
 apply_lowes_ratio(const std::vector<std::vector<cv::DMatch>> knn_matches) {
     std::vector<cv::DMatch> good_matches;
     for (int i = 0; i < knn_matches.size(); i++) {
-        if (knn_matches[i][0].distance < 0.75 * knn_matches[i][1].distance) {
+        if (knn_matches[i][0].distance < 0.7 * knn_matches[i][1].distance) {
             good_matches.push_back(knn_matches[i][0]);
         }
     }
